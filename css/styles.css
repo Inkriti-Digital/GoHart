@@ -1819,4 +1819,15 @@ section .headline h1 {
   width: 15%;
 }
 
+.metro {
+  background: url("../img/home-bg2.jpg") no-repeat;
+  background-size: 100%;
+}
+.metro .metro-nav {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
+
 /*# sourceMappingURL=styles.css.map */
