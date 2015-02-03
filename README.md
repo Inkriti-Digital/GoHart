@@ -1,4 +1,7 @@
-Multivitamin
-============
+GoHart
+==========
 
-Multivitamin is a project-starter template which utilizes Grunt, <a href="https://github.com/stefanerickson/vitamincss">Vitamin CCS</a>, and takes a few notes from HTML5 Boilerplate.
+Front end build for GoHart.
+
+To view, please visit: http://inkriti-digital.github.io/GoHart/
+
