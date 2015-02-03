@@ -1781,5 +1781,42 @@ section .headline h1 {
   color: white;
   border-color: white;
 }
+.landing .home-form {
+  position: absolute;
+  bottom: 6%;
+  padding: 0 5%;
+  width: 100%;
+}
+.landing .home-form input[type="text"] {
+  border: none;
+  text-transform: uppercase;
+  color: #083b70;
+  line-height: 45px;
+  height: 45px;
+  font-size: 16px;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-right: 1%;
+}
+.landing .home-form input[type="submit"] {
+  -webkit-appearance: none;
+  border: none;
+  color: white;
+  background-color: #7aaed5;
+  height: 45px;
+  font-size: 16px;
+  padding: 5px 15px;
+  padding-top: 10px;
+  margin-right: 0;
+  letter-spacing: 0.03em;
+}
+.landing .home-form #start, .landing .home-form #end {
+  width: 27%;
+}
+.landing .home-form #date, .landing .home-form #time {
+  width: 15%;
+}
 
 /*# sourceMappingURL=styles.css.map */
