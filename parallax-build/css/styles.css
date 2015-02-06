@@ -1,0 +1,250 @@
+/* ORIGINA PARALAX STYLES */
+
+* {
+		padding:0;
+		margin:0;
+	}
+
+	html, body {
+		height:100%;
+		background-color: #000;
+	}
+
+	.skrollr-desktop body {
+		height:100% !important;
+	}
+
+	body {
+		font-family:sans-serif;
+	}
+
+	p {
+		margin:1em 0;
+	}
+
+	.parallax-image-wrapper {
+		position:fixed;
+		left:0;
+		width:100%;
+		overflow:hidden;
+	}
+
+	.parallax-image-wrapper-50 {
+		height:50%;
+		top:-50%;
+	}
+
+	.parallax-image-wrapper-100 {
+		height:100%;
+		top:-100%;
+	}
+
+	.parallax-image {
+		display:none;
+		position:absolute;
+		bottom:0;
+		left:0;
+		width:100%;
+		background-repeat:no-repeat;
+		background-position:center;
+		background-size:cover;
+	}
+
+	.parallax-image-50 {
+		height:200%;
+		top:-50%;
+	}
+
+	.parallax-image-100 {
+		height:100%;
+		top:0;
+	}
+
+	.parallax-image.skrollable-between {
+		display:block;
+	}
+
+	.no-skrollr .parallax-image-wrapper {
+		display:none !important;
+	}
+
+	#skrollr-body {
+		height:100%;
+		overflow:visible;
+		position:relative;
+	}
+
+	.gap {
+		background:transparent center no-repeat;
+		background-size:cover;
+	}
+
+	.skrollr .gap {
+		background:transparent !important;
+	}
+
+	.gap-50 {
+		height:50%;
+	}
+
+	.gap-100 {
+		height:100%;
+	}
+
+	.header, .content {
+		background: transparent;
+		padding:0;
+		height: 0;
+
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+
+	.content-full {
+		height:100%;
+	}
+
+	#done {
+		height:100%;
+	}
+
+
+
+
+
+
+
+
+/*==== GOHART STYLES ====*/
+
+/*GENERAL*/
+img{
+	max-width: 100%;
+}
+
+
+/*LANDING SECTION*/
+.logo{
+	float: left;
+	padding: 30px;
+	width: 17%;
+	max-width: 270px
+}
+
+.menu-ico{
+	float: right;
+	padding: 30px;
+	margin-right: 2em;
+	width: 4%;
+	max-width: 62px;
+}
+
+.landing-content{
+	color: white;
+	position: absolute;
+	top: 49%;
+	/*border: thin red solid;*/
+	width: 100%;
+}
+
+.headline{
+	/*position: absolute;*/
+	/*bottom: 26%;*/
+	margin-left: 3%;
+	width: 70%;
+ }
+
+ .headline h1{
+	margin: 1% 0;
+	background-color: rgba(14, 21, 45, 0.6); 			
+	padding: 1% 3%;
+	padding-bottom: 0;
+	color: white;
+	font-size: 3.75em;
+	display: inline-block;	
+ }
+
+.bus-ico{
+ 	position: absolute;
+ 	right: 0px;
+	top: 0; 
+	margin: 4.5%;
+	margin-top: 16%;
+	width: 11%;
+	max-width: 179px;
+	cursor: pointer;
+ }
+
+.bottom-rule{
+ 	width: 100%;
+	padding: 0 5%;
+	margin-top: 8%;
+	padding-left: 3%;
+	color: white;
+	font-size: 19px;
+ }
+
+.bottom-rule div{
+	display: inline-block;
+}
+
+.bottom-rule .cta{
+	width: 22%;
+}
+
+.bottom-rule .rule{
+	position: relative;
+	width: 72%;
+	top: -5px;
+}
+
+.bottom-rule hr{
+	background-color: white;
+	color: white;
+	border-color: white;
+}
+
+.home-form{
+	position: absolute;
+	/*bottom: 6%;*/
+	padding: 1% 3%;
+	width: 100%;
+}
+
+input[type="text"] {
+	border: none;
+	text-transform: uppercase;
+	color: #083b70;
+	line-height: 22px;
+	height: 35px;
+	font-size: 16px;
+	background-color: rgba(255, 255, 255, 0.75);
+	padding: 5px;
+	padding-left: 10px;
+	padding-top: 4px;
+	margin-right: 1%;
+}
+
+input[type="submit"] {
+	-webkit-appearance: none;
+	border: none;
+	color: white;
+	background-color: #7aaed5;
+	height: 43px;
+	font-size: 16px;
+	padding: 5px 15px;
+	padding-top: 5px;
+	margin-right: 0;
+	letter-spacing: 0.03em;
+}
+
+#start, #end{
+	width: 25%;
+}
+#date, #time{
+	width: 13%;
+}
+
+
+

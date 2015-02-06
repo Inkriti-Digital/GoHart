@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 	resizeElements();
 	//RESIZE-ELEMENTS
-
+    
 	$(window).resize(function() {
 		resizeElements();
     });

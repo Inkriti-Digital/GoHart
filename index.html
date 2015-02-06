@@ -11,8 +11,10 @@
 	<body>
 
 		<!-- Content -->
+
 		<div class="container">
-			<section class="landing">
+			<section class="landing" data-bottom-top="transform:translate3d(0px, 200%, 0px)"
+		data-top-bottom="transform:translate3d(0px, 0%, 0px)">
 				<div class="logo"><img src="img/hart-logo.png"/></div>
 				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
 
@@ -44,8 +46,16 @@
 
 		<!-- Load Scripts -->
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script src="js/vendors.js"></script>
+		<!--script src="js/vendors.js"></script-->
+
 		<script src="js/custom-scripts.js"></script>
+		<script type="text/javascript" src="js/skrollr.min.js"></script>
+		<script type="text/javascript">
+		skrollr.init({
+			smoothScrolling: false,
+			mobileDeceleration: 0.004
+		});
+		</script>
 
 	</body>
 </html>
