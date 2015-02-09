@@ -110,17 +110,15 @@
 	}
 
 
-
-
-
-
-
-
 /*==== GOHART STYLES ====*/
 
 /*GENERAL*/
 img{
 	max-width: 100%;
+}
+
+div{
+	position: relative;
 }
 
 
@@ -144,6 +142,7 @@ img{
 	color: white;
 	position: absolute;
 	top: 49%;
+	height: auto;
 	/*border: thin red solid;*/
 	width: 100%;
 }
@@ -153,6 +152,7 @@ img{
 	/*bottom: 26%;*/
 	margin-left: 3%;
 	width: 70%;
+	max-width: 550px;
  }
 
  .headline h1{
