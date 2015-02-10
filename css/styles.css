@@ -1706,7 +1706,6 @@ td {
  * This is a placeholder and example for a view.
  */
 .container {
-  background: url("../img/plate-home-bg.jpg") no-repeat;
   background-size: 100%;
   padding: 0;
 }
@@ -1720,7 +1719,7 @@ section .headline {
   left: 3%;
   width: 60%;
 }
-section .headline h1 {
+section h1 {
   margin: 1% 0;
   background-color: rgba(14, 21, 45, 0.6);
   padding: 1% 3%;
@@ -1819,15 +1818,54 @@ section .headline h1 {
   width: 15%;
 }
 
-.metro {
-  background: url("../img/home-bg2.jpg") no-repeat;
-  background-size: 100%;
-}
 .metro .metro-nav {
-  position: absolute;
   width: 100%;
   text-align: center;
   background-color: white;
+}
+.metro .metro-main {
+  background: url("../img/home-bg2.jpg") no-repeat;
+  background-size: 100%;
+}
+.metro .metro-box {
+  background-color: rgba(14, 21, 45, 0.8);
+  height: 50%;
+  width: 36%;
+  margin-left: 5%;
+  margin-top: 5%;
+  position: absolute;
+  padding: 20px;
+}
+.metro .metro-box .metro-title {
+  color: white;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.metro .metro-box ul, .metro .metro-box li {
+  list-style-type: none;
+  color: white;
+  font-size: 1.5em;
+  line-height: 1.3em;
+}
+
+.news h1 {
+  font-size: 50px;
+  padding: 1% 2%;
+  padding-bottom: 0;
+  margin-left: 5%;
+}
+.news .news-blocks {
+  border: thin red solid;
+}
+.news .news-blocks .block {
+  width: 225px;
+  height: 175px;
+  background-color: #0e152d;
+  margin: 5px 5px;
+  display: inline-block;
+}
+.news .news-blocks .square {
+  width: 175px;
 }
 
 /*# sourceMappingURL=styles.css.map */

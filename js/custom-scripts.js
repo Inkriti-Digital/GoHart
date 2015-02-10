@@ -13,9 +13,9 @@ $(document).ready(function(){
     	var landingHeight = Math.floor(landingWidth*0.58214);
     	$('.landing').css('height', landingHeight);
 
-    	var metroWidth = $('.metro').width();
+    	var metroWidth = $('.metro-main').width();
     	var metroHeight = Math.floor(landingWidth*0.58214);
-    	$('.metro').css('height', metroHeight);
+    	$('.metro-main').css('height', metroHeight);
     }
 
 
