@@ -18,7 +18,7 @@ $(document).ready(function(){
     	$('.metro-main').css('height', metroHeight);
 
         var goHart = $('.gohart').width();
-        var goHartHeight = Math.floor(landingWidth*0.851);
+        var goHartHeight = Math.floor(landingWidth*0.825);
         $('.gohart').css('height', goHartHeight);
     }
 
