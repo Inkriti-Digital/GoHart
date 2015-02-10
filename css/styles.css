@@ -1855,7 +1855,7 @@ section h1 {
   margin-left: 5%;
 }
 .news .news-blocks {
-  border: thin red solid;
+  margin: 30px 0;
 }
 .news .news-blocks .block {
   width: 225px;
@@ -1866,6 +1866,21 @@ section h1 {
 }
 .news .news-blocks .square {
   width: 175px;
+}
+
+.gohart {
+  margin-top: 50px;
+  background: url("../img/home-bg3.jpg") no-repeat;
+  background-size: 100%;
+}
+.gohart h1 {
+  font-size: 50px;
+  padding: 1% 2%;
+  padding-bottom: 0;
+  margin-left: 5%;
+}
+.gohart .gohart-title {
+  margin-top: 40px;
 }
 
 /*# sourceMappingURL=styles.css.map */
