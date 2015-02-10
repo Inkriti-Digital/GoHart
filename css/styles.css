@@ -1829,7 +1829,7 @@ section h1 {
 }
 .metro .metro-box {
   background-color: rgba(14, 21, 45, 0.8);
-  height: 50%;
+  height: 48%;
   width: 36%;
   margin-left: 5%;
   margin-top: 5%;
@@ -1846,6 +1846,7 @@ section h1 {
   color: white;
   font-size: 1.5em;
   line-height: 1.3em;
+  margin-bottom: 10px;
 }
 
 .news h1 {
@@ -1874,6 +1875,20 @@ section h1 {
 }
 .news .news-blocks .square {
   width: 185px;
+}
+.news .news-blocks .prev-arrow {
+  float: left;
+  position: absolute;
+  z-index: 5;
+  left: 20px;
+  top: 153px;
+}
+.news .news-blocks .next-arrow {
+  float: right;
+  position: absolute;
+  z-index: 5;
+  right: 20px;
+  top: 153px;
 }
 
 .gohart {
