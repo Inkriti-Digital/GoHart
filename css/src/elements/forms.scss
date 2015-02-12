@@ -68,7 +68,7 @@ legend {
  * 3. Position radios and checkboxes better.
  */
 select { /* 1 */
-	@include vendor(appearance, none);
+	// @include vendor(appearance, none);
 	text-indent: 0.01px;
 	text-overflow: '';
 }
