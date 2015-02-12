@@ -1822,6 +1822,14 @@ section h1 {
   text-align: center;
   background-color: white;
 }
+.metro .metro-nav .metro-arrow {
+  position: absolute;
+  bottom: -37px;
+  z-index: 5;
+  width: 5%;
+  max-width: 70px;
+  left: 2%;
+}
 .metro .metro-nav .metro-block {
   width: 20%;
   float: left;
@@ -1875,6 +1883,16 @@ section h1 {
   font-size: 1.5em;
   line-height: 1.3em;
   margin-bottom: 10px;
+}
+.metro .metro-icons {
+  position: absolute;
+  bottom: 25%;
+  margin-left: 5%;
+}
+.metro .metro-icons .ico-block {
+  display: inline-block;
+  background-color: rgba(14, 21, 45, 0.8);
+  padding: 20px 28px;
 }
 
 .news h1 {

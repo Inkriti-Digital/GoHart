@@ -30,10 +30,12 @@ $(document).ready(function(){
 
      $(".metro-block").hover(function() {
         console.log('hit in');
-        $(this).closest(".metro-block").find(".hover-box .metro-hover").fadeIn();
+         $(this).closest(".metro-block").find(".hover-box .metro-hover").fadeIn();
+         $(this).closest(".metro-block").find("img").css('opacity', '0.5');          
         }, function() {
             console.log('hit out');
-        $(this).closest(".metro-block").find(".hover-box .metro-hover").fadeOut();   
+         $(this).closest(".metro-block").find(".hover-box .metro-hover").fadeOut();   
+         $(this).closest(".metro-block").find("img").css('opacity', '1');
         }
     );    
 
