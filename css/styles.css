@@ -1705,6 +1705,10 @@ td {
   padding: 0;
 }
 
+.clear-fix {
+  clear: both;
+}
+
 section {
   width: 100%;
 }
@@ -1817,6 +1821,35 @@ section h1 {
   width: 100%;
   text-align: center;
   background-color: white;
+}
+.metro .metro-nav .metro-block {
+  width: 20%;
+  float: left;
+  margin: 1% 0;
+  border-right: 1px #bbbbbd solid;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+}
+.metro .metro-nav .metro-block img {
+  width: 75%;
+  margin: 5%;
+}
+.metro .metro-nav .metro-block .hover-box {
+  position: absolute;
+  left: 50%;
+  margin-top: 19%;
+}
+.metro .metro-nav .metro-block .metro-hover {
+  position: relative;
+  display: inline-block;
+  z-index: 5;
+  background-color: #7aaed5;
+  color: white;
+  left: -50%;
+  padding: 3px 5px;
+  padding-top: 5px;
+  display: none;
 }
 .metro .metro-main {
   background: url("../img/home-bg2-tall.jpg") no-repeat;
@@ -1979,6 +2012,19 @@ section h1 {
 .page-content .content-block {
   margin-bottom: 50px;
 }
+.page-content .content-block .info {
+  display: inline-block;
+  width: 75%;
+  vertical-align: top;
+}
+.page-content .content-block .info-graphic {
+  display: inline-block;
+  width: 24%;
+  vertical-align: top;
+}
+.page-content .content-block .info-graphic img {
+  width: 100%;
+}
 .page-content .content-block select, .page-content .content-block select option {
   color: #003366;
 }
@@ -2019,19 +2065,6 @@ section h1 {
 }
 .page-content .hours ul .dept {
   font-weight: bold;
-}
-.page-content .hours .info {
-  display: inline-block;
-  width: 75%;
-  vertical-align: top;
-}
-.page-content .hours .info-graphic {
-  display: inline-block;
-  width: 24%;
-  vertical-align: top;
-}
-.page-content .hours .info-graphic img {
-  width: 100%;
 }
 .page-content .comments .comment-form {
   width: 100%;

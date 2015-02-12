@@ -9,6 +9,10 @@
  	padding: 0;
  }
 
+ .clear-fix{
+ 	clear: both;
+ }
+
  section{
  	width: 100%;
 
@@ -138,6 +142,42 @@
  	 	width: 100%;
  	 	text-align: center;
  	 	background-color: white;
+ 	 	// height: 280px;
+
+
+ 	 	.metro-block{
+ 	 		width: 20%;
+ 	 		float: left;
+ 	 		margin: 1% 0;
+ 	 		border-right: 1px #bbbbbd solid;
+ 	 		cursor: pointer;
+ 	 		text-align: center;
+ 	 		vertical-align: middle;
+
+ 	 		img{
+ 	 			width: 75%;
+ 	 			margin: 5%;
+ 	 			
+ 	 		}
+
+ 	 		.hover-box{
+ 	 			position: absolute;
+ 	 			left: 50%;
+ 	 			margin-top: 19%;
+ 	 		}
+ 	 		.metro-hover{
+ 	 			position: relative;
+				display: inline-block;
+				z-index: 5;
+				background-color: #7aaed5;
+				color: white;
+				left: -50%;
+				padding: 3px 5px;
+				padding-top: 5px;
+				// opacity: 0.5;
+				display: none;
+ 	 		}
+ 	 	}
  	 }
 
  	 .metro-main{

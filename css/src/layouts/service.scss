@@ -50,6 +50,20 @@
 
 	.content-block{
 		margin-bottom: 50px;
+		
+		.info{
+			display: inline-block;
+			width: 75%;
+			vertical-align: top;
+		}
+		.info-graphic{
+			display: inline-block;
+			width: 24%;
+			vertical-align: top;
+			img{
+				width: 100%;
+			}
+		}
 
 		select, select option{
 			color: #003366;
@@ -102,20 +116,6 @@
 
 			.dept{
 				font-weight: bold;
-			}
-		}
-
-		.info{
-			display: inline-block;
-			width: 75%;
-			vertical-align: top;
-		}
-		.info-graphic{
-			display: inline-block;
-			width: 24%;
-			vertical-align: top;
-			img{
-				width: 100%;
 			}
 		}
 	}

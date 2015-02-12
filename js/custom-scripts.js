@@ -22,12 +22,22 @@ $(document).ready(function(){
         var goHartHeight = Math.floor(landingWidth*0.851);
         $('.gohart').css('height', goHartHeight);
 
-
-
         var pageHeadWidth = $('.container .header').width();
         var pageHeadHeight = Math.floor(pageHeadWidth*0.355);
         $('.container .header').css('height', pageHeadHeight);
     }
+
+
+     $(".metro-block").hover(function() {
+        console.log('hit in');
+        $(this).closest(".metro-block").find(".hover-box .metro-hover").fadeIn();
+        }, function() {
+            console.log('hit out');
+        $(this).closest(".metro-block").find(".hover-box .metro-hover").fadeOut();   
+        }
+    );    
+
+   
 
 
 });
