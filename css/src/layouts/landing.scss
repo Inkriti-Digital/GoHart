@@ -13,6 +13,20 @@
  	clear: both;
  }
 
+ .main-nav{
+ 	position: fixed; 
+ 	right: 0px;
+ 	z-index: 100;
+ 	text-align: right;
+ 	
+
+ 	img{
+ 		height: 100%;
+ 		// position: absolute;
+ 		right: 0;
+ 	}
+ }
+
  section{
  	width: 100%;
 
@@ -47,12 +61,13 @@
  	 }
 
  	 .menu-ico{
- 	 	position: absolute;
+ 	 	position: fixed;
  	 	right: 15px;
 		margin: 2.5%;
 		width: 4%;
 		max-width: 62px;
 		cursor: pointer;
+		z-index: 250;
  	 }
 
  	 .bus-ico{

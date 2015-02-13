@@ -1,6 +1,7 @@
 $(document).ready(function(){
     var newsWidth;
     var animateWidth = 0;
+    var windowHeight;
 
 
 	resizeElements();
@@ -16,6 +17,9 @@ $(document).ready(function(){
     	var landingWidth = $('.landing').width();
     	var landingHeight = Math.floor(landingWidth*0.58214);
     	$('.landing').css('height', landingHeight);
+
+        windowHeight = $(window).height();
+        $('.main-nav').css('height', windowHeight);
 
     	var metroHeight = Math.floor(landingWidth*0.58214);
     	$('.metro-main').css('height', metroHeight);
@@ -93,8 +97,16 @@ $(document).ready(function(){
         $(".answer", this).slideToggle(250);
         $(".plus", this).toggle();
         $(".minus", this).toggle();
-
      });
+
+
+     //main-nav control
+     $(".menu-ico").click(function(event) {
+        $(".main-nav").toggle();
+        // $(".plus", this).toggle();
+        // $(".minus", this).toggle();
+     });
+     
 
 
 

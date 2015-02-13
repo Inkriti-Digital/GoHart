@@ -1709,6 +1709,17 @@ td {
   clear: both;
 }
 
+.main-nav {
+  position: fixed;
+  right: 0px;
+  z-index: 100;
+  text-align: right;
+}
+.main-nav img {
+  height: 100%;
+  right: 0;
+}
+
 section {
   width: 100%;
 }
@@ -1740,12 +1751,13 @@ section h1 {
   max-width: 270px;
 }
 .landing .menu-ico {
-  position: absolute;
+  position: fixed;
   right: 15px;
   margin: 2.5%;
   width: 4%;
   max-width: 62px;
   cursor: pointer;
+  z-index: 250;
 }
 .landing .bus-ico {
   position: absolute;
@@ -2209,6 +2221,8 @@ section h1 {
 }
 .page-content .q-a .question span {
   font-size: 25px;
+  color: #7aaed5;
+  padding: 0 5px;
 }
 .page-content .q-a .question .minus {
   display: none;
