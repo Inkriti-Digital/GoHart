@@ -1714,6 +1714,7 @@ td {
   right: 0px;
   z-index: 100;
   text-align: right;
+  display: none;
 }
 .main-nav img {
   height: 100%;
