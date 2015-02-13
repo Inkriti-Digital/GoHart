@@ -2061,10 +2061,13 @@ section h1 {
 
 .page-content {
   color: #666;
-  padding: 5%;
+  padding: 0 5%;
 }
 .page-content .content-block {
   margin-bottom: 50px;
+}
+.page-content .content-block .content-body {
+  margin: 2%;
 }
 .page-content .content-block .info {
   display: inline-block;
@@ -2091,15 +2094,26 @@ section h1 {
   bottom: 12%;
   color: white;
   font-size: 19px;
+  padding-top: 40px;
 }
 .page-content .bottom-rule div {
   display: inline-block;
 }
 .page-content .bottom-rule .cta {
-  width: 24%;
+  display: inline-block;
+  width: 97%;
   color: #000;
   font-size: 18px;
   font-weight: bold;
+}
+.page-content .bottom-rule .cta span {
+  background-color: #fff;
+  padding-right: 20px;
+  position: relative;
+  z-index: 5;
+}
+.page-content .bottom-rule .cta hr {
+  top: -15px;
 }
 .page-content .bottom-rule .rule {
   width: 75%;
@@ -2107,7 +2121,6 @@ section h1 {
 }
 .page-content .help-you {
   color: #003366;
-  margin: 3%;
 }
 .page-content .help-you select {
   border: none;
@@ -2123,7 +2136,6 @@ section h1 {
   margin-left: 2%;
 }
 .page-content .hours ul {
-  margin: 3%;
   display: inline-block;
   width: 35%;
 }
@@ -2189,6 +2201,25 @@ section h1 {
 }
 .page-content .comments .comment-form #date, .page-content .comments .comment-form #time {
   width: 15%;
+}
+.page-content .q-a .question {
+  color: #003366;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.page-content .q-a .question span {
+  font-size: 25px;
+}
+.page-content .q-a .question .minus {
+  display: none;
+}
+.page-content .q-a .answer {
+  font-size: 16px;
+  color: #666;
+  width: 90%;
+  text-transform: none;
+  margin-left: 30px;
+  display: none;
 }
 
 /*# sourceMappingURL=styles.css.map */

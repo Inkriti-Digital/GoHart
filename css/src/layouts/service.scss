@@ -46,10 +46,14 @@
 
 .page-content{
 	color: #666;
-	padding: 5%;
+	padding: 0 5%;
 
 	.content-block{
 		margin-bottom: 50px;
+
+		.content-body{
+			margin: 2%;
+		}
 		
 		.info{
 			display: inline-block;
@@ -75,22 +79,33 @@
 	}
 
 	.bottom-rule{
- 	 	// position: absolute;
  	 	width: 100%;
  	 	bottom: 12%;
- 	 	// padding: 0 5%;
  	 	color: white;
  	 	font-size: 19px;
+ 	 	padding-top: 40px;
 
  	 	div{
  	 		display: inline-block;
  	 	}
 
  	 	.cta{
- 	 		width: 24%;
+ 	 		display: inline-block;
+			width: 97%;
  	 		color: #000;
  	 		font-size: 18px;
  	 		font-weight: bold;
+
+ 	 		span{
+ 	 			background-color: #fff;
+				padding-right: 20px;
+				position: relative;
+				z-index: 5;
+ 	 		}
+
+ 	 		hr{
+ 	 			top: -15px;
+ 	 		}
 
  	 	}
 
@@ -102,8 +117,7 @@
 
 	.help-you{
 		color: #003366;
-		margin: 3%;
-
+		
 		select {
 			border: none;
 			text-transform: uppercase;
@@ -121,7 +135,7 @@
 
 	.hours{
 		ul{
-			margin: 3%;
+			
 			display: inline-block; 
 			width: 35%;
 			li{
@@ -200,6 +214,30 @@
 			width: 15%;
 		}
  	 }
+	}
+
+
+	.q-a{
+		.question{
+			color: #003366;
+			text-transform: uppercase;
+			cursor: pointer;
+
+			span{
+				font-size: 25px;
+			}
+
+			.minus{ display: none; }
+		}
+
+		.answer{
+			font-size: 16px;
+			color: #666;
+			width: 90%;
+			text-transform: none;
+			margin-left: 30px;
+			display: none;
+		}
 	}
 
 }

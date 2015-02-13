@@ -88,6 +88,14 @@ $(document).ready(function(){
         }, 100);
     });
 
+     //accordian controls
+     $(".q-a .question").click(function(event) {
+        $(".answer", this).slideToggle(250);
+        $(".plus", this).toggle();
+        $(".minus", this).toggle();
+
+     });
+
 
 
    
