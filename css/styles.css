@@ -1884,6 +1884,17 @@ section h1 {
   line-height: 1.3em;
   margin-bottom: 10px;
 }
+.metro .metro-box ul a, .metro .metro-box li a {
+  color: white;
+}
+.metro .metro-box ul .arrow, .metro .metro-box li .arrow {
+  dispaly: inline-block;
+  float: right;
+  display: none;
+}
+.metro .metro-box ul .arrow img, .metro .metro-box li .arrow img {
+  width: 18px;
+}
 .metro .metro-icons {
   position: absolute;
   bottom: 25%;
@@ -1893,6 +1904,11 @@ section h1 {
   display: inline-block;
   background-color: rgba(14, 21, 45, 0.8);
   padding: 20px 28px;
+  width: 108px;
+  height: 82px;
+  text-align: center;
+  vertical-align: top;
+  cursor: pointer;
 }
 
 .news h1 {
@@ -1910,31 +1926,52 @@ section h1 {
 .news .news-blocks .block-row {
   position: relative;
   overflow: hidden;
-  width: 200%;
+  width: 500%;
 }
 .news .news-blocks .block {
-  width: 220px;
-  height: 175px;
+  width: 400px;
+  height: 250px;
   background-color: #0e152d;
   margin: 5px 5px;
   display: inline-block;
+  overflow: hidden;
+}
+.news .news-blocks .block h3 {
+  color: white;
+  font-size: 20px;
+  margin: 5px auto;
+  margin: 35px 35px 5px 35px;
+}
+.news .news-blocks .block p {
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  display: block;
+  max-height: 135px;
+  overflow: hidden;
+  margin: 0px 35px 35px 35px;
 }
 .news .news-blocks .square {
-  width: 185px;
+  width: 300px;
+}
+.news .news-blocks .light {
+  background-color: #7aaed5;
 }
 .news .news-blocks .prev-arrow {
   float: left;
   position: absolute;
   z-index: 5;
   left: 20px;
-  top: 153px;
+  top: 228px;
+  cursor: pointer;
 }
 .news .news-blocks .next-arrow {
   float: right;
   position: absolute;
   z-index: 5;
   right: 20px;
-  top: 153px;
+  top: 228px;
+  cursor: pointer;
 }
 
 .gohart {

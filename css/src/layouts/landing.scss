@@ -216,6 +216,18 @@
  	 		font-size: 1.5em;
  	 		line-height: 1.3em;
  	 		margin-bottom: 10px;
+
+ 	 		a{ color: white; }
+
+ 	 		.arrow{
+ 	 			dispaly: inline-block;
+ 	 			float: right;
+ 	 			display: none;
+
+ 	 			img{
+ 	 				width: 18px;
+ 	 			}
+ 	 		}
  	 	}
  	 }
 
@@ -223,11 +235,16 @@
  		position: absolute;
 		bottom: 25%;
 		margin-left: 5%;
-		
+
  		.ico-block{
  			display: inline-block;
  			background-color: rgba(14, 21, 45, 0.8);
- 			padding: 20px 28px;		
+ 			padding: 20px 28px;	
+ 			width: 108px;
+ 			height: 82px;
+ 			text-align: center;
+ 			vertical-align: top;	
+ 			cursor: pointer; 
  		}
  	}
  }
@@ -249,19 +266,40 @@
  		.block-row{
  			position: relative;
 			overflow: hidden;
-			width: 200%; 			
+			width: 500%; 			
  		}
 
  		.block{
- 			width: 220px;
- 			height: 175px;
+ 			width: 400px;
+ 			height: 250px;
  			background-color: #0e152d;
  			margin: 5px 5px;
  			display: inline-block;
+ 			overflow: hidden;
+
+ 			h3{
+ 				color: white;
+ 				font-size: 20px;
+				margin: 5px auto;
+				margin: 35px 35px 5px 35px;
+ 			}
+ 			p{
+ 				color: white;
+ 				font-size: 16px;
+				line-height: 20px;
+				display: block;
+				max-height: 135px;
+				overflow: hidden;
+				margin: 0px 35px 35px 35px;
+ 			}
  		}
 
  		.square{
- 			width: 185px;
+ 			width: 300px;
+ 		}
+
+ 		.light{
+ 			background-color: #7aaed5;
  		}
 
  		.prev-arrow{
@@ -269,14 +307,16 @@
  			position: absolute;
  			z-index: 5;
  			left: 20px;
- 			top: 153px;
+ 			top: 228px;
+ 			cursor: pointer;
  		}
  		.next-arrow{
  			float: right;
  			position: absolute;
  			z-index: 5;
  			right: 20px;
- 			top: 153px;
+ 			top: 228px;
+ 			cursor: pointer;
  		}
  	}
  }
