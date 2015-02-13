@@ -258,8 +258,7 @@
  	}
 
  	.news-blocks{
- 		margin: 30px 0;
- 		margin: 30px 5%;
+ 		margin: 30px 0 30px -10px;
  		width: auto;
 		overflow: hidden;
 
@@ -272,7 +271,7 @@
  		.block{
  			width: 400px;
  			height: 250px;
- 			background-color: #0e152d;
+ 			background-color: #3f4558;
  			margin: 5px 5px;
  			display: inline-block;
  			overflow: hidden;

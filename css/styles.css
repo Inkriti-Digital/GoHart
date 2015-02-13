@@ -1918,8 +1918,7 @@ section h1 {
   margin-left: 5%;
 }
 .news .news-blocks {
-  margin: 30px 0;
-  margin: 30px 5%;
+  margin: 30px 0 30px -10px;
   width: auto;
   overflow: hidden;
 }
@@ -1931,7 +1930,7 @@ section h1 {
 .news .news-blocks .block {
   width: 400px;
   height: 250px;
-  background-color: #0e152d;
+  background-color: #3f4558;
   margin: 5px 5px;
   display: inline-block;
   overflow: hidden;
@@ -2110,6 +2109,19 @@ section h1 {
   color: #003366;
   margin: 3%;
 }
+.page-content .help-you select {
+  border: none;
+  text-transform: uppercase;
+  color: #083b70;
+  line-height: 45px;
+  height: 45px;
+  font-size: 16px;
+  background-color: #ccc;
+  padding: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-left: 2%;
+}
 .page-content .hours ul {
   margin: 3%;
   display: inline-block;
@@ -2122,9 +2134,27 @@ section h1 {
   font-weight: bold;
 }
 .page-content .comments .comment-form {
-  width: 100%;
+  margin: 3%;
 }
-.page-content .comments .comment-form input[type="text"] {
+.page-content .comments .comment-form .form-half {
+  width: 49%;
+  float: left;
+  vertical-align: top;
+  height: 430px;
+}
+.page-content .comments .comment-form .form-half input[type="text"], .page-content .comments .comment-form .form-half textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.page-content .comments .comment-form .form-half textarea {
+  height: 100%;
+  resize: none;
+}
+.page-content .comments .comment-form .form-left {
+  margin-right: 20px;
+}
+.page-content .comments .comment-form input[type="text"], .page-content .comments .comment-form textarea {
   border: none;
   text-transform: uppercase;
   color: #083b70;
@@ -2137,7 +2167,10 @@ section h1 {
   padding-top: 10px;
   margin-right: 1%;
 }
-.page-content .comments .comment-form input[type="submit"] {
+.page-content .comments .comment-form .submit-btn {
+  margin-top: 10px;
+}
+.page-content .comments .comment-form .submit-btn input[type="submit"] {
   -webkit-appearance: none;
   border: none;
   color: white;
@@ -2148,6 +2181,8 @@ section h1 {
   padding-top: 10px;
   margin-right: 0;
   letter-spacing: 0.03em;
+  position: absolute;
+  right: 0px;
 }
 .page-content .comments .comment-form #start, .page-content .comments .comment-form #end {
   width: 27%;
