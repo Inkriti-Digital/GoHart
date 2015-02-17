@@ -107,7 +107,10 @@ $(document).ready(function(){
         // $(".minus", this).toggle();
      });
      
-
+     $(".return-top").click(function() {
+          $("html, body").animate({ scrollTop: 0 }, "slow");
+          return false;
+        });
 
 
    

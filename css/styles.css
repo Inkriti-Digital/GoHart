@@ -2032,6 +2032,11 @@ section h1 {
 .gohart .how-to .end-box {
   margin-right: 0;
 }
+.gohart .return-top {
+  text-align: right;
+  margin: 0 5%;
+  cursor: pointer;
+}
 
 /**
  * $CUSTOMER SERVICE
