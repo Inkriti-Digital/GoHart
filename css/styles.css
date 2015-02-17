@@ -2042,6 +2042,9 @@ section h1 {
   height: 25px;
   margin-right: -20px;
 }
+.gohart .how-to .button-box .button:hover {
+  background-color: #20416f;
+}
 .gohart .how-to .end-box {
   margin-right: 0;
 }
