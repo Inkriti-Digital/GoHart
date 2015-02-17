@@ -1715,6 +1715,7 @@ td {
   z-index: 100;
   text-align: right;
   display: none;
+  background-color: #0e152d;
 }
 .main-nav img {
   height: 100%;
