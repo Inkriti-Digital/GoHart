@@ -2258,5 +2258,11 @@ section h1 {
   margin-left: 30px;
   display: none;
 }
+.page-content .email-signup {
+  width: 100%;
+}
+.page-content .center {
+  text-align: center;
+}
 
 /*# sourceMappingURL=styles.css.map */
