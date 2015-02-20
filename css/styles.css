@@ -2270,12 +2270,6 @@ section h1 {
  * $TRANSIT SERVICES
  * ==========================================================================
  */
-.services .page-content {
-  background-image: url("../img/service/service-plate-bg.jpg");
-  background-repeat: none;
-  background-size: 100%;
-}
-
 .page-nav {
   margin-top: 35px;
 }
