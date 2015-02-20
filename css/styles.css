@@ -2097,12 +2097,13 @@ section h1 {
 .page-content {
   color: #666;
   padding: 0 5%;
+  padding-top: 20px;
 }
 .page-content .content-block {
   margin-bottom: 50px;
 }
 .page-content .content-block .content-body {
-  margin: 2%;
+  margin: 0 3%;
 }
 .page-content .content-block .info {
   display: inline-block;
@@ -2138,7 +2139,7 @@ section h1 {
   display: inline-block;
   width: 97%;
   color: #000;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
 }
 .page-content .bottom-rule .cta span {
@@ -2263,6 +2264,50 @@ section h1 {
 }
 .page-content .center {
   text-align: center;
+}
+
+/**
+ * $TRANSIT SERVICES
+ * ==========================================================================
+ */
+.services .page-content {
+  background-image: url("../img/service/service-plate-bg.jpg");
+  background-repeat: none;
+  background-size: 100%;
+}
+
+.page-nav {
+  margin-top: 35px;
+}
+.page-nav .nav-btn {
+  display: inline-block;
+  vertical-align: top;
+  width: 31%;
+  text-align: center;
+  height: 50px;
+  padding-top: 8px;
+  margin-right: 3%;
+  border: 2px gray solid;
+  cursor: pointer;
+  background: url("../img/service/page-nav-bg.png") repeat-x;
+}
+.page-nav .nav-btn span {
+  background-color: white;
+  display: inline-block;
+  padding: 5px 10px;
+}
+.page-nav .nav-btn:last-child {
+  margin-right: 0;
+}
+.page-nav a:hover {
+  color: #6699CC;
+}
+
+.content-body h2 {
+  margin: 5px 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: normal;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,51 @@
+/**
+ * $TRANSIT SERVICES
+ * ==========================================================================
+ */
+
+.services{
+ .page-content{
+ 	background-image: url('../img/service/service-plate-bg.jpg');
+ 	background-repeat: none;
+ 	background-size: 100%;
+ }
+}
+
+.page-nav{
+	margin-top: 35px;
+		.nav-btn{
+			display: inline-block;
+			vertical-align: top;
+			width: 31%;
+			text-align: center;
+			height: 50px;
+			padding-top: 8px;
+			margin-right: 3%;
+			border: 2px gray solid;
+			cursor: pointer;
+			background: url('../img/service/page-nav-bg.png') repeat-x;
+
+			span{
+				background-color: white;
+				display: inline-block;
+				padding: 5px 10px;
+			}
+		}
+
+		.nav-btn:last-child{
+			margin-right: 0;
+		}
+
+		a:hover{
+			color: #6699CC;
+		}
+}
+
+.content-body{
+	h2{
+		margin: 5px 0;
+		padding: 0;
+		font-size: 20px;
+		font-weight: normal;
+	}
+}
