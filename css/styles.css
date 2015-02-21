@@ -1700,6 +1700,31 @@ td {
  * ==========================================================================
  * This is a placeholder and example for a view.
  */
+@font-face {
+  font-family: 'gothBold';
+  src: url("fonts/Gotham-Bold.eot");
+  src: local("☺"), url("fonts/Gotham-Bold.woff") format("woff"), url("fonts/Gotham-Bold.ttf") format("truetype"), url("fonts/Gotham-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gothMed';
+  src: url("fonts/Gotham-Medium.eot");
+  src: local("☺"), url("fonts/Gotham-Medium.woff") format("woff"), url("fonts/Gotham-Medium.ttf") format("truetype"), url("fonts/Gotham-Medium.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'gothBook';
+  src: url("fonts/Gotham-Book.eot");
+  src: local("☺"), url("fonts/Gotham-Book.woff") format("woff"), url("fonts/Gotham-Book.ttf") format("truetype"), url("fonts/Gotham-Book.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  font-family: gothBook, Helvetica, Arial, sans-serif;
+}
+
 .container {
   background-size: 100%;
   padding: 0;
@@ -1739,6 +1764,8 @@ section h1 {
   color: white;
   font-size: 60px;
   display: inline-block;
+  font-weight: normal;
+  font-family: gothBold, Helvetica, Arial, sans-serif;
 }
 
 .landing {
@@ -1907,6 +1934,8 @@ section h1 {
   font-size: 1.5em;
   line-height: 1.3em;
   margin-bottom: 10px;
+  letter-spacing: 0.03em;
+  font-family: gothMed, Helvetica, Arial, sans-serif;
 }
 .metro .metro-box ul a, .metro .metro-box li a {
   color: white;
@@ -1967,6 +1996,8 @@ section h1 {
   font-size: 20px;
   margin: 5px auto;
   margin: 35px 35px 5px 35px;
+  font-weight: normal;
+  font-family: gothBold, Helvetica, Arial, sans-serif;
 }
 .news .news-blocks .block p {
   color: white;
@@ -2021,6 +2052,10 @@ section h1 {
   margin: 50px 5%;
   color: #666;
   padding: 65px 75px;
+}
+.gohart .how-to h2 {
+  font-weight: normal;
+  font-family: gothBold, Helvetica, Arial, sans-serif;
 }
 .gohart .how-to .button-box {
   width: 48%;
