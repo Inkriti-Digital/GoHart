@@ -2173,7 +2173,7 @@ section h1 {
 }
 .page-content .hours ul {
   display: inline-block;
-  width: 40%;
+  width: auto;
 }
 .page-content .hours ul li {
   list-style-type: none;
