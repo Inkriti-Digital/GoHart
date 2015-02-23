@@ -2055,7 +2055,8 @@ section h1 {
 }
 .gohart .how-to h2 {
   font-weight: normal;
-  font-family: gothBold, Helvetica, Arial, sans-serif;
+  font-family: gothBook, Helvetica, Arial, sans-serif;
+  font-size: 3em;
 }
 .gohart .how-to .button-box {
   width: 48%;
@@ -2182,6 +2183,7 @@ section h1 {
   padding-right: 20px;
   position: relative;
   z-index: 5;
+  font-family: gothMed, Helvetica, Arial, sans-serif;
 }
 .page-content .bottom-rule .cta hr {
   top: -15px;
@@ -2338,6 +2340,7 @@ section h1 {
   font-size: 20px;
   font-weight: normal;
   color: #003366;
+  font-family: gothBook, Helvetica, Arial, sans-serif;
 }
 .content-body .half-column {
   display: inline-block;
