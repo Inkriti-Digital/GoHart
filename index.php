@@ -13,21 +13,18 @@
 		<!-- Content -->
 
 		<div class="container">
-			<div class="main-nav">
-				<img src="img/fpo-mainnav.png"/>
-				</div>
+			<?php include ("views/main-nav.php"); ?>
 
 			<section class="landing" data-0="background-position:0px 0px;" data-500="background-position:0px 250px;">
 				<div class="logo"><img src="img/hart-logo.png"/></div>
 				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
-
 
 				<div class="headline">
 					<h1>TRANSPORTATION</h1>
 					<h1>FOR LIFE</h1>
 				</div>
 
-				<div class="bus-ico"><img src="img/busses-ico.png"/></div>
+				<div class="bus-ico">ONEBUSAWAY</div>
 				<div class="bottom-rule">
 					<div class="cta">LET US TAKE YOU THERE</div>
 					<div class="rule"><hr/></div>

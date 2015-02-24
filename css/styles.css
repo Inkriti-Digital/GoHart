@@ -1796,6 +1796,8 @@ section h1 {
   width: 11%;
   max-width: 179px;
   cursor: pointer;
+  color: white;
+  font-size: 18px;
 }
 .landing .bottom-rule {
   position: absolute;

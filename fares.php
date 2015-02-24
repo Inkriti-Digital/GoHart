@@ -13,6 +13,8 @@
 		<!-- Content -->
 
 		<div class="container fares">
+			<?php include ("views/main-nav.php"); ?>
+			
 			<section class="header">
 				<div class="logo"><img src="img/hart-logo.png"/></div>
 				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
