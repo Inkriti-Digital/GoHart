@@ -1734,19 +1734,6 @@ body {
   clear: both;
 }
 
-.main-nav {
-  position: fixed;
-  right: 0px;
-  z-index: 100;
-  text-align: right;
-  display: none;
-  background-color: #0e152d;
-}
-.main-nav img {
-  height: 100%;
-  right: 0;
-}
-
 section {
   width: 100%;
 }
@@ -2471,6 +2458,88 @@ section h1 {
   font-size: 12px;
   coor: #666;
   margin-top: 5px;
+}
+
+/**
+ * $MAIN-NAV
+ * ==========================================================================
+ * This is a placeholder and example for a view.
+ */
+.main-nav {
+  position: fixed;
+  right: 0px;
+  z-index: 100;
+  text-align: right;
+  display: none;
+  background-color: rgba(14, 21, 45, 0.75);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 45%;
+  color: white;
+}
+.main-nav ul, .main-nav li {
+  list-style-type: none;
+  margin: 0;
+}
+.main-nav .primary {
+  background-color: transparent;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.main-nav .primary a {
+  color: white;
+}
+.main-nav .primary a:hover {
+  color: #6699CC;
+}
+.main-nav .primary li {
+  font-family: gothMed, Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  margin-bottom: 5.5%;
+}
+.main-nav .search-nav {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+}
+.main-nav .search-nav a {
+  margin: 0 15px;
+}
+.main-nav .search-nav a:first-child {
+  margin-left: 0;
+}
+.main-nav .search-nav a:last-child {
+  margin-right: 0;
+}
+.main-nav .search-bar {
+  margin-top: 10px;
+}
+.main-nav .search-bar input[type="text"] {
+  border: none;
+  text-transform: uppercase;
+  color: #083b70;
+  line-height: 45px;
+  height: 45px;
+  font-size: 16px;
+  background-color: white;
+  padding: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-right: 1%;
+  width: 49%;
+}
+.main-nav .search-bar .search-btn {
+  background-color: #6699CC;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  padding-top: 10px;
+  vertical-align: top;
+}
+.main-nav .search-bar .search-btn img {
+  width: 62%;
 }
 
 /*# sourceMappingURL=styles.css.map */

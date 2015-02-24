@@ -1,0 +1,95 @@
+/**
+ * $MAIN-NAV
+ * ==========================================================================
+ * This is a placeholder and example for a view.
+ */
+
+ .main-nav{
+ 	position: fixed; 
+ 	right: 0px;
+ 	z-index: 100;
+ 	text-align: right;
+ 	display: none;
+ 	background-color: rgba(14, 21, 45, 0.75);
+ 	// background-image: url(../img/fpo-mainnav.png);
+ 	background-size: auto 100%;
+ 	background-repeat: no-repeat;
+ 	background-position: top;
+ 	width: 45%;
+ 	color: white;
+
+ 	ul, li{
+ 		list-style-type: none;
+ 		margin: 0;
+ 	}
+ 	
+	.primary{
+		// background-color: #0e152d;	
+		background-color: transparent;
+		text-align: left;
+		margin-top: 20px;
+		margin-left: 20px;
+
+		a{ color: white; }
+
+		a:hover{ color: #6699CC; }
+
+		li{
+			font-family: gothMed, Helvetica, Arial, sans-serif;
+			font-size: 30px;
+			margin-bottom: 5.5%;
+
+		}	
+	}
+
+	.search-nav{
+		font-size: 12px;
+		letter-spacing: 0.1em;
+
+		a{ margin: 0 15px; }
+
+		a:first-child{
+			margin-left:0;
+		}
+
+		a:last-child{
+			margin-right:0;
+		}
+	}
+
+	.search-bar{
+		margin-top: 10px;
+
+		input[type="text"] {
+			border: none;
+			text-transform: uppercase;
+			color: #083b70;
+			line-height: 45px;
+			height: 45px;
+			font-size: 16px;
+			background-color: rgba(255, 255, 255, 1);
+			padding: 5px;
+			
+			padding-left: 10px;
+			padding-top: 10px;
+			margin-right: 1%;
+			width: 49%;
+		}
+
+		.search-btn{
+			background-color: #6699CC;
+			display: inline-block;
+			width: 45px;
+			height: 45px;
+			text-align: center;
+			padding-top: 10px;
+			vertical-align: top;
+
+			img{
+				width: 62%;
+			}
+		}
+	}
+
+
+ }
