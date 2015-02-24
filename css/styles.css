@@ -2302,6 +2302,9 @@ section h1 {
 .page-content .center {
   text-align: center;
 }
+.page-content .help-you {
+  margin-left: 40px;
+}
 
 /**
  * $TRANSIT SERVICES
@@ -2345,7 +2348,7 @@ section h1 {
 .content-body .half-column {
   display: inline-block;
   vertical-align: top;
-  width: 46%;
+  width: 44%;
   margin-right: 5%;
 }
 .content-body .half-column:last-child {
@@ -2417,6 +2420,55 @@ section h1 {
   font-size: 28px;
   line-height: 36px;
   text-align: center;
+}
+
+/**
+ * $FARES
+ * ==========================================================================
+ */
+.info-tix {
+  width: 95%;
+}
+
+.tix-box {
+  font-family: gothBook, Helvetica, Arial, sans-serif;
+  width: 75%;
+  color: #666;
+  margin-bottom: 40px;
+}
+.tix-box .tix-row {
+  background-color: #e6e7e8;
+  color: #003366;
+}
+.tix-box .tix-row div {
+  display: inline-block;
+  padding: 6px 10px;
+  padding-top: 8px;
+}
+.tix-box .tix-row .tix-fare {
+  float: right;
+  border-left: 1px #666 solid;
+  padding-right: 12%;
+  width: 25%;
+}
+.tix-box .tix-row .tix-fare img {
+  position: absolute;
+  right: 0;
+  height: 75%;
+  margin-top: -3px;
+  margin-right: 10%;
+  cursor: pointer;
+}
+.tix-box .blue-row {
+  background-color: #7aaed5;
+  color: white;
+}
+
+.disclaimer {
+  font-style: italic;
+  font-size: 12px;
+  coor: #666;
+  margin-top: 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */

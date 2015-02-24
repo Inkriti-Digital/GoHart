@@ -1,0 +1,56 @@
+/**
+ * $FARES
+ * ==========================================================================
+ */
+
+ .info-tix{
+ 	width: 95%;
+ }
+
+.tix-box{
+	
+	font-family: gothBook, Helvetica, Arial, sans-serif;
+	width: 75%;
+	color: #666;
+	margin-bottom: 40px;
+
+	.tix-row{	
+		background-color: #e6e7e8;	
+		color: #003366;
+
+		div{ 
+			display: inline-block; 
+			padding: 6px 10px;
+			padding-top:8px;
+		}
+
+		.tix-fare{
+			float: right;
+			border-left: 1px #666 solid;
+			padding-right: 12%;
+			width: 25%;
+
+			img{
+				position: absolute;
+				right: 0;
+				height: 75%;
+				margin-top: -3px;
+				margin-right: 10%;
+				cursor: pointer;
+			}
+		}
+	}
+
+	.blue-row{
+		background-color: #7aaed5;
+		color: white;
+	}
+}
+
+.disclaimer{
+	font-style: italic;
+	font-size: 12px;
+	coor: #666;
+	margin-top: 5px;
+
+}
