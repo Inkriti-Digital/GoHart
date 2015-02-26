@@ -2542,4 +2542,68 @@ section h1 {
   width: 62%;
 }
 
+/**
+ * $locations
+ * ==========================================================================
+ */
+.page-nav {
+  text-align: center;
+  margin: 20px;
+}
+
+.purchase-tix {
+  background-color: #036;
+  display: inline-block;
+  color: #fff;
+  border: 1px #036 solid;
+  padding: 0px;
+}
+.purchase-tix span {
+  margin: 0 10px;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 12px;
+}
+.purchase-tix .tix-ico {
+  display: inline-block;
+  background-color: white;
+  padding: 3px;
+  padding-top: 8px;
+  padding-bottom: 0;
+}
+.purchase-tix .tix-ico img {
+  width: 32px;
+}
+
+.map-locations {
+  margin: 20px 0;
+}
+.map-locations .marker-details {
+  width: 30%;
+  display: inline-block;
+}
+.map-locations .marker-address {
+  color: #666;
+  font-size: 12px;
+  padding-left: 15px;
+}
+.map-locations a {
+  color: #3399CC;
+}
+
+.select-locations .help-you {
+  margin: 20px 0;
+}
+.select-locations .location-type {
+  display: inline-block;
+  width: 40%;
+}
+.select-locations .location-select {
+  width: 55%;
+  display: inline-block;
+}
+.select-locations .location-select select {
+  width: 300px;
+}
+
 /*# sourceMappingURL=styles.css.map */
