@@ -2475,8 +2475,14 @@ section h1 {
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: top;
-  width: 45%;
   color: white;
+}
+.main-nav .close-nav {
+  position: absolute;
+  margin-left: -75px;
+  margin-top: 20px;
+  width: 10%;
+  cursor: pointer;
 }
 .main-nav ul, .main-nav li {
   list-style-type: none;
@@ -2487,6 +2493,7 @@ section h1 {
   text-align: left;
   margin-top: 20px;
   margin-left: 20px;
+  padding-right: 30px;
 }
 .main-nav .primary a {
   color: white;
@@ -2498,6 +2505,13 @@ section h1 {
   font-family: gothMed, Helvetica, Arial, sans-serif;
   font-size: 30px;
   margin-bottom: 5.5%;
+}
+.main-nav .primary li img {
+  display: inline-block;
+  width: 18px;
+  top: 5px;
+  display: none;
+  left: 30px;
 }
 .main-nav .search-nav {
   font-size: 12px;
@@ -2540,6 +2554,14 @@ section h1 {
 }
 .main-nav .search-bar .search-btn img {
   width: 62%;
+}
+.main-nav .social-icons .ico {
+  display: inline-block;
+  margin-right: 25px;
+  margin-top: 20px;
+}
+.main-nav .social-icons .ico img {
+  width: 75%;
 }
 
 /**

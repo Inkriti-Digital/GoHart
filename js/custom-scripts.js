@@ -51,6 +51,10 @@ $(document).ready(function(){
         }
     );
 
+     $(".primary a").hover(function(event) {
+        $("img", this).toggle();
+     });
+
     //metrobox nav links
     $(".metro-box a").hover(function() {   
             $(".arrow", this).fadeIn(50);
@@ -103,14 +107,20 @@ $(document).ready(function(){
      //main-nav control
      $(".menu-ico").click(function(event) {
         $(".main-nav").toggle();
-        // $(".plus", this).toggle();
-        // $(".minus", this).toggle();
+        $(".menu-ico").hide();
+        $(".close-nav").show();
+     });
+
+     $(".close-nav").click(function(event) {
+        $(".main-nav").toggle();
+        $(".close-nav").hide();
+        $(".menu-ico").show();
      });
      
      $(".return-top").click(function() {
           $("html, body").animate({ scrollTop: 0 }, "slow");
           return false;
-        });
+     });
 
 
    
