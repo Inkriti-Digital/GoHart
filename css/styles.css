@@ -2494,12 +2494,14 @@ section h1 {
   margin-top: 20px;
   margin-left: 20px;
   padding-right: 30px;
+  display: inline-block;
+  vertical-align: top;
 }
 .main-nav .primary a {
   color: white;
 }
 .main-nav .primary a:hover {
-  color: #6699CC;
+  color: #7aaed5;
 }
 .main-nav .primary li {
   font-family: gothMed, Helvetica, Arial, sans-serif;
@@ -2541,7 +2543,7 @@ section h1 {
   padding-left: 10px;
   padding-top: 10px;
   margin-right: 1%;
-  width: 49%;
+  width: 85%;
 }
 .main-nav .search-bar .search-btn {
   background-color: #6699CC;
@@ -2562,6 +2564,28 @@ section h1 {
 }
 .main-nav .social-icons .ico img {
   width: 75%;
+}
+.main-nav .secondary {
+  display: inline-block;
+  background-color: #0e152d;
+  height: 100%;
+  vertical-align: top;
+  text-align: left;
+  width: 0px;
+}
+.main-nav .secondary a {
+  color: white;
+}
+.main-nav .secondary a:hover {
+  color: #7aaed5;
+}
+.main-nav .secondary ul {
+  margin-top: 30%;
+  padding: 20px;
+  display: none;
+}
+.main-nav .secondary li {
+  padding: 5px 0;
 }
 
 /**

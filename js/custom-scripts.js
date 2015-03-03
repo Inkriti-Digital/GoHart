@@ -2,6 +2,7 @@ $(document).ready(function(){
     var newsWidth;
     var animateWidth = 0;
     var windowHeight;
+    var subNav;
 
 
 	resizeElements();
@@ -52,7 +53,7 @@ $(document).ready(function(){
     );
 
      $(".primary a").hover(function(event) {
-        $("img", this).toggle();
+        $("img", this).fadeToggle('fast');
      });
 
     //metrobox nav links
@@ -115,12 +116,61 @@ $(document).ready(function(){
         $(".main-nav").toggle();
         $(".close-nav").hide();
         $(".menu-ico").show();
+        $('.main-nav .secondary ul').hide();
+        $('.main-nav .secondary').css('width', '0');
      });
      
      $(".return-top").click(function() {
           $("html, body").animate({ scrollTop: 0 }, "slow");
           return false;
      });
+
+    //primary
+    $("#nav-map").click(function(event) {
+        subNav = '.subnav-maps';
+        showSubNav();        
+    });
+
+    $("#nav-fares").click(function(event) {
+        subNav = '.subnav-fares';
+        showSubNav();        
+    });
+
+    $("#nav-services").click(function(event) {
+        subNav = '.subnav-services';
+        showSubNav();        
+    });
+
+    $("#nav-info").click(function(event) {
+        subNav = '.subnav-info';
+        showSubNav();        
+    });
+
+    $("#nav-customer").click(function(event) {
+        subNav = '.subnav-customer';
+        showSubNav();        
+    });
+
+    $("#nav-trans").click(function(event) {
+        subNav = '.subnav-trans';
+        showSubNav();        
+    });
+
+    $("#nav-about").click(function(event) {
+        subNav = '.subnav-trans';
+        showSubNav();        
+    });
+
+    function showSubNav(){
+        $('.main-nav .secondary').css('width', '225px');
+        // console.log(subNav);
+        $('.main-nav .secondary ul').hide();
+
+        setTimeout(function() {
+          $(subNav).fadeIn();
+        }, 125);
+       
+    }
 
 
    

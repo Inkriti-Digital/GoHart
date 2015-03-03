@@ -38,13 +38,12 @@
 		margin-top: 20px;
 		margin-left: 20px;
 		padding-right: 30px;
+		display: inline-block;
+		vertical-align: top;
 
-		a{ 
-			color: white;
+		a{ color: white; }
 
-		}
-
-		a:hover{ color: #6699CC; }
+		a:hover{ color: #7aaed5; }
 
 		li{
 			font-family: gothMed, Helvetica, Arial, sans-serif;
@@ -79,6 +78,7 @@
 
 	.search-bar{
 		margin-top: 10px;
+		
 
 		input[type="text"] {
 			border: none;
@@ -93,7 +93,7 @@
 			padding-left: 10px;
 			padding-top: 10px;
 			margin-right: 1%;
-			width: 49%;
+			width: 85%;
 		}
 
 		.search-btn{
@@ -120,6 +120,29 @@
 			img{
 				width: 75%;
 			}
+		}
+	}
+
+	.secondary{
+		display: inline-block;
+		background-color: rgba(14, 21, 45, 1);
+		height: 100%;
+		vertical-align: top;
+		text-align: left;
+		width: 0px;
+		
+		a{ color: white; }
+
+		a:hover{ color: #7aaed5; }
+
+		ul{
+			margin-top: 30%;
+			padding: 20px;
+			display: none;
+		}
+
+		li{
+			padding: 5px 0;
 		}
 	}
 
