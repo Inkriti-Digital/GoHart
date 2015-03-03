@@ -31,11 +31,11 @@
 				</div>
 				<div class="home-form">
 					<form action=" #">
-					<input id="start" type="text" name="start" value="Start">
-					<input id="end" type="text" name="end" value="End">
-					<input id="date" type="text" name="date" value="Date">
-					<input id="time" type="text" name="time" value="Time">
-					<input type="submit" value="SEARCH">
+					<input id="start" type="text" name="start" value="Start" onfocus="this.value='';">
+					<input id="end" type="text" name="end" value="End" onfocus="this.value='';">
+					<input id="date" type="text" name="date" value="Date" onfocus="this.value='';">
+					<input id="time" type="text" name="time" value="Time" onfocus="this.value='';">
+					<input type="submit" value="SEARCH" >
 					</form>
 				</div>
 			</section>
@@ -177,7 +177,7 @@
 		<!-- Load Scripts -->
 		<!--script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script-->
 		<script src="js/jquery-1.11.1.min.js"></script>
-
+		<script src="js/jquery.easing.1.3.js"></script>
 		<script src="js/custom-scripts.js"></script>
 		<script type="text/javascript" src="js/skrollr.min.js"></script>
 		<script type="text/javascript">

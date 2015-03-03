@@ -6,7 +6,7 @@
 
  .main-nav{
  	position: fixed; 
- 	right: 0px;
+ 	right: -600px;
  	z-index: 100;
  	text-align: right;
  	display: none;
@@ -24,6 +24,7 @@
 		margin-top: 20px;
 		width: 10%;
 		cursor: pointer;
+		display: none;
  	}
 
  	ul, li{
@@ -41,9 +42,14 @@
 		display: inline-block;
 		vertical-align: top;
 
-		a{ color: white; }
+		a{ 
+			transition: color 0.5s ease;  			
+			color: white; 
+		}
 
-		a:hover{ color: #7aaed5; }
+		a:hover{ 
+			color: #7aaed5; 
+		}
 
 		li{
 			font-family: gothMed, Helvetica, Arial, sans-serif;
@@ -139,9 +145,14 @@
 		text-align: left;
 		width: 0px;
 		
-		a{ color: white; }
+		a{ 
+			transition: color 0.5s ease;  			
+			color: white; 
+		}
 
-		a:hover{ color: #7aaed5; }
+		a:hover{ 
+			color: #7aaed5; 
+		}
 
 		ul{
 			margin-top: 30%;

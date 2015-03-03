@@ -22,7 +22,7 @@
 
 		<div class="search-bar">
 			<form action="#">
-				<input id="start" type="text" name="start" value="SEARCH">
+				<input id="start" type="text" name="start" value="SEARCH" onfocus="this.value='';">
 				<div class="search-btn"><img src="img/search-ico.png"/></div>
 			</form>
 		</div>
