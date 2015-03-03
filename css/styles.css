@@ -2559,11 +2559,14 @@ section h1 {
 }
 .main-nav .social-icons .ico {
   display: inline-block;
-  margin-right: 25px;
+  margin-right: 45px;
   margin-top: 20px;
 }
 .main-nav .social-icons .ico img {
-  width: 75%;
+  width: 90%;
+}
+.main-nav .social-icons .last {
+  margin-right: 0;
 }
 .main-nav .secondary {
   display: inline-block;

@@ -52,7 +52,7 @@ $(document).ready(function(){
         }
     );
 
-     $(".primary a").hover(function(event) {
+     $(".primary li a").hover(function(event) {
         $("img", this).fadeToggle('fast');
      });
 

@@ -31,7 +31,7 @@
 			<div class="ico"><a href="#"><img src="img/ico-twitter.png"/></div>
 			<div class="ico"><a href="#"><img src="img/ico-b.png"/></div>
 			<div class="ico"><a href="#"><img src="img/ico-yt.png"/></div>
-			<div class="ico"><a href="#"><img src="img/ico-f.png"/></div>
+			<div class="ico last"><a href="#"><img src="img/ico-f.png"/></div>
 		</div>
 	</div>
 	<div class="secondary">
