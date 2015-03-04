@@ -202,9 +202,4 @@ $(document).ready(function(){
         }, 250);
        
     }
-
-
-   
-
-
 });

@@ -1844,7 +1844,7 @@ section h1 {
   width: 27%;
 }
 .landing .home-form #date, .landing .home-form #time {
-  width: 15%;
+  width: 14%;
 }
 
 .metro .metro-nav {
@@ -2107,7 +2107,7 @@ section h1 {
   position: absolute;
   bottom: 10%;
   left: 6%;
-  width: 400px;
+  width: 450px;
 }
 .header h1 {
   margin: 1% 0;
@@ -2656,6 +2656,67 @@ section h1 {
 }
 .select-locations .location-select select {
   width: 300px;
+}
+
+/**
+ * $TRIP PLANNER
+ * ==========================================================================
+ */
+.planner h2 {
+  font-size: 16px;
+}
+.planner .home-form input[type="text"] {
+  border: none;
+  text-transform: uppercase;
+  color: #083b70;
+  line-height: 45px;
+  height: 45px;
+  font-size: 16px;
+  background-color: #e6e7e8;
+  padding: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-right: 1%;
+}
+.planner .home-form input[type="submit"] {
+  -webkit-appearance: none;
+  border: none;
+  color: white;
+  background-color: #7aaed5;
+  height: 45px;
+  font-size: 16px;
+  padding: 5px 15px;
+  padding-top: 10px;
+  margin-right: 0;
+  letter-spacing: 0.03em;
+}
+.planner .home-form #start, .planner .home-form #end {
+  width: 27%;
+}
+.planner .home-form #date, .planner .home-form #time {
+  width: 14%;
+}
+.planner a {
+  color: #3399CC;
+  font-weight: bold;
+}
+.planner .half-span {
+  display: inline-block;
+  vertical-align: top;
+}
+.planner .half-span div {
+  margin: 5px 25px 5px 0px;
+}
+.planner .cta-buttons {
+  display: inline-block;
+  width: 48%;
+  margin: 15px 0;
+}
+.planner .cta-buttons img {
+  width: 100%;
+}
+.planner .btn1 {
+  margin-right: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */

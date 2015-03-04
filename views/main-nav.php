@@ -90,6 +90,7 @@
 			<li><a href="#">News</a></li>
 			<li><a href="#">Employment</a></li>
 			<li><a href="#">Business</a></li>
+			<li><a href="#">Title VI / Civil Right</a></li>
 			<li><a href="#">Public Meetings</a></li>
 			<li><a href="#">Employee Login</a></li>
 		</ul>
