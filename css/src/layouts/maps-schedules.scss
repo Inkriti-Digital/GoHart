@@ -108,5 +108,34 @@
 }
 
 
+}
 
+
+
+.cta .callout{
+	border: 1px #666 solid;	
+ 	background: url(../img/diagonal-pattern.png) #fff repeat;
+ 	height: 80px;
+ 	width: 35%;
+ 	top: 35px;
+ 	z-index: 5;
+
+ 	div{
+ 		// background-color: white;
+ 		padding: 12px;
+
+ 		.cta-more, .cta-page{
+ 			color: #666666;
+ 			font-size: 16px;
+ 			display: block;
+ 			font-family: gothBook, Helvetica, Arial, sans-serif;
+ 			padding-right: 0;
+ 			padding: 1px 5px;
+ 		}
+
+ 		.cta-page{
+ 			color: #6699CC;
+ 			font-size: 20px;
+ 		}
+ 	}	
 }

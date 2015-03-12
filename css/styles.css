@@ -2803,4 +2803,28 @@ section h1 {
   background-color: #e6e7e8;
 }
 
+.cta .callout {
+  border: 1px #666 solid;
+  background: url(../img/diagonal-pattern.png) white repeat;
+  height: 80px;
+  width: 35%;
+  top: 35px;
+  z-index: 5;
+}
+.cta .callout div {
+  padding: 12px;
+}
+.cta .callout div .cta-more, .cta .callout div .cta-page {
+  color: #666666;
+  font-size: 16px;
+  display: block;
+  font-family: gothBook, Helvetica, Arial, sans-serif;
+  padding-right: 0;
+  padding: 1px 5px;
+}
+.cta .callout div .cta-page {
+  color: #6699CC;
+  font-size: 20px;
+}
+
 /*# sourceMappingURL=styles.css.map */

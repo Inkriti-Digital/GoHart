@@ -271,7 +271,15 @@
 
 
 					<div class="bottom-rule footer-rule">
-						<div class="cta center-cta"><img src="img/trips/lower-cta.png"/><hr/></div>
+						<div class="cta center-cta">
+							<div class="callout">
+								<div>
+									<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
+									<span class="cta-page">ALERTS &amp; DETOURS</span>
+								</div>
+							</div>
+							<hr/>
+						</div>
 					</div>
 
 
