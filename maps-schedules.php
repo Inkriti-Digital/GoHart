@@ -208,10 +208,66 @@
 								<div class="cell">MTC</div>
 								<div class="clear-fix"></div>
 							</div>
-
-
 						</div>
 					</div>
+
+					<div class="schedule-wrap">
+						<h2>METRORAPID - WEEKDAY - NORTHBOUND</h2>
+						<h2>Downtown Tampa to UATC/Hidden River Regional Park-n-Ride</h2>
+
+						<div class="schedule-grid">
+							<div class="row title-row">
+								<div class="cell"></div>
+								<div class="cell">Hidden River Regional<br/>Park-n-Ride</div>
+								<div class="cell">University Area Transit Center</div>
+								<div class="cell">Nebraska Ave. @ Busch Blvd.</div>
+								<div class="cell">Nebraska Ave. @ Hillsborough Ave.</div>
+								<div class="cell">Marion Transit Center</div>
+								<div class="cell">Nebraska Ave. @ M.L. King Jr. Blvd.</div>
+								<div class="clear-fix"></div>
+							</div>
+							<div class="letter-row">
+								<div class="cell"></div>
+								<div class="cell">E</div>
+								<div class="cell">D</div>
+								<div class="cell">C</div>
+								<div class="cell">B</div>
+								<div class="cell">A</div>
+								<div class="cell">MTC</div>
+								<div class="clear-fix"></div>
+							</div>
+							<div class="time-row">
+								<div class="cell ampm"></div>
+								<div class="cell">LEAVE</div>
+								<div class="cell"></div>
+								<div class="cell"></div>
+								<div class="cell"></div>
+								<div class="cell"></div>
+								<div class="cell">ARRIVE</div>
+								<div class="clear-fix"></div>
+							</div>
+
+							<!--TO BE POPULATED FROM DATABASE-->
+							<div class="time-row">
+								<div class="cell ampm">A.M.</div>
+								<div class="cell">5:20</div>
+								<div class="cell">5:38</div>
+								<div class="cell">5:47</div>
+								<div class="cell">5:50</div>
+								<div class="cell">6:02</div>
+								<div class="cell">MTC</div>
+								<div class="clear-fix"></div>
+							</div>
+							<div class="time-row">
+								<div class="cell ampm">A.M.</div>
+								<div class="cell">5:20</div>
+								<div class="cell">5:38</div>
+								<div class="cell">5:47</div>
+								<div class="cell">5:50</div>
+								<div class="cell">6:02</div>
+								<div class="cell">MTC</div>
+								<div class="clear-fix"></div>
+							</div>
 
 
 					<div class="bottom-rule footer-rule">
