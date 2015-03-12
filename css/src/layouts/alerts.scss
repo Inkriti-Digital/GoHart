@@ -1,0 +1,59 @@
+/**
+ * $ALERTS DETOURS
+ * ==========================================================================
+ */
+
+.alerts-detours{
+	.header {
+		// background: url(../img/maps-sched/header-map.jpg) no-repeat;
+		background-size: 100%;
+		height: 300px;
+	}
+
+	.rider-alert{
+		background-color: #993333;
+		color: white;
+		vertical-align:top;
+		padding: 5px 15px;
+		height: 38px;
+		padding-top: 8px;
+		display: inline-block;
+
+		img{
+			vertical-align: middle;
+			position: relative;
+			top: -5px;
+		}
+
+		img:last-child{
+			margin-left: 10px;
+		}
+	}
+
+	.alert-detail{
+		font-style: italic;
+		padding-top: 20px;
+		padding-right: 30px;
+	}
+
+	.detour-thumb{
+		display: inline-block;
+		vertical-align: top;
+		width: 12%;
+		margin-right: 20px;
+	}
+
+	.detour-detail{
+		display: inline-block;
+		vertical-align: top;
+		width: 84%;
+		h2{
+			margin-top: 0;
+		}
+	}
+
+	.callout{
+		width: 40%;
+	}
+
+}
