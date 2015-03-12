@@ -2857,6 +2857,9 @@ section h1 {
   padding-top: 20px;
   padding-right: 30px;
 }
+.alerts-detours .detour-row {
+  marign-bottom: 20px;
+}
 .alerts-detours .detour-thumb {
   display: inline-block;
   vertical-align: top;
