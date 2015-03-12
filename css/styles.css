@@ -2847,7 +2847,7 @@ section h1 {
 .alerts-detours .rider-alert img {
   vertical-align: middle;
   position: relative;
-  top: -5px;
+  top: -3px;
 }
 .alerts-detours .rider-alert img:last-child {
   margin-left: 10px;
