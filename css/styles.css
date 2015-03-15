@@ -2107,7 +2107,7 @@ section h1 {
   position: absolute;
   bottom: 10%;
   left: 6%;
-  width: 450px;
+  width: 560px;
 }
 .header h1 {
   margin: 1% 0;
@@ -2912,6 +2912,62 @@ section h1 {
 
 .holiday-sched .callout {
   width: 46%;
+}
+
+/**
+ * $Emergency-Evac
+ * ==========================================================================
+ */
+.emergency .pdf-downlaod {
+  width: 23%;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #0f406b;
+  margin-right: 2%;
+  border: 1px #0f406b solid;
+  margin-bottom: 25px;
+}
+.emergency .pdf-downlaod .pdf-ico {
+  background-color: white;
+  display: inline-block;
+  height: 100%;
+  padding: 3px;
+  padding-top: 8px;
+  width: 20%;
+}
+.emergency .pdf-downlaod .download-title {
+  color: white;
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 10%;
+  padding-left: 20%;
+}
+.emergency .last {
+  margin-right: 0;
+}
+.emergency ul, .emergency li {
+  list-style-type: none;
+}
+.emergency ul b, .emergency li b {
+  color: #3399CC;
+  font-family: gothBold, Helvetica, arial, sans-serif;
+}
+.emergency ul img, .emergency li img {
+  margin-right: 10px;
+}
+.emergency .sideby-list {
+  display: inline-block;
+  width: 44%;
+  vertical-align: top;
+}
+.emergency .need-to-know {
+  background-color: #993333;
+  color: white;
+  padding: 5px 10px;
+  width: 100%;
+  display: block;
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */
