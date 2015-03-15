@@ -169,8 +169,201 @@
 
 
 
+/*  van service page styles - Start */
+		.header .headline-services-van{
+			width:250px;
+		}
+		
+		
+		.page-content .half-column.fares-data{
+			float:right;
+			margin-right:0;
+		}
+		.page-content .fares-points ul {
+		  display: inline-block;
+		  width: auto;
+		  margin-left: 0;
+		}
+		.page-content .fares-points ul li {
+		  padding: 10px 0 10px 0px;
+		  list-style: none;
+		  margin: 0 25px;
+		  border-bottom:1px solid #4AACD9;
+		  color:#003567;
+		}
+		.page-content .fares-points ul li:last-child {
+		  border-bottom:0px solid #4AACD9;
+		}
+		
+		
+		.page-content .reservation-no{
+			color:#4AACD9;
+		}
+		.page-content .reservation-timings-days{
+			float:left;
+			text-align:left;
+			margin:10px 0;
+		}
+		.page-content .reservation-timings-days ul{
+			list-style:none;
+			margin:0;
+		}
+		.page-content .reservation-timings-time{
+			float:right;
+			text-align:right;
+			margin:10px 0;
+		}
+		.page-content .reservation-timings-time ul{
+			list-style:none;
+			margin:0;
+		}
+		
+		.mid-section .mid-copy.van-service-midcopy-1 h3{
+			padding: 10px 25px;
+		}
+		
+		
+		/* equal-access-points lists - styles */
+		.page-content .half-column.equal-access-data{
+			float:right;
+			margin:42px 0 0 0;
+		}
+		.page-content .equal-access-points ul {
+			margin-right: 0;
+			width: 44%;
+			display: inline-block;
+		   width: auto;
+		   margin-left: 0;
+		}
+		.page-content .equal-access-points ul li {
+		  background: url('../img/list-icon.png') no-repeat 0 7px;
+		  padding: 3px 0 3px 19px;
+		  /* reset styles (optional): */
+		  list-style: none;
+		  margin: 0;
+		}
+		
+		
+		
+		/* how-do-i-apply-points lists - styles */
+		.page-content .half-column.how-do-i-apply-data2{
+			float:right;
+			margin:48px 0 0 0;
+		}
+		.page-content .how-do-i-apply-points ol {
+			margin-right: 0;
+			width: 44%;
+			display: inline-block;
+		  width: auto;
+		  margin-left: 35px;
+		  margin-bottom:0;
+		}
+		.page-content .how-do-i-apply-points ol li {
+		  padding: 3px 0 3px 5px;
+		  /* reset styles (optional): */
+		  margin: 0;
+		}
+		.page-content .half-column.how-do-i-apply-data2 p{
+			color:#003567;
+			line-height: 20px;
+		}
+		
+		
+		
+		
+		
+		
+		
+		/* brick time and fare styles */
+		.content-body .time-and-fare {
+		  background-color: transparent;
+		  width:70%;
+		}
+		.content-body .time-and-fare .brick-head {
+		  background-color: #e6e7e8;
+		  text-align: left;
+		  color: #003366;
+		  padding-left: 20px;
+		  padding-top:10px;
+		  position:relative;
+		}
+		.content-body .time-and-fare .brick-head .coupon-image{
+			position:absolute;
+			right:5px;
+			top:5px;
+			padding:0;
+			margin:0;
+		}
+		.content-body .time-and-fare .brick-head .brick-line{
+			position:absolute;
+			right:135px;
+			top:0;
+			border-right:1px solid #777777;
+			height:45px;
+			padding:0;
+			margin:0;
+		}
+		.content-body .time-and-fare .brick-head span {
+		  float: right;
+		  margin-right: 20px;
+		  padding-right: 25px;
+		}
+		.content-body .time-and-fare .serv-hours {
+		  margin: 0;
+		  padding: 15px;
+		  padding-top: 0;
+		  width: auto;
+		}
+		.content-body .time-and-fare:nth-child(2n) .brick-head {
+		  background-color: #71A6CF;
+		  text-align: left;
+		  color: #FFFFFF;
+		  padding-left: 20px;
+		  padding-top:10px;
+		}
+		
+		
+		.content-body .brick .half-column ul{
+			margin: 0 0 0 15px;
+			padding:0 0 10px 0;
+		}
+		.content-body .brick .half-column ul li{
+			background: url('../img/list-icon.png') no-repeat 0 7px;
+			padding: 3px 0 3px 19px;
+			list-style: none;
+			margin: 0;
+			line-height: 18px;
+		}
+		
+		
+		.page-content .half-column.side2{
+			float:right;
+			margin:0 0 0 0;
+		}
+		
+		
+/*  van service page styles - End */
 
 
+
+/*  teco line service page styles - Start */
+		.header .headline-services-teco-line{
+			width:670px;
+		}
+		
+		.page-content .visit-link{
+			background-color: #0E3B6A;
+			padding:5px 0;
+			color:#FFFFFF;
+			text-align: center;
+		}
+/*  teco line service page styles - End */
+
+
+
+.page-content a.link-colored{
+	color:#4AACD9;
+}
 .content-body .half-column {
     margin-right: 3%;
     width: 47%;
@@ -191,6 +384,55 @@
 .mid-section .mid-copy {
     width: 75%;
 }
+.content-body .info-italic{
+	font-size:13px;
+}
+.content-body .space-top-bottom{
+	margin:10px 0;
+}
+.content-body .brick .brick-head-para {
+  color:#003567;
+  margin-bottom:5px;
+  padding-bottom:0;
+}
+/* brick-blue-link - for icon with link - styles */
+	.page-content .brick-blue-link{
+		background-color:#0f406b;
+		padding:0;
+		border:1px solid #0f406b;
+		margin-right:0;
+		margin-bottom:15px;
+	}
+	.page-content .brick-blue-link .icon{
+		background-color:#FFFFFF;
+		width:70px;
+		padding:9px 0 1px 0;
+		text-align:center;
+		float:left;
+	}
+	.page-content .brick-blue-link .brick-blue-link-text{
+		background-color:#0f406b;
+		width:428px;
+		padding:8px 0;
+		text-align:center;
+		float:left;
+	}
+	.page-content .brick-blue-link .brick-blue-link-text1{
+		color:#FFFFFF;
+		font-size:14px;
+		text-align:center;
+	}
+	.page-content .brick-blue-link .brick-blue-link-text2{
+		color:#FFFFFF;
+		font-size:24px;
+		text-align:center;
+	}
+	.half-column.brick-blue-link.brick-blue-link-last {
+	    margin-right: 0;
+	}
+	.content-body .brick .brick-head {
+		padding-top: 12px;
+	}
 .left{
 	float:left;
 }
@@ -229,6 +471,11 @@
 	}
 	.page-nav .nav-btn {
    	width: 30%;
+	}
+	
+	
+	.page-content .schedule-language .brick-blue-link-text {
+		width: 333px;
 	}
 
 }
@@ -275,6 +522,19 @@
 	}
 	.page-content .map-heading {
    	width: 206px;
+	}
+	
+	
+	
+	.content-body .brick-blue-link {
+   	width: 44%;
+	}
+	.page-content .brick-blue-link .brick-blue-link-text {
+		width: 210px;
+		padding: 0;
+	}
+	.page-content .brick-blue-link .brick-blue-link-text1 {
+   	font-size: 14px;
 	}
 }
 
@@ -336,6 +596,20 @@
 	}
 	.page-content .map-heading {
    	width: 406px;
+	}
+	
+	
+	
+	.content-body .brick-blue-link {
+   	width: 100%;
+   	margin:0 0 10px 0
+	}
+	.page-content .brick-blue-link .brick-blue-link-text {
+		width: 407px;
+		padding: 10px 0 0 0;
+	}
+	.page-content .brick-blue-link .brick-blue-link-text1 {
+   	font-size: 16px;
 	}
 	
 }
@@ -420,6 +694,26 @@
 	}
 	.map-data-last{
 		float:left;
+	}
+	
+	
+	
+	
+	.page-content .brick-blue-link .brick-blue-link-text {
+		padding: 5px 0 0;
+	   width: 232px;
+	}
+	.page-content .brick-blue-link .brick-blue-link-text1 {
+	    font-size: 10px;
+	}
+	.page-content .brick-blue-link .brick-blue-link-text2 {
+	    color: #ffffff;
+	    font-size: 13px;
+	    text-align: center;
+	}
+	.page-content .brick-blue-link .icon {
+	    padding: 4px 3px 0;
+	    width: 35px;
 	}
 
 }
