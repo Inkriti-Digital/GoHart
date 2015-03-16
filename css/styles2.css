@@ -148,7 +148,15 @@
 .page-content .map-data{
 	
 	margin:0 15px 0 0;
+	width: 32%;
+	float: left;
+
+
 }
+
+.page-content .map-data img{
+		width: 100%;
+	}
 .page-content .map-heading{
 	background: url('../img/metrorapid-service/schedule-img.png') no-repeat 0 0;
 	background-size: 30px 38px;
@@ -160,7 +168,7 @@
 	font-size: 15px;
 }
 .page-content .map{
-	width:370px;
+	width: 100%;
 	margin:0 0 20px 0;
 }
 .page-content .map-data-last{
@@ -715,5 +723,16 @@
 	    padding: 4px 3px 0;
 	    width: 35px;
 	}
+}
 
+
+
+/*JUSTIN OVERRIDES*/
+.page-content .brick-blue-link .brick-blue-link-text {
+  background-color: #0f406b;
+  width: 428px;
+  padding: 8px 0;
+  text-align: center;
+  float: left;
+  width: 76%;
 }
