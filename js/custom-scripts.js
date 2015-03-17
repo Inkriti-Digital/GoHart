@@ -39,12 +39,11 @@ $(document).ready(function(){
 
     //HOVER CONTROLS
      $(".metro-block").hover(function() {
-        console.log('hit in');
+        // console.log('hit in');
          $(this).closest(".metro-block").find(".hover-box .metro-hover").fadeIn();        
          $(this).closest(".metro-block").find("img").animate({
             opacity: 0.5 }, 500, function() { /*complete*/});
-         }, function() {
-            console.log('hit out');
+         }, function() {          
          $(this).closest(".metro-block").find(".hover-box .metro-hover").fadeOut();            
          $(this).closest(".metro-block").find("img").animate({
             opacity: 1          
@@ -109,11 +108,10 @@ $(document).ready(function(){
      $(".menu-ico").click(function(event) {
         $(".main-nav").toggle();
         $(".menu-ico").hide();
+        // console.log('hit nav control');
         setTimeout(function() {            
             $(".close-nav").fadeIn();
         }, 400);
-        
-
 
         //animate main nav in
         $(".main-nav").animate({ 
