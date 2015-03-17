@@ -2517,6 +2517,7 @@ ul b, li b {
 
 .info-chunk {
   background-color: #e6e7e8;
+  margin-bottom: 20px;
 }
 .info-chunk .info-row {
   padding: 7px 15px 5px 15px;
