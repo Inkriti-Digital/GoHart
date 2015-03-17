@@ -13,7 +13,7 @@
 		<!-- Content -->
 
 		<div class="container alerts-detours holiday-sched">
-		
+			<?php include ("views/main-nav.php"); ?>
 			
 			<section class="header">
 				<div class="logo"><img src="img/hart-logo.png"/></div>
@@ -174,9 +174,7 @@
 		</div>
 
 		<!-- Load Scripts -->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<!--script src="js/vendors.js"></script-->
-		<script src="js/custom-scripts.js"></script>
+		<?php include ("views/scripts-load.php"); ?>
 
 	</body>
 </html>

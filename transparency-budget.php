@@ -12,7 +12,9 @@
 
 		<!-- Content -->
 
-		<div class="container fares">			
+		<div class="container fares">
+			<?php include ("views/main-nav.php"); ?>
+					
 			<section class="header corp-trans-head">
 				<div class="logo"><img src="img/hart-logo.png"/></div>
 				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
@@ -107,9 +109,7 @@
 		</div>
 
 		<!-- Load Scripts -->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<!--script src="js/vendors.js"></script-->
-		<script src="js/custom-scripts.js"></script>
+		<?php include ("views/scripts-load.php"); ?>
 
 	</body>
 </html>

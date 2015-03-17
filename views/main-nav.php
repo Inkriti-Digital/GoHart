@@ -36,30 +36,29 @@
 	</div>
 	<div class="secondary">
 		<ul class="subnav-maps">
-			<li><a href="#">HARTRide Fare Cards</a></li>
-			<li><a href="#">Trip Planner / OneBusAway</a></li>
-			<li><a href="#">System Map</a></li>
-			<li><a href="#">Alert &amp; Detours</a></li>
-			<li><a href="#">Holiday Service Schedule</a></li>
-			<li><a href="#">Emergency Evacuation Maps</a></li>
-			<li><a href="#">Park-n-Ride</a></li>
+			<li><a href="maps-trip-planner.php">Trip Planner / OneBusAway</a></li>
+			<li><a href="maps-schedules.php">System Map</a></li>
+			<li><a href="maps-alerts-detours.php">Alert &amp; Detours</a></li>
+			<li><a href="maps-holiday-schedule.php">Holiday Service Schedule</a></li>
+			<li><a href="maps-emergency-evac.php">Emergency Evacuation Maps</a></li>
+			<li><a href="maps-park-ride.php">Park-n-Ride</a></li>
 		</ul>
 
 		<ul class="subnav-fares">
-			<li><a href="#">HARTRide Fare Cards</a></li>
-			<li><a href="#">Sales Locations</a></li>
-			<li><a href="#">Corporate Transit Program</a></li>
-			<li><a href="#">Adult Student Farecards</a></li>
-			<li><a href="#">USF U-Pass Program</a></li>
-			<li><a href="#">Discount Permit Requirements</a></li>
+			<li><a href="fares-cards.php">HARTRide Fare Cards</a></li>
+			<li><a href="fares-locations.php">Sales Locations</a></li>
+			<li><a href="fares-corp-trans.php">Corporate Transit Program</a></li>
+			<li><a href="fares-adult-student.php">Adult Student Farecards</a></li>
+			<li><a href="fares-usfu-pass.php">USF U-Pass Program</a></li>
+			<li><a href="fares-discount-permits.php">Discount Permit Requirements</a></li>
 		</ul>
 
 		<ul class="subnav-services">
-			<li><a href="#">Bus</a></li>
-			<li><a href="#">Van</a></li>
-			<li><a href="#">MetroRapid</a></li>
-			<li><a href="#">TECO Line Streetcar System</a></li>
-			<li><a href="#">Alternative Transportation</a></li>
+			<li><a href="services-bus.php">Bus</a></li>
+			<li><a href="services-van.php">Van</a></li>
+			<li><a href="services-metrorapid.php">MetroRapid</a></li>
+			<li><a href="services-teco-line.php">TECO Line Streetcar System</a></li>
+			<li><a href="services-alternative-transportation.php">Alternative Transportation</a></li>
 		</ul>
 
 		<ul class="subnav-info">
@@ -75,10 +74,10 @@
 		</ul>
 
 		<ul class="subnav-trans">
-			<li><a href="#">Financial Policies</a></li>
-			<li><a href="#">Budget Documents</a></li>
-			<li><a href="#">Financial Reports</a></li>
-			<li><a href="#">Expenditures</a></li>
+			<li><a href="transparency-financial-policies.php">Financial Policies</a></li>
+			<li><a href="transparency-budget.php">Budget Documents</a></li>
+			<li><a href="transparency-reports.php">Financial Reports</a></li>
+			<li><a href="transparency-expenditures.php">Expenditures</a></li>
 			<li><a href="#">Environment</a></li>
 			<li><a href="#">Public Record Requests</a></li>
 			<li><a href="#">EthicsPoint</a></li>

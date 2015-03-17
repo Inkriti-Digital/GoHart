@@ -13,7 +13,7 @@
 		<!-- Content -->
 
 		<div class="container alerts-detours">
-		
+			<?php include ("views/main-nav.php"); ?>		
 			
 			<section class="header">
 				<div class="logo"><img src="img/hart-logo.png"/></div>
@@ -107,8 +107,6 @@
 							<p>Donec sit amet augue sit amet lacus suscipit semper vel vitae ex. Mauris enim felis, hendrerit a tellus in, tincidunt maximus dolor. Cras hendrerit eget ante nec  </p>
 						</div>
 					</div>
-
-
 					<div class="bottom-rule footer-rule">
 						<div class="cta center-cta">
 							<div class="callout">
@@ -120,9 +118,6 @@
 							<hr/>
 						</div>
 					</div>
-
-
-
 					<div class="center footer-ad">
 							<img src="img/service/fpo-ad.jpg"/>
 						</div>
@@ -132,9 +127,7 @@
 		</div>
 
 		<!-- Load Scripts -->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<!--script src="js/vendors.js"></script-->
-		<script src="js/custom-scripts.js"></script>
+		<?php include ("views/scripts-load.php"); ?>
 
 	</body>
 </html>
