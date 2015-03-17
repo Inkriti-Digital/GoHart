@@ -146,12 +146,9 @@
 
 /* maps related styles */
 .page-content .map-data{
-	
 	margin:0 15px 0 0;
 	width: 32%;
 	float: left;
-
-
 }
 
 .page-content .map-data img{
@@ -369,86 +366,6 @@
 
 
 
-/* alternative transport styles - start */
-		.content-body .brick-list .half-column ul{
-			margin: 0 0 0 15px;
-			padding:0 0 10px 0;
-		}
-		.content-body .brick-list .half-column ul li{
-			background: url('../img/list-icon.png') no-repeat 0 7px;
-			padding: 3px 0 3px 19px;
-			list-style: none;
-			margin: 0;
-			line-height: 18px;
-		}
-		
-		.content-body .vanpool-data h2{
-			font-size:19px;
-		}
-		.content-body .vanpool-data-last h2{
-			font-size:19px;
-		}
-		.content-body .vanpool-data-last{
-			float:right;
-			margin:0;
-		}
-		
-		
-		.mid-section .mid-copy.alt-transport-midcopy-1{
-			margin: 25px auto;
-		}
-		.mid-section .mid-copy.alt-transport-midcopy-1 h3{
-			padding: 10px 25px;
-		}
-		.mid-section .mid-copy.alt-transport-midcopy-1 h3.commentby{
-			color:#4AACD9;
-			margin:0;
-			padding:0;
-		}
-		
-		.content-body .brick-list .three-column ul{
-			margin: 0 0 0 0;
-			padding:0 0 10px 0;
-		}
-		.content-body .brick-list .three-column ul li{
-			background: url('../img/list-icon.png') no-repeat 0 7px;
-			padding: 3px 0 3px 19px;
-			list-style: none;
-			margin: 0;
-			line-height: 18px;
-		}
-		.content-body .brick-list .half-column ul.sponsors-list{
-			margin:0;
-			font-weight: bold;
-		}
-		.content-body .brick-list .three-column ul.sponsors2-list{
-			margin:0;
-			font-weight: bold;
-		}
-		.content-body .sponsors-images-list img{
-			vertical-align: middle;
-			padding:0 10px 0 0;
-		}
-		.page-content .column-49{
-			width:49% !important;
-		}
-/* alternative transport styles - end */
-
-
-
-.content-body .three-column {
-  display: inline-block;
-  vertical-align: top;
-  width: 30%;
-  margin-right: 3%;
-}
-.content-body .three-column:last-child {
-  margin-right: 0;
-}
-.page-content .link-colored{
-	color:#4AACD9;
-	font-weight:bold;
-}
 .page-content a.link-colored{
 	color:#4AACD9;
 }
