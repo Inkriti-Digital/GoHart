@@ -96,5 +96,37 @@ ul, li{
 
 .corp-trans-callout{
 	width: 40% !important;
-
 }
+
+.bold-blue{
+	font-family: gothBold, Helvetica, arial, sans-serif;
+	color: #7aaed5;
+	font-weight: normal;
+}
+
+
+.download-pdf{
+ 	vertical-align: middle;
+ 	color: #6699CC;
+ 	margin-top: -12px;
+ 	margin-bottom: 20px;
+
+
+ 	a{
+ 		color: #666;
+ 		// top: -12px;
+ 	}
+
+ 	span{
+ 		display: inline-block;
+ 		font-family: gothBold, Helvetica, arial, sans-serif;
+ 		// top: -12px;
+ 		padding-left: 5px;
+ 		color: #7aaed5;
+ 	}
+
+ 	img{
+ 		width: 5%;
+ 		top: 13px;
+ 	}
+ }

@@ -11,22 +11,7 @@
 	}
  
 
- .map-descript{
- 	border: 1px #666 solid;	
- 	background: url(../img/diagonal-pattern.png) repeat;
- 	text-align: center;
-
- 	p{
- 		background-color: white;
- 		padding: 10px;
- 		display: inline-block;
- 		margin-top: 15px;
- 		width: 80%;
- 		color: #3399CC;
- 		font-style: italic;
- 		font-size: 20px;
- 	}
- }
+ 
 
  .schedule-nav{
  	margin-bottom: 30px;
@@ -139,3 +124,20 @@
  		}
  	}	
 }
+
+.map-descript{
+ 	border: 1px #666 solid;	
+ 	background: url(../img/diagonal-pattern.png) repeat;
+ 	text-align: center;
+
+ 	p{
+ 		background-color: white;
+ 		padding: 10px;
+ 		display: inline-block;
+ 		margin-top: 15px;
+ 		width: 80%;
+ 		color: #3399CC;
+ 		font-style: italic;
+ 		font-size: 20px;
+ 	}
+ }

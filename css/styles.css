@@ -2504,6 +2504,32 @@ ul b, li b {
   width: 40% !important;
 }
 
+.bold-blue {
+  font-family: gothBold, Helvetica, arial, sans-serif;
+  color: #7aaed5;
+  font-weight: normal;
+}
+
+.download-pdf {
+  vertical-align: middle;
+  color: #6699CC;
+  margin-top: -12px;
+  margin-bottom: 20px;
+}
+.download-pdf a {
+  color: #666;
+}
+.download-pdf span {
+  display: inline-block;
+  font-family: gothBold, Helvetica, arial, sans-serif;
+  padding-left: 5px;
+  color: #7aaed5;
+}
+.download-pdf img {
+  width: 5%;
+  top: 13px;
+}
+
 /**
  * $MAIN-NAV
  * ==========================================================================
@@ -2772,21 +2798,6 @@ ul b, li b {
   background-size: 100%;
   height: 300px;
 }
-.maps-scheduels .map-descript {
-  border: 1px #666 solid;
-  background: url(../img/diagonal-pattern.png) repeat;
-  text-align: center;
-}
-.maps-scheduels .map-descript p {
-  background-color: white;
-  padding: 10px;
-  display: inline-block;
-  margin-top: 15px;
-  width: 80%;
-  color: #3399CC;
-  font-style: italic;
-  font-size: 20px;
-}
 .maps-scheduels .schedule-nav {
   margin-bottom: 30px;
 }
@@ -2868,6 +2879,22 @@ ul b, li b {
 }
 .cta .callout div .cta-page {
   color: #6699CC;
+  font-size: 20px;
+}
+
+.map-descript {
+  border: 1px #666 solid;
+  background: url(../img/diagonal-pattern.png) repeat;
+  text-align: center;
+}
+.map-descript p {
+  background-color: white;
+  padding: 10px;
+  display: inline-block;
+  margin-top: 15px;
+  width: 80%;
+  color: #3399CC;
+  font-style: italic;
   font-size: 20px;
 }
 
