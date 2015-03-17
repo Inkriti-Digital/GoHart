@@ -2472,6 +2472,11 @@ section h1 {
   width: 32%;
   margin-right: 1%;
 }
+.three-up .col-33 {
+  width: 32%;
+  display: inline-block;
+  margin-right: 1%;
+}
 
 ul, li {
   list-style-type: none;
@@ -2508,6 +2513,25 @@ ul b, li b {
   font-family: gothBold, Helvetica, arial, sans-serif;
   color: #7aaed5;
   font-weight: normal;
+}
+
+.info-chunk {
+  background-color: #e6e7e8;
+}
+.info-chunk .info-row {
+  padding: 7px 15px 5px 15px;
+  border-bottom: 1px #7aaed5 solid;
+  color: #003366;
+}
+.info-chunk .info-title {
+  color: white;
+  background-color: #7aaed5;
+  text-align: center;
+  margin: 10px 0px;
+}
+.info-chunk .last-info-row {
+  border-bottom: none;
+  padding-bottom: 10px;
 }
 
 .download-pdf {
