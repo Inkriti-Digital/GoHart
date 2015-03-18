@@ -78,9 +78,9 @@
 			<li><a href="transparency-budget.php">Budget Documents</a></li>
 			<li><a href="transparency-reports.php">Financial Reports</a></li>
 			<li><a href="transparency-expenditures.php">Expenditures</a></li>
-			<li><a href="#">Environment</a></li>
-			<li><a href="#">Public Record Requests</a></li>
-			<li><a href="#">EthicsPoint</a></li>
+			<li><a href="transparency-environment.php">Environment</a></li>
+			<li><a href="transparency-public-record-requests.php">Public Record Requests</a></li>
+			<li><a href="transparency-ethicspoint.php">EthicsPoint</a></li>
 		</ul>
 
 		<ul class="subnav-about">
