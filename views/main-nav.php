@@ -62,9 +62,9 @@
 		</ul>
 
 		<ul class="subnav-info">
-			<li><a href="#">How to Ride HART</a></li>
-			<li><a href="#">HART App Center</a></li>
-			<li><a href="#">Links</a></li>
+			<li><a href="travelinfo-how-to-ride-hart.php">How to Ride HART</a></li>
+			<li><a href="travelinfo-hart-app-center.php">HART App Center</a></li>
+			<li><a href="travelinfo-links.php">Links</a></li>
 		</ul>
 
 		<ul class="subnav-customer">

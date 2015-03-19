@@ -436,6 +436,113 @@
 
 
 
+
+/*  Transparency - environment styles - Start */
+	.content-body .half-column.environment-dept-contact{
+		margin:0;
+		width:53%;
+	}
+/*  Transparency - environment styles - End */
+
+
+/*  Transparency - public record requests styles - Start */
+	.content-body .point-no-area{
+		width:6%;
+		height:60px;
+		margin:7px 10px 0 0;
+		display:inline-block;
+		float:left;
+		text-align:center;
+		background: url("../img/diagonal-pattern.png") repeat scroll 0 0 #003567;
+	}
+	.content-body .point-no{
+		padding:5px 15px;
+		background-color: #003567;
+		color:#FFFFFF;
+		font-weight:400;
+		margin-top:11px;
+		display:inline-block;
+		font-size:20px;
+	}
+	.content-body .point-description{
+		display:inline-block;
+		width:93%;
+		float:left;
+	}
+	
+	
+	.content-body .half-column .point-no-area{
+		width:12%;
+		height:60px;
+		margin:7px 10px 0 0;
+		display:inline-block;
+		float:left;
+		text-align:center;
+		background: url("../img/diagonal-pattern.png") repeat scroll 0 0 #003567;
+	}
+	.content-body .half-column .point-no{
+		padding:5px 10px;
+		background-color: #003567;
+		color:#FFFFFF;
+		font-weight:400;
+		margin-top:11px;
+		display:inline-block;
+		font-size:20px;
+	}
+	.content-body .half-column .point-description{
+		display:inline-block;
+		width:85%;
+		float:left;
+	}
+/*  Transparency - public record requests styles - End */
+
+
+
+/* Travelinfo - Hart App center Styles - Start */
+	.header .headline-appcenter{
+		width:390px;
+	}
+	.info-icons{
+		width:8%;
+		float:left;
+		margin:5px 10px 0 0;
+	}
+	.info-icons-description{
+		width:87%;
+		float:left;
+		margin:0 0 30px 0;
+	}
+/* Travelinfo - Hart App center Styles - End */ 
+
+
+
+
+
+/* Travelinfo - How to ride Hart Styles - Start */
+	.content-body .half-column ul.no-margin{
+		margin:0;
+	}
+	a.link-normal{
+		color:#FFFFFF;
+		text-decoration: none;
+	}
+	.videoWrapper {
+		position: relative;
+		padding-bottom: 56.25%; /* 16:9 */
+		padding-top: 25px;
+		height: 0;
+	}
+	.videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+/* Travelinfo - How to ride Hart Styles - End */
+
+
+
 .content-body .three-column {
   display: inline-block;
   vertical-align: top;
@@ -452,6 +559,12 @@
 .page-content a.link-colored{
 	color:#4AACD9;
 }
+.page-content a.bold-blue{
+	color: #7aaed5;
+	font-family: gothBold,Helvetica,arial,sans-serif;
+	font-weight: 400;
+}
+    
 .content-body .half-column {
     margin-right: 3%;
     width: 46%;
@@ -521,13 +634,21 @@
 	.content-body .brick .brick-head {
 		padding-top: 12px;
 	}
+	.half-column.brick-column{
+		padding:0;
+		margin-right:0;
+		margin-bottom:15px;
+	}
+	.half-column.brick-column.brick-column-last {
+	    margin-right: 0;
+	}
 .left{
 	float:left;
 }
 .right{
 	float:right;
 }
-
+	
 
 
 
