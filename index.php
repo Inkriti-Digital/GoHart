@@ -176,6 +176,5 @@
 
 		<!-- Load Scripts -->		
 		<?php include ("views/scripts-load.php"); ?>
-
 	</body>
 </html>
