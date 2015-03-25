@@ -68,8 +68,18 @@ body{
  }
 
  .landing{
- 	 background: url('../img/home-bg1.jpg') no-repeat;
+ 	 background: url('../img/home/home-top-bg.jpg') no-repeat;
  	 background-size: 100%;
+
+ 	 .bus{
+ 	 	background: url('../img/home/bus-home1.png') no-repeat;
+ 	 	background-size: 82%;
+ 	 	position: absolute;
+ 	 	width: 100%;
+ 	 	height: 500px;
+ 	 	bottom: 3%;
+ 	 	left: -40%;
+ 	 }
 
  	.logo{
  	 	position: absolute;
@@ -225,7 +235,7 @@ body{
  	 }
 
  	 .metro-main{
- 	 	background: url('../img/home-bg2-tall.jpg') no-repeat;
+ 	 	background: url('../img/home/services-bg.jpg') no-repeat;
  	 	background-size: 100%;
  	 }
 
@@ -375,7 +385,7 @@ body{
 
  .gohart{
  	margin-top: 50px;
- 	background: url('../img/home-bg3.jpg') no-repeat;
+ 	background: url('../img/home/ocean-view-bg.jpg') no-repeat;
  	background-size: 100%;
 
 

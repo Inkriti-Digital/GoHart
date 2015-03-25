@@ -10,9 +10,7 @@
 		<link rel="stylesheet" href="css/styles2.css">
 	</head>
 	<body>
-
 		<!-- Content -->
-
 		<div class="container services">
 			<?php include ("views/main-nav.php"); ?>
 			

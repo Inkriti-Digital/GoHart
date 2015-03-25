@@ -15,11 +15,7 @@
 		<div class="container">
 			<?php include ("views/main-nav.php"); ?>
 
-			<section class="landing">
-				<div class="bus">
-
-				</div>
-
+			<section class="landing" data-0="background-position:0px 0px;" data-500="background-position:0px 250px;">
 				<div class="logo"><img src="img/hart-logo.png"/></div>
 				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
 
@@ -80,7 +76,7 @@
 					</div>
 					<div class="clear-fix"></div>
 				</div>
-				<div class="metro-main">
+				<div class="metro-main" data-500="background-position:0px 0px;" data-1500="background-position:0px -300px;">
 					<div class="metro-box">
 						<span class="metro-title">METRORAPID</span><hr/>
 						<ul>
@@ -150,7 +146,7 @@
 					</div>
 				</div>
 			</section>
-			
+			<!-- <section class="gohart" data-2000="background-position:0px 0px;" data-2800="background-position:0px -250px;"> -->
 			<section class="gohart">
 				<div class="gohart-title">
 					<h1>WHEREVER YOU NEED</h1><br/>
@@ -180,6 +176,5 @@
 
 		<!-- Load Scripts -->		
 		<?php include ("views/scripts-load.php"); ?>
-		<script src="js/home-animation.js"></script>
 	</body>
 </html>
