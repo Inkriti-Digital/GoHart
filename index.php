@@ -76,7 +76,7 @@
 						<div class="hover-box">
 							<span class="metro-hover"> ALTERNATIVE <br/> TRANSPORTATION </span>
 						</div>
-						<img src="img/HOME/service-nav-plus.png"/>
+						<img src="img/home/service-nav-plus.png"/>
 					</div>
 					<div class="clear-fix"></div>
 				</div>
