@@ -1783,6 +1783,8 @@ section h1 {
   max-width: 62px;
   cursor: pointer;
   z-index: 250;
+  background-color: rgba(14, 21, 45, 0.8);
+  padding: 10px;
 }
 .landing .bus-ico {
   position: absolute;
@@ -1912,8 +1914,8 @@ section h1 {
   background-position: right;
   position: absolute;
   width: 82%;
-  height: 80%;
-  bottom: 4%;
+  height: 92%;
+  bottom: 1%;
   right: 0;
 }
 .metro .metro-box {

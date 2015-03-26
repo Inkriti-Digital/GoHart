@@ -97,6 +97,8 @@ body{
 		max-width: 62px;
 		cursor: pointer;
 		z-index: 250;
+		background-color: rgba(14,21,45,.8);
+		padding: 10px;
  	 }
 
  	 .bus-ico{
@@ -247,8 +249,8 @@ body{
 	 	 	background-position: right;
 	 	 	position: absolute;
 	 	 	width: 82%;
-	 	 	height: 80%;
-	 	 	bottom: 4%;
+	 	 	height: 92%;
+	 	 	bottom: 1%;
 	 	 	right: 0;
  	 	}
  	 }
