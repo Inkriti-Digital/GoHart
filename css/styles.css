@@ -1934,6 +1934,7 @@ section h1 {
   font-size: 1.5em;
   line-height: 1.3em;
   margin-bottom: 10px;
+  cursor: pointer;
   letter-spacing: 0.03em;
   font-family: gothMed, Helvetica, Arial, sans-serif;
 }
@@ -1950,6 +1951,9 @@ section h1 {
 }
 .metro .metro-box ul .arrow img, .metro .metro-box li .arrow img {
   width: 18px;
+}
+.metro .metro-box li {
+  cursor: pointer;
 }
 .metro .metro-icons {
   position: absolute;

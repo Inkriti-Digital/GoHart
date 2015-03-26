@@ -12,13 +12,11 @@
 
 		<!-- Content -->
 
-		
-
 		<div class="container">
 			<?php include ("views/main-nav.php"); ?>
 
 			<section class="landing">
-				<div class="bus">
+				<div class="bus" data-0="left: -40%;" data-500="left: -10%">
 
 				</div>
 
