@@ -1886,6 +1886,7 @@ section h1 {
   position: absolute;
   left: 50%;
   margin-top: 19%;
+  cursor: pointer;
 }
 .metro .metro-nav .metro-block .metro-hover {
   position: relative;
@@ -1897,6 +1898,7 @@ section h1 {
   padding: 3px 5px;
   padding-top: 5px;
   display: none;
+  cursor: pointer;
 }
 .metro .metro-main {
   background: url("../img/home/services-bg.jpg") no-repeat;

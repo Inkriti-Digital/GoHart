@@ -207,6 +207,7 @@ body{
  	 		cursor: pointer;
  	 		text-align: center;
  	 		vertical-align: middle;
+ 	 		// cursor: pointer;
 
  	 		img{
  	 			width: 75%;
@@ -218,6 +219,7 @@ body{
  	 			position: absolute;
  	 			left: 50%;
  	 			margin-top: 19%;
+ 	 			cursor: pointer;
  	 		}
  	 		.metro-hover{
  	 			position: relative;
@@ -230,6 +232,7 @@ body{
 				padding-top: 5px;
 				// opacity: 0.5;
 				display: none;
+				cursor: pointer;
  	 		}
  	 	}
  	 }

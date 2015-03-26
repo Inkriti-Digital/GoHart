@@ -50,33 +50,33 @@
 					</div>
 					<div class="metro-block">
 						<div class="hover-box">
-							<span class="metro-hover">METRORAPID</span>
+							<span class="metro-hover">BUS</span>
 						</div>
-						<img src="img/metro-nav-fpo.png"/>
+						<img src="img/home/service-nav-bus.png"/>
 					</div>
 					<div class="metro-block">
 						<div class="hover-box">
 							<span class="metro-hover">METRORAPID</span>
 						</div>
-						<img src="img/metro-nav-fpo.png"/>
+						<img src="img/home/service-nav-metrorapid.png"/>
 					</div>
 					<div class="metro-block">
 						<div class="hover-box">
-							<span class="metro-hover">METRORAPID</span>
+							<span class="metro-hover">VAN</span>
 						</div>
-						<img src="img/metro-nav-fpo.png"/>
+						<img src="img/home/service-nav-flex.png"/>
 					</div>
 					<div class="metro-block">
 						<div class="hover-box">
-							<span class="metro-hover">METRORAPID</span>
+							<span class="metro-hover"> STREETCAR <BR/> SYSTEM </span>
 						</div>
-						<img src="img/metro-nav-fpo.png"/>
+						<img src="img/home/service-nav-trolly.png"/>
 					</div>
 					<div class="metro-block">
 						<div class="hover-box">
-							<span class="metro-hover">METRORAPID</span>
+							<span class="metro-hover"> ALTERNATIVE <br/> TRANSPORTATION </span>
 						</div>
-						<img src="img/metro-nav-fpo.png"/>
+						<img src="img/HOME/service-nav-plus.png"/>
 					</div>
 					<div class="clear-fix"></div>
 				</div>
