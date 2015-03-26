@@ -1877,10 +1877,12 @@ section h1 {
   cursor: pointer;
   text-align: center;
   vertical-align: middle;
+  cursor: pointer;
 }
 .metro .metro-nav .metro-block img {
   width: 75%;
   margin: 5%;
+  cursor: pointer;
 }
 .metro .metro-nav .metro-block .hover-box {
   position: absolute;
@@ -1903,6 +1905,16 @@ section h1 {
 .metro .metro-main {
   background: url("../img/home/services-bg.jpg") no-repeat;
   background-size: 100%;
+}
+.metro .metro-main .metro-foreground {
+  background: url("../img/home/servnav-bus.png") no-repeat;
+  background-size: 100%;
+  background-position: right;
+  position: absolute;
+  width: 82%;
+  height: 550px;
+  bottom: 4%;
+  right: 0;
 }
 .metro .metro-box {
   background-color: rgba(14, 21, 45, 0.8);

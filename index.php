@@ -48,31 +48,31 @@
 					<div class="metro-arrow">
 						<img src="img/metro-arrow.png"/>
 					</div>
-					<div class="metro-block">
+					<div id="servnav-bus" class="metro-block">
 						<div class="hover-box">
 							<span class="metro-hover">BUS</span>
 						</div>
 						<img src="img/home/service-nav-bus.png"/>
 					</div>
-					<div class="metro-block">
+					<div id="servnav-metro" class="metro-block">
 						<div class="hover-box">
 							<span class="metro-hover">METRORAPID</span>
 						</div>
 						<img src="img/home/service-nav-metrorapid.png"/>
 					</div>
-					<div class="metro-block">
+					<div id="servnav-van" class="metro-block">
 						<div class="hover-box">
 							<span class="metro-hover">VAN</span>
 						</div>
 						<img src="img/home/service-nav-flex.png"/>
 					</div>
-					<div class="metro-block">
+					<div id="servnav-streetcar" class="metro-block">
 						<div class="hover-box">
 							<span class="metro-hover"> STREETCAR <BR/> SYSTEM </span>
 						</div>
 						<img src="img/home/service-nav-trolly.png"/>
 					</div>
-					<div class="metro-block">
+					<div id="servnav-alt" class="metro-block">
 						<div class="hover-box">
 							<span class="metro-hover"> ALTERNATIVE <br/> TRANSPORTATION </span>
 						</div>
@@ -81,6 +81,7 @@
 					<div class="clear-fix"></div>
 				</div>
 				<div class="metro-main">
+					<div class="metro-foreground"></div>
 					<div class="metro-box">
 						<span class="metro-title">METRORAPID</span><hr/>
 						<ul>

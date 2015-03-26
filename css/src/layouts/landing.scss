@@ -207,12 +207,12 @@ body{
  	 		cursor: pointer;
  	 		text-align: center;
  	 		vertical-align: middle;
- 	 		// cursor: pointer;
+ 	 		cursor: pointer;
 
  	 		img{
  	 			width: 75%;
  	 			margin: 5%;
- 	 			
+ 	 			cursor: pointer;
  	 		}
 
  	 		.hover-box{
@@ -240,6 +240,17 @@ body{
  	 .metro-main{
  	 	background: url('../img/home/services-bg.jpg') no-repeat;
  	 	background-size: 100%;
+
+ 	 	.metro-foreground{
+ 	 		background: url('../img/home/servnav-bus.png') no-repeat;
+	 	 	background-size: 100%;
+	 	 	background-position: right;
+	 	 	position: absolute;
+	 	 	width: 82%;
+	 	 	height: 550px;
+	 	 	bottom: 4%;
+	 	 	right: 0;
+ 	 	}
  	 }
 
  	 .metro-box{
