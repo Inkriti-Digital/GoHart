@@ -27,10 +27,13 @@
 			</section>
 			<section class="page-content planner">
 
-				<div class="content-block content-body">
-					<div class="bottom-rule">
-						<div class="cta"><span>SYSTEM MAP</span><hr/></div>
-					</div>
+				<div class="content-block">
+					
+					
+				<div class="bottom-rule">
+					<div class="cta"><span>SYSTEM MAP</span><hr/></div>
+				</div>
+				<div class="content-body">
 					<img src="img/maps-sched/map-full.jpg"/>
 					<div class="map-descript">
 						<p>
@@ -38,11 +41,12 @@
 							Lorem ipsum dolor sit amet, consectetur adipiscing  
 						</p>
 					</div>
+				</div>
 								
 					<div class="bottom-rule">
 						<div class="cta"><span>SCHEDULES</span><hr/></div>
 					</div>
-
+				<div class="content-body">
 					<div class="schedule-nav">
 						<a href="#">BUS</a>
 						<a href="#">METRORAPID</a>
@@ -286,10 +290,14 @@
 
 					<div class="center footer-ad">
 							<img src="img/service/fpo-ad.jpg"/>
+							<div class="gototop">
+								<img src="img/gotop.png" />
+							</div>
 						</div>
 					</div>
 				</div>				
 			</section>
+			</div>
 		</div>
 
 		<!-- Load Scripts -->

@@ -40,6 +40,8 @@
 					</div>
 					<div class="info-graphic">
 						<img src="img/service/info-graphic.jpg"/>
+						<br/>
+						<span class="paid-ad-text">Paid Ad</span>
 					</div>
 
 
@@ -120,6 +122,9 @@
 					</div>
 					<div class="center footer-ad">
 							<img src="img/service/fpo-ad.jpg"/>
+							<div class="gototop">
+								<img src="img/gotop.png" />
+							</div>
 						</div>
 					</div>
 				</div>				
