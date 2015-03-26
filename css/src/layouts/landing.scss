@@ -263,20 +263,20 @@ body{
  	 	padding: 20px;
 
  	 	.metro-title{
- 	 		color: white;
- 	 		margin-bottom: 15px;
- 	 		display: inline-block;
- 	 		width: 29%;
- 	 		vertical-align: top;
+ 	 		color: #fff;
+			position: absolute;
+			margin-top: -8px;
+			vertical-align: top;
  	 	}
 
  	 	hr{
- 	 		width: 70%;
- 	 		background-color: white;
-	 	 	color: white;
-	 	 	border-color: white;
- 	 		display: inline-block;
- 	 		margin-top: 10px;
+ 	 	  width: 100%;
+		  background-color: #fff;
+		  color: #fff;
+		  border-color: #fff;
+		  display: inline-block;
+		  margin-top: 15px;
+		  float: right;
  	 	}
 
 

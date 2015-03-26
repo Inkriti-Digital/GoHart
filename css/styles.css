@@ -1926,19 +1926,19 @@ section h1 {
   padding: 20px;
 }
 .metro .metro-box .metro-title {
-  color: white;
-  margin-bottom: 15px;
-  display: inline-block;
-  width: 29%;
+  color: #fff;
+  position: absolute;
+  margin-top: -8px;
   vertical-align: top;
 }
 .metro .metro-box hr {
-  width: 70%;
-  background-color: white;
-  color: white;
-  border-color: white;
+  width: 100%;
+  background-color: #fff;
+  color: #fff;
+  border-color: #fff;
   display: inline-block;
-  margin-top: 10px;
+  margin-top: 15px;
+  float: right;
 }
 .metro .metro-box ul, .metro .metro-box li {
   list-style-type: none;

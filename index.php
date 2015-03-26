@@ -83,7 +83,7 @@
 				<div class="metro-main">
 					<div class="metro-foreground"></div>
 					<div class="metro-box">
-						<span class="metro-title">METRORAPID</span><hr/>
+						<span class="metro-title">BUS</span><hr/>
 						<ul>
 							<li><a href="#">MAPS <span class="arrow"><img src="img/metro-boxnav-arrow.png"/></span></a></li>
 							<li><a href="#">SCHEDULES <span class="arrow"><img src="img/metro-boxnav-arrow.png"/></span></a></li>
