@@ -3091,3 +3091,13 @@ ul b, li b {
 }
 
 /*# sourceMappingURL=styles.css.map */
+
+
+/* gototop image styles - Start */
+	.gototop{
+		position:absolute;
+		bottom:20px;
+		right:50px;
+		cursor:pointer;
+	}
+/* gototop image styles - End */
