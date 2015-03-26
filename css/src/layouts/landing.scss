@@ -428,6 +428,33 @@ body{
  		color: #666;
  		padding: 65px 75px;
 
+ 		.content-app, .content-links{ display: none; }
+
+ 		.tab{			
+			background-color: #7aaed5;
+			color: #fff;
+			font-size: 11px;
+			position: absolute;
+			float: left;
+			left: 0px;	
+			top: 0;		
+			transform: rotate(90deg);
+		 	transform-origin: left top 0;
+		 	padding: 6px;
+		 	cursor: pointer;
+		}
+		.tab2{
+			top: 95px;
+		}
+		.tab3{
+			top: 183px;
+		}
+
+		.active{
+			background-color: rgba(255,255,255,0.85);
+			color: #7aaed5;
+		}
+
  		h2{
  			font-weight: normal;
 			font-family: gothBook, Helvetica, Arial, sans-serif;
@@ -438,6 +465,7 @@ body{
  			width: 48%;
  			display: inline-block;
  			margin-right: 20px;
+ 			vertical-align: top;
 
  			.button{
  				background-color: #7aaed5;

@@ -27,4 +27,35 @@ $(document).ready(function(){
        $( ".metro-title" ).text( "ALTERNATIVE TRANSPORTATION" );
     });
 
+
+
+
+    $(".tab1").click(function() {
+        $(".tab1").addClass("active");
+        $(".tab2").removeClass("active");
+        $(".tab3").removeClass("active");
+
+        $(".content-howto").show();
+        $(".content-app").hide();
+        $(".content-links").hide();
+    });
+    $(".tab2").click(function() {
+        $(".tab1").removeClass("active");
+        $(".tab2").addClass("active");
+        $(".tab3").removeClass("active");
+
+        $(".content-howto").hide();
+        $(".content-app").show();
+        $(".content-links").hide();
+    });
+    $(".tab3").click(function() {
+        $(".tab1").removeClass("active");
+        $(".tab2").removeClass("active");
+        $(".tab3").addClass("active");
+
+        $(".content-howto").hide();
+        $(".content-app").hide();
+        $(".content-links").show();
+    });
+
 });
