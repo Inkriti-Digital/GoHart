@@ -19,7 +19,7 @@
 				<div class="logo"><img src="img/hart-logo.png"/></div>
 				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
 
-				<div class="headline">
+				<div class="headline heading-salesLocations">
 					<h1>SALES</h1>
 					<h1>LOCATIONS</h1>
 				</div>
@@ -107,58 +107,28 @@
 							<div class="marker-details">
 								<div>
 									<a href="#">
-									<span>HART at City Hall</span></a>
+									<span>Bay Check Cashing</span></a>
 								</div>
-								<div class="marker-address">
-									306 E. Jackson Street
-								</div>
-							</div>
-							<div class="marker-details">
-								<div>
-									<a href="#">
-									<span>HART at City Hall</span></a>
-								</div>
-								<div class="marker-address">
-									306 E. Jackson Street
+								<div class="marker-address-2">
+									5239 S. Dale Mabry Hwy.
 								</div>
 							</div>
 							<div class="marker-details">
 								<div>
 									<a href="#">
-									<span>HART at City Hall</span></a>
+									<span>Check Point Check Cashing</span></a>
 								</div>
-								<div class="marker-address">
-									306 E. Jackson Street
-								</div>
-							</div>
-						</div>
-
-						<div class="map-locations">
-							<div class="marker-details">
-								<div>
-									<a href="#">
-									<span>HART at City Hall</span></a>
-								</div>
-								<div class="marker-address">
-									306 E. Jackson Street
+								<div class="marker-address-2">
+									2062 E. Busch Blvd.
 								</div>
 							</div>
 							<div class="marker-details">
 								<div>
 									<a href="#">
-									<span>HART at City Hall</span></a>
+									<span>Shop Rite Food Store</span></a>
 								</div>
-								<div class="marker-address">
-									306 E. Jackson Street
-								</div>
-							</div>
-							<div class="marker-details">
-								<div>
-									<a href="#">
-									<span>HART at City Hall</span></a>
-								</div>
-								<div class="marker-address">
-									306 E. Jackson Street
+								<div class="marker-address-2">
+									2518 N. Albany Ave.
 								</div>
 							</div>
 						</div>
@@ -167,28 +137,49 @@
 							<div class="marker-details">
 								<div>
 									<a href="#">
-									<span>HART at City Hall</span></a>
+									<span>Cash Plus</span></a>
 								</div>
-								<div class="marker-address">
-									306 E. Jackson Street
-								</div>
-							</div>
-							<div class="marker-details">
-								<div>
-									<a href="#">
-									<span>HART at City Hall</span></a>
-								</div>
-								<div class="marker-address">
-									306 E. Jackson Street
+								<div class="marker-address-2">
+									7306 W. Waters Avenue
 								</div>
 							</div>
 							<div class="marker-details">
 								<div>
 									<a href="#">
-									<span>HART at City Hall</span></a>
+									<span>MacDill Air Force Base</span></a>
 								</div>
-								<div class="marker-address">
-									306 E. Jackson Street
+								<div class="marker-address-2">
+									Ticket & Tours Base Exchange
+								</div>
+							</div>
+							<div class="marker-details">
+								<div>
+									<a href="#">
+									<span>Westshore Plaza</span></a>
+								</div>
+								<div class="marker-address-2">
+									Commuter Assistance Center 250 Westshore Plaza
+								</div>
+							</div>
+						</div>
+
+						<div class="map-locations">
+							<div class="marker-details">
+								<div>
+									<a href="#">
+									<span>Conimark Mail Center</span></a>
+								</div>
+								<div class="marker-address-2">
+									1715 Fowler Ave
+								</div>
+							</div>
+							<div class="marker-details">
+								<div>
+									<a href="#">
+									<span>The Newstand (Britton Plaza)</span></a>
+								</div>
+								<div class="marker-address-2">
+									3934 S. Dale Mabry Hwy.
 								</div>
 							</div>
 						</div>
@@ -198,10 +189,20 @@
 						
 
 						<div class="bottom-rule footer-rule">
-						<div class="cta center-cta"><img src="img/locations/location-lower-cta.png"/><hr/></div>
+						<div class="cta center-cta">
+							<div class="callout corp-trans-callout">
+								<div>
+									<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
+									<span class="cta-page"><a href="fares-corp-trans.php">CORPORATE TRANSIT PROGRAM</a></span>
+								</div>
+							</div>
+						<hr/></div>
 					</div>
 					<div class="center footer-ad">
 							<img src="img/service/fpo-ad.jpg"/>
+							<div class="gototop">
+								<img src="img/gotop.png" />
+							</div>
 						</div>
 					</div>
 				</div>				

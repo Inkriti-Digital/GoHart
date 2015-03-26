@@ -19,7 +19,7 @@
 				<div class="logo"><img src="img/hart-logo.png"/></div>
 				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
 
-				<div class="headline">
+				<div class="headline heading-farecards">
 					<h1>HART</h1>
 					<h1>FARECARDS</h1>
 				</div>
@@ -35,7 +35,7 @@
 						<div class="info">
 							<p>Ideal for passengers using more than one bus to reach their destination. Receive unlimited local rides on the date your pass is activated. Transfers are not necessary - ride everywhere you want to go in a day. Can be purchased on board the bus or from any HART sales outlet. Valid for unlimited rides all day. Sold in local, discount and express fare categories.</p>
 
-							<div class="tix-box">
+							<div class="tix-box fullColumnWidth">
 								<div class="tix-row">
 									<div class="tix-type">LOCAL &amp; LIMITED EXPRESS</div>
 									<div class="tix-fare">$4.00<img src="img/fares/tix-ico.png"/></div>
@@ -56,6 +56,8 @@
 						</div>
 						<div class="info-graphic">
 							<img src="img/service/info-graphic.jpg"/>
+							<br/>
+							<span class="paid-ad-text">Paid ad</span>
 						</div>
 
 
@@ -75,19 +77,19 @@
 							<div class="tix-box">
 									<div class="tix-row">
 										<div class="tix-type">LOCAL &amp; LIMITED EXPRESS</div>
-										<div class="tix-fare">$4.00<img src="img/fares/tix-ico.png"/></div>
+										<div class="tix-fare">$2.00<img src="img/fares/tix-ico.png"/></div>
 									</div>
 									<div class="tix-row blue-row">
 										<div class="tix-type">DISCOUNT LOCAL &amp; LIMITED EXPRESS</div>
-										<div class="tix-fare">$2.00<img src="img/fares/tix-ico-white.png"/></div>
+										<div class="tix-fare">$1.00<img src="img/fares/tix-ico-white.png"/></div>
 									</div>
 									<div class="tix-row">
 										<div class="tix-type">EXPRESS</div>
-										<div class="tix-fare">$6.00</div>
+										<div class="tix-fare">$3.00</div>
 									</div>
 									<div class="tix-row blue-row">
 										<div class="tix-type">DISCOUNT EXPRESS</div>
-										<div class="tix-fare">$3.00</div>
+										<div class="tix-fare">$1.50</div>
 									</div>					
 								<div class="disclaimer">*Check PSTA.net for fares if you are traveling into Pinellas.</div>
 							</div>
@@ -129,6 +131,35 @@
 
 							<div class="disclaimer">The following are available at HART facilities and HART Farecards outlets only:</div>
 						</div>	
+						
+						
+						
+						<div class="bottom-rule">
+							<div class="cta"><span>31-DAY UNLIMITED HARTRIDE</span><hr/></div>
+						</div>
+
+						<div class="info-tix">
+							<p>Saves you time and money. Purchase this pass at the end of each month, and you're set to ride for the next month. Transfers are not necessary - each time you board, show your pass to the driver and you're ready to ride!</p>
+
+							<div class="tix-box">
+								<div class="tix-row">
+									<div class="tix-type">LOCAL &amp; LIMITED EXPRESS</div>
+									<div class="tix-fare">$65.00<img src="img/fares/tix-ico.png"/></div>
+								</div>
+								<div class="tix-row blue-row">
+									<div class="tix-type">DISCOUNT LOCAL &amp; LIMITED EXPRESS</div>
+									<div class="tix-fare">$32.50<img src="img/fares/tix-ico-white.png"/></div>
+								</div>
+								<div class="tix-row">
+									<div class="tix-type">EXPRESS</div>
+									<div class="tix-fare">$95.00<img src="img/fares/tix-ico.png"/></div>
+								</div>
+								<div class="tix-row blue-row">
+									<div class="tix-type">DISCOUNT EXPRESS</div>
+									<div class="tix-fare">$47.50<img src="img/fares/tix-ico-white.png"/></div>
+								</div>
+							</div>
+						</div>
 
 
 						<div class="bottom-rule">
@@ -140,20 +171,20 @@
 
 							<div class="tix-box">
 								<div class="tix-row">
-									<div class="tix-type">LOCAL &amp; LIMITED EXPRESS</div>
-									<div class="tix-fare">$4.00<img src="img/fares/tix-ico.png"/></div>
+									<div class="tix-type">10-PACK LOCAL &amp; LIMITED EXPRESS</div>
+									<div class="tix-fare">$38.00<img src="img/fares/tix-ico.png"/></div>
 								</div>
 								<div class="tix-row blue-row">
-									<div class="tix-type">DISCOUNT LOCAL &amp; LIMITED EXPRESS</div>
-									<div class="tix-fare">$2.00<img src="img/fares/tix-ico-white.png"/></div>
+									<div class="tix-type">10-PACK DISCOUNT LOCAL &amp; LIMITED EXPRESS</div>
+									<div class="tix-fare">$18.50<img src="img/fares/tix-ico-white.png"/></div>
 								</div>
 								<div class="tix-row">
-									<div class="tix-type">EXPRESS</div>
-									<div class="tix-fare">$6.00<img src="img/fares/tix-ico.png"/></div>
+									<div class="tix-type">10-PACK EXPRESS</div>
+									<div class="tix-fare">$53.00<img src="img/fares/tix-ico.png"/></div>
 								</div>
 								<div class="tix-row blue-row">
-									<div class="tix-type">DISCOUNT EXPRESS</div>
-									<div class="tix-fare">$3.00<img src="img/fares/tix-ico-white.png"/></div>
+									<div class="tix-type">10-PACK DISCOUNT EXPRESS</div>
+									<div class="tix-fare">$26.50<img src="img/fares/tix-ico-white.png"/></div>
 								</div>
 							</div>
 						</div>
@@ -174,10 +205,10 @@
 									<div class="tix-fare">$11.75<img src="img/fares/tix-ico.png"/></div>
 								</div>
 								<div class="tix-row blue-row">
-									<div class="tix-type">D3-DAY VISITOR/GROUP</div>
-									<div class="tix-fare">$9.50<img src="img/fares/tix-ico-white.png"/></div>
+									<div class="tix-type">3-DAY VISITOR/GROUP</div>
+									<div class="tix-fare">$9.50 EACH<img src="img/fares/tix-ico-white.png"/></div>
 								</div>
-								<div class="disclaimer">*Only available for bulk purchase of 200 or more passes. Call 813-254-HART  for details.</div>
+								<div class="disclaimer">*Only available for bulk purchase of 200 or more passes. Call <a href="" class="bold-blue">813-254-HART</a>  for details.</div>
 								
 							</div>
 						</div>
@@ -227,12 +258,17 @@
 							</div>
 						<div>
 
-						<div class="bottom-rule">
-							<div class="cta"><span>REGULATIONS</span><hr/></div>
-						</div>
 
 						<h2>DISCOUNT FARES</h2>
-						<p>Passengers MUST have a HART discount permit or paratransit permit to ride for a discount fare, with the exception of Medicare cardholders (see below). Passengers using a discount fare HART Farecard without the proper HART permit will be charged the full cash fare each time they ride.  Proper HART or PSTA identification is required to receive discount fare: Seniors, 65 years and older; Youth, 5-17 years; People with Disabilities. Effective November 8, 2009, Medicare cardholders need only show their original red, white and blue Medicare card onboard to obtain the discount. Students HART discount permits can be purchased at Marion Transit Center, HART on Franklin Transit Center, University Area Transit Center, or executive offices, upon proof of eligibility. Call the HARTinfo Line at (813) 254-4278  for further details on discount permit qualifications.</p>
+						<p>
+							Passengers MUST have a HART discount permit or paratransit permit to ride for a discount fare, with the exception of Medicare cardholders (see below). Passengers using a discount fare HART Farecard without the proper HART permit will be charged the full cash fare each time they ride.  
+						</p>
+						<p>
+							Proper HART or PSTA identification is required to receive discount fare: Seniors, 65 years and older; Youth, 5-17 years; People with Disabilities. Effective November 8, 2009, Medicare cardholders need only show their original red, white and blue Medicare card onboard to obtain the discount. 
+						</p>
+						<p>
+							Students HART discount permits can be purchased at Marion Transit Center, HART on Franklin Transit Center, University Area Transit Center, or executive offices, upon proof of eligibility. Call the HARTinfo Line at <a href="" class="bold-blue">(813) 254-4278</a>  for further details on discount permit qualifications.
+						</p>
 
 						<div>
 							<div class="half-column">
@@ -269,6 +305,9 @@
 					</div>
 					<div class="center footer-ad">
 							<img src="img/service/fpo-ad.jpg"/>
+							<div class="gototop">
+								<img src="img/gotop.png" />
+							</div>
 						</div>
 					</div>
 				</div>				

@@ -2223,6 +2223,7 @@ section h1 {
   padding-left: 10px;
   padding-top: 10px;
   margin-left: 2%;
+  width:50%;
 }
 .page-content .hours ul {
   display: inline-block;
@@ -2464,8 +2465,9 @@ section h1 {
 .tix-box .tix-row .tix-fare {
   float: right;
   border-left: 1px #666 solid;
-  padding-right: 12%;
+  padding-right: 8%;
   width: 25%;
+  text-align:right;
 }
 .tix-box .tix-row .tix-fare img {
   position: absolute;
@@ -2482,7 +2484,7 @@ section h1 {
 
 .disclaimer {
   font-style: italic;
-  font-size: 12px;
+  font-size: 15px;
   coor: #666;
   margin-top: 5px;
 }
@@ -2503,6 +2505,7 @@ section h1 {
   width: 32%;
   display: inline-block;
   margin-right: 1%;
+  vertical-align:top;
 }
 
 ul, li {
@@ -2733,7 +2736,7 @@ ul b, li b {
   padding: 0px;
 }
 .purchase-tix span {
-  margin: 0 10px;
+  margin: 0 25px;
   display: inline-block;
   vertical-align: top;
   padding-top: 12px;
@@ -2760,6 +2763,11 @@ ul b, li b {
   color: #666;
   font-size: 12px;
   padding-left: 15px;
+}
+.map-locations .marker-address-2 {
+  color: #666;
+  font-size: 12px;
+  padding-left: 2px;
 }
 .map-locations a {
   color: #3399CC;
@@ -2915,7 +2923,7 @@ ul b, li b {
   background: url(../img/diagonal-pattern.png) white repeat;
   height: 80px;
   width: 35%;
-  top: 35px;
+  top: 25px;
   z-index: 5;
 }
 .cta .callout div {
@@ -2931,7 +2939,7 @@ ul b, li b {
 }
 .cta .callout div .cta-page {
   color: #6699CC;
-  font-size: 20px;
+  font-size: 21px;
 }
 
 .map-descript {
@@ -3103,3 +3111,24 @@ ul b, li b {
 }
 
 /*# sourceMappingURL=styles.css.map */
+
+
+/* gototop image styles - Start */
+	.gototop{
+		position:absolute;
+		bottom:20px;
+		right:50px;
+		cursor:pointer;
+	}
+/* gototop image styles - End */
+
+	.paid-ad-text{
+		font-size:14px;
+		text-align:right;
+	}
+	
+	
+	.paid-ad-text{font-size:14px;text-align:right;}
+	.headline.heading-farecards{width:500px;}
+	.headline.heading-salesLocations{width:500px;}
+	.page-content .fullColumnWidth{width:100%;}

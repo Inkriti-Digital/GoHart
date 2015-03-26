@@ -186,6 +186,12 @@ $(document).ready(function(){
         subNav = '.subnav-trans';
         showSubNav();        
     });
+	
+	//Click event to scroll to top
+	$('.gototop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
 
     function showSubNav(){
         //$('.main-nav .secondary').css('width', '225px');
