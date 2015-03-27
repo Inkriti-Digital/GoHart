@@ -28,7 +28,7 @@
 			<section class="page-content planner">
 				<div class="content-block content-body">
 					<div class="bottom-rule">
-						<div class="cta"><span>HART HOLIDAY SERVICE SCHEDULE FOR FISCAL YEAR 2015</span><hr/></div>
+						<div class="cta"><span>HURRICANE EVACUATION ROUTES</span><hr/></div>
 					</div>
 					<div>
 						<h2>MOVING YOU TO SAFETY</h2>
@@ -54,6 +54,36 @@
 							<a class="pdf-downlaod last">								
 								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 								<span class="download-title">ROUTE D</span>		
+							</a>
+							
+							<a class="pdf-downlaod">								
+								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
+								<span class="download-title">ROUTE E</span>		
+							</a>
+							<a class="pdf-downlaod">								
+								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
+								<span class="download-title">ROUTE F</span>		
+							</a>
+							<a class="pdf-downlaod">								
+								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
+								<span class="download-title">ROUTE G</span>		
+							</a>
+							<a class="pdf-downlaod last">								
+								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
+								<span class="download-title">ROUTE H</span>		
+							</a>
+							
+							<a class="pdf-downlaod">								
+								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
+								<span class="download-title">ROUTE I</span>		
+							</a>
+							<a class="pdf-downlaod">								
+								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
+								<span class="download-title">ROUTE J</span>		
+							</a>
+							<a class="pdf-downlaod pdf-downlaod-2columns">								
+								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
+								<span class="download-title">HURRICANE SYSTEM MAP</span>		
 							</a>
 						</div>
 					</div>
@@ -118,27 +148,30 @@
 						<p>There will be five buses on each route circulating continuously, and there will be a unit departing the bus stop approximately every five to ten minutes.</p>
 					</div>
 
-					<div class="half-column">
-						<h2>WHAT TO CARRY ON BOARD</h2>
-						<ul class="sideby-list">
-							<li><img src="img/locations/locaiton-ico.png"/>One suitcase per person</li>
-							<li><img src="img/locations/locaiton-ico.png"/>Clothing for three days per person</li>
-							<li><img src="img/locations/locaiton-ico.png"/>Medications and toiletries</li>
-							<li><img src="img/locations/locaiton-ico.png"/>Medications and toiletries</li>
-							<li><img src="img/locations/locaiton-ico.png"/>Pillows and blankets</li>
-							<li><img src="img/locations/locaiton-ico.png"/>Flashlight and batteries</li>
-						</ul>
-						<ul class="sideby-list">
-							<li><img src="img/locations/locaiton-ico.png"/>Identification</li>
-							<li><img src="img/locations/locaiton-ico.png"/>Cash</li>
-							<li><img src="img/locations/locaiton-ico.png"/>Valuable papers</li>
-							<li><img src="img/locations/locaiton-ico.png"/>Drinking water and some non-perishable foods</li>
-							<li><img src="img/locations/locaiton-ico.png"/>Books, games</li>
-						</ul>
-					</div>
-					<div class="half-column">
-						<h2>AREAS NOT PART OF REGULAR ROUTES</h2>
-						<p>The Hillsborough County School District will operate school buses to evacuate people in areas not covered by the 10 HART evacuation routes.  For more information, residents should call the Hillsborough County Emergency Operations Center at 813-272-6900.</p>
+					<div class="brick-list">
+						<div class="half-column">
+							<h2>WHAT TO CARRY ON BOARD</h2>
+							<ul class="sideby-list">
+								<li>One suitcase per person</li>
+								<li>Clothing for three days per person</li>
+								<li>Medications and toiletries</li>
+								<li>Medications and toiletries</li>
+								<li>Pillows and blankets</li>
+								<li>Flashlight and batteries</li>
+							</ul>
+							<ul class="sideby-list">
+								<li>Identification</li>
+								<li>Cash</li>
+								<li>Valuable papers</li>
+								<li>Drinking water and some non-perishable foods</li>
+								<li>Books, games</li>
+							</ul>
+						</div>
+					
+						<div class="half-column">
+							<h2>AREAS NOT PART OF REGULAR ROUTES</h2>
+							<p>The Hillsborough County School District will operate school buses to evacuate people in areas not covered by the 10 HART evacuation routes.  For more information, residents should call the Hillsborough County Emergency Operations Center at 813-272-6900.</p>
+						</div>
 					</div>
 					<a href="#" class="need-to-know">
 						<b><i>CLICK HERE</i></b>  for a printable version of the “need to know” of HART Emergency Evacuation Service.
@@ -148,7 +181,7 @@
 							<div class="callout">
 								<div>
 									<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
-									<span class="cta-page"><a href="#">EMERGENCY EVACUATION MAPS</a></span>
+									<span class="cta-page"><a href="maps-park-ride.php">PARK-N-RIDES</a></span>
 								</div>
 							</div>
 							<hr/>

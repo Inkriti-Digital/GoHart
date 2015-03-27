@@ -26,7 +26,7 @@
   margin-left: 0;
 }
 .page-content .how-it-works ul li {
-  background: url('../img/list-icon.png') no-repeat 0 7px;
+  background: url('../img/list-icon.png') no-repeat 0 5px;
   padding: 3px 0 3px 19px;
   /* reset styles (optional): */
   list-style: none;
@@ -42,7 +42,7 @@
   margin-left: 0;
 }
 .page-content .schedule-points ul li {
-  background: url('../img/list-icon.png') no-repeat 0 7px;
+  background: url('../img/list-icon.png') no-repeat 0 5px;
   padding: 3px 0 3px 19px;
   /* reset styles (optional): */
   list-style: none;
@@ -62,7 +62,7 @@
   margin-left: 0;
 }
 .page-content .north-south-points ul li {
-  background: url('../img/list-icon.png') no-repeat 0 7px;
+  background: url('../img/list-icon.png') no-repeat 0 5px;
   padding: 3px 0 3px 19px;
   /* reset styles (optional): */
   list-style: none;
@@ -244,7 +244,7 @@
 		   margin-left: 0;
 		}
 		.page-content .equal-access-points ul li {
-		  background: url('../img/list-icon.png') no-repeat 0 7px;
+		  background: url('../img/list-icon.png') no-repeat 0 5px;
 		  padding: 3px 0 3px 19px;
 		  /* reset styles (optional): */
 		  list-style: none;
@@ -336,7 +336,7 @@
 			padding:0 0 10px 0;
 		}
 		.content-body .brick .half-column ul li{
-			background: url('../img/list-icon.png') no-repeat 0 7px;
+			background: url('../img/list-icon.png') no-repeat 0 5px;
 			padding: 3px 0 3px 19px;
 			list-style: none;
 			margin: 0;
@@ -375,7 +375,7 @@
 			padding:0 0 10px 0;
 		}
 		.content-body .brick-list .half-column ul li{
-			background: url('../img/list-icon.png') no-repeat 0 7px;
+			background: url('../img/list-icon.png') no-repeat 0 5px;
 			padding: 3px 0 3px 19px;
 			list-style: none;
 			margin: 0;
@@ -411,7 +411,7 @@
 			padding:0 0 10px 0;
 		}
 		.content-body .brick-list .three-column ul li{
-			background: url('../img/list-icon.png') no-repeat 0 7px;
+			background: url('../img/list-icon.png') no-repeat 0 5px;
 			padding: 3px 0 3px 19px;
 			list-style: none;
 			margin: 0;
@@ -690,7 +690,7 @@
 		padding:0 0 10px 0;
 	}
 	.content-body .brick-list ul li{
-		background: url('../img/list-icon.png') no-repeat 0 7px;
+		background: url('../img/list-icon.png') no-repeat 0 5px;
 		padding: 3px 0 3px 19px;
 		list-style: none;
 		margin: 0;
@@ -1109,7 +1109,7 @@
 }
  .cta .callout div .cta-page {
 	color: #6699CC;
-	font-size: 21px;
+	font-size: 22px;
 }
 /* gototop image styles - Start */
 .gototop{
@@ -1119,10 +1119,24 @@
 	cursor:pointer;
 }
 /* gototop image styles - End */
+.emergency .need-to-know {font-weight: normal;}
+.alerts-detours .alert-detail {font-size: 18px;}
+.planner h2 {font-size: 18px;}
 .paid-ad-text{font-size:14px;text-align:right;float:right;}
 .headline.heading-farecards{width:500px;}
 .headline.heading-salesLocations{width:500px;}
 .page-content .fullColumnWidth{width:100%;}
+
+.pdf-downlaod-2columns {
+    margin: 0;
+    width: 48.5%;
+}
+.pdf-downlaod-2columns .pdf-ico{
+	width: 9.5%;
+}
+.pdf-downlaod-2columns .download-title{
+	margin-top: 5%;
+}
 
 
 
@@ -1165,7 +1179,7 @@
 		width: 333px;
 	}
 	
-	.corp-trans-callout {
+	.cta .callout, .corp-trans-callout {
 	    width: 52% !important;
 	}
 	.page-content .help-you select {
@@ -1177,6 +1191,18 @@
 	    width: 31%;
 	}
 	.three-up .col-33{width:31%;}
+	
+	.maps-scheduels .download-pdf span {
+	    top: 4px;
+	}
+	.maps-scheduels .schedule-nav a {
+	    margin: 0 0 5px;
+	}
+	
+	
+	.alerts-detours .rider-alert {
+	    height: auto;
+	}
 	
 	.gototop {
 	    bottom: 0;
@@ -1242,7 +1268,7 @@
    	font-size: 14px;
 	}
 	
-	.corp-trans-callout {
+	.cta .callout, .corp-trans-callout {
 	    width: 65% !important;
 	}
 	
@@ -1259,6 +1285,28 @@
 	}
 	.three-up .col-33{width:31%;}
 	
+	.maps-scheduels .download-pdf span {
+	    top: -6px;
+	}
+	.maps-scheduels .schedule-nav a {
+	    margin: 0 0 5px;
+	}
+	
+	
+	.alerts-detours .rider-alert {
+	    height: auto;
+	}
+	
+	.pdf-downlaod .download-title {
+	    margin-top: 8%;
+	    padding-left: 12%;
+	}
+	.pdf-downlaod {
+	    width: 22%;
+	}
+	
+	
+	
 	
 	/* OVERRIDES of CSS for tix row */
 	.tix-box{width:100%;}
@@ -1272,6 +1320,41 @@
 
 @media only screen and (max-width: 650px) {
 	.three-up .col-33{width:31%;}
+	
+	.maps-scheduels .download-pdf span {
+	    top: -4px;
+	}
+	.maps-scheduels .schedule-nav a {
+	    margin: 0 0 5px;
+	}
+	
+	.cta .callout, .corp-trans-callout {
+	    width: 77% !important;
+	}
+	
+	.planner .cta-buttons {
+	    width: 100%;
+	}
+	.alerts-detours .rider-alert {
+	    height: auto;
+	}
+	.alerts-detours .detour-detail {
+	    width: 82%;
+	}
+	
+	.pdf-downlaod {
+	    width: 47%;
+	}
+	
+	.pdf-downlaod-2columns {
+	    margin: 0;
+	    width: 97% !important;
+	}
+	.pdf-downlaod-2columns .download-title {
+	    margin-top: 5% !important;
+	    padding-left: 6.5%;
+	}
+	
 }
 
 
@@ -1355,7 +1438,7 @@
    	font-size: 16px;
 	}
 	
-	.corp-trans-callout {
+	.cta .callout, .corp-trans-callout {
 	    width: 100% !important;
 	}
 	
@@ -1386,6 +1469,43 @@
 	.three-up .col-33 {
 	    width: 100%;
 	}
+	
+	.maps-scheduels .download-pdf span {
+	    top: 2px;
+	}
+	.maps-scheduels .schedule-nav a {
+	    margin: 0 0 5px;
+	}
+	
+	.planner .cta-buttons {
+	    width: 100%;
+	}
+	.alerts-detours .rider-alert {
+	    height: auto;
+	}
+	.alerts-detours .detour-detail {
+	    width: 79%;
+	}
+	
+	.pdf-downlaod {
+	    width: 100%;
+	}
+	
+	
+	.pdf-downlaod-2columns {
+	    margin: 0;
+	    width: 100% !important;
+	}
+	.pdf-downlaod-2columns .pdf-ico {
+	    width: 19.5%;
+	}
+	.pdf-downlaod .download-title {
+	    margin-top: 6%;
+	}
+	.pdf-downlaod-2columns .download-title {
+	    padding-left: 13%;
+	}
+	
 	
 	/* OVERRIDES of CSS for tix row */
 	.tix-box{width:100%;}
@@ -1558,6 +1678,57 @@
 	.three-up .col-33 {
 	    width: 100%;
 	}
+	
+	.maps-scheduels .download-pdf span {
+	    top: 6px;
+	}
+	.maps-scheduels .schedule-nav a {
+	    margin: 0 0 5px;
+	}
+	
+	.planner .cta-buttons {
+	    width: 100%;
+	}
+	.alerts-detours .rider-alert {
+	    height: auto;
+	}
+	.alerts-detours .detour-detail {
+	    width: 79%;
+	}
+	
+	
+	.holiday-block .holiday-date .holiday {
+	    margin-top: 95%;
+	}
+	.holiday-block .holiday-detail {
+	    width: 75%;
+	}
+	.holiday-block {
+	    height: 165px;
+	}
+	
+	.pdf-downlaod {
+	    width: 100%;
+	}
+	
+	
+	.pdf-downlaod-2columns {
+	    margin: 0;
+	    width: 100% !important;
+	}
+	.pdf-downlaod-2columns .pdf-ico {
+	    width: 19.5%;
+	}
+	.pdf-downlaod .download-title {
+	    padding-left: 8%;
+	}
+	.pdf-downlaod .download-title {
+	    margin-top: 9%;
+	}
+	.pdf-downlaod-2columns .download-title {
+	    margin-top: 9% !important;
+	}
+	
 	
 	
 	/* OVERRIDES of CSS for tix row */

@@ -69,65 +69,66 @@
 						<h2>HART PARK-N-RIDE LOCATIONS</h2>
 						<p>Commuter Express service park-and-ride locations, with their corresponding Commuter Express routes, are listed below for your convenience. <b>*Note:  Parking is NOT available at Marion Transit Center.</b>  There is a private lot across the street from MTC that does provide a low-cost parking alternative.</p>
 					</div>
-
-					<div class="half-column">
-						<ul>
-							<li><img src="img/locations/locaiton-ico.png"/><b>Apollo Beach Winn-Dixie</b> • Routes 31, 47LX
-							</li>
-							<li><img src="img/locations/locaiton-ico.png"/><b>Burnett Park (County Road 579)</b> • Route 28X
-							</li>
-							<li><img src="img/locations/locaiton-ico.png"/><b>Carrollwood Baptist Church</b> • Route 61LX
-							</li>
-							<li><img src="img/locations/locaiton-ico.png"/><b>Crossroads Community United Methodist Church</b> (County Line Road near Bruce B. Downs - Pasco County) • Route 51X
-							</li>
-							<li><img src="img/locations/locaiton-ico.png"/><b>Culbreath at Bloomingdale Ave. – Brandon</b> • Routes 25LX, 27LX
-							</li>
-							<li><img src="img/locations/locaiton-ico.png"/><b>Dover (Dover Road at Hwy. 60)</b> • Route 22X
-							</li>
-							<li><img src="img/locations/locaiton-ico.png"/><b>Eddie C. Moore Park (Drew/McMullen Booth Road, Clearwater)</b>• Route 200X
-							</li>
-							<li><img src="img/locations/locaiton-ico.png"/><b>FishHawk Sports Complex (FishHawk Blvd.) </b>• Routes 24X, 27LX
-							</li>
-							<li><img src="img/locations/locaiton-ico.png"/><b>First Baptist Church of Lutz (U.S. 41)</b> • Route 20X
-							</li>
-							<li><img src="img/locations/locaiton-ico.png"/><b>Hidden River Regional Park-n-Ride</b> • MetroRapid North-South
-							</li>
-						</ul>
-					</div>
-
-					<div class="half-column">
-						<ul>
-							<li><img src="img/locations/locaiton-ico.png"/><b>J.C. Handley Park (next to Kingswood Elementary School, </b> • Routes 25LX, 27LX
-							</li>
-							<li><img src="img/locations/locaiton-ico.png"/><b>Lowe's (Bruce B. Downs at Commerce Palm Dr.)</b>  • Route 51X
-							</li>
-							<li><img src="img/locations/locaiton-ico.png"/><b>Mt. Zion Assembly of God</b>  • Route 28X
-							</li>
-							<li><img src="img/locations/locaiton-ico.png"/><b>Netpark Transfer Center</b> • Routes 6, 15, 32, 34, 37, 39, 41, 57
-							</li>
-							<li><img src="img/locations/locaiton-ico.png"/><b>Northwest Transfer Center</b> • Routes 16, 30, 34, 39, 61LX, Town 'N Country Flex
-							</li>
-							<li><img src="img/locations/locaiton-ico.png"/><b>Riverview Oaks (US 301 at Boyette Rd.)</b>  • Routes 24X, 27LX, 31
-							</li>
-							<li><img src="img/locations/locaiton-ico.png"/><b>Rogers Field (Parsons/Sadie, Brandon)</b> • Route 22X
-							</li>
-							<li><img src="img/locations/locaiton-ico.png"/><b>South 301 (SR 674 at 301, behind Wal-Mart)</b>• Route 47LX, 5 3LX
-							</li>
-							<li><img src="img/locations/locaiton-ico.png"/><b>Temple Terrace City Hall</b>  • Routes 6, 6LTD
-							</li>
-							<li><img src="img/locations/locaiton-ico.png"/><b>Ulmerton Park and Ride (St. Petersburg) </b> • Route 300X (PSTA)
-							</li>
-							<li><img src="img/locations/locaiton-ico.png"/><b>Victorious Life Church (Pasco County)</b> • Route 51X
-							</li>
-						</ul>
-					</div>
+					
+					<div class="brick-list">
+						<div class="half-column">
+							<ul>
+								<li><b>Apollo Beach Winn-Dixie</b> • Routes 31, 47LX
+								</li>
+								<li><b>Burnett Park (County Road 579)</b> • Route 28X
+								</li>
+								<li><b>Carrollwood Baptist Church</b> • Route 61LX
+								</li>
+								<li><b>Crossroads Community United Methodist Church</b> (County Line Road near Bruce B. Downs - Pasco County) • Route 51X
+								</li>
+								<li><b>Culbreath at Bloomingdale Ave. – Brandon</b> • Routes 25LX, 27LX
+								</li>
+								<li><b>Dover (Dover Road at Hwy. 60)</b> • Route 22X
+								</li>
+								<li><b>Eddie C. Moore Park (Drew/McMullen Booth Road, Clearwater)</b>• Route 200X
+								</li>
+								<li><b>FishHawk Sports Complex (FishHawk Blvd.) </b>• Routes 24X, 27LX
+								</li>
+								<li><b>First Baptist Church of Lutz (U.S. 41)</b> • Route 20X
+								</li>
+								<li><b>Hidden River Regional Park-n-Ride</b> • MetroRapid North-South
+								</li>
+							</ul>
+						</div>
+	
+						<div class="half-column">
+							<ul>
+								<li><b>J.C. Handley Park (next to Kingswood Elementary School, </b> • Routes 25LX, 27LX
+								</li>
+								<li><b>Lowe's (Bruce B. Downs at Commerce Palm Dr.)</b>  • Route 51X
+								</li>
+								<li><b>Mt. Zion Assembly of God</b>  • Route 28X
+								</li>
+								<li><b>Netpark Transfer Center</b> • Routes 6, 15, 32, 34, 37, 39, 41, 57
+								</li>
+								<li><b>Northwest Transfer Center</b> • Routes 16, 30, 34, 39, 61LX, Town 'N Country Flex
+								</li>
+								<li><b>Riverview Oaks (US 301 at Boyette Rd.)</b>  • Routes 24X, 27LX, 31
+								</li>
+								<li><b>Rogers Field (Parsons/Sadie, Brandon)</b> • Route 22X
+								</li>
+								<li><b>South 301 (SR 674 at 301, behind Wal-Mart)</b>• Route 47LX, 5 3LX
+								</li>
+								<li><b>Temple Terrace City Hall</b>  • Routes 6, 6LTD
+								</li>
+								<li><b>Ulmerton Park and Ride (St. Petersburg) </b> • Route 300X (PSTA)
+								</li>
+								<li><b>Victorious Life Church (Pasco County)</b> • Route 51X
+								</li>
+							</ul>
+						</div>
 		
 					<div class="bottom-rule footer-rule">
 						<div class="cta center-cta">
 							<div class="callout">
 								<div>
 									<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
-									<span class="cta-page"><a href="#">FARES</a></span>
+									<span class="cta-page"><a href="fares.php">FARES</a></span>
 								</div>
 							</div>
 							<hr/>
