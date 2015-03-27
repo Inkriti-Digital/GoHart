@@ -15,10 +15,8 @@
 		<div class="container">
 			<?php include ("views/main-nav.php"); ?>
 
-			<section class="landing">
-				<div class="bus" data-0="left: -40%;" data-500="left: -10%">
-
-				</div>
+			<section class="landing" data-0="background-position: 40% 0%;" data-500="background-position: 0% 0%;">
+				<div class="bus" data-0="left: -40%;" data-500="left: 0%"></div>
 
 				<div class="logo"><img src="img/hart-logo.png"/></div>
 				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
@@ -52,7 +50,7 @@
 						<div class="hover-box">
 							<span class="metro-hover">BUS</span>
 						</div>
-						<img src="img/home/service-nav-bus.png"/>
+						<img src="img/home/servnav-bus.jpg"/>
 					</div>
 					<div id="servnav-metro" class="metro-block">
 						<div class="hover-box">
@@ -64,19 +62,19 @@
 						<div class="hover-box">
 							<span class="metro-hover">VAN</span>
 						</div>
-						<img src="img/home/service-nav-flex.png"/>
+						<img src="img/home/servnav-van.jpg"/>
 					</div>
 					<div id="servnav-streetcar" class="metro-block">
 						<div class="hover-box">
 							<span class="metro-hover"> STREETCAR <BR/> SYSTEM </span>
 						</div>
-						<img src="img/home/service-nav-trolly.png"/>
+						<img src="img/home/servnav-trolly.jpg"/>
 					</div>
 					<div id="servnav-alt" class="metro-block">
 						<div class="hover-box">
 							<span class="metro-hover"> ALTERNATIVE <br/> TRANSPORTATION </span>
 						</div>
-						<img src="img/home/service-nav-plus.png"/>
+						<img src="img/home/servnav-alt.jpg"/>
 					</div>
 					<div class="clear-fix"></div>
 				</div>
@@ -153,6 +151,7 @@
 			</section>
 			
 			<section class="gohart">
+				<div class="bus" data-3000="left: -40%;" data-3500="left: 0%"></div>
 				<div class="gohart-title">
 					<h1>WHEREVER YOU NEED</h1><br/>
 					<h1>TO GO, GO HART</h1>
