@@ -1399,6 +1399,9 @@
 	color: #6699CC;
 	font-size: 21px;
 }
+
+
+
 /* gototop image styles - Start */
 .gototop{
 	position:absolute;
@@ -1407,6 +1410,12 @@
 	cursor:pointer;
 }
 /* gototop image styles - End */
+
+.paid-ad-text{
+	font-size:14px;
+	text-align:right;
+}
+
 .paid-ad-text{font-size:14px;text-align:right;}
 .headline.heading-farecards{width:500px;}
 .headline.heading-salesLocations{width:500px;}
