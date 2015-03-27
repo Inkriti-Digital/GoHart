@@ -1060,6 +1060,73 @@
    	width: 100%;
 	}
 	
+	
+	
+/* OVERRIDES STYLES OF STYLES.CSS*/
+.page-content .help-you select {
+	border: none;
+	text-transform: uppercase;
+	color: #083b70;
+	line-height: 45px;
+	height: 45px;
+	font-size: 16px;
+	background-color: #ccc;
+	padding: 5px;
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-left: 2%;
+	width:50%;
+}
+.tix-box .tix-row .tix-fare {
+	float: right;
+	border-left: 1px #666 solid;
+	padding-right: 8%;
+	width: 25%;
+	text-align:right;
+}
+.disclaimer {
+	font-style: italic;
+	font-size: 15px;
+	coor: #666;
+	margin-top: 5px;
+}
+.three-up .col-33 {
+	width: 32%;
+	display: inline-block;
+	margin-right: 1%;
+	vertical-align:top;
+}
+.purchase-tix span {
+	margin: 0 25px;
+	display: inline-block;
+	vertical-align: top;
+	padding-top: 12px;
+}
+.map-locations .marker-address-2 {
+	color: #666;
+	font-size: 12px;
+	padding-left: 2px;
+}
+ .cta .callout div .cta-page {
+	color: #6699CC;
+	font-size: 21px;
+}
+/* gototop image styles - Start */
+.gototop{
+	position:absolute;
+	bottom:20px;
+	right:50px;
+	cursor:pointer;
+}
+/* gototop image styles - End */
+.paid-ad-text{font-size:14px;text-align:right;float:right;}
+.headline.heading-farecards{width:500px;}
+.headline.heading-salesLocations{width:500px;}
+.page-content .fullColumnWidth{width:100%;}
+
+
+
+	
 
 
 
@@ -1096,6 +1163,24 @@
 	
 	.page-content .schedule-language .brick-blue-link-text {
 		width: 333px;
+	}
+	
+	.corp-trans-callout {
+	    width: 52% !important;
+	}
+	.page-content .help-you select {
+	    width: 100%;
+	}
+	
+	.three-up img {
+	    margin-right: 1%;
+	    width: 31%;
+	}
+	.three-up .col-33{width:31%;}
+	
+	.gototop {
+	    bottom: 0;
+	    right: 0;
 	}
 
 }
@@ -1156,8 +1241,38 @@
 	.page-content .brick-blue-link .brick-blue-link-text1 {
    	font-size: 14px;
 	}
+	
+	.corp-trans-callout {
+	    width: 65% !important;
+	}
+	
+	.select-locations .location-select {
+	    width: 55%;
+	}
+	.page-content .help-you select {
+	    width: 100%;
+	}
+	
+	.three-up img {
+	    margin-right: 1%;
+	    width: 31%;
+	}
+	.three-up .col-33{width:31%;}
+	
+	
+	/* OVERRIDES of CSS for tix row */
+	.tix-box{width:100%;}
+	.gototop {
+		bottom: -40px;
+		right: 0;
+	}
 }
 
+
+
+@media only screen and (max-width: 650px) {
+	.three-up .col-33{width:31%;}
+}
 
 
 @media only screen and (max-width: 568px) {
@@ -1176,6 +1291,14 @@
 	.page-content .metro-rapid-parts .metro-rapid-parts-bg {
    	padding: 12px 0;
    	width: 430px;
+	}
+	
+	
+	.page-content .content-block .info {
+	    width: 100%;
+	}
+	.page-content .content-block .info-graphic {
+	    width: 100%;
 	}
 	
 	
@@ -1232,12 +1355,73 @@
    	font-size: 16px;
 	}
 	
+	.corp-trans-callout {
+	    width: 100% !important;
+	}
+	
+	.map-locations .marker-details {
+	    width: 100%;
+	}
+	.select-locations .location-type {
+	    width: 100%;
+	}
+	.select-locations .location-select {
+	    width: 100%;
+	}
+	
+	.three-up img {
+	    margin-right: 0%;
+	    width: 100%;
+	}
+	
+	.cta-buttons {
+	    width: 100%;
+	}
+	
+	.header h1 {
+	    display: block;
+	    font-size: 20px;
+	    width:260px;
+	}
+	.three-up .col-33 {
+	    width: 100%;
+	}
+	
+	/* OVERRIDES of CSS for tix row */
+	.tix-box{width:100%;}
+	.tix-box .tix-row .tix-type {
+	    width: 65%;
+	    border-right: 1px solid #666;
+	}
+	.tix-box .tix-row .tix-fare {
+	    border-left: 0px solid #666;
+	    float: right;
+	    padding-right: 16%;
+	    text-align: right;
+	    width: 35%;
+	}
+	.tix-box .tix-row .tix-fare img {
+		margin-right: 4%;
+	}
+	.page-content .help-you {
+		margin-left: 0;
+	}
+	.page-content .help-you select {
+		margin-left: 0;
+		width: 100%;
+		margin-bottom:10px;
+	}
+	.gototop {
+		bottom: -40px;
+		right: 0;
+	}
+	
 }
 
 
 
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) {
 	.container{
 		font-size:14px;
 		width:100%;
@@ -1335,6 +1519,78 @@
 	    padding: 4px 3px 0;
 	    width: 35px;
 	}
+	
+	.purchase-tix .tix-ico {
+	    padding: 8px 1px 0;
+	}
+	.purchase-tix span {
+	    font-size: 12px;
+	    margin: 0 5px;
+	    padding-top: 12px;
+	}
+	.cta .callout {
+	    height: auto;
+	}
+	.map-locations .marker-details {
+	    width: 100%;
+	}
+	.select-locations .location-type {
+	    width: 100%;
+	}
+	.select-locations .location-select {
+	    width: 100%;
+	}
+	
+	.three-up img {
+	    margin-right: 0%;
+	    width: 100%;
+	}
+	.cta-buttons {
+	    width: 100%;
+	}
+	
+	
+	.header h1 {
+	    display: block;
+	    font-size: 20px;
+	}
+	
+	.three-up .col-33 {
+	    width: 100%;
+	}
+	
+	
+	/* OVERRIDES of CSS for tix row */
+	.tix-box{width:100%;}
+	.tix-box .tix-row .tix-type {
+	    width: 65%;
+	    border-right: 1px solid #666;
+	}
+	.tix-box .tix-row .tix-fare {
+	    border-left: 0px solid #666;
+	    float: right;
+	    padding-right: 16%;
+	    text-align: right;
+	    width: 35%;
+	}
+	.tix-box .tix-row .tix-fare img {
+		margin-right: 4%;
+	}
+	.page-content .help-you {
+		margin-left: 0;
+	}
+	.page-content .help-you select {
+		margin-left: 0;
+		width: 100%;
+		margin-bottom:10px;
+	}
+	.gototop {
+		bottom: -40px;
+		right: 0;
+	}
+	
+	
+	
 }
 
 
@@ -1350,64 +1606,3 @@
 }
 
 
-/* OVERRIDES STYLES OF STYLES.CSS*/
-.page-content .help-you select {
-	border: none;
-	text-transform: uppercase;
-	color: #083b70;
-	line-height: 45px;
-	height: 45px;
-	font-size: 16px;
-	background-color: #ccc;
-	padding: 5px;
-	padding-left: 10px;
-	padding-top: 10px;
-	margin-left: 2%;
-	width:50%;
-}
-.tix-box .tix-row .tix-fare {
-	float: right;
-	border-left: 1px #666 solid;
-	padding-right: 8%;
-	width: 25%;
-	text-align:right;
-}
-.disclaimer {
-	font-style: italic;
-	font-size: 15px;
-	coor: #666;
-	margin-top: 5px;
-}
-.three-up .col-33 {
-	width: 32%;
-	display: inline-block;
-	margin-right: 1%;
-	vertical-align:top;
-}
-.purchase-tix span {
-	margin: 0 25px;
-	display: inline-block;
-	vertical-align: top;
-	padding-top: 12px;
-}
-.map-locations .marker-address-2 {
-	color: #666;
-	font-size: 12px;
-	padding-left: 2px;
-}
- .cta .callout div .cta-page {
-	color: #6699CC;
-	font-size: 21px;
-}
-/* gototop image styles - Start */
-.gototop{
-	position:absolute;
-	bottom:20px;
-	right:50px;
-	cursor:pointer;
-}
-/* gototop image styles - End */
-.paid-ad-text{font-size:14px;text-align:right;}
-.headline.heading-farecards{width:500px;}
-.headline.heading-salesLocations{width:500px;}
-.page-content .fullColumnWidth{width:100%;}
