@@ -48,41 +48,42 @@
 					<div class="metro-arrow">
 						<img src="img/metro-arrow.png"/>
 					</div>
-					<div class="metro-block">
+					<div id="servnav-bus" class="metro-block">
 						<div class="hover-box">
 							<span class="metro-hover">BUS</span>
 						</div>
 						<img src="img/home/service-nav-bus.png"/>
 					</div>
-					<div class="metro-block">
+					<div id="servnav-metro" class="metro-block">
 						<div class="hover-box">
 							<span class="metro-hover">METRORAPID</span>
 						</div>
 						<img src="img/home/service-nav-metrorapid.png"/>
 					</div>
-					<div class="metro-block">
+					<div id="servnav-van" class="metro-block">
 						<div class="hover-box">
 							<span class="metro-hover">VAN</span>
 						</div>
 						<img src="img/home/service-nav-flex.png"/>
 					</div>
-					<div class="metro-block">
+					<div id="servnav-streetcar" class="metro-block">
 						<div class="hover-box">
 							<span class="metro-hover"> STREETCAR <BR/> SYSTEM </span>
 						</div>
 						<img src="img/home/service-nav-trolly.png"/>
 					</div>
-					<div class="metro-block">
+					<div id="servnav-alt" class="metro-block">
 						<div class="hover-box">
 							<span class="metro-hover"> ALTERNATIVE <br/> TRANSPORTATION </span>
 						</div>
-						<img src="img/HOME/service-nav-plus.png"/>
+						<img src="img/home/service-nav-plus.png"/>
 					</div>
 					<div class="clear-fix"></div>
 				</div>
 				<div class="metro-main">
+					<div class="metro-foreground"></div>
 					<div class="metro-box">
-						<span class="metro-title">METRORAPID</span><hr/>
+						<span class="metro-title">BUS</span><hr/>
 						<ul>
 							<li><a href="#">MAPS <span class="arrow"><img src="img/metro-boxnav-arrow.png"/></span></a></li>
 							<li><a href="#">SCHEDULES <span class="arrow"><img src="img/metro-boxnav-arrow.png"/></span></a></li>
@@ -158,19 +159,61 @@
 				</div>
 
 				<div class="how-to">
-					<h2>HOW TO RIDE HART</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+					<div class="tab tab1 active">
+						HOW TO RIDE
+					</div>
+					<div class="tab tab2">
+						APP CENTER
+					</div>
+					<div class="tab tab3">
+						LINKS
+					</div>
 
-					<div class="button-box">
-						<div class="button">VIDEO DEMONSTRATIONS <img src="img/btn-arrow.png"/></div>
-						<div class="button">BIKES ON BUSES <img src="img/btn-arrow.png"/></div>
-						<div class="button">TRAVEL TRAINING PROGRAM <img src="img/btn-arrow.png"/></div>
+
+					<div class="content-howto">
+						<h2>HOW TO RIDE HART</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+
+						<div class="button-box">
+							<div class="button">VIDEO DEMONSTRATIONS <img src="img/btn-arrow.png"/></div>
+							<div class="button">BIKES ON BUSES <img src="img/btn-arrow.png"/></div>
+							<div class="button">TRAVEL TRAINING PROGRAM <img src="img/btn-arrow.png"/></div>
+						</div>
+						<div class="button-box end-box">
+							<div class="button">FREQUENTLY ASKED QUESTIONS<img src="img/btn-arrow.png"/></div>
+						</div>
 					</div>
-					<div class="button-box end-box">
-						<div class="button">LOREM IPSUM <img src="img/btn-arrow.png"/></div>
-						<div class="button">LOREM IPSUM <img src="img/btn-arrow.png"/></div>
-						<div class="button">LOREM IPSUM <img src="img/btn-arrow.png"/></div>
+
+					<div class="content-app">
+						<h2>HART APP CENTER</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+
+						<div class="button-box">
+							<div class="button">OneBusAway Tampa <img src="img/btn-arrow.png"/></div>
+							<div class="button">HyperAlert <img src="img/btn-arrow.png"/></div>
+							<div class="button">Mobile-based <img src="img/btn-arrow.png"/></div>
+						</div>
+						<div class="button-box end-box">
+							<div class="button">Computer-based<img src="img/btn-arrow.png"/></div>							
+						</div>
 					</div>
+
+					<div class="content-links">
+						<h2>LINKS</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+
+						<div class="button-box">
+							<div class="button">Fare Information<img src="img/btn-arrow.png"/></div>
+							<div class="button">Riding HART <img src="img/btn-arrow.png"/></div>
+							<div class="button">Mobile-based <img src="img/btn-arrow.png"/></div>
+						</div>
+						<div class="button-box end-box">
+							<div class="button">Transit Terms<img src="img/btn-arrow.png"/></div>
+							<div class="button">Miscellaneous<img src="img/btn-arrow.png"/></div>							
+						</div>
+					</div>
+
+
 				</div>
 				<div class="return-top">
 					<img src="img/return-arrow.png"/>
