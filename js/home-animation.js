@@ -1,6 +1,27 @@
 $(document).ready(function(){
     var myCar;
 
+    var landNum = Math.floor((Math.random() * 4) + 1);
+    console.log('landNum = '+ landNum);
+
+    landingHeader();
+    function landingHeader(){
+        if(landNum==1){
+            $('.landing').css('background-image','url(img/home/home-top-bg1.jpg)');
+            $( ".headline" ).html( "<h1>TRANSPORTATION</h1><br/><h1>FOR LIFE</h1>");
+        } else if(landNum==2){
+            $('.landing').css('background-image','url(img/home/home-top-bg2.jpg)');
+            $('.landing .bus').css('background-image','url(img/home/bus-home3.png)');
+            $( ".headline" ).html( "<h1>METRORAPID</h1><br/><h1>BUSINESS</h1>");
+        } else if(landNum==3){
+            $('.landing').css('background-image','url(img/home/home-top-bg3.jpg)');
+            $( ".headline" ).html( "<h1>FAMILY</h1><br/><h1>TRANSPORTATION</h1>");
+        } else if(landNum==4){
+            $('.landing').css('background-image','url(img/home/home-top-bg4.jpg)');
+            $( ".headline" ).html( "<h1>STUDENT</h1><br/><h1>TRANSPORTATION</h1>");
+        }
+    }
+
 
   
     $("#servnav-bus").click(function() {
