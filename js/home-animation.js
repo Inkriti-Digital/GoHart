@@ -1,34 +1,76 @@
 $(document).ready(function(){
+    var myCar;
 
 
   
     $("#servnav-bus").click(function() {
-        $('.metro-foreground').css('background-image','url(img/home/serv-large-bus.png)');
-        $( ".metro-title" ).text( "BUS" );
+        myCar = "bus";
+        changeCar();
     });
 
     $("#servnav-metro").click(function() {
-        $('.metro-foreground').css('background-image','url(img/home/serv-large-metro.png)');
-        $( ".metro-title" ).text( "METRORAPID" );
+        myCar = "metro";
+        changeCar();        
     });
 
     $("#servnav-van").click(function() {
-        $('.metro-foreground').css('background-image','url(img/home/serv-large-van.png)');
-        $( ".metro-title" ).text( "VAN" );
+        myCar="van";
+        changeCar();
     });
 
     $("#servnav-streetcar").click(function() {
-        $('.metro-foreground').css('background-image','url(img/home/serv-large-trolly.png)');
-        $( ".metro-title" ).text( "STREETCAR SYSTEM" );
+        myCar="trolly";
+        changeCar();
     });
 
     $("#servnav-alt").click(function() {
-       $('.metro-foreground').css('background-image','url(img/home/serv-large-bus.png)');
-       $( ".metro-title" ).text( "ALTERNATIVE TRANSPORTATION" );
+        myCar="alt";
+        changeCar();
     });
 
+    function changeCar(){
+        // $(".metro-foreground").fadeOut('fast');
+        $(".metro-foreground").animate({
+            opacity: 0,
+            left: "+=30"
+        }, 200, function() {
+            toggleBg();
+        });
+        
+        function toggleBg(){  
+            console.log('hit toggleBG = '+myCar)
+            if(myCar=="bus"){
+                $('.metro-foreground').css('background-image','url(img/home/serv-large-bus.png)');
+                $( ".metro-title" ).text( "BUS" );
+            } else if(myCar=="metro"){
+                $('.metro-foreground').css('background-image','url(img/home/serv-large-metro.png)');
+                $( ".metro-title" ).text( "METRORAPID" );
+            } else if(myCar=="van"){
+                $('.metro-foreground').css('background-image','url(img/home/serv-large-van.png)');
+                $( ".metro-title" ).text( "VAN" );
+            } else if(myCar=="trolly"){
+                $('.metro-foreground').css('background-image','url(img/home/serv-large-trolly.png)');
+                $( ".metro-title" ).text( "STREETCAR SYSTEM" );
+            } else if(myCar=="alt"){
+                $('.metro-foreground').css('background-image','url(img/home/serv-large-bus.png)');
+                $( ".metro-title" ).text( "ALTERNATIVE TRANSPORTATION" );
+            }
 
+            $('.metro-foreground').css('left','-20%');
+            
+            setTimeout(function() {
+                $( ".metro-foreground" ).animate({
+                    opacity: 1,
+                    left: "-10%"
+                }, 500, function() {}); 
+            }, 400);
+        }
 
+               
+               setTimeout(function() {
+                 
+        }, 500);
+    }
 
     $(".tab1").click(function() {
         $(".tab1").addClass("active");

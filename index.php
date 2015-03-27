@@ -16,13 +16,13 @@
 			<?php include ("views/main-nav.php"); ?>
 
 			<section class="landing" data-0="background-position: 40% 0%;" data-500="background-position: 0% 0%;">
-				<div class="bus" data-0="left: -40%;" data-500="left: 0%"></div>
+				<div class="bus" data-0="left: -40%;" data-400="left: 0%"></div>
 
 				<div class="logo"><img src="img/hart-logo.png"/></div>
 				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
 
 				<div class="headline">
-					<h1>TRANSPORTATION</h1>
+					<h1>TRANSPORTATION</h1><br/>
 					<h1>FOR LIFE</h1>
 				</div>
 
@@ -79,7 +79,7 @@
 					<div class="clear-fix"></div>
 				</div>
 				<div class="metro-main">
-					<div class="metro-foreground"></div>
+					<div class="metro-foreground" data-600="left: -15%;" data-1100="left: 0%"></div>
 					<div class="metro-box">
 						<span class="metro-title">BUS</span><hr/>
 						<ul>
