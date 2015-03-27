@@ -56,7 +56,7 @@
 						<div class="hover-box">
 							<span class="metro-hover">METRORAPID</span>
 						</div>
-						<img src="img/home/service-nav-metrorapid.png"/>
+						<img src="img/home/servnav_metro.jpg"/>
 					</div>
 					<div id="servnav-van" class="metro-block">
 						<div class="hover-box">
@@ -78,7 +78,7 @@
 					</div>
 					<div class="clear-fix"></div>
 				</div>
-				<div class="metro-main">
+				<div class="metro-main" data-600="background-position: 40% 0%;" data-1100="background-position: 0% 0%;">
 					<div class="metro-foreground" data-600="left: -15%;" data-1100="left: 0%"></div>
 					<div class="metro-box">
 						<span class="metro-title">BUS</span><hr/>
@@ -150,8 +150,8 @@
 				</div>
 			</section>
 			
-			<section class="gohart">
-				<div class="bus" data-3000="left: -40%;" data-3500="left: 0%"></div>
+			<section class="gohart" data-2500="background-position: 40% 0%;" data-3000="background-position: 0% 0%;">
+				<div class="bus" data-2500="left: -40%;" data-3000="left: -5%"></div>
 				<div class="gohart-title">
 					<h1>WHEREVER YOU NEED</h1><br/>
 					<h1>TO GO, GO HART</h1>
