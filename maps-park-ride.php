@@ -122,6 +122,7 @@
 								</li>
 							</ul>
 						</div>
+					</div>
 		
 					<div class="bottom-rule footer-rule">
 						<div class="cta center-cta">
