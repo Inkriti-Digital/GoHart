@@ -67,32 +67,36 @@
 								
 						<div class="fullColumnWidth">
 							<div class="half-column brick-blue-link left">
-								<div class="icon">
-									<img src="img/schedule-img.png" />
-								</div>
-								<div class="brick-blue-link-text">
-									<div class="brick-blue-link-text1">
-										TITLE VI
+								<a href="" class="brick-link">
+									<div class="icon">
+										<img src="img/schedule-img.png" />
 									</div>
-									<div class="brick-blue-link-text2">
-										COMPLAINT FORM
+									<div class="brick-blue-link-text">
+										<div class="brick-blue-link-text1">
+											TITLE VI
+										</div>
+										<div class="brick-blue-link-text2">
+											COMPLAINT FORM
+										</div>
 									</div>
-								</div>
-								<div class="clear-fix"></div>
+									<div class="clear-fix"></div>
+								</a>
 							</div>
 							<div class="half-column brick-blue-link brick-blue-link-last right">
-								<div class="icon">
-									<img src="img/schedule-img.png" />
-								</div>
-								<div class="brick-blue-link-text">
-									<div class="brick-blue-link-text1">
-										TITULO VI
+								<a href="" class="brick-link">
+									<div class="icon">
+										<img src="img/schedule-img.png" />
 									</div>
-									<div class="brick-blue-link-text2">
-										FORMULARIO DE QUEJAS
+									<div class="brick-blue-link-text">
+										<div class="brick-blue-link-text1">
+											TITULO VI
+										</div>
+										<div class="brick-blue-link-text2">
+											FORMULARIO DE QUEJAS
+										</div>
 									</div>
-								</div>
-								<div class="clear-fix"></div>
+									<div class="clear-fix"></div>
+								</a>
 							</div>
 							<div class="clear-fix"></div>
 						</div>

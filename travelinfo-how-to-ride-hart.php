@@ -133,32 +133,36 @@
 						
 						<div class="fullColumnWidth">
 							<div class="half-column brick-blue-link left">
-								<div class="icon">
-									<img src="img/schedule-img.png" />
-								</div>
-								<div class="brick-blue-link-text">
-									<div class="brick-blue-link-text1">
-										HOW TO BRING YOUR
+								<a href="" class="brick-link">
+									<div class="icon">
+										<img src="img/schedule-img.png" />
 									</div>
-									<div class="brick-blue-link-text2">
-										BIKE ON BOARD
+									<div class="brick-blue-link-text">
+										<div class="brick-blue-link-text1">
+											HOW TO BRING YOUR
+										</div>
+										<div class="brick-blue-link-text2">
+											BIKE ON BOARD
+										</div>
 									</div>
-								</div>
-								<div class="clear-fix"></div>
+									<div class="clear-fix"></div>
+								</a>
 							</div>
 							<div class="half-column brick-blue-link brick-blue-link-last right">
-								<div class="icon">
-									<img src="img/arrow.png" />
-								</div>
-								<div class="brick-blue-link-text">
-									<div class="brick-blue-link-text1">
-										TAKE YOUR BIKE ON A PSTA BUS
+								<a href="" class="brick-link">
+									<div class="icon">
+										<img src="img/arrow.png" />
 									</div>
-									<div class="brick-blue-link-text2">
-										WWW.PSTA.NET
+									<div class="brick-blue-link-text">
+										<div class="brick-blue-link-text1">
+											TAKE YOUR BIKE ON A PSTA BUS
+										</div>
+										<div class="brick-blue-link-text2">
+											WWW.PSTA.NET
+										</div>
 									</div>
-								</div>
-								<div class="clear-fix"></div>
+									<div class="clear-fix"></div>
+								</a>
 							</div>
 							<div class="clear-fix"></div>
 						</div>
@@ -199,32 +203,36 @@
 						
 						<div class="fullColumnWidth">
 							<div class="half-column brick-blue-link left">
-								<div class="icon">
-									<img src="img/phone-icon.png" />
-								</div>
-								<div class="brick-blue-link-text">
-									<div class="brick-blue-link-text1">
-										SCHEDULE FREE TRAINING SESSION
+								<a href="" class="brick-link">
+									<div class="icon">
+										<img src="img/phone-icon.png" />
 									</div>
-									<div class="brick-blue-link-text2">
-										813-384-6307
+									<div class="brick-blue-link-text">
+										<div class="brick-blue-link-text1">
+											SCHEDULE FREE TRAINING SESSION
+										</div>
+										<div class="brick-blue-link-text2">
+											813-384-6307
+										</div>
 									</div>
-								</div>
-								<div class="clear-fix"></div>
+									<div class="clear-fix"></div>
+								</a>
 							</div>
 							<div class="half-column brick-blue-link brick-blue-link-last right">
-								<div class="icon">
-									<img src="img/travel-info/mail-icon.png" />
-								</div>
-								<div class="brick-blue-link-text">
-									<div class="brick-blue-link-text1">
-										REQUEST FREE TRAINING SESSION
+								<a href="" class="brick-link">
+									<div class="icon">
+										<img src="img/travel-info/mail-icon.png" />
 									</div>
-									<div class="brick-blue-link-text2">
-										<a href="mailto:SHEPPARDM@GOHART.ORG" class="link-normal">SHEPPARDM@GOHART.ORG</a>
+									<div class="brick-blue-link-text">
+										<div class="brick-blue-link-text1">
+											REQUEST FREE TRAINING SESSION
+										</div>
+										<div class="brick-blue-link-text2">
+											<a href="mailto:SHEPPARDM@GOHART.ORG" class="link-normal">SHEPPARDM@GOHART.ORG</a>
+										</div>
 									</div>
-								</div>
-								<div class="clear-fix"></div>
+									<div class="clear-fix"></div>
+								</a>
 							</div>
 							<div class="clear-fix"></div>
 						</div>
@@ -244,7 +252,7 @@
 								<div class="callout corp-trans-callout">
 									<div>
 										<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
-										<span class="cta-page"><a href="#">APP CENTER</a></span>
+										<span class="cta-page"><a href="travelinfo-hart-app-center.php">APP CENTER</a></span>
 									</div>
 								</div>
 								<hr/>

@@ -56,32 +56,36 @@
 						
 						<div class="fullColumnWidth">
 							<div class="half-column brick-blue-link left">
-								<div class="icon">
-									<img src="img/schedule-img.png" />
-								</div>
-								<div class="brick-blue-link-text">
-									<div class="brick-blue-link-text1">
-										PUBLIC RECORDS
+								<a href="" class="brick-link">
+									<div class="icon">
+										<img src="img/schedule-img.png" />
 									</div>
-									<div class="brick-blue-link-text2">
-										REQUEST FORM
+									<div class="brick-blue-link-text">
+										<div class="brick-blue-link-text1">
+											PUBLIC RECORDS
+										</div>
+										<div class="brick-blue-link-text2">
+											REQUEST FORM
+										</div>
 									</div>
-								</div>
-								<div class="clear-fix"></div>
+									<div class="clear-fix"></div>
+								</a>
 							</div>
 							<div class="half-column brick-blue-link brick-blue-link-last right">
-								<div class="icon">
-									<img src="img/phone-icon.png" />
-								</div>
-								<div class="brick-blue-link-text">
-									<div class="brick-blue-link-text1">
-										HART PUBLIC RECORDS
+								<a href="" class="brick-link">
+									<div class="icon">
+										<img src="img/phone-icon.png" />
 									</div>
-									<div class="brick-blue-link-text2">
-										813-384-6419
+									<div class="brick-blue-link-text">
+										<div class="brick-blue-link-text1">
+											HART PUBLIC RECORDS
+										</div>
+										<div class="brick-blue-link-text2">
+											813-384-6419
+										</div>
 									</div>
-								</div>
-								<div class="clear-fix"></div>
+									<div class="clear-fix"></div>
+								</a>
 							</div>
 							<div class="clear-fix"></div>
 						</div>

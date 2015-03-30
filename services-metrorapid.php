@@ -92,33 +92,37 @@
 							
 							
 							<div class="fullColumnWidth">
-								<div class="half-column schedule-language left">
-									<div class="icon">
-										<img src="img/metrorapid-service/schedule-img.png" />
-									</div>
-									<div class="schedule-and-language-text">
-										<div class="schedule-text">
-											METRORAPID NORTH-SOUTH SCHEDULE
+								<div class="half-column brick-blue-link left">
+									<a href="" class="brick-link">
+										<div class="icon">
+											<img src="img/metrorapid-service/schedule-img.png" />
 										</div>
-										<div class="language-text">
-											ENGLISH
+										<div class="brick-blue-link-text">
+											<div class="brick-blue-link-text1">
+												METRORAPID NORTH-SOUTH SCHEDULE
+											</div>
+											<div class="brick-blue-link-text2">
+												ENGLISH
+											</div>
 										</div>
-									</div>
-									<div class="clear-fix"></div>
+										<div class="clear-fix"></div>
+									</a>
 								</div>
-								<div class="half-column schedule-language schedule-language-last right">
-									<div class="icon">
-										<img src="img/metrorapid-service/schedule-img.png" />
-									</div>
-									<div class="schedule-and-language-text">
-										<div class="schedule-text">
-											METRORAPID NORTH-SOUTH SCHEDULE
+								<div class="half-column brick-blue-link brick-blue-link-last right">
+									<a href="" class="brick-link">
+										<div class="icon">
+											<img src="img/metrorapid-service/schedule-img.png" />
 										</div>
-										<div class="language-text">
-											SPANISH
+										<div class="brick-blue-link-text">
+											<div class="brick-blue-link-text1">
+												METRORAPID NORTH-SOUTH SCHEDULE
+											</div>
+											<div class="brick-blue-link-text2">
+												SPANISH
+											</div>
 										</div>
-									</div>
-									<div class="clear-fix"></div>
+										<div class="clear-fix"></div>
+									</a>
 								</div>
 								<div class="clear-fix"></div>
 							</div>

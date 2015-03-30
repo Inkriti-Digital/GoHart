@@ -80,18 +80,20 @@
 									</div>
 								</div>
 								<div class="brick-blue-link brick-blue-link-last">
-									<div class="icon">
-										<img src="img/schedule-img.png" />
-									</div>
-									<div class="brick-blue-link-text">
-										<div class="brick-blue-link-text1">
-											TECO LINE STREETCAR SYSTEM
+									<a href="" class="brick-link">
+										<div class="icon">
+											<img src="img/schedule-img.png" />
 										</div>
-										<div class="brick-blue-link-text2">
-											ADVERTISING
+										<div class="brick-blue-link-text">
+											<div class="brick-blue-link-text1">
+												TECO LINE STREETCAR SYSTEM
+											</div>
+											<div class="brick-blue-link-text2">
+												ADVERTISING
+											</div>
 										</div>
-									</div>
-									<div class="clear-fix"></div>
+										<div class="clear-fix"></div>
+									</a>
 								</div>
 							</div>
 							<div class="half-column brick-column brick-column-last right">
@@ -120,18 +122,20 @@
 									</div>
 								</div>
 								<div class="brick-blue-link brick-blue-link-last">
-									<div class="icon">
-										<img src="img/schedule-img.png" />
-									</div>
-									<div class="brick-blue-link-text">
-										<div class="brick-blue-link-text1">
-											DOWNLOAD SHELTER ADVERTISING
+									<a href="" class="brick-link">
+										<div class="icon">
+											<img src="img/schedule-img.png" />
 										</div>
-										<div class="brick-blue-link-text2">
-											MEDIA KIT
+										<div class="brick-blue-link-text">
+											<div class="brick-blue-link-text1">
+												DOWNLOAD SHELTER ADVERTISING
+											</div>
+											<div class="brick-blue-link-text2">
+												MEDIA KIT
+											</div>
 										</div>
-									</div>
-									<div class="clear-fix"></div>
+										<div class="clear-fix"></div>
+									</a>
 								</div>
 								<div class="clear-fix"></div>
 							</div>

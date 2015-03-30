@@ -80,18 +80,20 @@
 										To register, call TBARTA Commuter Services. You'll be enrolled in the Emergency Ride Home Program and must re-enroll annually. That's all there is to it!
 									</p>
 									<div class="brick-blue-link">
-										<div class="icon">
-											<img src="img/phone-icon.png" />
-										</div>
-										<div class="brick-blue-link-text">
-											<div class="brick-blue-link-text1">
-												TBARTA COMMUTER SERVICES
+										<a href="" class="brick-link">
+											<div class="icon">
+												<img src="img/phone-icon.png" />
 											</div>
-											<div class="brick-blue-link-text2">
-												800-998-RIDE
+											<div class="brick-blue-link-text">
+												<div class="brick-blue-link-text1">
+													TBARTA COMMUTER SERVICES
+												</div>
+												<div class="brick-blue-link-text2">
+													800-998-RIDE
+												</div>
 											</div>
-										</div>
-										<div class="clear-fix"></div>
+											<div class="clear-fix"></div>
+										</a>
 									</div>
 								</div>
 
@@ -197,32 +199,36 @@
 						
 						<div class="fullColumnWidth">
 							<div class="half-column brick-blue-link left">
-								<div class="icon">
-									<img src="img/arrow.png" />
-								</div>
-								<div class="brick-blue-link-text">
-									<div class="brick-blue-link-text1">
-										TO JOIN A VANPOOL
+								<a href="" class="brick-link">
+									<div class="icon">
+										<img src="img/arrow.png" />
 									</div>
-									<div class="brick-blue-link-text2">
-										REGISTER HERE
+									<div class="brick-blue-link-text">
+										<div class="brick-blue-link-text1">
+											TO JOIN A VANPOOL
+										</div>
+										<div class="brick-blue-link-text2">
+											REGISTER HERE
+										</div>
 									</div>
-								</div>
-								<div class="clear-fix"></div>
+									<div class="clear-fix"></div>
+								</a>
 							</div>
 							<div class="half-column brick-blue-link brick-blue-link-last right">
-								<div class="icon">
-									<img src="img/schedule-img.png" />
-								</div>
-								<div class="brick-blue-link-text">
-									<div class="brick-blue-link-text1">
-										INTERESTED IN DRIVING A VANPOOL?
+								<a href="" class="brick-link">
+									<div class="icon">
+										<img src="img/schedule-img.png" />
 									</div>
-									<div class="brick-blue-link-text2">
-										CLICK HERE
+									<div class="brick-blue-link-text">
+										<div class="brick-blue-link-text1">
+											INTERESTED IN DRIVING A VANPOOL?
+										</div>
+										<div class="brick-blue-link-text2">
+											CLICK HERE
+										</div>
 									</div>
-								</div>
-								<div class="clear-fix"></div>
+									<div class="clear-fix"></div>
+								</a>
 							</div>
 							<div class="clear-fix"></div>
 						</div>

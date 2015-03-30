@@ -193,32 +193,36 @@
 							
 							<div class="fullColumnWidth">
 								<div class="half-column brick-blue-link left">
-									<div class="icon">
-										<img src="img/metrorapid-service/schedule-img.png" />
-									</div>
-									<div class="brick-blue-link-text">
-										<div class="brick-blue-link-text1">
-											DOWNLOAD HARTPLUS PARATRANSIT
+									<a href="" class="brick-link">
+										<div class="icon">
+											<img src="img/metrorapid-service/schedule-img.png" />
 										</div>
-										<div class="brick-blue-link-text2">
-											APPLICATION
+										<div class="brick-blue-link-text">
+											<div class="brick-blue-link-text1">
+												DOWNLOAD HARTPLUS PARATRANSIT
+											</div>
+											<div class="brick-blue-link-text2">
+												APPLICATION
+											</div>
 										</div>
-									</div>
-									<div class="clear-fix"></div>
+										<div class="clear-fix"></div>
+									</a>
 								</div>
 								<div class="half-column brick-blue-link brick-blue-link-last right">
-									<div class="icon">
-										<img src="img/phone-icon.png" />
-									</div>
-									<div class="brick-blue-link-text">
-										<div class="brick-blue-link-text1">
-											HARTINFO LINE
+									<a href="" class="brick-link">
+										<div class="icon">
+											<img src="img/phone-icon.png" />
 										</div>
-										<div class="brick-blue-link-text2">
-											813-254-4278
+										<div class="brick-blue-link-text">
+											<div class="brick-blue-link-text1">
+												HARTINFO LINE
+											</div>
+											<div class="brick-blue-link-text2">
+												813-254-4278
+											</div>
 										</div>
-									</div>
-									<div class="clear-fix"></div>
+										<div class="clear-fix"></div>
+									</a>
 								</div>
 								<div class="clear-fix"></div>
 							</div>
@@ -315,32 +319,36 @@
 						
 						<div class="fullColumnWidth">
 							<div class="half-column brick-blue-link left">
-								<div class="icon">
-									<img src="img/metrorapid-service/schedule-img.png" />
-								</div>
-								<div class="brick-blue-link-text">
-									<div class="brick-blue-link-text1">
-										HARTPLUS RIDERS' GUIDE
+								<a href="" class="brick-link">
+									<div class="icon">
+										<img src="img/metrorapid-service/schedule-img.png" />
 									</div>
-									<div class="brick-blue-link-text2">
-										PDF VERSION
+									<div class="brick-blue-link-text">
+										<div class="brick-blue-link-text1">
+											HARTPLUS RIDERS' GUIDE
+										</div>
+										<div class="brick-blue-link-text2">
+											PDF VERSION
+										</div>
 									</div>
-								</div>
-								<div class="clear-fix"></div>
+									<div class="clear-fix"></div>
+								</a>
 							</div>
 							<div class="half-column brick-blue-link brick-blue-link-last right">
-								<div class="icon">
-									<img src="img/metrorapid-service/schedule-img.png" />
-								</div>
-								<div class="brick-blue-link-text">
-									<div class="brick-blue-link-text1">
-										HARTPLUS RIDERS' GUIDE
+								<a href="" class="brick-link">
+									<div class="icon">
+										<img src="img/metrorapid-service/schedule-img.png" />
 									</div>
-									<div class="brick-blue-link-text2">
-										AUDIO VERSION
+									<div class="brick-blue-link-text">
+										<div class="brick-blue-link-text1">
+											HARTPLUS RIDERS' GUIDE
+										</div>
+										<div class="brick-blue-link-text2">
+											AUDIO VERSION
+										</div>
 									</div>
-								</div>
-								<div class="clear-fix"></div>
+									<div class="clear-fix"></div>
+								</a>
 							</div>
 							<div class="clear-fix"></div>
 						</div>

@@ -53,32 +53,36 @@
 						
 						<div class="fullColumnWidth">
 							<div class="half-column brick-blue-link left">
-								<div class="icon">
-									<img src="img/arrow.png" />
-								</div>
-								<div class="brick-blue-link-text">
-									<div class="brick-blue-link-text1">
-										PROCUREMENT OPPORTUNITIES
+								<a href="" class="brick-link">
+									<div class="icon">
+										<img src="img/arrow.png" />
 									</div>
-									<div class="brick-blue-link-text2">
-										VIEW CURRENT
+									<div class="brick-blue-link-text">
+										<div class="brick-blue-link-text1">
+											PROCUREMENT OPPORTUNITIES
+										</div>
+										<div class="brick-blue-link-text2">
+											VIEW CURRENT
+										</div>
 									</div>
-								</div>
-								<div class="clear-fix"></div>
+									<div class="clear-fix"></div>
+								</a>
 							</div>
 							<div class="half-column brick-blue-link brick-blue-link-last right">
-								<div class="icon">
-									<img src="img/phone-icon.png" />
-								</div>
-								<div class="brick-blue-link-text">
-									<div class="brick-blue-link-text1">
-										LOGIN OR CREATE ACCOUNT
+								<a href="" class="brick-link">
+									<div class="icon">
+										<img src="img/phone-icon.png" />
 									</div>
-									<div class="brick-blue-link-text2">
-										VENDOR APPLICATION
+									<div class="brick-blue-link-text">
+										<div class="brick-blue-link-text1">
+											LOGIN OR CREATE ACCOUNT
+										</div>
+										<div class="brick-blue-link-text2">
+											VENDOR APPLICATION
+										</div>
 									</div>
-								</div>
-								<div class="clear-fix"></div>
+									<div class="clear-fix"></div>
+								</a>
 							</div>
 							<div class="clear-fix"></div>
 						</div>

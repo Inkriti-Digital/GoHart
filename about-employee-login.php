@@ -37,18 +37,20 @@
 						
 						<div class="fullColumnWidth">
 							<div class="half-column brick-blue-link row-middle">
-								<div class="icon">
-									<img src="img/mail-icon.png" />
-								</div>
-								<div class="brick-blue-link-text">
-									<div class="brick-blue-link-text1">
-										LOGIN
+								<a href="" class="brick-link">
+									<div class="icon">
+										<img src="img/mail-icon.png" />
 									</div>
-									<div class="brick-blue-link-text2">
-										EMPLOYEE E-MAIL
+									<div class="brick-blue-link-text">
+										<div class="brick-blue-link-text1">
+											LOGIN
+										</div>
+										<div class="brick-blue-link-text2">
+											EMPLOYEE E-MAIL
+										</div>
 									</div>
-								</div>
-								<div class="clear-fix"></div>
+									<div class="clear-fix"></div>
+								</a>
 							</div>
 							<div class="clear-fix"></div>
 						</div>
@@ -107,32 +109,36 @@
 						
 						<div class="fullColumnWidth">
 							<div class="half-column brick-blue-link left">
-								<div class="icon">
-									<img src="img/schedule-img.png" />
-								</div>
-								<div class="brick-blue-link-text">
-									<div class="brick-blue-link-text1">
-										VIRTUAL PRIVATE NETWORK (VPN) CLIENT
+								<a href="" class="brick-link">
+									<div class="icon">
+										<img src="img/schedule-img.png" />
 									</div>
-									<div class="brick-blue-link-text2">
-										DOWNLOAD
+									<div class="brick-blue-link-text">
+										<div class="brick-blue-link-text1">
+											VIRTUAL PRIVATE NETWORK (VPN) CLIENT
+										</div>
+										<div class="brick-blue-link-text2">
+											DOWNLOAD
+										</div>
 									</div>
-								</div>
-								<div class="clear-fix"></div>
+									<div class="clear-fix"></div>
+								</a>
 							</div>
 							<div class="half-column brick-blue-link brick-blue-link-last right">
-								<div class="icon">
-									<img src="img/arrow.png" />
-								</div>
-								<div class="brick-blue-link-text">
-									<div class="brick-blue-link-text1">
-										VISIT
+								<a href="" class="brick-link">
+									<div class="icon">
+										<img src="img/arrow.png" />
 									</div>
-									<div class="brick-blue-link-text2">
-										PATRICK’S UNIFORMS
+									<div class="brick-blue-link-text">
+										<div class="brick-blue-link-text1">
+											VISIT
+										</div>
+										<div class="brick-blue-link-text2">
+											PATRICK’S UNIFORMS
+										</div>
 									</div>
-								</div>
-								<div class="clear-fix"></div>
+									<div class="clear-fix"></div>
+								</a>
 							</div>
 							<div class="clear-fix"></div>
 						</div>
