@@ -208,7 +208,6 @@ $(document).ready(function(){
     }
     
     
-    
     /* =================== Vijay code Addition - Start =================== */
     
 			/* About page - Meet the Team members Functionality - Start */
