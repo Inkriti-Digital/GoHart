@@ -206,4 +206,72 @@ $(document).ready(function(){
         }, 250);
        
     }
+    
+    
+    
+    /* =================== Vijay code Addition - Start =================== */
+    
+			/* About page - Meet the Team members Functionality - Start */
+				var windowScrollTop;
+				/* ===== Team members description display Functionality - Start ===== */
+					/* open ".team-members" team members detail description functionality - Start */	
+						$(".team-members").click(function(){
+							/* ========= Getting the 'data-rel' attribute value of ".team-members" class clicked and saving it to dataRelValue variable ========= */
+							var dataRelValue = $(this).attr('data-rel');
+							//alert(dataRelValue);
+							
+							/* ========= Hiding all team members detail description ========= */ 
+							$(".team-member-detail-description").css('display','none');
+							
+							/* ========= Setting the dataRelValue value as class for displaying particular description in loop ========= */
+							$("."+dataRelValue).css('display','block');
+							
+							/* ========= Scroll to top of description ======== */
+							 windowScrollTop = $(window).scrollTop();
+							 $('html, body').animate({
+								scrollTop: $("."+dataRelValue).offset().top
+							}, 500);
+						});
+					/* open ".team-members" team members detail description functionality - End */
+				/* ===== Team members description display Functionality - End ===== */
+				
+				
+				
+				/* close all team members detail description functionality - Start */
+					$(".team-member-detail-description-close").click(function(){
+						/* ========= Hiding all team members detail description ========= */ 
+						$(".team-member-detail-description").css('display','none');
+						
+						/* ========= Setting scroll to back ========= */
+						$('html,body').animate({
+							scrollTop: windowScrollTop
+						},500);
+					});
+				/* close all team members detail description functionality - End */
+			/* About page - Meet the Team members Functionality - End */
+			
+			/* About Employee login functionality - Start */
+				/* ======= Employee Login Page Functionality - Start =======*/
+					var termsOfUseActive = 0;
+					$(".employee-terms-of-use").click(function(){
+						if(termsOfUseActive == 0)
+						{
+							$(".employee-terms-of-use-desc").show();
+							$(this).addClass('active');
+							$(".employee-terms-active-img").show();
+							termsOfUseActive = 1;
+						}
+						else
+						{
+							$(".employee-terms-of-use-desc").hide();
+							$(this).removeClass('active');
+							$(".employee-terms-active-img").hide();
+							termsOfUseActive = 0;
+						}
+					});
+				/* ======= Employee Login Page Functionality - End =======*/
+			/* About Employee login functionality - End */
+			
+			
+    /* =================== Vijay code Addition - End =================== */
 });
