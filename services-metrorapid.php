@@ -22,6 +22,7 @@
 
 				<div class="headline">
 					<h1>METRORAPID</h1>
+					<br/>
 					<h1>SERVICE</h1>
 				</div>				
 			</section>
@@ -243,6 +244,9 @@
 						</div>
 						<div class="center footer-ad">
 								<img src="img/service/fpo-ad.jpg"/>
+								<div class="gototop">
+									<img src="img/gotop.png" />
+								</div>
 						</div>
 					</div>
 

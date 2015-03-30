@@ -22,6 +22,7 @@
 
 				<div class="headline">
 					<h1>TRIP PLANNER</h1>
+					<br/>
 					<h1>TOOL</h1>
 				</div>
 

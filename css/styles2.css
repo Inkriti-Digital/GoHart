@@ -1139,6 +1139,31 @@
 }
 
 
+.header .headline {
+	bottom: 20%;
+	width: 635px;
+}
+.header .headline-single-bottom{
+	bottom: 38%;
+}
+ .header h1 {
+	font-size: 65px;
+}
+
+.point-align {
+    display: inline-block;
+    width: 70px;
+}
+.cta .callout div .cta-more, .cta .callout div .cta-page {
+    font-size: 15px;
+    font-weight: normal;
+}
+.cta .callout div .cta-page{
+    font-size: 21px;
+}
+.main-info{font-size:18px;}
+.nowrap{white-space: nowrap;}
+
 
 	
 
@@ -1172,6 +1197,10 @@
 	}
 	.page-nav .nav-btn {
    	width: 30%;
+	}
+	
+	.header .headline {
+		bottom:10%;
 	}
 	
 	
@@ -1255,6 +1284,13 @@
    	width: 206px;
 	}
 	
+	.header .headline {
+		bottom:10%;
+	}
+	.header h1 {
+	    font-size: 48px;
+	}
+	
 	
 	
 	.content-body .brick-blue-link {
@@ -1319,6 +1355,11 @@
 
 
 @media only screen and (max-width: 650px) {
+	
+	.header .headline {
+	    bottom: 7%;
+	}
+	
 	.three-up .col-33{width:31%;}
 	
 	.maps-scheduels .download-pdf span {
@@ -1424,6 +1465,10 @@
    	width: 406px;
 	}
 	
+	.header .headline {
+	    bottom: 10%;
+	}
+	
 	
 	
 	.content-body .brick-blue-link {
@@ -1462,9 +1507,9 @@
 	}
 	
 	.header h1 {
-	    display: block;
+	    display: inline-block;
 	    font-size: 20px;
-	    width:260px;
+	    /*width:260px;*/
 	}
 	.three-up .col-33 {
 	    width: 100%;
@@ -1553,8 +1598,9 @@
 	    width: 190px;
 	}
 	.header h1 {
-	    display: block;
-	    font-size: 25px;
+	    display: inline-block;
+	    /*font-size: 25px;*/
+	    font-size: 20px;
 	}
 	
 	.page-nav .nav-btn span {
@@ -1669,11 +1715,6 @@
 	    width: 100%;
 	}
 	
-	
-	.header h1 {
-	    display: block;
-	    font-size: 20px;
-	}
 	
 	.three-up .col-33 {
 	    width: 100%;

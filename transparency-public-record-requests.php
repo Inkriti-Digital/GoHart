@@ -22,6 +22,7 @@
 
 				<div class="headline">
 					<h1>PUBLIC RECORD</h1>
+					<br/>
 					<h1>REQUESTS</h1>
 				</div>
 
@@ -36,7 +37,7 @@
 					</div>
 					<div class="content-body">
 						<div class="info">
-							<p>
+							<p class="main-info">
 								It is the policy of the state of Florida that all state, county, and municipal records are open for personal inspection and copying by any person. Providing access to public records is a duty of each agency. Every person who has custody of a public record shall permit the record to be inspected and copied by any person desiring to do so, at any reasonable time, under reasonable conditions, and under supervision by the custodian of the public records.
 							</p>
 						</div>
@@ -141,10 +142,10 @@
 								<div class="half-column brick-column left">
 									<div class="fullColumnWidth">
 										<div class="brick">
-											<div class="brick-head">FEES FOR HART PUBLIC REC ORDS</div>
+											<div class="brick-head">FEES FOR HART PUBLIC RECORDS</div>
 											<div class="fares-points">
 												<ul class="fares-list">
-													<li>Paper copies on standard paper sizes: $0.15 per onesided copy, $0.20 per twosided copy (additional $1.00 for certified copy)</li>
+													<li>Paper copies on standard paper sizes: $0.15 per one-sided copy, $0.20 per two-sided copy (additional $1.00 for certified copy)</li>
 													<li>Data, audio or video on copied CD or DVD: $1.00 each</li>
 													<li>If materials are to be mailed, the actual cost of postage will be added.</li>
 													<li>Electronic record copies: if there are no fees for the records and the total record file size is within the range allowed for HART email communications, the agency POC for public records releases the records to the requestor via email.</li>
@@ -192,7 +193,7 @@
 									<div class="fullColumnWidth">	
 										<p class="point-no-area"><span class="point-no">10</span></p>
 										<p class="point-description">
-											Contact HART public records by phone at <a href="" class="link-colored">(813) 384-6419</a> or FAX at (813) 3846284.
+											Contact HART public records by phone at <a href="" class="link-colored nowrap">(813) 384-6419</a> or FAX at (813) 3846284.
 										</p>
 										<div class="clear-fix"></div>
 									</div>
@@ -208,7 +209,7 @@
 								<div class="callout corp-trans-callout">
 									<div>
 										<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
-										<span class="cta-page"><a href="#">ETHICSPOINT</a></span>
+										<span class="cta-page"><a href="transparency-ethicspoint.php">ETHICSPOINT</a></span>
 									</div>
 								</div>
 								<hr/>
@@ -216,6 +217,9 @@
 						</div>
 						<div class="center footer-ad">
 								<img src="img/service/fpo-ad.jpg"/>
+								<div class="gototop">
+									<img src="img/gotop.png" />
+								</div>
 						</div>
 					</div>
 				</div>

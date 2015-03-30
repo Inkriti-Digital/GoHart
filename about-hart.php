@@ -22,6 +22,7 @@
 
 				<div class="headline">
 					<h1>ABOUT</h1>
+					<br/>
 					<h1>HART</h1>
 				</div>
 
@@ -59,6 +60,9 @@
 					</div>
 						<div class="center footer-ad">
 								<img src="img/service/fpo-ad.jpg"/>
+								<div class="gototop">
+									<img src="img/gotop.png" />
+								</div>
 						</div>
 					</div>
 				</div>

@@ -22,6 +22,7 @@
 
 				<div class="headline">
 					<h1>MAPS &amp;</h1>
+					<br/>
 					<h1>SCHEDULES</h1>
 				</div>
 

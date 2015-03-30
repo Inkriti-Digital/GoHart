@@ -22,6 +22,7 @@
 
 				<div class="headline">
 					<h1>DISCOUNT PERMIT</h1>
+					<br/>
 					<h1>REQUIREMENTS</h1>
 				</div>
 			</section>

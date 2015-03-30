@@ -20,7 +20,7 @@
 				<div class="logo"><img src="img/hart-logo.png"/></div>
 				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
 
-				<div class="headline">
+				<div class="headline headline-single-bottom">
 					<h1>ENVIRONMENT</h1>
 					
 				</div>
@@ -75,7 +75,7 @@
 							<div class="callout corp-trans-callout">
 								<div>
 									<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
-									<span class="cta-page"><a href="#">PUBLIC RECORD REQUESTS</a></span>
+									<span class="cta-page"><a href="transparency-public-record-requests.php">PUBLIC RECORD REQUESTS</a></span>
 								</div>
 							</div>
 							<hr/>
@@ -84,6 +84,9 @@
 
 					<div class="center footer-ad">
 							<img src="img/service/fpo-ad.jpg"/>
+								<div class="gototop">
+									<img src="img/gotop.png" />
+								</div>
 						</div>
 					</div>
 				</div>				

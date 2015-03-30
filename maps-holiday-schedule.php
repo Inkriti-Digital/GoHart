@@ -22,6 +22,7 @@
 
 				<div class="headline">
 					<h1>HOLIDAY SERVICE</h1>
+					<br/>
 					<h1>SCHEDULE</h1>
 				</div>
 			</section>
