@@ -63,18 +63,23 @@ $(document).ready(function(){
             if(myCar=="bus"){
                 $('.metro-foreground').css('background-image','url(img/home/serv-large-bus.png)');
                 $( ".metro-title" ).text( "BUS" );
+                $( ".metro-arrow" ).animate({ left: "2%"}, 500, 'easeOutQuad', function() {}); 
             } else if(myCar=="metro"){
                 $('.metro-foreground').css('background-image','url(img/home/serv-large-metro.png)');
                 $( ".metro-title" ).text( "METRORAPID" );
+                $( ".metro-arrow" ).animate({ left: "22%"}, 500, 'easeOutQuad', function() {});
             } else if(myCar=="van"){
                 $('.metro-foreground').css('background-image','url(img/home/serv-large-van.png)');
                 $( ".metro-title" ).text( "VAN" );
+                $( ".metro-arrow" ).animate({ left: "42%"}, 500, 'easeOutQuad', function() {});
             } else if(myCar=="trolly"){
                 $('.metro-foreground').css('background-image','url(img/home/serv-large-trolly.png)');
                 $( ".metro-title" ).text( "STREETCAR SYSTEM" );
+                $( ".metro-arrow" ).animate({ left: "62%"}, 500, 'easeOutQuad', function() {});
             } else if(myCar=="alt"){
                 $('.metro-foreground').css('background-image','url(img/home/serv-large-bus.png)');
                 $( ".metro-title" ).text( "ALTERNATIVE TRANSPORTATION" );
+                $( ".metro-arrow" ).animate({ left: "82%"}, 500, 'easeOutQuad', function() {});
             }
 
             $('.metro-foreground').css('left','-20%');
