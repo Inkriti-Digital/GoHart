@@ -49,32 +49,36 @@
 						
 						<div class="fullColumnWidth">
 							<div class="half-column brick-blue-link left">
-								<div class="icon">
-									<img src="img/arrow.png" />
-								</div>
-								<div class="brick-blue-link-text">
-									<div class="brick-blue-link-text1">
-										VIEW CURRENT
+								<a href="" class="brick-link">
+									<div class="icon">
+										<img src="img/arrow.png" />
 									</div>
-									<div class="brick-blue-link-text2">
-										OPEN JOB POSITIONS
+									<div class="brick-blue-link-text">
+										<div class="brick-blue-link-text1">
+											VIEW CURRENT
+										</div>
+										<div class="brick-blue-link-text2">
+											OPEN JOB POSITIONS
+										</div>
 									</div>
-								</div>
-								<div class="clear-fix"></div>
+									<div class="clear-fix"></div>
+								</a>
 							</div>
 							<div class="half-column brick-blue-link brick-blue-link-last right">
-								<div class="icon">
-									<img src="img/arrow.png" />
-								</div>
-								<div class="brick-blue-link-text">
-									<div class="brick-blue-link-text1">
-										LOGIN OR CREATE AN ACCOUNT
+								<a href="" class="brick-link">
+									<div class="icon">
+										<img src="img/arrow.png" />
 									</div>
-									<div class="brick-blue-link-text2">
-										APPLY HERE
+									<div class="brick-blue-link-text">
+										<div class="brick-blue-link-text1">
+											LOGIN OR CREATE AN ACCOUNT
+										</div>
+										<div class="brick-blue-link-text2">
+											APPLY HERE
+										</div>
 									</div>
-								</div>
-								<div class="clear-fix"></div>
+									<div class="clear-fix"></div>
+								</a>
 							</div>
 							<div class="clear-fix"></div>
 						</div>
@@ -126,6 +130,9 @@
 					</div>
 						<div class="center footer-ad">
 								<img src="img/service/fpo-ad.jpg"/>
+								<div class="gototop">
+									<img src="img/gotop.png" />
+								</div>
 						</div>
 					</div>
 				</div>

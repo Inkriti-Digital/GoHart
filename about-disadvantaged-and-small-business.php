@@ -46,32 +46,36 @@
 						
 						<div class="fullColumnWidth">
 							<div class="half-column brick-blue-link left">
-								<div class="icon">
-									<img src="img/schedule-img.png" />
-								</div>
-								<div class="brick-blue-link-text">
-									<div class="brick-blue-link-text1">
-										DOWNLOAD
+								<a href="" class="brick-link">
+									<div class="icon">
+										<img src="img/schedule-img.png" />
 									</div>
-									<div class="brick-blue-link-text2">
-										APPLICATION
+									<div class="brick-blue-link-text">
+										<div class="brick-blue-link-text1">
+											DOWNLOAD
+										</div>
+										<div class="brick-blue-link-text2">
+											APPLICATION
+										</div>
 									</div>
-								</div>
-								<div class="clear-fix"></div>
+									<div class="clear-fix"></div>
+								</a>
 							</div>
 							<div class="half-column brick-blue-link brick-blue-link-last right">
-								<div class="icon">
-									<img src="img/arrow.png" />
-								</div>
-								<div class="brick-blue-link-text">
-									<div class="brick-blue-link-text1">
-										ACCESS FLORIDA'S
+								<a href="" class="brick-link">
+									<div class="icon">
+										<img src="img/arrow.png" />
 									</div>
-									<div class="brick-blue-link-text2">
-										DBE DIRECTORY
+									<div class="brick-blue-link-text">
+										<div class="brick-blue-link-text1">
+											ACCESS FLORIDA'S
+										</div>
+										<div class="brick-blue-link-text2">
+											DBE DIRECTORY
+										</div>
 									</div>
-								</div>
-								<div class="clear-fix"></div>
+									<div class="clear-fix"></div>
+								</a>
 							</div>
 							<div class="clear-fix"></div>
 						</div>
