@@ -183,7 +183,7 @@ $(document).ready(function(){
     });
 
     $("#nav-about").click(function(event) {
-        subNav = '.subnav-trans';
+        subNav = '.subnav-about';
         showSubNav();        
     });
 	
