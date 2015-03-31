@@ -43,6 +43,8 @@
 						</div>
 						<div class="info-graphic">
 							<img src="img/service/info-graphic.jpg"/>
+							<br/>
+							<span class="paid-ad-text">Paid Ad</span>
 						</div>
 						
 						<div class="fullColumnWidth">	

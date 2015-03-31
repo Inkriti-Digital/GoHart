@@ -147,7 +147,8 @@
 /* maps related styles */
 .page-content .map-data{
 	
-	margin:0 15px 0 0;
+	/*margin:0 15px 0 0;*/
+	margin:0 2% 0 0;
 	width: 32%;
 	float: left;
 
@@ -173,6 +174,7 @@
 }
 .page-content .map-data-last{
 	margin:0 0 0 0;
+	float:right;
 }
 
 
@@ -270,6 +272,7 @@
 		  padding: 3px 0 3px 5px;
 		  /* reset styles (optional): */
 		  margin: 0;
+		  list-style-type:how-do-i-apply-points;
 		}
 		.page-content .half-column.how-do-i-apply-data2 p{
 			color:#003567;
@@ -342,6 +345,13 @@
 			margin: 0;
 			line-height: 18px;
 		}
+		.content-body .brick .half-column ul.no-bullet-point li{
+			background: none;
+			padding: 0px 0 0px 0;
+			list-style: none;
+			margin: 0;
+			line-height: 24px;
+		}
 		
 		
 		.page-content .half-column.side2{
@@ -404,6 +414,7 @@
 			color:#4AACD9;
 			margin:0;
 			padding:0;
+			font-style:italic;
 		}
 		
 		.content-body .brick-list .three-column ul{
@@ -412,10 +423,10 @@
 		}
 		.content-body .brick-list .three-column ul li{
 			background: url('../img/list-icon.png') no-repeat 0 5px;
-			padding: 3px 0 3px 19px;
+			padding: 0 0 0 19px;
 			list-style: none;
 			margin: 0;
-			line-height: 18px;
+			line-height: 24px;
 		}
 		.content-body .brick-list .half-column ul.sponsors-list{
 			margin:0;
@@ -521,6 +532,12 @@
 /* Travelinfo - How to ride Hart Styles - Start */
 	.content-body .half-column ul.no-margin{
 		margin:0;
+	}
+	.content-body .half-column ul.no-left-margin{
+		margin-left:0;
+	}
+	.content-body .half-column ul.no-padding{
+		padding:0;
 	}
 	a.link-normal{
 		color:#FFFFFF;
@@ -967,6 +984,7 @@
 	font-family: gothBold,Helvetica,arial,sans-serif;
 	font-weight: 400;
 }
+
     
 .content-body .half-column {
     margin-right: 3%;
@@ -986,10 +1004,15 @@
 	margin:20px 0;
 }
 .mid-section .mid-copy {
-    width: 75%;
+    /*width: 75%;*/
+    width: 80%;
 }
 .content-body .info-italic{
 	font-size:13px;
+}
+.content-body .info-italic2{
+	font-size:13px;
+	font-style: italic;
 }
 .content-body .space-top-bottom{
 	margin:10px 0;
@@ -1050,6 +1073,9 @@
 }
 .right{
 	float:right;
+}
+.align-right{
+	text-align:right;
 }
 
 .page-nav.fullWidth 
@@ -1122,7 +1148,7 @@
 .emergency .need-to-know {font-weight: normal;}
 .alerts-detours .alert-detail {font-size: 18px;}
 .planner h2 {font-size: 18px;}
-.paid-ad-text{font-size:14px;text-align:right;float:right;}
+.paid-ad-text{font-size:14px;text-align:right;float:right;padding:0 0 5px 0;}
 .headline.heading-farecards{width:500px;}
 .headline.heading-salesLocations{width:500px;}
 .page-content .fullColumnWidth{width:100%;}
@@ -1141,7 +1167,8 @@
 
 .header .headline {
 	bottom: 20%;
-	width: 635px;
+	/* width: 635px; */
+	width:775px;
 }
 .header .headline-single-bottom{
 	bottom: 38%;
@@ -1164,9 +1191,36 @@
 .main-info{font-size:18px;}
 .nowrap{white-space: nowrap;}
 .info-icons-description > div{font-size:15px;}
-a.brick-link{color:#FFFFFF;text-decoration:none;}
+.page-content a.brick-link{color:#FFFFFF;text-decoration:none;}
+.page-content .bold-gray{color: #999999;font-family: gothBold,Helvetica,arial,sans-serif;font-weight: 400;}
+.page-content .normal-blue{color: #036;font-family: gothBook,Helvetica,arial,sans-serif;font-weight:400;}
+.page-content ul.serv-hours-right{float:right;}
+.page-content ul.serv-hours-right {text-align:right;}
 
-
+.five-up {
+    margin-right: 1%;
+    width: 18.85%;
+}
+.pdf-downlaod.five-up{}
+.pdf-downlaod.five-up:last-child{margin:0;float:right;}
+.pdf-downlaod .pdf-ico {
+    background-color: #fff;
+    display: inline-block;
+    height: 100%;
+    padding: 5px 3% 0;
+    width: 17%;
+}
+.pdf-downlaod .download-title {
+    color: #fff;
+    display: inline-block;
+    margin-top: 4%;
+    padding-left: 10%;
+    vertical-align: top;
+}
+.mid-section {
+    background-image: url("../img/service/service-mid-bg-fpo.jpg");
+    /*background-repeat: no-repeat;*/
+}
 	
 
 
@@ -1342,11 +1396,24 @@ a.brick-link{color:#FFFFFF;text-decoration:none;}
 	}
 	
 	.pdf-downlaod .download-title {
-	    margin-top: 8%;
-	    padding-left: 12%;
+	    margin-top: 6%;
+	    padding-left: 18%;
 	}
 	.pdf-downlaod {
-	    width: 22%;
+	    /*width: 22%;*/
+	    width:32%;
+	}
+	
+	
+	
+	.page-content .column-49 {
+	    width: 100% !important;
+	}
+	.content-body .three-column {
+	    display: inline-block;
+	    margin-right: 3%;
+	    vertical-align: top;
+	    width: 100%;
 	}
 	
 	
@@ -1407,6 +1474,14 @@ a.brick-link{color:#FFFFFF;text-decoration:none;}
 	    margin-top: 5% !important;
 	    padding-left: 6.5%;
 	}
+	
+	
+	
+	.pdf-downlaod.five-up:last-child{margin:0;float:left;}
+	.page-content .map-data {
+	    width: 100%;
+	}
+	.page-content .map{width:100%;}
 	
 }
 
@@ -1563,10 +1638,16 @@ a.brick-link{color:#FFFFFF;text-decoration:none;}
 	}
 	.pdf-downlaod .download-title {
 	    margin-top: 6%;
+	    padding-left: 25%;
 	}
 	.pdf-downlaod-2columns .download-title {
 	    padding-left: 13%;
 	}
+	
+	.page-content .map-data {
+	    width: 100%;
+	}
+	.page-content .map{width:100%;}
 	
 	
 	/* OVERRIDES of CSS for tix row */
@@ -1674,10 +1755,10 @@ a.brick-link{color:#FFFFFF;text-decoration:none;}
    	width: 268px;
 	}
 	.page-content .map {
-		width: 268px;
+		width: 100%;
 	}
 	.page-content .map img {
-		width: 268px;
+		/*width: 268px;*/
 	}
 	.map-data-last{
 		float:left;
@@ -1778,14 +1859,19 @@ a.brick-link{color:#FFFFFF;text-decoration:none;}
 	    width: 19.5%;
 	}
 	.pdf-downlaod .download-title {
-	    padding-left: 8%;
+	    padding-left: 23%;
 	}
 	.pdf-downlaod .download-title {
-	    margin-top: 9%;
+	    margin-top: 7%;
 	}
 	.pdf-downlaod-2columns .download-title {
 	    margin-top: 9% !important;
 	}
+	
+	.page-content .map-data {
+	    width: 100%;
+	}
+	.page-content .map{width:100%;}
 	
 	
 	
@@ -1817,6 +1903,9 @@ a.brick-link{color:#FFFFFF;text-decoration:none;}
 		bottom: -40px;
 		right: 0;
 	}
+	
+	.resize-icon-height{height:65px;}
+	.content-body .brick .brick-head{height:auto;}
 	
 	
 	

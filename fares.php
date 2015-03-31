@@ -58,6 +58,8 @@
 						</div>
 						<div class="info-graphic">
 							<img src="img/service/info-graphic.jpg"/>
+							<br/>
+							<span class="paid-ad-text">Paid Ad</span>
 						</div>
 
 
@@ -267,7 +269,15 @@
 						</div>
 
 						<div class="bottom-rule footer-rule">
-						<div class="cta center-cta"><img src="img/fares/lower-cta.jpg"/><hr/></div>
+						<div class="cta center-cta">
+							<div class="callout corp-trans-callout">
+								<div>
+									<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
+									<span class="cta-page"><a href="fares-locations.php">SALES LOCATIONS</a></span>
+								</div>
+							</div>
+							<hr/>
+						</div>
 					</div>
 					<div class="center footer-ad">
 							<img src="img/service/fpo-ad.jpg"/>

@@ -53,25 +53,9 @@
 						</div>
 						<div class="info-graphic">
 							<img src="img/service/info-graphic.jpg"/>
+							<br/>
+							<span class="paid-ad-text">Paid Ad</span>
 						</div>
-						<div>
-							<p>It's simple to launch a Corporate Transit Sponsor Program at your company. Just follow these easy steps:</p>
-
-							<div class="half-column">
-								<ul>
-									<li><span class="num-li">1.</span> Appoint an employee to be your Transit Program Coordinator</li>
-									<li><span class="num-li">2.</span> Have your Transit Coordinator call HART at <b>813-384-6595</b> to speak with a representative who will help work out all the Transit Program details</li>									
-								</ul>
-							</div>
-							<div class="half-column">
-								<ul>
-									<li><span class="num-li">3.</span> Inform employees about the Transit Program and transportation pass choices</li>
-									<li><span class="num-li">4.</span> Start enjoying the benefits of public transportation, and say good-bye to stress, traffic and parking hassles!</li>									
-								</ul>
-							</div>
-						</div>
-
-						<h2>MONTHLY PASSES FOR FREQUENT RIDERS</h2>
 						<div class="tix-box">
 							<div class="disclaimer">Effective November 11, 2012</div>
 								<div class="tix-row">
@@ -102,7 +86,7 @@
 							<div class="callout corp-trans-callout">
 								<div>
 									<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
-									<span class="cta-page"><a href="#">USF U-PASS PROGRAM</a></span>
+									<span class="cta-page"><a href="fares-usfu-pass.php">USF U-PASS PROGRAM</a></span>
 								</div>
 							</div>
 							<hr/>

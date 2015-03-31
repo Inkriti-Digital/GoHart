@@ -31,9 +31,9 @@
 
 				<div class="content-block">
 					<div class="page-nav">
-						<a class="nav-btn"><span>MAPS</span></a>
-						<a class="nav-btn"><span>SCHEDULES</span></a>
-						<a class="nav-btn"><span>FARES</span></a>
+						<a href="maps-schedules.php" class="nav-btn"><span>MAPS</span></a>
+						<a href="maps-schedules.php" class="nav-btn"><span>SCHEDULES</span></a>
+						<a href="fares.php" class="nav-btn"><span>FARES</span></a>
 					</div>
 
 
@@ -58,13 +58,15 @@
 						</div>
 						<div class="info-graphic">
 							<img src="img/service/info-graphic.jpg"/>
+							<br/>
+							<span class="paid-ad-text">Paid Ad</span>
 						</div>
 						
 						<div>
 							<div>
 								<div class="half-column">
 									<div>
-										<b>To make a one-way or round-trip reservation, call <a href="" class="link-colored">813-254-4278</a>:</b>
+										<b>To make a one-way or round-trip reservation, call <a href="" class="link-colored nowrap">813-254-4278</a>:</b>
 									</div>
 									
 									<div class="half-column reservation-timings-days">
@@ -84,7 +86,7 @@
 									<div class="clear-fix"></div>
 								
 									<p>
-										Customers who book a reservation and do not arrive for their trip or do not cancel their reservation at least two hours beforehand will be considered a no-show. Customers who receive four no-shows in any 30-day period will be suspended from HARTFlex reservations for two weeks. These customers may continue to use walk-up service where available.
+										Customers who book a reservation and do not arrive for their trip or do not cancel their reservation at least two hours beforehand will be considered a no-show. Customers who receive four <span class="nowrap">no-shows</span> in any 30-day period will be suspended from HARTFlex reservations for two weeks. These customers may continue to use walk-up service where available.
 									</p>
 								</div>
 
@@ -174,7 +176,7 @@
 
 								<div class="half-column how-do-i-apply-data2">	
 									<div class="brick">
-										<div class="brick-head">PLEASE BRING OR MAIL APPLICA TION TO:*</div>
+										<div class="brick-head">PLEASE BRING OR MAIL APPLICATION TO:*</div>
 										<p>
 											Raymond C. Miller Building (Ybor S tation)
 											<br/>
@@ -235,17 +237,14 @@
 							</div>
 							
 							<div class="fullColumnWidth">
-								<div class="brick time-and-fare">
-									<div class="brick-head">
-										HARTPLUS ONE-WAY CASH FARE
-										<span class="brick-line"></span><span> $4.00</span>
+								<div class="tix-box">
+									<div class="tix-row">
+										<div class="tix-type">HARTPLUS ONE-WAY CASH FARE</div>
+										<div class="tix-fare">$4.00</div>
 									</div>
-								</div>
-								<div class="brick time-and-fare">
-									<div class="brick-head">
-										HARTPLUS 10-RIDE COUPON BOOK
-										<span class="brick-line"></span><span> $40.00</span>
-										<span class="coupon-image"><img src="img/fares/tix-ico-white.png" width="30"></span>
+									<div class="tix-row blue-row">
+										<div class="tix-type">HARTPLUS 10-RIDE COUPON BOOK</div>
+										<div class="tix-fare">$40.00<img src="img/fares/tix-ico-white.png"/></div>
 									</div>
 								</div>
 							</div>
@@ -337,7 +336,7 @@
 							<div class="half-column brick-blue-link brick-blue-link-last right">
 								<a href="" class="brick-link">
 									<div class="icon">
-										<img src="img/metrorapid-service/schedule-img.png" />
+										<img src="img/audio-icon.png" />
 									</div>
 									<div class="brick-blue-link-text">
 										<div class="brick-blue-link-text1">
@@ -380,16 +379,17 @@
 							</div>
 						</div>
 						<div class="clear-fix"></div>
-							
-					</div>
-				</div>
-			</section>
-			
-			<section class="page-content" style="background: none;">
-				<div class="content-block">
-					<div class="content-body">
+						
 						<div class="bottom-rule footer-rule">
-							<div class="cta center-cta footer-more-teco-line-image"><img src="img/footer-teco-line-more.jpg"/><hr/></div>
+							<div class="cta center-cta">
+								<div class="callout corp-trans-callout">
+									<div>
+										<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
+										<span class="cta-page"><a href="services-teco-line.php">TECO LINE STREETCAR SYSTEM</a></span>
+									</div>
+								</div>
+								<hr/>
+							</div>
 						</div>
 						<div class="center footer-ad">
 								<img src="img/service/fpo-ad.jpg"/>

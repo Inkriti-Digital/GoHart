@@ -30,9 +30,9 @@
 
 				<div class="content-block">
 					<div class="page-nav">
-						<a class="nav-btn"><span>MAPS</span></a>
-						<a class="nav-btn"><span>SCHEDULES</span></a>
-						<a class="nav-btn"><span>FARES</span></a>
+						<a href="maps-schedules.php" class="nav-btn"><span>MAPS</span></a>
+						<a href="maps-schedules.php" class="nav-btn"><span>SCHEDULES</span></a>
+						<a href="fares.php" class="nav-btn"><span>FARES</span></a>
 					</div>
 
 					<div class="bottom-rule">
@@ -49,6 +49,8 @@
 						</div>
 						<div class="info-graphic">
 							<img src="img/service/info-graphic.jpg"/>
+							<br/>
+							<span class="paid-ad-text">Paid Ad</span>
 						</div>
 						
 						<div>
@@ -94,7 +96,7 @@
 							<div class="fullColumnWidth">
 								<div class="half-column brick-blue-link left">
 									<a href="" class="brick-link">
-										<div class="icon">
+										<div class="icon resize-icon-height">
 											<img src="img/metrorapid-service/schedule-img.png" />
 										</div>
 										<div class="brick-blue-link-text">
@@ -110,7 +112,7 @@
 								</div>
 								<div class="half-column brick-blue-link brick-blue-link-last right">
 									<a href="" class="brick-link">
-										<div class="icon">
+										<div class="icon resize-icon-height">
 											<img src="img/metrorapid-service/schedule-img.png" />
 										</div>
 										<div class="brick-blue-link-text">
@@ -164,7 +166,7 @@
 							<div class="half-column north-south-points">				
 								<ul class="north-south-points-list">
 									<li>MetroRapid North-South Groundbreaking Ceremony video</li>
-									<li>Summary of Interagency Work Group Meeting for North-South MetroRapid</li>
+									<li>Summary of Interagency Work Group Meeting for <span class="nowrap">North-South</span> MetroRapid</li>
 								</ul>
 							</div>
 							<div class="clear-fix"></div>
@@ -178,27 +180,28 @@
 							
 							
 							<div class="fullColumnWidth">
-								<a class="pdf-downlaod five-up">							
+								<a href="" class="pdf-downlaod five-up">							
 									<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 									<span class="download-title">PART ONE</span>		
 								</a>
-								<a class="pdf-downlaod five-up">							
+								<a href="" class="pdf-downlaod five-up">							
 									<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 									<span class="download-title">PART TWO</span>		
 								</a>
-								<a class="pdf-downlaod five-up">							
+								<a href="" class="pdf-downlaod five-up">							
 									<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 									<span class="download-title">PART THREE</span>		
 								</a>
-								<a class="pdf-downlaod five-up">							
+								<a href="" class="pdf-downlaod five-up">							
 									<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 									<span class="download-title">PART FOUR</span>		
 								</a>
-								<a class="pdf-downlaod five-up">							
+								<a href="" class="pdf-downlaod five-up">							
 									<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 									<span class="download-title">PART FIVE</span>		
 								</a>
 							</div>
+							<div class="clear-fix"></div>
 							
 							
 							<div class="fullColumnWidth">					
@@ -244,7 +247,15 @@
 					</div>
 					<div class="content-body">
 						<div class="bottom-rule footer-rule">
-							<div class="cta center-cta"><img src="img/metrorapid-service/footer-more.jpg"/><hr/></div>
+							<div class="cta center-cta">
+								<div class="callout corp-trans-callout">
+									<div>
+										<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
+										<span class="cta-page"><a href="services-van.php">VAN</a></span>
+									</div>
+								</div>
+								<hr/>
+							</div>
 						</div>
 						<div class="center footer-ad">
 								<img src="img/service/fpo-ad.jpg"/>

@@ -31,9 +31,9 @@
 
 				<div class="content-block">
 					<div class="page-nav">
-						<a class="nav-btn"><span>MAPS</span></a>
-						<a class="nav-btn"><span>SCHEDULES</span></a>
-						<a class="nav-btn"><span>FARES</span></a>
+						<a href="maps-schedules.php" class="nav-btn"><span>MAPS</span></a>
+						<a href="maps-schedules.php" class="nav-btn"><span>SCHEDULES</span></a>
+						<a href="fares.php" class="nav-btn"><span>FARES</span></a>
 					</div>
 
 
@@ -63,6 +63,8 @@
 						</div>
 						<div class="info-graphic">
 							<img src="img/service/info-graphic.jpg"/>
+							<br/>
+							<span class="paid-ad-text">Paid Ad</span>
 						</div>
 						
 						<div class="fullColumnWidth">	
@@ -134,7 +136,7 @@
 			
 			<section class="mid-section">
 				<div class="mid-copy alt-transport-midcopy-1">
-					<h3>"Commuters will be pleasantly surprised at how well vanpooling works. Some members of our pool choose t o read, others work and several converse on our commute. It is reliable, quick and efficient. All of our riders ha ve been pleased with the savings."</h3>
+					<h3>"Commuters will be pleasantly surprised at how well vanpooling works. Some members of our pool choose to read, others work and several converse on our commute. It is reliable, quick and efficient. All of our riders have been pleased with the savings."</h3>
 					<h3 class="commentby"><b>Ros Owen</b>, vanpool driver Designer for Standard Register</h3>
 				</div>
 			</section>
@@ -152,7 +154,7 @@
 									<div>
 										<h2>BETTER COMMUNTES WITH VANPOOL</h2>
 										<p>
-											Discover the comfort, convenience and savings of a vanpool—the smart way to carpool. A vanpool is a group of eight employees riding together in a van on their daily commute to and from work. One member of the group drives and picks up the other group members at their residences or a common pickup area. A back-up driver is always available in case the regular driver goes on vacation or gets sick. <a href="" class="link-colored">TBARTA</a> operates this vanpool service and provides the van. Vanpooling operates on a monthly basis, so you never have to make a long-term commitment
+											Discover the comfort, convenience and savings of a vanpool—the smart way to carpool. A vanpool is a group of eight employees riding together in a van on their daily commute to and from work. One member of the group drives and picks up the other group members at their residences or a common pickup area. A <span class="nowrap">back-up</span> driver is always available in case the regular driver goes on vacation or gets sick. <a href="" class="link-colored">TBARTA</a> operates this vanpool service and provides the van. Vanpooling operates on a monthly basis, so you never have to make a long-term commitment
 										</p>
 										<p>
 											Each passenger pays a monthly fare, which covers the cost of maintenance and insurance, and shares the gas cost. Thanks to government funding, fares are low, and you save significantly over the cost of driving alone. Plus, vanpoolers are eligible for the Emergency Ride Home program, which provides individual transportation for emergencies and unexpected overtime.
@@ -284,7 +286,15 @@
 				<div class="content-block">
 					<div class="content-body">
 						<div class="bottom-rule footer-rule">
-							<div class="cta center-cta footer-more-teco-line-image"><img src="img/how-to-ride-hart.jpg"/><hr/></div>
+							<div class="cta center-cta">
+								<div class="callout corp-trans-callout">
+									<div>
+										<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
+										<span class="cta-page"><a href="travelinfo-how-to-ride-hart.php">HOW TO RIDE HART</a></span>
+									</div>
+								</div>
+								<hr/>
+							</div>
 						</div>
 						<div class="center footer-ad">
 								<img src="img/service/fpo-ad.jpg"/>

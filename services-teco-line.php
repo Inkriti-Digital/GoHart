@@ -30,9 +30,9 @@
 			<section class="page-content">
 				<div class="content-block">
 					<div class="page-nav">
-						<a class="nav-btn"><span>MAPS</span></a>
-						<a class="nav-btn"><span>SCHEDULES</span></a>
-						<a class="nav-btn"><span>FARES</span></a>
+						<a href="maps-schedules.php" class="nav-btn"><span>MAPS</span></a>
+						<a href="maps-schedules.php" class="nav-btn"><span>SCHEDULES</span></a>
+						<a href="fares.php" class="nav-btn"><span>FARES</span></a>
 					</div>
 					
 					<div class="bottom-rule">
@@ -49,6 +49,8 @@
 						</div>
 						<div class="info-graphic">
 							<img src="img/service/info-graphic.jpg"/>
+							<br/>
+							<span class="paid-ad-text">Paid Ad</span>
 						</div>
 					</div>					
 				</div>				
@@ -64,7 +66,15 @@
 				<div class="content-block">
 					<div class="content-body">
 						<div class="bottom-rule footer-rule">
-							<div class="cta center-cta footer-more-teco-line-image"><img src="img/footer-alternative-transport-more.jpg"/><hr/></div>
+							<div class="cta center-cta">
+								<div class="callout corp-trans-callout">
+									<div>
+										<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
+										<span class="cta-page"><a href="services-alternative-transportation.php">ALTERNATIVE TRANSPORTATION</a></span>
+									</div>
+								</div>
+								<hr/>
+							</div>
 						</div>
 						<div class="center footer-ad">
 								<img src="img/service/fpo-ad.jpg"/>
