@@ -741,6 +741,7 @@
 		width:29%;
 		margin:0 5% 0 0;
 		display:inline-block;
+		vertical-align: top;
 	}
 	.content-body .three-column-info-chunks:nth-child(3n){
 		margin:0 0 0 0;
@@ -1335,6 +1336,17 @@
 	
 	.pdf-downlaod-2columns .download-title {margin-top: 2%;}
 
+
+	.content-body .dates .point-no-area {width: 13%;}
+	.content-body .dates .point-description {width: 82%;}
+	.content-body .dates-full-width .point-no-area {width: 10%;}
+	.content-body .dates-full-width .point-description {width: 87.5%;}
+	
+	.page-nav .nav-btn {height:auto;}
+	
+	
+	.page-content .employee-login .employee-login-form .form-half {width: 48.7%;}
+	
 }
 
 
@@ -1462,7 +1474,28 @@
 	.pdf-downlaod-2columns {margin: 0;width: 65.3% !important;}
 	.pdf-downlaod-2columns .download-title {margin-top: 2%;}
 	
+	.content-body .dates .point-no-area {width: 16%;}
+	.content-body .dates .point-description {width: 79%;}
+	.content-body .dates-full-width .point-no-area {width: 12%;}
+	.content-body .dates-full-width .point-description {width: 85.5%;}
 	
+	.page-nav .nav-btn {width: 88%;margin:0 auto 5px auto;}
+	
+	.content-body .three-column-info-chunks {margin: 0 0 0 0;width: 100%;}
+	
+	
+	.page-content .employee-login .employee-login-form .form-half:nth-child(1) {
+	    float: left;
+	    height: auto;
+	    vertical-align: top;
+	    width: 100%;
+    }
+	.page-content .employee-login .employee-login-form .form-half {
+	    float: left;
+	    height: 125px;
+	    vertical-align: top;
+	    width: 100%;
+    }
 	
 	
 	/* OVERRIDES of CSS for tix row */
@@ -1722,6 +1755,8 @@
 		right: 0;
 	}
 	
+	.page-nav .nav-btn {width: 88%;margin:0 auto 5px auto;}
+	
 }
 
 
@@ -1956,6 +1991,15 @@
 	.content-body .brick .brick-head{height:auto;}
 	
 	
+	.content-body .three-column-data {margin: 0 4% 3% 0;width: 45%;}
+	.content-body .team-members .team-member-name {font-size: 16px;margin: 10px 0 0 10px;}
+	.content-body .team-members .team-member-place {font-size: 14px;margin: 0 0 0 10px;}
+	.content-body .team-members .team-member-position {font-size: 14px;margin: 0 0 0 10px;}
+	.content-body .team-member-image {margin: 0 0 -5px;}
+	.content-body .dates .point-no-area {width: 31%;}
+	.content-body .dates-full-width .point-no-area {width: 31%;}
+	
+	.page-nav .nav-btn {width: 85%;margin:0 auto 5px auto;}
 	
 }
 
