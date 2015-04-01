@@ -11,7 +11,6 @@
 	<body>
 
 		<!-- Content -->
-
 		<div class="container">
 			<?php include ("views/main-nav.php"); ?>
 

@@ -1740,7 +1740,7 @@ section {
 section .headline {
   position: absolute;
   bottom: 26%;
-  left: 3%;
+  left: 5%;
   width: 60%;
 }
 section h1 {
@@ -1766,7 +1766,7 @@ section h1 {
   position: absolute;
   width: 67%;
   height: 70%;
-  bottom: 14%;
+  bottom: 11%;
   left: -40%;
 }
 .landing .logo {
@@ -2059,8 +2059,8 @@ section h1 {
 
 .gohart {
   margin-top: 50px;
-  background: url("../img/home/ocean-view-bg.jpg") no-repeat;
-  background-size: 108%;
+  background: url("../img/home/home-lower-bg.jpg") no-repeat;
+  background-size: 120%;
 }
 .gohart .bus {
   background: url(../img/home/bus-home3.png) no-repeat;
