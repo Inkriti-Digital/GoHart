@@ -28,7 +28,7 @@
 
 			</section>
 			<section class="page-content">
-				<div class="content-block">
+				<div class="content-block blocktop">
 					<div class="bottom-rule">
 						<div class="cta"><span>BOARD OF DIRECTORS</span><hr/></div>
 					</div>
@@ -330,7 +330,7 @@
 						
 				
 			<section class="page-content">
-				<div class="content-block">
+				<div class="content-block blocktop">
 					<div class="bottom-rule">
 						<div class="cta"><span>EXECUTIVE LEADERSHIP</span><hr/></div>
 					</div>
@@ -559,7 +559,7 @@
 							<div class="callout corp-trans-callout">
 								<div>
 									<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
-									<span class="cta-page"><a href="#">NEWS</a></span>
+									<span class="cta-page"><a href="about-hart-news.php">NEWS</a></span>
 								</div>
 							</div>
 							<hr/>

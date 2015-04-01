@@ -375,6 +375,11 @@
 			color:#FFFFFF;
 			text-align: center;
 		}
+		.page-content .visit-link a{
+			color:#FFFFFF;
+			text-decoration:none;
+			display:block;
+		}
 /*  teco line service page styles - End */
 
 
@@ -389,7 +394,7 @@
 			padding: 0px 0 0px 19px;
 			list-style: none;
 			margin: 0;
-			line-height: 24px;
+			line-height: 25px;
 		}
 		
 		.content-body .vanpool-data h2{
@@ -571,7 +576,7 @@
 /* About - Hart News - Styles - Start */
 	.content-body .dates .point-no-area{
 		width:10%;
-		height:85px;
+		height:92px;
 		margin:14px 10px 0 0;
 		display:inline-block;
 		float:left;
@@ -580,13 +585,24 @@
 		background: url("../img/diagonal-pattern.png") repeat scroll 0 0 #003567;
 	}
 	.content-body .dates .point-no{
-		padding:2px 10px;
+		padding:8px 10px;
 		background-color: #003567;
 		color:#FFFFFF;
 		font-weight:400;
 		margin-top:11px;
 		display:inline-block;
 		font-size:20px;
+	}
+	.content-body .point-no .date{
+		font-weight:bold;
+		padding:0;
+		margin:0;
+		display:block;
+	}
+	.content-body .point-no .year{
+		padding:0;
+		margin:-6px 0 0 0;
+		display:block;
 	}
 	.content-body .dates .point-description{
 		display:inline-block;
@@ -596,7 +612,7 @@
 	
 	.content-body .dates-full-width .point-no-area{
 		width:7.5%;
-		height:85px;
+		height:92px;
 		margin:14px 10px 0 0;
 		display:inline-block;
 		float:left;
@@ -605,7 +621,7 @@
 		background: url("../img/diagonal-pattern.png") repeat scroll 0 0 #003567;
 	}
 	.content-body .dates-full-width .point-no{
-		padding:2px 10px;
+		padding:8px 10px;
 		background-color: #003567;
 		color:#FFFFFF;
 		font-weight:400;
@@ -678,6 +694,7 @@
 	}
 	.content-body .team-member-detail-description .team-member-name-detail-description{
 		font-size:16px;
+		font-weight: bold;
 		color:#FFFFFF;
 	}
 	.content-body .team-member-detail-description .team-member-designation-detail-description{
@@ -690,14 +707,18 @@
 	.content-body .team-member-detail-description p{
 		font-size:14px;
 		padding:0 0 0 0;
-		margin:0 0 10px 0;
+		margin:0 0 25px 0;
 		color:#FFFFFF;
+		line-height:24px;
 	}
 	.content-body .team-member-detail-description-close{
 		position:absolute;
 		right:15px;
 		top:15px;
 		cursor:pointer;
+	}
+	.content-body .team-member-image {
+		margin: 0 0 -7px;
 	}
 /* About - Meet The Hart Team - Styles - End */
 
@@ -1153,16 +1174,7 @@
 .headline.heading-salesLocations{width:500px;}
 .page-content .fullColumnWidth{width:100%;}
 
-.pdf-downlaod-2columns {
-    margin: 0;
-    width: 48.5%;
-}
-.pdf-downlaod-2columns .pdf-ico{
-	width: 9.5%;
-}
-.pdf-downlaod-2columns .download-title{
-	margin-top: 5%;
-}
+
 
 
 .header .headline {
@@ -1189,9 +1201,10 @@
     font-size: 21px;
 }
 .main-info{font-size:18px;}
+.main-info-lineheight{line-height:27px;}
 .nowrap{white-space: nowrap;}
 .info-icons-description > div{font-size:15px;}
-.page-content a.brick-link{color:#FFFFFF;text-decoration:none;}
+.page-content a.brick-link{color:#FFFFFF;text-decoration:none;display:block;}
 .page-content .bold-gray{color: #999999;font-family: gothBold,Helvetica,arial,sans-serif;font-weight: 400;}
 .page-content .normal-blue{color: #036;font-family: gothBook,Helvetica,arial,sans-serif;font-weight:400;}
 .page-content ul.serv-hours-right{float:right;}
@@ -1221,7 +1234,20 @@
     background-image: url("../img/service/service-mid-bg-fpo.jpg");
     /*background-repeat: no-repeat;*/
 }
-	
+
+
+
+.pdf-downlaod-2columns {margin: 0;width: 48.5%;}
+.pdf-downlaod-2columns .pdf-ico{width: 11.2%;}
+.pdf-downlaod-2columns .download-title{margin-top: 3%;padding-left: 20%;}
+
+.page-content .content-block.blocktop{margin-bottom:-15px;}
+.page-content .contact-info-bottom{margin:15px 0 0 0;}
+
+.no-margin{margin:0 !important;}
+.margin-bottom-gap{margin:-4px 0 10px 0 !important;}
+.normal-lineheight{line-height: normal;}
+
 
 
 
@@ -1298,6 +1324,8 @@
 	    bottom: 0;
 	    right: 0;
 	}
+	
+	.pdf-downlaod-2columns .download-title {margin-top: 2%;}
 
 }
 
@@ -1396,13 +1424,18 @@
 	}
 	
 	.pdf-downlaod .download-title {
-	    margin-top: 6%;
+	    margin-top: 5%;
 	    padding-left: 18%;
 	}
 	.pdf-downlaod {
 	    /*width: 22%;*/
 	    width:32%;
 	}
+	
+	.pdf-downlaod-evac{margin-right: 1%;}
+	.pdf-downlaod-evac:nth-child(4n){margin-right: 1%;}
+	.pdf-downlaod-evac:nth-child(3n){margin-right: 0;}
+	
 	
 	
 	
@@ -1415,6 +1448,11 @@
 	    vertical-align: top;
 	    width: 100%;
 	}
+	
+	
+	
+	.pdf-downlaod-2columns {margin: 0;width: 65.3% !important;}
+	.pdf-downlaod-2columns .download-title {margin-top: 2%;}
 	
 	
 	
@@ -1466,14 +1504,14 @@
 	    width: 47%;
 	}
 	
-	.pdf-downlaod-2columns {
-	    margin: 0;
-	    width: 97% !important;
-	}
-	.pdf-downlaod-2columns .download-title {
-	    margin-top: 5% !important;
-	    padding-left: 6.5%;
-	}
+	
+	
+	
+	.pdf-downlaod-evac{margin-right: 1%;}
+	.pdf-downlaod-evac:nth-child(4n), .pdf-downlaod-evac:nth-child(3n){margin-right: 1%;}
+	.pdf-downlaod-evac:nth-child(2n){margin-right: 0;}
+	.pdf-downlaod-2columns {margin: 0;width: 96% !important;}
+	.pdf-downlaod-2columns .download-title {margin-top: 3%;padding-left: 22.5%;}
 	
 	
 	
@@ -1633,16 +1671,13 @@
 	    margin: 0;
 	    width: 100% !important;
 	}
-	.pdf-downlaod-2columns .pdf-ico {
-	    width: 19.5%;
-	}
 	.pdf-downlaod .download-title {
 	    margin-top: 6%;
 	    padding-left: 25%;
 	}
-	.pdf-downlaod-2columns .download-title {
-	    padding-left: 13%;
-	}
+	
+	.pdf-downlaod-2columns .pdf-ico {width: 17%;}
+	.pdf-downlaod-2columns .download-title {margin-top: 5%;padding-left: 15.5%;}
 	
 	.page-content .map-data {
 	    width: 100%;
@@ -1851,21 +1886,26 @@
 	}
 	
 	
-	.pdf-downlaod-2columns {
-	    margin: 0;
-	    width: 100% !important;
-	}
-	.pdf-downlaod-2columns .pdf-ico {
-	    width: 19.5%;
-	}
+	
 	.pdf-downlaod .download-title {
 	    padding-left: 23%;
 	}
 	.pdf-downlaod .download-title {
 	    margin-top: 7%;
 	}
+	
+	
+	
+	.pdf-downlaod-2columns {
+	    margin: 0;
+	    width: 100%;
+	}
+	.pdf-downlaod-2columns .pdf-ico {
+	    width: 17.2%;
+	}
 	.pdf-downlaod-2columns .download-title {
-	    margin-top: 9% !important;
+		margin-top: 7% !important;
+	    padding-left: 10%;
 	}
 	
 	.page-content .map-data {

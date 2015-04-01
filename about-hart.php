@@ -35,11 +35,11 @@
 					</div>
 					<div class="content-body">
 						<div class="info">
-							<p>
+							<p class="main-info-lineheight">
 								The Hillsborough Area Regional Transit Authority (HART) was created in October of 1979 to plan, finance, acquire, construct, operate and maintain mass transit facilities and supply transportation assistance in Hillsborough County. Today, we are Driven to Serve You through convenient, affordable public transportation options tailored to contemporary lifestyles. More people than ever in Hillsborough County are discovering benefits of our sophisticated, yet accessible and rider-friendly, network of transit options. We look forward to helping more and more of our community ride HART.
 							</p>
 							<p class="visit-link">
-								REPORT TO ETHICSPOINT
+								<a href="">CLICK HERE TO VIEW THE HART CHARTER</a>
 							</p>
 						</div>
 						<div class="info-graphic">
@@ -48,13 +48,39 @@
 							<span class="paid-ad-text">Paid Ad</span>
 						</div>
 						
+						<p>
+							HART provides the following services:
+						</p>
+						<div class="fullColumnWidth brick-list">
+							<div class="half-column brick-column left">
+								<ul class="no-margin">
+									<li><a href="" class="bold-blue">MetroRapid</a></li>
+									<li>Local Fixed Route and <a href="" class="bold-blue">Express Bus Service</a></li>
+									<li><a href="" class="bold-blue">Streetcar</a></li>
+									<li>Rubber-wheeled <a href="" class="bold-blue">In-Town Trolleys</a></li>
+									<li><a href="" class="bold-blue">Vanpool</a> & Guaranteed Ride Home Service</li>
+									<li><a href="" class="bold-blue">HARTFlex</a>service in Brandon, Northdale, South County, South Tampa and Town 'N Country</li>
+									<li><a href="" class="bold-blue"></a></li>
+								</ul>
+							</div>
+							<div class="half-column brick-column brick-column-last right">
+								<ul class="no-margin">
+									<li>Wheelchair accessibility on all buses and vans</li>
+									<li>Bicycle accessibility on all buses and <a href="" class="bold-blue">HARTFlex</a> vans</li>
+									<li><a href="" class="bold-blue">Paratransit Service</a></li>
+									<li><a href="" class="bold-blue">Travel Planning Assistance</a> & updated scheduled arrival times, bus stop locations and service updates for Smart Phones</li>
+									<li><a href="" class="bold-blue">Travel Training</a></li>
+								</ul>
+							</div>
+							<div class="clear-fix"></div>
+						</div>
 						
 						<div class="bottom-rule footer-rule">
 						<div class="cta center-cta">
 							<div class="callout corp-trans-callout">
 								<div>
 									<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
-									<span class="cta-page"><a href="#">OVERVIEW</a></span>
+									<span class="cta-page"><a href="about-hart-team.php">TEAM</a></span>
 								</div>
 							</div>
 							<hr/>

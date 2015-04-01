@@ -86,7 +86,7 @@
 						
 						<div class="fullColumnWidth brick-list">
 							<div class="half-column brick-column left">
-								<h2>EMPLOYEE BENEFITS</h2>
+								<h2 class="margin-bottom-gap normal-lineheight">EMPLOYEE BENEFITS</h2>
 								<ul class="no-margin">
 									<li>Health Insurance</li>
 									<li>Life Insurance</li>
@@ -122,7 +122,7 @@
 							<div class="callout corp-trans-callout">
 								<div>
 									<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
-									<span class="cta-page"><a href="#">BUSINESS</a></span>
+									<span class="cta-page"><a href="about-hart-business.php">BUSINESS</a></span>
 								</div>
 							</div>
 							<hr/>

@@ -40,49 +40,49 @@
 					<div>
 						<h2>INDIVIDUAL ROUTE MAPS</h2>
 						<div>							
-							<a class="pdf-downlaod">								
+							<a class="pdf-downlaod pdf-downlaod-evac">								
 								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 								<span class="download-title">ROUTE A</span>		
 							</a>
-							<a class="pdf-downlaod">								
+							<a class="pdf-downlaod pdf-downlaod-evac">								
 								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 								<span class="download-title">ROUTE B</span>		
 							</a>
-							<a class="pdf-downlaod">								
+							<a class="pdf-downlaod pdf-downlaod-evac">								
 								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 								<span class="download-title">ROUTE C</span>		
 							</a>
-							<a class="pdf-downlaod last">								
+							<a class="pdf-downlaod pdf-downlaod-evac last">								
 								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 								<span class="download-title">ROUTE D</span>		
 							</a>
 							
-							<a class="pdf-downlaod">								
+							<a class="pdf-downlaod pdf-downlaod-evac">								
 								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 								<span class="download-title">ROUTE E</span>		
 							</a>
-							<a class="pdf-downlaod">								
+							<a class="pdf-downlaod pdf-downlaod-evac">								
 								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 								<span class="download-title">ROUTE F</span>		
 							</a>
-							<a class="pdf-downlaod">								
+							<a class="pdf-downlaod pdf-downlaod-evac">								
 								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 								<span class="download-title">ROUTE G</span>		
 							</a>
-							<a class="pdf-downlaod last">								
+							<a class="pdf-downlaod pdf-downlaod-evac last">								
 								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 								<span class="download-title">ROUTE H</span>		
 							</a>
 							
-							<a class="pdf-downlaod">								
+							<a class="pdf-downlaod pdf-downlaod-evac">								
 								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 								<span class="download-title">ROUTE I</span>		
 							</a>
-							<a class="pdf-downlaod">								
+							<a class="pdf-downlaod pdf-downlaod-evac">								
 								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 								<span class="download-title">ROUTE J</span>		
 							</a>
-							<a class="pdf-downlaod pdf-downlaod-2columns">								
+							<a class="pdf-downlaod pdf-downlaod-evac pdf-downlaod-2columns">								
 								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 								<span class="download-title">HURRICANE SYSTEM MAP</span>		
 							</a>

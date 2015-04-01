@@ -272,5 +272,26 @@ $(document).ready(function(){
 			/* About Employee login functionality - End */
 			
 			
+			/* brick icons - height setting functionality - Start */
+				function brickIconsHeightSetting(){
+					var brickIconLength = $(".brick-link .icon").length;
+					//alert(brickIconLength);
+					for(var h=0;h<brickIconLength;h++)
+					{
+						var currentBrickHeight = $(".brick-link .icon").eq(h).parent().height();
+						//alert(currentBrickHeight);
+						$(".brick-link .icon").eq(h).height(currentBrickHeight-3+'px');
+					}
+				}
+				brickIconsHeightSetting();
+				$( window ).resize(function() {
+					$(".brick-link").css('height','initial');
+					$(".brick-link .icon").css('height','initial');
+					brickIconsHeightSetting();
+				});
+			/* brick icons - height setting functionality - End */
+			
+			
+			
     /* =================== Vijay code Addition - End =================== */
 });
