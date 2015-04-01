@@ -248,6 +248,22 @@ body{
  	 	background-size: 110%;
  	 	background-position: 20% 0;
 
+ 	 	.alt-transport-box{
+ 	 		position: absolute;
+ 	 		width: 100%;
+ 	 		height: 100%;
+ 	 		background: url('../img/home/serv-sky-bg.jpg') no-repeat;
+ 	 		background-size: 110%;
+ 	 	}
+
+ 	 	.alt-transport-fore{
+ 	 		position: absolute;
+ 	 		width: 100%;
+ 	 		height: 100%;
+ 	 		background: url('../img/home/serv-bike-foreground.png') no-repeat;
+ 	 		background-size: 110%;
+ 	 	}
+
  	 	.metro-foreground{
  	 		  background: url(../img/home/serv-large-bus.png) no-repeat;
 			  background-size: 103%;

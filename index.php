@@ -71,13 +71,19 @@
 					</div>
 					<div id="servnav-alt" class="metro-block">
 						<div class="hover-box">
-							<span class="metro-hover"> ALTERNATIVE <br/> TRANSPORTATION </span>
+							<span class="metro-hover">ALTERNATIVE <br/> TRANSPORTATION </span>
 						</div>
 						<img src="img/home/servnav-alt.jpg"/>
 					</div>
 					<div class="clear-fix"></div>
 				</div>
 				<div class="metro-main" data-600="background-position: 40% 0%;" data-1100="background-position: 0% 0%;">
+					<div class="alt-transport-box">
+						<div class="alt-transport-fore">
+							
+						</div>
+					</div>
+
 					<div class="metro-foreground" data-600="left: -15%;" data-1100="left: 0%"></div>
 					<div class="metro-box">
 						<span class="metro-title">BUS</span><hr/>
