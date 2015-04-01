@@ -36,7 +36,7 @@
 					<div class="content-body">
 						<div class="fullColumnWidth">
 							<div class="half-column brick-column left">
-								<h2>
+								<h2 class="head1">
 									NOTIFYING THE PUBLIC OF RIGHTS UNDER TITLE
 									<br/>
 									VI HILLSBOROUGH AREA REGIONAL TRANSIT
@@ -48,7 +48,7 @@
 								</p>
 							</div>
 							<div class="half-column brick-column brick-column-last right">
-								<h2>
+								<h2 class="head1">
 									NOTIFICACIÓN AL PÚBLICO DE LOS DERECHOS
 									<br/>
 									BAJO EL TÍTULO VI AUTORIDAD DE TRÁNSITO
@@ -178,7 +178,7 @@
 						<div class="fullColumnWidth brick-list">
 							<div class="half-column brick-column left">
 								<p>
-									All Title VI complaints will be investigated promptly. Reasonable measures will be undertaken to preserve any information that is xonfidential. The Civil Rights Officer will review every complaint, and when necessary, begin the investigation process. At a minimum the investigating will:
+									All Title VI complaints will be investigated promptly. Reasonable measures will be undertaken to preserve any information that is confidential. The Civil Rights Officer will review every complaint, and when necessary, begin the investigation process. At a minimum the investigating will:
 								</p>
 								<ul class="no-margin">
 									<li>Identify and review all relevant documents, practices and procedures;</li>
@@ -238,7 +238,7 @@
 							<div class="callout corp-trans-callout">
 								<div>
 									<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
-									<span class="cta-page"><a href="#">PUBLIC MEETINGS</a></span>
+									<span class="cta-page"><a href="about-public-meetings.php">PUBLIC MEETINGS</a></span>
 								</div>
 							</div>
 							<hr/>

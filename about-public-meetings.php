@@ -30,17 +30,17 @@
 			<section class="page-content">
 				<div class="content-block">
 					<div class="page-nav">
-						<a class="nav-btn"><span>BOARD OF DIRECTORS</span></a>
+						<a href="about-hart-team.php" class="nav-btn"><span>BOARD OF DIRECTORS</span></a>
 					</div>
 					<div class="bottom-rule">
 						<div class="cta"><span>MEETING CALENDAR</span><hr/></div>
 					</div>
 					<div class="content-body">
 						<div class="info">
-							<p>
+							<p class="margin-bottom-5">
 								A copy of the agenda may be obtained by writing to HART, 1201 East 7th Avenue, Tampa, Florida 33605; or by contacting HART Clerk of the Board at <a href="" class="bold-blue">(813) 384-6552</a>.
 							</p>
-							<p>
+							<p class="margin-bottom-5">
 								Pursuant to provisions of the American with Disabilities Act, any person requiring special accommodations to participate in this meeting is asked to contact HART Clerk of the Board at <a href="" class="bold-blue">(813) 384-6552</a> at least seven days before the meeting. If you are hearing or speech impaired, please call the TDD <a href="" class="bold-blue">(813) 626-9158</a>.
 							</p>
 							<p>
@@ -263,7 +263,7 @@
 							<div class="callout corp-trans-callout">
 								<div>
 									<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
-									<span class="cta-page"><a href="#">EMPLOYEE LOGIN</a></span>
+									<span class="cta-page"><a href="about-employee-login.php">EMPLOYEE LOGIN</a></span>
 								</div>
 							</div>
 							<hr/>

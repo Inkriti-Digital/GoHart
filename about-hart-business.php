@@ -30,13 +30,13 @@
 			<section class="page-content">
 				<div class="content-block">
 					<div class="page-nav">
-						<a class="nav-btn"><span>OPPORTUNITIES</span></a>
-						<a class="nav-btn"><span>TRANSIT DEVELOPMENT PLAN</span></a>
-						<a class="nav-btn"><span>PLANNING AND PRJECTS</span></a>
+						<a href="about-opportunities.php" class="nav-btn"><span>OPPORTUNITIES</span></a>
+						<a href="about-transit-development-plan.php" class="nav-btn"><span>TRANSIT DEVELOPMENT PLAN</span></a>
+						<a href="about-planning-and-projects.php" class="nav-btn"><span>PLANNING AND PROJECTS</span></a>
 					</div>
 					<div class="page-nav">
-						<a class="nav-btn"><span>DISADVANTAGED & SMALL BUSINESS</span></a>
-						<a class="nav-btn"><span>TRANSIT ADVERTISING</span></a>
+						<a href="about-disadvantaged-and-small-business.php" class="nav-btn"><span>DISADVANTAGED & SMALL BUSINESS</span></a>
+						<a href="about-transit-advertising.php" class="nav-btn"><span>TRANSIT ADVERTISING</span></a>
 					</div>
 					
 					
@@ -46,7 +46,7 @@
 								<div class="callout corp-trans-callout">
 									<div>
 										<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
-										<span class="cta-page"><a href="#">TITLE VI/CIVIL RIGHTS</a></span>
+										<span class="cta-page"><a href="about-title-vi-civil-rights.php">TITLE VI/CIVIL RIGHTS</a></span>
 									</div>
 								</div>
 								<hr/>
