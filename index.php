@@ -78,9 +78,9 @@
 					<div class="clear-fix"></div>
 				</div>
 				<div class="metro-main" data-600="background-position: 40% 0%;" data-1100="background-position: 0% 0%;">
-					<div class="alt-transport-box">
-						<div class="alt-transport-fore">
-							
+					<div class="alt-transport-box" data-600="background-position: 90% 0%;" data-1100="background-position: 0% 0%;">
+						<div class="alt-transport-fore" data-400="background-position: 60% 0%;" data-900="background-position: 0% 0%;">
+
 						</div>
 					</div>
 
