@@ -280,7 +280,7 @@ $(document).ready(function(){
 					{
 						var currentBrickHeight = $(".brick-link .icon").eq(h).parent().height();
 						//alert(currentBrickHeight);
-						$(".brick-link .icon").eq(h).height(currentBrickHeight-3+'px');
+						$(".brick-link .icon").eq(h).css('height',currentBrickHeight+'px');
 					}
 				}
 				brickIconsHeightSetting();

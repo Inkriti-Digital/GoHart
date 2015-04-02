@@ -30,7 +30,7 @@
 			<section class="page-content">
 				<div class="content-block dec-bottom-margin">
 					<div class="content-body">
-						<i>Here you will find some of the projects HART is working on that could one day take you where you want to go.</i>
+						<i class="italicfont1">Here you will find some of the projects HART is working on that could one day take you where you want to go.</i>
 					</div>
 				</div>
 				
@@ -58,9 +58,9 @@
 							</p>
 							<h2>WHY COMPRESSED NATURAL GAS?</h2>
 							<b>Reduction of CO² Emissions</b>
-							<p>
+							<div>
 								CNG vehicles produce the fewest emissions and contain significantly less pollutants than gasoline. Natural gas produces 30% to 40% less CO², which is a greenhouse gas, and carbon monoxide (CO) is reduced by more than 90%.
-							</p>
+							</div>
 							<div class="brick-list">
 								<ul class="no-margin">
 									<li>One HART CNG van is estimated to reduce CO² emissions by 9 tons per year. With 28 CNG vans in operation in 2014, HART will reduce these emissions by 252 tons per year.</li>
@@ -78,24 +78,18 @@
 							
 							<b>Less Expensive</b>
 							<br/>
-							<div class="fullColumnWidth">
-								<div class="brick time-and-fare">
-									<div class="brick-head">
-										COMPRESSED NATURAL GAS (CNG)
-										<span class="brick-line"></span><span> $1.95</span>
-									</div>
+							<div class="tix-box info">
+								<div class="tix-row">
+									<div class="tix-type">COMPRESSED NATURAL GAS (CNG)</div>
+									<div class="tix-fare">$1.95</div>
 								</div>
-								<div class="brick time-and-fare">
-									<div class="brick-head">
-										DIESEL
-										<span class="brick-line"></span><span> $3.00</span>
-									</div>
+								<div class="tix-row blue-row">
+									<div class="tix-type">DIESEL</div>
+									<div class="tix-fare">$3.00</div>
 								</div>
-								<div class="brick time-and-fare">
-									<div class="brick-head">
-										GASOLINE
-										<span class="brick-line"></span><span> $3.60</span>
-									</div>
+								<div class="tix-row">
+									<div class="tix-type">GASOLINE</div>
+									<div class="tix-fare">$3.60</div>
 								</div>
 							</div>
 							
@@ -110,13 +104,17 @@
 							
 							<b>Safer</b>
 							<p>
-								People cook and heat their homes with natural gas. Would you do the same in your home with diesel fuel, or gasoline? CNG is lighter than air. Should a CNG leak occur, the gas will disperse rapidly into the atmosphere. Diesel or gasoline, which is heavier than air, can spill on the ground creating fire hazards and potential pollution to waterways.
+								People cook and heat their homes with natural gas. Would you do the same in your home with diesel fuel, or gasoline?
+								<br/>
+								CNG is lighter than air. Should a CNG leak occur, the gas will disperse rapidly into the atmosphere. Diesel or gasoline, which is heavier than air, can spill on the ground creating fire hazards and potential pollution to waterways.
 							</p>
 							<p>
-								Fuel storage tanks on CNG vehicles are thicker than on gasoline or diesel vehicles. CNG is stored under high pressure in tub-shaped cylinders attached to the rear, top, or undercarriage of the vehicles, and meet rigorous federally required safety standards. Some of the safety tests include heat and pressure extremes, gunfire, collisions and fires. They are constructed of high-strength materials designed to withstand impact, puncture and, in the case of fire, its pressure release devices provide a controlled venting of the gas rather than letting pressure build up in the tanks. Maintenance and Performance
-							</p>
-							<p>
-								The real savings is on the maintenance side relative to the engines. A forty-foot transit bus, of which the life is scheduled to be around 12 years, generally has to have an engine rebuilt within five or six years. Since CNG burns cleanly, it is estimated that roughly 80% of the engines can go the full life cycle of the vehicle.
+								<div>
+									Fuel storage tanks on CNG vehicles are thicker than on gasoline or diesel vehicles. CNG is stored under high pressure in tub-shaped cylinders attached to the rear, top, or undercarriage of the vehicles, and meet rigorous federally required safety standards. Some of the safety tests include heat and pressure extremes, gunfire, collisions and fires. They are constructed of high-strength materials designed to withstand impact, puncture and, in the case of fire, its pressure release devices provide a controlled venting of the gas rather than letting pressure build up in the tanks. Maintenance and Performance
+								</div>
+								<div>
+									The real savings is on the maintenance side relative to the engines. A forty-foot transit bus, of which the life is scheduled to be around 12 years, generally has to have an engine rebuilt within five or six years. Since CNG burns cleanly, it is estimated that roughly 80% of the engines can go the full life cycle of the vehicle.
+								</div>
 							</p>
 						</div>
 						
@@ -145,7 +143,7 @@
 				</div>
 				
 				
-				<div class="content-block">
+				<div class="content-block dec-bottom-margin">
 					<div class="bottom-rule">
 						<div class="cta"><span>HART METRORAPID (NORTH-SOUTH/EAST-WEST)</span><hr/></div>
 					</div>
@@ -183,29 +181,29 @@
 							<div class="bus-shelter-request-form">
 								<form action="#">
 									<div class="form-half form-left">
-										<input type="text" name="name" value="*NAME" required="required">
-										<input type="text" name="address" value="*ADDRESS" required="required">
-										<input type="text" name="city" value="*CITY" required="required">
-										<input type="text" name="state" value="*STATE" required="required">
-										<input type="text" name="zip" value="*ZIPCODE" required="required">
-										<input type="text" name="phone" value="*PHONE" required="required">
-										<input type="text" name="email" value="*EMAIL" required="required">
-										<input type="text" name="bus-stop-id-number" value="*BUS STOP ID NUMBER" required="required">
-										<input type="text" name="bus-routes-served" value="*BUS ROUTES SERVED" required="required">
+										<input type="text" name="name" placeholder="*NAME" required="required">
+										<input type="text" name="address" placeholder="*ADDRESS" required="required">
+										<input type="text" name="city" placeholder="*CITY" required="required">
+										<input type="text" name="state" placeholder="*STATE" required="required">
+										<input type="text" name="zip" placeholder="*ZIPCODE" required="required">
+										<input type="text" name="phone" placeholder="*PHONE" required="required">
+										<input type="text" name="email" placeholder="*EMAIL" required="required">
+										<input type="text" name="bus-stop-id-number" placeholder="*BUS STOP ID NUMBER" required="required">
+										<input type="text" name="bus-routes-served" placeholder="*BUS ROUTES SERVED" required="required">
 										<i>*Required</i>
 									</div>
 									<div class="form-half">
-										<input type="text" name="street" value="*STREET" required="required">
-										<input type="text" name="which-side-of-street" value="*WHICH SIDE OF STREET" required="required">
-										<input type="text" name="neaarest-cross-street" value="*NEAREST CROSS STREET" required="required">
-										<input type="text" name="which-side-ofcross-street" value="*WHICH SIDE OF CROSS STREET" required="required">
+										<input type="text" name="street" placeholder="*STREET" required="required">
+										<input type="text" name="which-side-of-street" placeholder="*WHICH SIDE OF STREET?" required="required">
+										<input type="text" name="neaarest-cross-street" placeholder="*NEAREST CROSS STREET" required="required">
+										<input type="text" name="which-side-ofcross-street" placeholder="*WHICH SIDE OF CROSS STREET?" required="required">
 										<div class="bus-shelter-request-form-radiobut">
 											<span>*WOULD YOU LIKE RESULTS OF EVALUATION?</span>
 											<br/>
-											<input type="radio" name="result-evaluation" />Yes
-											<input type="radio" name="result-evaluation" />No
+											<label><input type="radio" name="result-evaluation" />Yes</label>
+											<label><input type="radio" name="result-evaluation" />No</label>
 										</div>
-										<textarea name="comment" form="usrform">COMMENTS</textarea>
+										<textarea name="comment" form="usrform" placeholder="COMMENTS"></textarea>
 									</div>
 									<div class="clear-fix"></div>
 									<div class="submit-btn"><input type="submit" value="SUBMIT"></div>
@@ -218,7 +216,7 @@
 							<div class="callout corp-trans-callout">
 								<div>
 									<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
-									<span class="cta-page"><a href="#">BUSINESS</a></span>
+									<span class="cta-page"><a href="about-hart-business.php">BUSINESS</a></span>
 								</div>
 							</div>
 							<hr/>

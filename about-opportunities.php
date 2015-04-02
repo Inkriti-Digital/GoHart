@@ -20,7 +20,7 @@
 				<div class="logo"><img src="img/hart-logo.png"/></div>
 				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
 
-				<div class="headline">
+				<div class="headline headline-single-bottom">
 					<h1>OPPORTUNITIES</h1>
 				</div>
 
@@ -97,15 +97,17 @@
 						<div class="cta"><span>PROCUREMENT POLICIES, PROCEDURES AND GUIDELINES</span><hr/></div>
 					</div>
 					<div class="content-body">
-						<div class="info">
-							<p>
-								To ensure fairness and equal access to solicitations for all qualified bidders, HART has established standardized procurement processes and follows the Federal Transit Administration’s (FTA) guidelines.
-							</p>
-							<p>
-								The below policies, procedures and guidelines have been provided as a courtesy and are available for review as vendors are encouraged to become familiar with the procurement process.
-							</p>
+						<div class="info infoPartsMain">
+							<div class="infoPart1">
+								<p>
+									To ensure fairness and equal access to solicitations for all qualified bidders, HART has established standardized procurement processes and follows the Federal Transit Administration’s (FTA) guidelines.
+								</p>
+								<p>
+									The below policies, procedures and guidelines have been provided as a courtesy and are available for review as vendors are encouraged to become familiar with the procurement process.
+								</p>
+							</div>
 						</div>
-						<div class="info-graphic">
+						<div class="info-graphic infoPart2">
 							<span>PDFs for download:</span><br/>
 							<a href="" class="bold-blue">Procurement Manual</a><br/>
 							<a href="" class="bold-blue">FTA Circular 4220.1F</a><br/>
@@ -218,7 +220,7 @@
 									<div class="info-row info-title">REGINA DIXON</div>
 									<div class="info-row last-info-row">
 										<div>
-											ERP Specialis t/Procurement
+											ERP Specialist/Procurement
 											<br/>
 											(813) 384-6432
 										</div>
@@ -255,7 +257,7 @@
 							<div class="callout corp-trans-callout">
 								<div>
 									<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
-									<span class="cta-page"><a href="#">BUSINESS</a></span>
+									<span class="cta-page"><a href="about-hart-business.php">BUSINESS</a></span>
 								</div>
 							</div>
 							<hr/>

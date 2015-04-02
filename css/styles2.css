@@ -510,6 +510,12 @@
 		width:85%;
 		float:left;
 	}
+	
+	
+	
+	.content-body .point-no-place{
+		width:6%;
+	}
 /*  Transparency - public record requests styles - End */
 
 
@@ -729,10 +735,10 @@
 	}
 	.content-body .brick-list ul li{
 		background: url('../img/list-icon.png') no-repeat 0 5px;
-		padding: 3px 0 3px 19px;
+		padding: 0 0 0 19px;
 		list-style: none;
 		margin: 0;
-		line-height: 18px;
+		line-height: 25px;
 	}
 	.content-body .brick-list ul.no-margin{
 		margin:0;
@@ -757,7 +763,7 @@
 
 /* About - Transit Development Plan - Styles - Start */
 	.header .headline.transit-development-plan-headline {
-    width: 610px;
+   /* width: 610px;*/
 	}
 /* About - Transit Development Plan - Styles - End */
 
@@ -941,7 +947,7 @@
 	  background-color: #7aaed5;
 	  height: 45px;
 	  font-size: 16px;
-	  padding: 5px 15px;
+	  padding: 5px 40px;
 	  padding-top: 10px;
 	  margin-right: 0;
 	  letter-spacing: 0.03em;
@@ -1065,7 +1071,7 @@
 	.page-content .brick-blue-link .brick-blue-link-text{
 		background-color:#0f406b;
 		width:428px;
-		padding:8px 0;
+		padding:4px 0;
 		text-align:center;
 		float:left;
 	}
@@ -1126,7 +1132,7 @@
 	padding-left: 10px;
 	padding-top: 10px;
 	margin-left: 2%;
-	width:50%;
+	/*width:50%;*/
 }
 .tix-box .tix-row .tix-fare {
 	float: right;
@@ -1257,6 +1263,51 @@
 .page-nav a:hover {color: #69c;}
 .page-content h2.head1{font-size:18px;}
 
+.map-locations .marker-details {vertical-align: top;}
+
+
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #083b70;
+    opacity: 1;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #083b70;
+    opacity: 1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #083b70;
+    opacity: 1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #083b70;
+    opacity: 1;
+}
+
+
+
+
+
+/*JUSTIN OVERRIDES*/
+.page-content .brick-blue-link .brick-blue-link-text {
+  background-color: #0f406b;
+  width: 428px;
+  padding: 8px 0;
+  text-align: center;
+  float: left;
+  /*width: 76%;*/
+  width: 81%;
+  background:url('../img/brick-arrow.png')no-repeat -1px center;
+}
+
+.infoPart1{width:85%;}
+.infoPart2{}
+.points-head1{padding:0 0 0 19px;}
+.page-content .italicfont1 {font-size: 19px;}
+.content-body h2 {color: #036;font-size: 19px;}
+.bus-shelter-requests {z-index: 777;}
+.page-content .bus-shelter-requests input[type="radio"]{margin-right:11px;}
+.page-content .bus-shelter-requests label{display: inline;margin-right:25px;}
 
 
 
@@ -1342,10 +1393,16 @@
 	.content-body .dates-full-width .point-no-area {width: 10%;}
 	.content-body .dates-full-width .point-description {width: 87.5%;}
 	
+	.content-body .point-no-place{width:5.5%;}
+	.content-body .point-description-place{width:93%;}
+	
 	.page-nav .nav-btn {height:auto;}
 	
 	
 	.page-content .employee-login .employee-login-form .form-half {width: 48.7%;}
+	.page-content .comments .comment-form .form-half {width: 48.7%;}
+	
+	.infoPart1{width:100%;}
 	
 }
 
@@ -1407,11 +1464,13 @@
    	width: 100%;
 	}
 	.page-content .brick-blue-link .brick-blue-link-text {
-		width: 210px;
-		padding: 0;
+		/*width: 210px;*/
+		width:85%;
+		padding: 6px 0 0 0;
 	}
 	.page-content .brick-blue-link .brick-blue-link-text1 {
    	font-size: 14px;
+   	/*padding: 6px 0 0 0;*/
 	}
 	
 	.cta .callout, .corp-trans-callout {
@@ -1479,6 +1538,9 @@
 	.content-body .dates-full-width .point-no-area {width: 12%;}
 	.content-body .dates-full-width .point-description {width: 85.5%;}
 	
+	.content-body .point-no-place{width:12%;}
+	.content-body .point-description-place{width:85%;}
+	
 	.page-nav .nav-btn {width: 88%;margin:0 auto 5px auto;}
 	
 	.content-body .three-column-info-chunks {margin: 0 0 0 0;width: 100%;}
@@ -1496,6 +1558,26 @@
 	    vertical-align: top;
 	    width: 100%;
     }
+    
+    .planner .home-form #date, .planner .home-form #time {margin: 0 0 5px 0;width: 19%;}
+    .planner .home-form #end, .planner .home-form #start {margin: 0 0 5px 0;}
+    
+    .maps-scheduels .schedule-grid .title-row .cell {height: 104px;}
+    
+    .page-content .comments .comment-form .form-half{width:100%;}
+    .page-content .comments .comment-form .form-half:nth-child(2){height:250px;margin: 0 0 25px;}
+    .page-content .comments .comment-form .form-half textarea {margin:10px 0 0 0;height:90%;}
+	 .page-content .comments .comment-form .submit-btn input[type="submit"]{bottom:-5px;}
+	 
+	 
+	 .page-content .bus-shelter-requests .bus-shelter-request-form .form-half{width:100%;}
+	 .page-content .bus-shelter-requests .bus-shelter-request-form .form-half:nth-child(2){margin:0 0 25px 0;}
+	 .page-content .bus-shelter-requests .bus-shelter-request-form .submit-btn input[type="submit"] {margin: -15px 0 0;}
+	 
+	 
+	 .infoPartsMain{width:100% !important;}
+	 .infoPart1{width:100%;}
+	 .infoPart2{width:100% !important;}
 	
 	
 	/* OVERRIDES of CSS for tix row */
@@ -1504,6 +1586,12 @@
 		bottom: -40px;
 		right: 0;
 	}
+}
+
+
+
+@media only screen and (min-width: 801px) and (max-width: 950px) {
+	.page-content .brick-blue-link .brick-blue-link-text {width: 77%;}
 }
 
 
@@ -1554,6 +1642,9 @@
 	.pdf-downlaod-2columns {margin: 0;width: 96% !important;}
 	.pdf-downlaod-2columns .download-title {margin-top: 3%;padding-left: 22.5%;}
 	
+	.planner .home-form #end, .planner .home-form #start {margin: 0 0 5px 0;width: 100%;}
+	.planner .home-form #date, .planner .home-form #time {margin: 0 0 5px 0;width: 100%;}
+	
 	
 	
 	.pdf-downlaod.five-up:last-child{margin:0;float:left;}
@@ -1561,6 +1652,8 @@
 	    width: 100%;
 	}
 	.page-content .map{width:100%;}
+	
+	.maps-scheduels .schedule-grid .title-row .cell {height: 130px;}
 	
 }
 
@@ -1642,7 +1735,8 @@
    	margin:0 0 10px 0
 	}
 	.page-content .brick-blue-link .brick-blue-link-text {
-		width: 407px;
+		/*width: 407px;*/
+		width:77%;
 		padding: 10px 0 0 0;
 	}
 	.page-content .brick-blue-link .brick-blue-link-text1 {
@@ -1771,7 +1865,7 @@
 	    bottom: 10%;
 	    left: 6%;
 	    position: absolute;
-	    width: 190px;
+	    width: 245px;
 	}
 	.header h1 {
 	    display: inline-block;
@@ -1847,10 +1941,13 @@
 	
 	.page-content .brick-blue-link .brick-blue-link-text {
 		padding: 5px 0 0;
-	   width: 232px;
+	   /*width: 232px;*/
+	   width:82%;
 	}
 	.page-content .brick-blue-link .brick-blue-link-text1 {
 	    font-size: 10px;
+	    margin: 0 0 0 5px;
+	    padding: 0 0 0 0;
 	}
 	.page-content .brick-blue-link .brick-blue-link-text2 {
 	    color: #ffffff;
@@ -1915,7 +2012,7 @@
 	
 	
 	.holiday-block .holiday-date .holiday {
-	    margin-top: 95%;
+	    margin-top: 105%;
 	}
 	.holiday-block .holiday-detail {
 	    width: 75%;
@@ -1999,21 +2096,15 @@
 	.content-body .dates .point-no-area {width: 31%;}
 	.content-body .dates-full-width .point-no-area {width: 31%;}
 	
+	.content-body .point-no-place{width:20%;}
+	.content-body .point-description-place{width:100%;}
+	.content-body .half-column .point-no-place{width:20%;}
+	.content-body .half-column .point-description-place{width:100%;}
+	
 	.page-nav .nav-btn {width: 85%;margin:0 auto 5px auto;}
 	
 }
 
 
-
-/*JUSTIN OVERRIDES*/
-.page-content .brick-blue-link .brick-blue-link-text {
-  background-color: #0f406b;
-  width: 428px;
-  padding: 8px 0;
-  text-align: center;
-  float: left;
-  width: 76%;
-  background:url('../img/brick-arrow.png')no-repeat -1px center;
-}
 
 

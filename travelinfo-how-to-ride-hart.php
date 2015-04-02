@@ -228,7 +228,8 @@
 											REQUEST FREE TRAINING SESSION
 										</div>
 										<div class="brick-blue-link-text2">
-											<a href="mailto:SHEPPARDM@GOHART.ORG" class="link-normal">SHEPPARDM@GOHART.ORG</a>
+											<!--<a href="mailto:SHEPPARDM@GOHART.ORG" class="link-normal">SHEPPARDM@GOHART.ORG</a>-->
+											SHEPPARDM@GOHART.ORG
 										</div>
 									</div>
 									<div class="clear-fix"></div>

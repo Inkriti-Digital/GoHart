@@ -20,7 +20,7 @@
 				<div class="logo"><img src="img/hart-logo.png"/></div>
 				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
 
-				<div class="headline">
+				<div class="headline headline-single-bottom">
 					<h1>ETHICSPOINT</h1>
 				</div>
 

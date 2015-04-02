@@ -83,7 +83,7 @@
 						</div>
 						
 						<div class="fullColumnWidth">
-							Documentation of DBE FY11, FY12 & FY13 Goal Methodology:
+							<b class="points-head1">Documentation of DBE FY11, FY12 & FY13 Goal Methodology:</b>
 						</div>
 						<div class="fullColumnWidth brick-list">
 							<ul class="no-margin">
@@ -132,7 +132,7 @@
 							<div class="callout corp-trans-callout">
 								<div>
 									<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
-									<span class="cta-page"><a href="#">BUSINESS</a></span>
+									<span class="cta-page"><a href="about-hart-business.php">BUSINESS</a></span>
 								</div>
 							</div>
 							<hr/>

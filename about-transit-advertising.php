@@ -98,7 +98,7 @@
 							</div>
 							<div class="half-column brick-column brick-column-last right">
 								<p>
-									Signal Outdoor has been selected as the exclusive provider for the development of the HART Shelter Advertising Program. The program spans the greater Tampa Bay market and features state-of-the-art Bus Shelters.
+									Signal Outdoor has been selected as the exclusive provider for the development of the HART Shelter Advertising Program. The program spans the greater Tampa Bay market and features <span class="nowrap">state-of-the-art</span> Bus Shelters.
 								</p>
 								<div class="info-chunk">
 									<div class="info-row info-title">BUS SHELTER ADVERTISING</div>
@@ -148,7 +148,7 @@
 							<div class="callout corp-trans-callout">
 								<div>
 									<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
-									<span class="cta-page"><a href="#">BUSINESS</a></span>
+									<span class="cta-page"><a href="about-hart-business.php">BUSINESS</a></span>
 								</div>
 							</div>
 							<hr/>

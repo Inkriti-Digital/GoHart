@@ -281,7 +281,7 @@
 							<div class="callout">
 								<div>
 									<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
-									<span class="cta-page"><a href="#">ALERTS &amp; DETOURS</a></span>
+									<span class="cta-page"><a href="maps-alerts-detours.php">ALERTS &amp; DETOURS</a></span>
 								</div>
 							</div>
 							<hr/>
