@@ -22,8 +22,8 @@
 						<img class="full-logo" src="img/hart-logo.png" alt="GoHart Logo"/>
 						<img class="box-logo" src="img/hart-logo-box.png" alt="GoHart Logo"/>
 					</a>
-
 				</div>
+				
 				<div class="menu-ico">
 					<img src="img/menu-ico.png" alt="Main Nav"/>
 				</div>

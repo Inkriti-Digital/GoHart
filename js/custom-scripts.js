@@ -210,8 +210,7 @@ $(document).ready(function(){
 
 
 
-    $(window).scroll(function() {
-        
+    $(window).scroll(function() {        
 
         var eTop = $('.headline').offset().top; //get the offset top of the element
         var hideLockup = (eTop - $(window).scrollTop());
