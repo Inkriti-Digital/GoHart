@@ -17,8 +17,16 @@
 			<section class="landing" data-0="background-position: 40% 0%;" data-500="background-position: 0% 0%;">
 				<div class="bus" data-0="left: -40%;" data-400="left: 0%"></div>
 
-				<div class="logo"><img src="img/hart-logo.png"/></div>
-				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
+				<div class="logo">
+					<a href="index.php">
+						<img class="full-logo" src="img/hart-logo.png" alt="GoHart Logo"/>
+						<img class="box-logo" src="img/hart-logo-box.png" alt="GoHart Logo"/>
+					</a>
+
+				</div>
+				<div class="menu-ico">
+					<img src="img/menu-ico.png" alt="Main Nav"/>
+				</div>
 
 				<div class="headline">
 					<h1>TRANSPORTATION</h1><br/>
@@ -82,7 +90,6 @@
 						<div class="alt-transport-fore" data-400="background-position: 60% 0%;" data-900="background-position: 0% 0%;">
 						</div>
 					</div>
-
   
 					<div class="metro-foreground" data-600="left: -15%;" data-1100="left: 0%"></div>
 					<div class="train-bg" data-400="background-position: 60% 0%;" data-900="background-position: 0% 0%;"></div>
@@ -175,7 +182,6 @@
 						LINKS
 					</div>
 
-
 					<div class="content-howto">
 						<h2>HOW TO RIDE HART</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
@@ -218,8 +224,6 @@
 							<div class="button">Miscellaneous<img src="img/btn-arrow.png"/></div>							
 						</div>
 					</div>
-
-
 				</div>
 				<div class="return-top">
 					<img src="img/return-arrow.png"/>

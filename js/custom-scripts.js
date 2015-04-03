@@ -206,6 +206,29 @@ $(document).ready(function(){
         }, 250);
        
     }
+
+
+
+
+    $(window).scroll(function() {
+        
+
+        var eTop = $('.headline').offset().top; //get the offset top of the element
+        var hideLockup = (eTop - $(window).scrollTop());
+        //console.log(eTop - $(window).scrollTop()); //position of the ele w.r.t window
+        console.log(hideLockup);
+
+        if(hideLockup<=100){
+            $(".full-logo").hide();
+            $(".box-logo").show();
+            $(".logo").css('width', '5%');
+        } else if( hideLockup >= 100){
+            $(".full-logo").show();
+            $(".box-logo").hide();
+            $(".logo").css('width', '20%');
+        }
+
+    });
     
     
     /* =================== Vijay code Addition - Start =================== */

@@ -64,28 +64,24 @@ $(document).ready(function(){
                 $('.metro-foreground').css('background-image','url(img/home/serv-large-bus.png)');
                 $( ".metro-title" ).text( "BUS" );
                 $( ".metro-arrow" ).animate({ left: "2%"}, 500, 'easeOutQuad', function() {}); 
-                // $('.metro-main').css('background-image','url(img/home/services-bg.jpg)');
                 $(".alt-transport-box").fadeOut();
                 $(".train-bg").fadeOut();
             } else if(myCar=="metro"){
                 $('.metro-foreground').css('background-image','url(img/home/serv-large-metro.png)');
                 $( ".metro-title" ).text( "METRORAPID" );
                 $( ".metro-arrow" ).animate({ left: "22%"}, 500, 'easeOutQuad', function() {});
-                // $('.metro-main').css('background-image','url(img/home/services-bg.jpg)');
                 $(".alt-transport-box").fadeOut();
                 $(".train-bg").fadeOut();
             } else if(myCar=="van"){
                 $('.metro-foreground').css('background-image','url(img/home/serv-large-van.png)');
                 $( ".metro-title" ).text( "VAN" );
                 $( ".metro-arrow" ).animate({ left: "42%"}, 500, 'easeOutQuad', function() {});
-                // $('.metro-main').css('background-image','url(img/home/services-bg.jpg)');
                 $(".alt-transport-box").fadeOut();
                 $(".train-bg").fadeOut();
             } else if(myCar=="trolly"){
                 $('.metro-foreground').css('background-image','url(img/home/serv-large-train.png)');
                 $( ".metro-title" ).text( "STREETCAR SYSTEM" );
                 $( ".metro-arrow" ).animate({ left: "62%"}, 500, 'easeOutQuad', function() {});
-                // $('.metro-main').css('background-image','url(img/home/services-bg.jpg)');
                 $(".alt-transport-box").fadeOut();
                 $(".train-bg").fadeIn();
             } else if(myCar=="alt"){
@@ -96,16 +92,6 @@ $(document).ready(function(){
                 $(".alt-transport-box").fadeIn();
             }
 
-                // $('.metro-main').animate({ opacity: "0"}, 300, 'easeOutQuad', function() {});
-                
-            //     setTimeout(function() {
-            //         $('.metro-main').css('background-image','url(img/home/services-bike-parallax.jpg)');
-            //         $( ".metro-main" ).animate({
-            //             opacity: 1                        
-            //         }, 500, function() {}); 
-            //         }, 300);
-            // }
-
              $('.metro-foreground').css('left','-20%');
             
              setTimeout(function() {
@@ -113,8 +99,7 @@ $(document).ready(function(){
                      opacity: 1,
                      left: "-10%"
                  }, 500, function() {}); 
-             }, 300);
-            
+             }, 300);      
         }
     }
 

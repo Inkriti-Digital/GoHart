@@ -39,7 +39,7 @@
 	<div class="secondary">
 		<ul class="subnav-maps">
 			<li><a href="maps-trip-planner.php">Trip Planner / OneBusAway</a></li>
-			<li><a href="maps-schedules.php">System Map</a></li>
+			<li><a href="maps-schedules.php">System Map &amp; Schedules</a></li>
 			<li><a href="maps-alerts-detours.php">Alert &amp; Detours</a></li>
 			<li><a href="maps-holiday-schedule.php">Holiday Service Schedule</a></li>
 			<li><a href="maps-emergency-evac.php">Emergency Evacuation Maps</a></li>
