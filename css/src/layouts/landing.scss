@@ -451,6 +451,7 @@ body{
  		.block-row{
  			position: relative;
 			overflow: hidden;
+			width: 500%;
 			
 			@include media-query(palm){
 				width: 100%;

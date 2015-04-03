@@ -2105,6 +2105,7 @@ section h1 {
 .news .news-blocks .block-row {
   position: relative;
   overflow: hidden;
+  width: 500%;
 }
 @media only screen and (max-width: 768px) {
   .news .news-blocks .block-row {
