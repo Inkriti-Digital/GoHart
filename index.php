@@ -83,7 +83,7 @@
 
 						</div>
 					</div>
-
+  
 					<div class="metro-foreground" data-600="left: -15%;" data-1100="left: 0%"></div>
 					<div class="metro-box">
 						<span class="metro-title">BUS</span><hr/>

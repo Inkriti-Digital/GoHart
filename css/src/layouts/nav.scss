@@ -20,14 +20,15 @@
 
  	.close-nav{
  		  position: absolute;
-  background-color: rgba(14,21,45,.75);
-  margin-left: -75px;
-  margin-top: 20px;
-  padding: 8px;
-  width: 13%;
-  cursor: pointer;
-  padding-bottom: 3px;
-		display: none;
+		  background-color: rgba(14,21,45,.75);
+		  margin-left: -75px;
+		  margin-top: 20px;
+		  padding: 8px;
+		  // width: 13%;
+		  width: 60px;
+		  cursor: pointer;
+		  padding-bottom: 3px;
+		  display: none;
  	}
 
  	ul, li{

@@ -1766,7 +1766,7 @@ section h1 {
   position: absolute;
   width: 67%;
   height: 70%;
-  bottom: 11%;
+  bottom: 10%;
   left: -40%;
 }
 .landing .logo {
@@ -1783,7 +1783,7 @@ section h1 {
   position: fixed;
   right: 15px;
   margin: 2.5%;
-  width: 4%;
+  width: 60px;
   max-width: 62px;
   cursor: pointer;
   z-index: 250;
@@ -1933,7 +1933,7 @@ section h1 {
   background-size: 103%;
   background-position: right;
   position: absolute;
-  width: 57%;
+  width: 54%;
   height: 92%;
   bottom: 8%;
   left: -15%;
@@ -2081,9 +2081,9 @@ section h1 {
   background: url(../img/home/bus-home3.png) no-repeat;
   background-size: 100%;
   position: absolute;
-  width: 65%;
-  height: 48%;
-  bottom: 0;
+  width: 78%;
+  height: 55%;
+  bottom: 1%;
   left: -40%;
 }
 .gohart h1 {
@@ -2670,7 +2670,7 @@ ul b, li b {
   margin-left: -75px;
   margin-top: 20px;
   padding: 8px;
-  width: 13%;
+  width: 60px;
   cursor: pointer;
   padding-bottom: 3px;
   display: none;
