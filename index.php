@@ -80,11 +80,13 @@
 				<div class="metro-main" data-600="background-position: 40% 0%;" data-1100="background-position: 0% 0%;">
 					<div class="alt-transport-box" data-600="background-position: 90% 0%;" data-1100="background-position: 0% 0%;">
 						<div class="alt-transport-fore" data-400="background-position: 60% 0%;" data-900="background-position: 0% 0%;">
-
 						</div>
 					</div>
+
   
 					<div class="metro-foreground" data-600="left: -15%;" data-1100="left: 0%"></div>
+					<div class="train-bg" data-400="background-position: 60% 0%;" data-900="background-position: 0% 0%;"></div>
+
 					<div class="metro-box">
 						<span class="metro-title">BUS</span><hr/>
 						<ul>

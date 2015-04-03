@@ -66,29 +66,33 @@ $(document).ready(function(){
                 $( ".metro-arrow" ).animate({ left: "2%"}, 500, 'easeOutQuad', function() {}); 
                 // $('.metro-main').css('background-image','url(img/home/services-bg.jpg)');
                 $(".alt-transport-box").fadeOut();
+                $(".train-bg").fadeOut();
             } else if(myCar=="metro"){
                 $('.metro-foreground').css('background-image','url(img/home/serv-large-metro.png)');
                 $( ".metro-title" ).text( "METRORAPID" );
                 $( ".metro-arrow" ).animate({ left: "22%"}, 500, 'easeOutQuad', function() {});
                 // $('.metro-main').css('background-image','url(img/home/services-bg.jpg)');
                 $(".alt-transport-box").fadeOut();
+                $(".train-bg").fadeOut();
             } else if(myCar=="van"){
                 $('.metro-foreground').css('background-image','url(img/home/serv-large-van.png)');
                 $( ".metro-title" ).text( "VAN" );
                 $( ".metro-arrow" ).animate({ left: "42%"}, 500, 'easeOutQuad', function() {});
                 // $('.metro-main').css('background-image','url(img/home/services-bg.jpg)');
                 $(".alt-transport-box").fadeOut();
+                $(".train-bg").fadeOut();
             } else if(myCar=="trolly"){
-                $('.metro-foreground').css('background-image','url(img/home/serv-large-trolly.png)');
+                $('.metro-foreground').css('background-image','url(img/home/serv-large-train.png)');
                 $( ".metro-title" ).text( "STREETCAR SYSTEM" );
                 $( ".metro-arrow" ).animate({ left: "62%"}, 500, 'easeOutQuad', function() {});
                 // $('.metro-main').css('background-image','url(img/home/services-bg.jpg)');
                 $(".alt-transport-box").fadeOut();
+                $(".train-bg").fadeIn();
             } else if(myCar=="alt"){
                 $('.metro-foreground').css('background-image','none');
                 $( ".metro-title" ).text( "ALTERNATIVE TRANSPORTATION" );
                 $( ".metro-arrow" ).animate({ left: "82%"}, 500, 'easeOutQuad', function() {});
-
+                $(".train-bg").fadeOut();
                 $(".alt-transport-box").fadeIn();
             }
 

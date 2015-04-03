@@ -255,6 +255,7 @@ body{
  	 		background: url('../img/home/serv-sky-bg.jpg') no-repeat;
  	 		background-size: 110%;
  	 		display: none;
+ 	 		z-index: 20;
  	 	}
 
  	 	.alt-transport-fore{
@@ -263,6 +264,16 @@ body{
  	 		height: 100%;
  	 		background: url('../img/home/serv-bike-foreground.png') no-repeat;
  	 		background-size: 110%;
+ 	 	}
+
+ 	 	.train-bg{
+ 	 		position: absolute;
+ 	 		width: 100%;
+ 	 		height: 100%;
+ 	 		background: url('../img/home/streetcar-bg.jpg') no-repeat;
+ 	 		background-size: 110%;
+ 	 		display: none;
+ 	 		z-index:5
  	 	}
 
  	 	.metro-foreground{
@@ -274,6 +285,7 @@ body{
 			  height: 92%;
 			  bottom: 8%;
 			  left: -15%;
+			  z-index: 10;
  	 	}
  	 }
 
@@ -345,7 +357,7 @@ body{
  			display: inline-block;
  			background-color: rgba(14, 21, 45, 0.8);
  			padding: 25px 28px 20px 28px;	
- 			width: 125px;
+ 			width: 121px;
  			height: 89px;
  			text-align: center;
  			vertical-align: top;	
