@@ -2,7 +2,9 @@ $(document).ready(function(){
     var newsWidth;
     var animateWidth = 0;
     var windowHeight;
+    var windowWidth;
     var subNav;
+    var mobileSite;
 
 
 	resizeElements();
@@ -13,6 +15,14 @@ $(document).ready(function(){
     });
 
     function resizeElements(){
+        windowWidth = $(window).width();
+
+        if(windowWidth<=768){
+            mobileSite = true;          
+        } else if(windowWidth>768){
+            mobileSite=false;
+        }
+
         newsWidth = $('.news-blocks').width();
         // console.log('news width = ' + newsWidth);
     	var landingWidth = $('.landing').width();
@@ -34,6 +44,23 @@ $(document).ready(function(){
         var pageHeadWidth = $('.container .header').width();
         var pageHeadHeight = Math.floor(pageHeadWidth*0.355);
         $('.container .header').css('height', pageHeadHeight);
+
+
+        mobileDetect();
+    }
+
+    //======== * MOBIE ELEMENTS * ========//
+    function mobileDetect(){
+        if(mobileSite == true){
+            // $('#skrollr').attr( "src", "" );
+            skrollr.destroy();
+        } else if(mobileSite == false){
+                skrollr.init({
+                    smoothScrolling: false,
+                    mobileDeceleration: 0.004,
+                    forceHeight: false
+                });
+        }
     }
 
 

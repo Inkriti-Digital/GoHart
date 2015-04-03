@@ -3184,4 +3184,18 @@ ul b, li b {
   text-align: center;
 }
 
+/**
+ * $RESPONSIVE
+ * ==========================================================================
+ */
+@media only screen and (max-width: 768px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

@@ -23,7 +23,7 @@
 						<img class="box-logo" src="img/hart-logo-box.png" alt="GoHart Logo"/>
 					</a>
 				</div>
-				
+
 				<div class="menu-ico">
 					<img src="img/menu-ico.png" alt="Main Nav"/>
 				</div>
@@ -39,7 +39,7 @@
 					<div class="rule"><hr/></div>
 				</div>
 				<div class="home-form">
-					<form action=" #">
+					<form action="#">
 					<input id="start" type="text" name="start" value="Start" onfocus="this.value='';">
 					<input id="end" type="text" name="end" value="End" onfocus="this.value='';">
 					<input id="date" type="text" name="date" value="Date" onfocus="this.value='';">
