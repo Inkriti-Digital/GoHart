@@ -1743,6 +1743,14 @@ section .headline {
   left: 5%;
   width: 60%;
 }
+@media only screen and (max-width: 768px) {
+  section .headline {
+    bottom: 39%;
+  }
+  section .headline h1 {
+    font-size: 40px;
+  }
+}
 section h1 {
   margin: 1% 0;
   background-color: rgba(14, 21, 45, 0.6);
@@ -1804,6 +1812,12 @@ section h1 {
   color: white;
   font-size: 18px;
 }
+@media only screen and (max-width: 768px) {
+  .landing .bus-ico {
+    right: 60px;
+    bottom: 12%;
+  }
+}
 .landing .bottom-rule {
   position: absolute;
   width: 100%;
@@ -1817,6 +1831,12 @@ section h1 {
 }
 .landing .bottom-rule .cta {
   width: 24%;
+}
+@media only screen and (max-width: 768px) {
+  .landing .bottom-rule .cta {
+    width: 45%;
+    font-size: 16px;
+  }
 }
 .landing .bottom-rule .rule {
   width: 75%;
@@ -1861,6 +1881,11 @@ section h1 {
 .landing .home-form #start, .landing .home-form #end {
   width: 27%;
 }
+@media only screen and (max-width: 768px) {
+  .landing .home-form #start, .landing .home-form #end {
+    width: 24%;
+  }
+}
 .landing .home-form #date, .landing .home-form #time {
   width: 14%;
 }
@@ -1872,7 +1897,7 @@ section h1 {
 }
 .metro .metro-nav .metro-arrow {
   position: absolute;
-  bottom: -37px;
+  bottom: -24px;
   z-index: 5;
   width: 5%;
   max-width: 70px;
@@ -1962,6 +1987,11 @@ section h1 {
   padding: 30px;
   margin-top: 10%;
 }
+@media only screen and (max-width: 768px) {
+  .metro .metro-box {
+    width: 36%;
+  }
+}
 .metro .metro-box .metro-title {
   color: #fff;
   position: absolute;
@@ -1988,8 +2018,19 @@ section h1 {
   letter-spacing: 0.03em;
   font-family: gothMed, Helvetica, Arial, sans-serif;
 }
+@media only screen and (max-width: 768px) {
+  .metro .metro-box ul, .metro .metro-box li {
+    line-height: 0.45em;
+    margin-bottom: 8px;
+  }
+}
 .metro .metro-box ul a, .metro .metro-box li a {
   color: white;
+}
+@media only screen and (max-width: 768px) {
+  .metro .metro-box ul a, .metro .metro-box li a {
+    font-size: 20px;
+  }
 }
 .metro .metro-box ul a:hover, .metro .metro-box li a:hover {
   color: #6699CC;
@@ -2001,6 +2042,13 @@ section h1 {
 }
 .metro .metro-box ul .arrow img, .metro .metro-box li .arrow img {
   width: 18px;
+}
+@media only screen and (max-width: 768px) {
+  .metro .metro-box ul {
+    top: -7px;
+    display: block;
+    position: relative;
+  }
 }
 .metro .metro-box li {
   cursor: pointer;
@@ -2020,6 +2068,17 @@ section h1 {
   vertical-align: top;
   cursor: pointer;
 }
+.metro .metro-icons .ico-block img {
+  width: 80%;
+}
+@media only screen and (max-width: 768px) {
+  .metro .metro-icons .ico-block {
+    padding: 10px;
+    width: 31%;
+    height: 56px;
+    top: 15px;
+  }
+}
 
 .news h1 {
   font-size: 50px;
@@ -2028,15 +2087,29 @@ section h1 {
   margin-left: 5%;
   margin-bottom: 0.5%;
 }
+@media only screen and (max-width: 768px) {
+  .news h1 {
+    font-size: 40px;
+  }
+}
 .news .news-blocks {
   margin: 30px 0 30px -10px;
   width: auto;
   overflow: hidden;
 }
+@media only screen and (max-width: 768px) {
+  .news .news-blocks {
+    height: 529px;
+  }
+}
 .news .news-blocks .block-row {
   position: relative;
   overflow: hidden;
-  width: 500%;
+}
+@media only screen and (max-width: 768px) {
+  .news .news-blocks .block-row {
+    width: 100%;
+  }
 }
 .news .news-blocks .block {
   width: 400px;
@@ -2045,6 +2118,11 @@ section h1 {
   margin: 5px 5px;
   display: inline-block;
   overflow: hidden;
+}
+@media only screen and (max-width: 768px) {
+  .news .news-blocks .block {
+    width: 100%;
+  }
 }
 .news .news-blocks .block h3 {
   color: white;
@@ -2091,6 +2169,13 @@ section h1 {
   background: url("../img/home/home-lower-bg.jpg") no-repeat;
   background-size: 120%;
 }
+@media only screen and (max-width: 768px) {
+  .gohart {
+    background: url("../img/home/home-lower-bg-mobile.jpg") no-repeat;
+    background-size: 100%;
+    height: auto !important;
+  }
+}
 .gohart .bus {
   background: url(../img/home/bus-home3.png) no-repeat;
   background-size: 100%;
@@ -2105,17 +2190,33 @@ section h1 {
   padding: 1% 2%;
   padding-bottom: 0;
 }
+@media only screen and (max-width: 768px) {
+  .gohart h1 {
+    font-size: 40px;
+  }
+}
 .gohart .gohart-title {
   margin-top: 80px;
   display: inline-block;
   width: 60%;
   margin-left: 5%;
 }
+@media only screen and (max-width: 768px) {
+  .gohart .gohart-title {
+    width: 75%;
+  }
+}
 .gohart .how-to {
   background-color: rgba(255, 255, 255, 0.85);
   margin: 50px 5%;
   color: #666;
   padding: 65px 75px;
+}
+@media only screen and (max-width: 768px) {
+  .gohart .how-to {
+    margin-left: 48px;
+    padding: 30px;
+  }
 }
 .gohart .how-to .content-app, .gohart .how-to .content-links {
   display: none;
@@ -2152,11 +2253,22 @@ section h1 {
   font-family: gothBook, Helvetica, Arial, sans-serif;
   font-size: 3em;
 }
+@media only screen and (max-width: 768px) {
+  .gohart .how-to h2 {
+    font-size: 2.2em;
+    margin-bottom: 0px;
+  }
+}
 .gohart .how-to .button-box {
   width: 48%;
   display: inline-block;
   margin-right: 20px;
   vertical-align: top;
+}
+@media only screen and (max-width: 768px) {
+  .gohart .how-to .button-box {
+    width: 46%;
+  }
 }
 .gohart .how-to .button-box .button {
   background-color: #7aaed5;
@@ -2168,10 +2280,20 @@ section h1 {
   text-align: left;
   padding-left: 15px;
 }
+@media only screen and (max-width: 768px) {
+  .gohart .how-to .button-box .button {
+    font-size: 12px;
+  }
+}
 .gohart .how-to .button-box .button img {
   float: right;
   height: 25px;
   margin-right: -20px;
+}
+@media only screen and (max-width: 768px) {
+  .gohart .how-to .button-box .button img {
+    display: none;
+  }
 }
 .gohart .how-to .button-box .button:hover {
   background-color: #20416f;

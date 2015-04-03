@@ -53,7 +53,7 @@ $(document).ready(function(){
     function mobileDetect(){
         if(mobileSite == true){
             // $('#skrollr').attr( "src", "" );
-            skrollr.destroy();
+            // skrollr.destroy();
         } else if(mobileSite == false){
                 skrollr.init({
                     smoothScrolling: false,

@@ -51,7 +51,14 @@ body{
  		position: absolute;
  		bottom: 26%;
  		left: 5%;
- 		width: 60%; 		
+ 		width: 60%; 
+
+		@include media-query(palm){
+			  bottom: 39%;
+			  h1{
+			  	font-size: 40px;
+			  }
+		}		
  	}
 
  	h1{
@@ -119,6 +126,11 @@ body{
 		cursor: pointer;
 		color: white;
 		font-size: 18px;
+
+		@include media-query(palm){
+			right: 60px;
+			bottom: 12%;
+		}
  	 }
 
  	 .bottom-rule{
@@ -131,10 +143,16 @@ body{
 
  	 	div{
  	 		display: inline-block;
+
  	 	}
 
  	 	.cta{
  	 		width: 24%;
+ 	 		
+ 	 		@include media-query(palm){
+	 	 		width: 45%;
+	  			font-size: 16px;
+  			}
  	 	}
 
  	 	.rule{
@@ -184,6 +202,10 @@ body{
 
 		#start, #end{
 			width: 27%;
+
+			@include media-query(palm){
+				width: 24%;
+			}
 		}
 		#date, #time{
 			width: 14%;
@@ -202,7 +224,7 @@ body{
 
  	 	.metro-arrow{
  	 		position: absolute;
-			bottom: -37px;
+			bottom: -24px;
 			z-index: 5;
 			width: 5%;
 			max-width: 70px;
@@ -303,6 +325,10 @@ body{
  	 	padding: 30px;
  	 	margin-top: 10%;
 
+ 	 	@include media-query(palm){
+ 	 		width: 36%;
+ 	 	}
+
  	 	.metro-title{
  	 		color: #fff;
 			position: absolute;
@@ -333,7 +359,18 @@ body{
  	 		letter-spacing: 0.03em;
  	 		font-family: gothMed, Helvetica, Arial, sans-serif;
 
- 	 		a{ color: white; }
+ 	 		@include media-query(palm){
+ 	 			line-height: 0.45em;
+ 	 			margin-bottom: 8px;
+ 	 		}
+
+ 	 		a{ 
+ 	 			color: white;
+
+ 	 			@include media-query(palm){
+ 	 				font-size: 20px; 
+ 	 			}
+ 	 		}
  	 		a:hover{ color: #6699CC; }
 
  	 		.arrow{
@@ -345,6 +382,14 @@ body{
  	 				width: 18px;
  	 			}
  	 		}
+ 	 	}
+
+ 	 	ul{
+ 	 		@include media-query(palm){
+ 	 		  top: -7px;
+			  display: block;
+			  position: relative;
+			}
  	 	}
 
  	 	li{
@@ -366,6 +411,17 @@ body{
  			text-align: center;
  			vertical-align: top;	
  			cursor: pointer; 
+
+ 			img{
+ 				width: 80%;
+ 			}
+
+ 			@include media-query(palm){
+ 	 			padding: 10px;
+			  	width: 31%;
+			  	height: 56px;
+			  	top: 15px;
+ 	 		}
  		}
  	}
  }
@@ -377,6 +433,10 @@ body{
 		padding-bottom: 0;
 		margin-left: 5%;
 		  margin-bottom: 0.5%;
+
+		@include media-query(palm){
+			font-size: 40px;
+		}
  	}
 
  	.news-blocks{
@@ -384,10 +444,17 @@ body{
  		width: auto;
 		overflow: hidden;
 
+		@include media-query(palm){
+			height: 529px;
+		}
+
  		.block-row{
  			position: relative;
 			overflow: hidden;
-			width: 500%; 			
+			
+			@include media-query(palm){
+				width: 100%;
+			}			
  		}
 
 
@@ -398,6 +465,10 @@ body{
  			margin: 5px 5px;
  			display: inline-block;
  			overflow: hidden;
+
+ 			@include media-query(palm){
+				width: 100%;
+			}	
 
  			h3{
  				color: white;
@@ -450,6 +521,13 @@ body{
  	background: url('../img/home/home-lower-bg.jpg') no-repeat;
  	background-size: 120%;
 
+ 	@include media-query(palm){
+		background: url('../img/home/home-lower-bg-mobile.jpg') no-repeat;
+ 		background-size: 100%;
+ 		height: auto !important;
+	}
+
+
 
  	.bus{
  	 	background: url(../img/home/bus-home3.png) no-repeat;
@@ -467,6 +545,9 @@ body{
 		padding: 1% 2%;
 		padding-bottom: 0;
 		
+		@include media-query(palm){
+				font-size:40px;
+		}
  	}
 
  	.gohart-title{
@@ -474,6 +555,11 @@ body{
 		display: inline-block;
 		width: 60%;
 		margin-left: 5%;
+
+		@include media-query(palm){
+				width: 75%;
+		}	
+
  	}
 
  	.how-to{
@@ -481,6 +567,13 @@ body{
  		margin: 50px 5%;
  		color: #666;
  		padding: 65px 75px;
+
+
+
+ 		@include media-query(palm){
+ 			margin-left: 48px;
+ 			padding: 30px;
+ 		}
 
  		.content-app, .content-links{ display: none; }
 
@@ -513,6 +606,11 @@ body{
  			font-weight: normal;
 			font-family: gothBook, Helvetica, Arial, sans-serif;
 			font-size: 3em;
+
+			@include media-query(palm){
+				font-size: 2.2em;
+	  			margin-bottom: 0px;
+	  		}
  		}
 
  		.button-box{
@@ -520,6 +618,10 @@ body{
  			display: inline-block;
  			margin-right: 20px;
  			vertical-align: top;
+
+ 			@include media-query(palm){
+ 				width: 46%;
+ 			}
 
  			.button{
  				background-color: #7aaed5;
@@ -531,10 +633,18 @@ body{
  				text-align: left;
  				padding-left: 15px;
 
+ 				@include media-query(palm){
+ 					font-size: 12px;
+ 				}
+
  				img{
  					float: right;
  					height: 25px;
  					margin-right: -20px;
+
+ 					@include media-query(palm){
+ 						display: none;
+ 					}
  				}
  			}
 
