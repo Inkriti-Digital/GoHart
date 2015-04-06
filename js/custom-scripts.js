@@ -24,7 +24,6 @@ $(document).ready(function(){
         }
 
         newsWidth = $('.news-blocks').width();
-        // console.log('news width = ' + newsWidth);
     	var landingWidth = $('.landing').width();
     	var landingHeight = Math.floor(landingWidth*0.58214);
     	$('.landing').css('height', landingHeight);
@@ -52,8 +51,6 @@ $(document).ready(function(){
     //======== * MOBIE ELEMENTS * ========//
     function mobileDetect(){
         if(mobileSite == true){
-            // $('#skrollr').attr( "src", "" );
-            // skrollr.destroy();
         } else if(mobileSite == false){
                 skrollr.init({
                     smoothScrolling: false,
@@ -135,7 +132,6 @@ $(document).ready(function(){
      $(".menu-ico").click(function(event) {
         $(".main-nav").toggle();
         $(".menu-ico").hide();
-        // console.log('hit nav control');
         setTimeout(function() {            
             $(".close-nav").fadeIn();
         }, 400);
@@ -148,13 +144,8 @@ $(document).ready(function(){
     });
 
      $(".close-nav").click(function(event) {
-        // $(".main-nav").toggle();
-        $(".close-nav").fadeOut();
-       
+        $(".close-nav").fadeOut();       
         $('.main-nav .secondary ul').fadeOut();
-        
-
-        //$('.main-nav .secondary').css('width', '0');
         $(".main-nav .secondary").animate({ 
             width: 0
         }, 250, 'easeOutQuad', function() {
@@ -221,11 +212,9 @@ $(document).ready(function(){
 	});
 
     function showSubNav(){
-        //$('.main-nav .secondary').css('width', '225px');
         $(".main-nav .secondary").animate({ 
             width: 225
         }, 250, 'easeOutQuad', function() {});
-        // console.log(subNav);
         $('.main-nav .secondary ul').hide();
 
         setTimeout(function() {
@@ -241,7 +230,6 @@ $(document).ready(function(){
 
         var eTop = $('.headline').offset().top; //get the offset top of the element
         var hideLockup = (eTop - $(window).scrollTop());
-        //console.log(eTop - $(window).scrollTop()); //position of the ele w.r.t window
         console.log(hideLockup);
 
         if(hideLockup<=100){
