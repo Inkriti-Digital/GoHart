@@ -88,7 +88,7 @@
 		<ul class="subnav-about">
 			<li><a href="about-hart.php">Overview</a></li>
 			<li><a href="about-hart-team.php">Team</a></li>
-			<li><a href="#">News</a></li>
+			<li><a href="about-hart-news.php">News</a></li>
 			<li><a href="about-hart-employment.php">Employment</a></li>
 			<li><a href="about-hart-business.php">Business</a></li>
 			<li><a href="about-title-vi-civil-rights.php">Title VI / Civil Right</a></li>
