@@ -342,5 +342,70 @@ $(document).ready(function(){
 			
 			
 			
+			/* ===== placeholder setting functionality for IE - Start ===== */
+			$('input, textarea').placeholder();
+			/* ===== placeholder setting functionality for IE - End ===== */
+			
+			
+			/* ===== required field setting functionality for IE - Start ===== */
+			// fix for IE < 11
+		    if ($("<input />").prop("required") === undefined) {
+		        $(document).on("submit", function(e) {
+		            $(this)
+		                    .find("input, select, textarea")
+		                    .filter("[required]")
+		                    .filter(function() { return this.value == ''; })
+		                    .each(function() {
+		                        e.preventDefault();
+		                        $(this).css({ "border-color":"red" });
+		                        //alert( $(this).prev('label').html() + " is required!");
+		                        alert( $(this).attr('placeholder') + " is required!");
+		                    });
+		        });
+		
+		    }
+		    
+		    
+		    if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1)
+		    {
+				   var forms = document.getElementsByTagName('form');
+					for (var i = 0; i < forms.length; i++) {
+					    forms[i].noValidate = true;
+					
+					    forms[i].addEventListener('submit', function(event) {
+					        //Prevent submission if checkValidity on the form returns false.
+					        if (!event.target.checkValidity()) {
+					            event.preventDefault();
+					            //Implement you own means of displaying error messages to the user here.
+					            alert("Please fill all the required(*) fields.");
+					        }
+					    }, false);
+					}
+			 }
+		    /* ===== required field setting functionality for IE - End ===== */
+		    
+		    
+		    
+		    /* Detours dates - height setting functionality - Start */
+				function detoursHeightSetting(){
+					var detourLength = $(".alerts-detours .detour-thumb .point-no-area .point-no").length;
+					//alert(detourLength);
+					for(var d=0;d<detourLength;d++)
+					{
+						var currentdetourHeight = $(".alerts-detours .detour-thumb .point-no-area .point-no").eq(d).innerHeight();
+						var currentdetourParentHeight = $(".alerts-detours .detour-thumb .point-no-area .point-no").eq(d).parent().height();
+						//alert(currentdetourHeight);
+						$(".alerts-detours .detour-thumb .point-no-area .point-no").eq(d).css('margin-top',(currentdetourParentHeight - currentdetourHeight)/2+'px');
+					}
+				}
+				detoursHeightSetting();
+				$( window ).resize(function() {
+					$(".alerts-detours .detour-thumb .point-no-area .point-no").css('margin-top','initial');
+					detoursHeightSetting();
+				});
+			/* Detours dates - height setting functionality - End */
+			
+			
+			
     /* =================== Vijay code Addition - End =================== */
 });

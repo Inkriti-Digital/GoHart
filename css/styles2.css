@@ -828,7 +828,7 @@
 	  background-color: #7aaed5;
 	  height: 45px;
 	  font-size: 16px;
-	  padding: 5px 15px;
+	  padding: 5px 25px;
 	  padding-top: 10px;
 	  margin-right: 0;
 	  letter-spacing: 0.03em;
@@ -1251,7 +1251,8 @@
 .pdf-downlaod-2columns .pdf-ico{width: 11.2%;}
 .pdf-downlaod-2columns .download-title{margin-top: 3%;padding-left: 20%;}
 
-.page-content .content-block.blocktop{margin-bottom:-15px;}
+/*.page-content .content-block.blocktop{margin-bottom:-15px;}*/
+.page-content .content-block {margin-bottom: 10px;}
 .page-content .contact-info-bottom{margin:15px 0 0 0;}
 
 .no-margin{margin:0 !important;}
@@ -1302,12 +1303,25 @@
 
 .infoPart1{width:85%;}
 .infoPart2{}
-.points-head1{padding:0 0 0 19px;}
+.points-head1{padding:0 0 0 19px;font-size: 15px;}
 .page-content .italicfont1 {font-size: 19px;}
 .content-body h2 {color: #036;font-size: 19px;}
 .bus-shelter-requests {z-index: 777;}
 .page-content .bus-shelter-requests input[type="radio"]{margin-right:11px;}
 .page-content .bus-shelter-requests label{display: inline;margin-right:25px;}
+b{font-family: gothMed,Helvetica,Arial,sans-serif;}
+.alerts-detours .rider-alert.rider-alert-left {background-color:#871A15;}
+.alerts-detours .rider-alert.rider-alert-right {margin-left:-6px;}
+.alerts-detours .detour-thumb{width:10%;}
+.alerts-detours .detour-thumb .point-no-area{width:100%;height:128px;}
+.alerts-detours .detour-thumb .point-no-area .date1{font-weight:bold;display:block;font-size: 22px;}
+.alerts-detours .detour-thumb .point-no-area .dateto{text-align:center;display:inline-block;padding:0;color:#71A6CF;border-top:1px solid #71A6CF;border-bottom:1px solid #71A6CF;font-size:15px;}
+.alerts-detours .detour-thumb .point-no-area .date2{font-weight:bold;display:block;font-size: 22px;}
+.alerts-detours .detour-detail{width:86%;}
+
+.alerts-detours .detour-thumb .point-no{display: table-cell;
+    vertical-align: middle;display: inline-block;}
+
 
 
 
@@ -1403,6 +1417,9 @@
 	.page-content .comments .comment-form .form-half {width: 48.7%;}
 	
 	.infoPart1{width:100%;}
+	
+	.alerts-detours .detour-thumb {width: 12%;}
+	.alerts-detours .detour-detail {width: 84%;}
 	
 }
 
@@ -1578,6 +1595,11 @@
 	 .infoPartsMain{width:100% !important;}
 	 .infoPart1{width:100%;}
 	 .infoPart2{width:100% !important;}
+	 
+	 .alerts-detours .detour-thumb {width: 17%;}
+	 .alerts-detours .detour-detail {width: 77%;}
+	 
+	 .alerts-detours .rider-alert.rider-alert-right {margin-left:0;}
 	
 	
 	/* OVERRIDES of CSS for tix row */
@@ -1592,6 +1614,10 @@
 
 @media only screen and (min-width: 801px) and (max-width: 950px) {
 	.page-content .brick-blue-link .brick-blue-link-text {width: 77%;}
+	
+	.alerts-detours .detour-thumb {width: 14%;}
+	.alerts-detours .detour-detail {width: 82%;}
+	.alerts-detours .rider-alert.rider-alert-right {margin-left:0;}
 }
 
 
@@ -1654,6 +1680,9 @@
 	.page-content .map{width:100%;}
 	
 	.maps-scheduels .schedule-grid .title-row .cell {height: 130px;}
+	
+	.alerts-detours .detour-thumb {width: 21%;}
+	.alerts-detours .detour-detail {width: 100%;}
 	
 }
 
@@ -1850,6 +1879,9 @@
 	}
 	
 	.page-nav .nav-btn {width: 88%;margin:0 auto 5px auto;}
+	
+	.alerts-detours .detour-thumb {width: 28%;}
+	.alerts-detours .detour-detail {width: 100%;}
 	
 }
 
@@ -2102,6 +2134,10 @@
 	.content-body .half-column .point-description-place{width:100%;}
 	
 	.page-nav .nav-btn {width: 85%;margin:0 auto 5px auto;}
+	
+	
+	.alerts-detours .detour-thumb {width: 39%;}
+	.alerts-detours .detour-detail {width: 100%;}
 	
 }
 

@@ -36,7 +36,7 @@
 					<div class="content-body">
 						<div class="info">
 							<p class="main-info-lineheight">
-								The Hillsborough Area Regional Transit Authority (HART) was created in October of 1979 to plan, finance, acquire, construct, operate and maintain mass transit facilities and supply transportation assistance in Hillsborough County. Today, we are Driven to Serve You through convenient, affordable public transportation options tailored to contemporary lifestyles. More people than ever in Hillsborough County are discovering benefits of our sophisticated, yet accessible and rider-friendly, network of transit options. We look forward to helping more and more of our community ride HART.
+								The Hillsborough Area Regional Transit Authority (HART) was created in October of 1979 to plan, finance, acquire, construct, operate and maintain mass transit facilities and supply transportation assistance in Hillsborough County. Today, we are Driven to Serve You through convenient, affordable public transportation options tailored to contemporary lifestyles. More people than ever in Hillsborough County are discovering benefits of our sophisticated, yet accessible and <span class="nowrap">rider-friendly,</span> network of transit options. We look forward to helping more and more of our community ride HART.
 							</p>
 							<p class="visit-link">
 								<a href="">CLICK HERE TO VIEW THE HART CHARTER</a>
@@ -59,7 +59,7 @@
 									<li><a href="" class="bold-blue">Streetcar</a></li>
 									<li>Rubber-wheeled <a href="" class="bold-blue">In-Town Trolleys</a></li>
 									<li><a href="" class="bold-blue">Vanpool</a> & Guaranteed Ride Home Service</li>
-									<li><a href="" class="bold-blue">HARTFlex</a>service in Brandon, Northdale, South County, South Tampa and Town 'N Country</li>
+									<li><a href="" class="bold-blue">HARTFlex</a> service in Brandon, Northdale, South County, South Tampa and Town 'N Country</li>
 									<li><a href="" class="bold-blue"></a></li>
 								</ul>
 							</div>

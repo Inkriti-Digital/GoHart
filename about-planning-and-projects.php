@@ -200,8 +200,8 @@
 										<div class="bus-shelter-request-form-radiobut">
 											<span>*WOULD YOU LIKE RESULTS OF EVALUATION?</span>
 											<br/>
-											<label><input type="radio" name="result-evaluation" />Yes</label>
-											<label><input type="radio" name="result-evaluation" />No</label>
+											<label><input type="radio" name="result-evaluation" required="required" value="yes" />Yes</label>
+											<label><input type="radio" name="result-evaluation" value="no" />No</label>
 										</div>
 										<textarea name="comment" form="usrform" placeholder="COMMENTS"></textarea>
 									</div>

@@ -29,9 +29,18 @@
 			<section class="page-content planner">
 				<div class="content-block content-body">
 					<div class="info">
-						<div class="rider-alert">
+						<!--<div class="rider-alert">
 							RIDER ALERTS
 							<img src="img/alerts/caution-ico.png"/>
+							Donec sit amet augue sit amet lacus suscipit semper vel vitae 
+							<img src="img/alerts/yellow-arrow-ico.png"/>
+						</div>-->
+						<div class="rider-alert rider-alert-left">
+							<span style="">RIDER ALERTS
+							<img src="img/alerts/caution-ico.png"/>
+							</span>
+						</div>
+						<div class="rider-alert rider-alert-right">
 							Donec sit amet augue sit amet lacus suscipit semper vel vitae 
 							<img src="img/alerts/yellow-arrow-ico.png"/>
 						</div>
@@ -45,11 +54,13 @@
 						<br/>
 						<span class="paid-ad-text">Paid Ad</span>
 					</div>
+				</div>
 
-
+				<div class="content-block">
 					<div class="bottom-rule">
 						<div class="cta"><span>OPTIONS FOR DETOUR INFORMATION</span><hr/></div>
 					</div>
+					<div class="content-body">
 					<h2>HYPERALERT</h2>
 					<p><a href="" class="bold-blue">HyperAlert</a> is a rider notification system that allows members of the public to subscribe to alerts for transit routes. These alerts are sent by HART when an issue is impacting a route. Examples of typical usage include service delays due to weather or construction. HyperAlert is a completely opt-in system.</p>
 					<div>
@@ -60,14 +71,22 @@
 							<a href="#"><img src="img/alerts/infoline-btn.jpg"/></a>
 						</div>
 					</div>
+				</div>
+			</div>
 
-
+					<div class="content-block">
 					<div class="bottom-rule">
 						<div class="cta"><span>EVENT DETOURS</span><hr/></div>
 					</div>
-
+					<div class="content-body">
 					<div class="detour-row">
-						<div class="detour-thumb"><img src="img/alerts/detour-thumb.png"/></div>
+						<div class="detour-thumb">
+							<p class="point-no-area">
+								<span class="point-no">
+									<span class="date1">TBD</span>
+								</span>
+							</p>
+						</div>
 						<div class="detour-detail">
 							<h2>RAYMOND JAMES STADIUM EVENT DETOURS</h2>
 							<b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b>
@@ -76,19 +95,37 @@
 					</div>
 
 					<div class="detour-row">
-						<div class="detour-thumb"><img src="img/alerts/detour-thumb.png"/></div>
+						<div class="detour-thumb">
+							<p class="point-no-area">
+								<span class="point-no">
+									<span class="date1">TBD</span>
+								</span>
+							</p>
+						</div>
 						<div class="detour-detail">
 							<h2>TAMPA BAY TIMES FORUM EVENT DETOURS</h2>
 							<b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b>
 							<p>Donec sit amet augue sit amet lacus suscipit semper vel vitae ex. Mauris enim felis, hendrerit a tellus in, tincidunt maximus dolor. Cras hendrerit eget ante nec rutrum. Nulla fringilla tellus turpis, pharetra dictum urna malesuada eget. Fusce maximus sed risus nec vulputate. Nunc volutpat rutrum est aliquam tempor. Integer vehicula viverra lectus eu sodales. Nullam eros justo, sodales non commodo pharetra, viverra vel dui. Quisque sit amet dolor condimentum eros eleifend efficitur vel in justo. </p>
 						</div>
 					</div>
+				</div>
+			</div>
 
+					<div class="content-block">
 					<div class="bottom-rule">
 						<div class="cta"><span>TEMPORARY DETOURS</span><hr/></div>
 					</div>
+					<div class="content-body">
 					<div class="detour-row">
-						<div class="detour-thumb"><img src="img/alerts/detour-thumb.png"/></div>
+						<div class="detour-thumb">
+							<p class="point-no-area">
+								<span class="point-no">
+									<span class="date1">11.03</span>
+									<span class="dateto">TO</span>
+									<span class="date2">11.10</span>
+								</span>
+							</p>
+						</div>
 						<div class="detour-detail">
 							<h2>ROUTE 8 – 30TH ST.</h2>
 							<b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b>
@@ -96,7 +133,15 @@
 						</div>
 					</div>
 					<div class="detour-row">
-						<div class="detour-thumb"><img src="img/alerts/detour-thumb.png"/></div>
+						<div class="detour-thumb">
+							<p class="point-no-area">
+								<span class="point-no">
+									<span class="date1">10.14</span>
+									<span class="dateto">TO</span>
+									<span class="date2">10.16</span>
+								</span>
+							</p>
+						</div>
 						<div class="detour-detail">
 							<h2>ROUTE 14 – ARMENIA AVE.</h2>
 							<b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b>
@@ -104,9 +149,31 @@
 						</div>
 					</div>
 					<div class="detour-row">
-						<div class="detour-thumb"><img src="img/alerts/detour-thumb.png"/></div>
+						<div class="detour-thumb">
+							<p class="point-no-area">
+								<span class="point-no">
+									<span class="date1">10.12</span>
+								</span>
+							</p>
+						</div>
 						<div class="detour-detail">
 							<h2>ROUTE 4 – BAYSHORE GATE</h2>
+							<b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b>
+							<p>Donec sit amet augue sit amet lacus suscipit semper vel vitae ex. Mauris enim felis, hendrerit a tellus in, tincidunt maximus dolor. Cras hendrerit eget ante nec  </p>
+						</div>
+					</div>
+					<div class="detour-row">
+						<div class="detour-thumb">
+							<p class="point-no-area">
+								<span class="point-no">
+									<span class="date1">09.31</span>
+									<span class="dateto">TO</span>
+									<span class="date2">10.01</span>
+								</span>
+							</p>
+						</div>
+						<div class="detour-detail">
+							<h2>ROUTE 4 – MACDILL AVE</h2>
 							<b>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b>
 							<p>Donec sit amet augue sit amet lacus suscipit semper vel vitae ex. Mauris enim felis, hendrerit a tellus in, tincidunt maximus dolor. Cras hendrerit eget ante nec  </p>
 						</div>
