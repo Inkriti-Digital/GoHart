@@ -4,13 +4,18 @@
  */
 
 
+.mobile{
+	display: none;
+}
+
+
 @include media-query(portable){
     // width: $palm-start;
 }
 
 @include media-query(palm){
 	.desktop{
-		display: none;
+		display: none !important;
 	}
 
 	.mobile{

@@ -16,30 +16,39 @@
 			<?php include ("views/main-nav.php"); ?>
 
 			<section class="landing" data-0="background-position: 40% 0%;" data-500="background-position: 0% 0%;">
-				<div class="bus" data-0="left: -40%;" data-400="left: 0%"></div>
+				<div class="bus desktop" data-0="left: -40%;" data-400="left: 0%"></div>
 
 				<div class="logo">
 					<a href="index.php">
-						<img class="full-logo" src="img/hart-logo.png" alt="GoHart Logo"/>
-						<img class="box-logo" src="img/hart-logo-box.png" alt="GoHart Logo"/>
+						<img class="full-logo desktop" src="img/hart-logo.png" alt="GoHart Logo"/>
+						<img class="box-logo desktop" src="img/hart-logo-box.png" alt="GoHart Logo"/>
+						<img class="mobile" src="img/responsive/mobile-logo.png" alt="GoHart Logo"/>
 					</a>
 				</div>
 
 				<div class="menu-ico">
-					<img src="img/menu-ico.png" alt="Main Nav"/>
+					<img class="desktop" src="img/menu-ico.png" alt="Main Nav"/>
+					<img class="mobile" src="img/responsive/mobilenav-ico.png" alt="Main Nav"/>
 				</div>
 
-				<div class="headline">
+				<div id="headline" class="headline desktop">
 					<h1>TRANSPORTATION</h1><br/>
 					<h1>FOR LIFE</h1>
 				</div>
 
+				<div class="mobile-home-head mobile">
+					<div class="headline mobile">
+						<h1>TRANSPORTATION</h1><br/>
+						<h1>FOR LIFE</h1>
+					</div>
+				</div>
+
 				<div class="bus-ico">ONEBUSAWAY</div>
-				<div class="bottom-rule">
+				<div class="bottom-rule desktop">
 					<div class="cta">LET US TAKE YOU THERE</div>
 					<div class="rule"><hr/></div>
 				</div>
-				<div class="home-form">
+				<div class="home-form desktop">
 					<form action="#">
 					<input id="start" type="text" name="start" value="Start" onfocus="this.value='';">
 					<input id="end" type="text" name="end" value="End" onfocus="this.value='';">
@@ -49,8 +58,34 @@
 					</form>
 				</div>
 			</section>
+			<section class="take-you-there mobile">
+				<div class="bottom-rule mobile">
+					<div class="cta">LET US TAKE YOU THERE</div>
+					<!-- <div class="rule"><hr/></div> -->
+				</div>
+				<div class="home-form mobile">
+					<form action="#">
+					<input id="start" type="text" name="start" value="Start" onfocus="this.value='';">
+					<input id="end" type="text" name="end" value="End" onfocus="this.value='';">
+					<input id="date" type="text" name="date" value="Date" onfocus="this.value='';">
+					<input id="time" type="text" name="time" value="Time" onfocus="this.value='';">
+					<input type="submit" value="SEARCH">
+					</form>
+				</div>
+				<div class="bottom-rule mobile">
+					<div class="cta">CHOOSE YOUR SERVICE</div>
+					<select class="mobile">
+					  	<option value="volvo">METRORAPID</span></option>
+					   	<option value="volvo">BUS</span></option>
+					    <option value="volvo">VAN</span></option>
+					    <option value="volvo">STREETCAR SYSTEM</span></option>
+					    <option value="volvo">ALTERNATIVE TRANSPORTATION</span></option>
+					</select>
+				</div>
+			</section>
+
 			<section class="metro">
-				<div class="metro-nav">
+				<div class="metro-nav desktop">
 					<div class="metro-arrow">
 						<img src="img/metro-arrow.png"/>
 					</div>
@@ -86,7 +121,25 @@
 					</div>
 					<div class="clear-fix"></div>
 				</div>
-				<div class="metro-main" data-600="background-position: 40% 0%;" data-1100="background-position: 0% 0%;">
+
+				<div class="mobile-metro mobile">
+					<div class="metro-box">
+						<span class="metro-title">BUS</span><hr/>
+						<ul>
+							<li><a href="#">MAPS <span class="arrow"><img src="img/metro-boxnav-arrow.png"/></span></a></li>
+							<li><a href="#">SCHEDULES <span class="arrow"><img src="img/metro-boxnav-arrow.png"/></span></a></li>
+							<li><a href="#">FARES <span class="arrow"><img src="img/metro-boxnav-arrow.png"/></span></a></li>
+							<li><a href="#">ABOUT <span class="arrow"><img src="img/metro-boxnav-arrow.png"/></span></a></li>
+						</ul>
+					</div>
+					<div class="metro-icons">
+						<div class="ico-block"><img src="img/ico-roadblock.png"/></div>
+						<div class="ico-block"><img src="img/ico-chatbox.png"/></div>
+						<div class="ico-block"><img src="img/ico-arrow.png"/></div>
+					</div>
+				</div>
+
+				<div class="metro-main desktop" data-600="background-position: 40% 0%;" data-1100="background-position: 0% 0%;">
 					<div class="alt-transport-box" data-600="background-position: 90% 0%;" data-1100="background-position: 0% 0%;">
 						<div class="alt-transport-fore" data-400="background-position: 60% 0%;" data-900="background-position: 0% 0%;">
 						</div>
@@ -166,13 +219,40 @@
 			</section>
 			
 			<section class="gohart" data-2500="background-position: 40% 0%;" data-3000="background-position: 0% 0%;">
-				<div class="bus" data-2500="left: -40%;" data-3000="left: -5%"></div>
-				<div class="gohart-title">
+				<div class="bus desktop" data-2500="left: -40%;" data-3000="left: -5%"></div>
+				<div class="gohart-title desktop">
 					<h1>WHEREVER YOU NEED</h1><br/>
 					<h1>TO GO, GO HART</h1>
 				</div>
+				<div class="gohart-title mobile">
+					<h1>WHEREVER</h1><br/>
+					<h1>YOU NEED TO GO,</h1><br/>
+					<h1>GO HART</h1>
+				</div>
 
-				<div class="how-to">
+				<div class="mobile-how-to mobile">
+					<h2>CHOOSE FROM OPTIONS BELOW</h2>
+
+					<select class="mobile">
+					  	<option value="volvo">HOW TO RIDE</span></option>
+					   	<option value="volvo">APP CENTER</span></option>
+					    <option value="volvo">LINKS</span></option>
+					</select>
+
+					<div class="mobile-how-to-content gohart-mobile-content">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+
+						<div class="button-box">
+							<div class="button">VIDEO DEMONSTRATIONS <img src="img/btn-arrow.png"/></div>
+							<div class="button">BIKES ON BUSES <img src="img/btn-arrow.png"/></div>
+							<div class="button">TRAVEL TRAINING PROGRAM <img src="img/btn-arrow.png"/></div>
+							<div class="button">FREQUENTLY ASKED QUESTIONS<img src="img/btn-arrow.png"/></div>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="how-to desktop">
 					<div class="tab tab1 active">
 						HOW TO RIDE
 					</div>
@@ -227,7 +307,8 @@
 					</div>
 				</div>
 				<div class="return-top">
-					<img src="img/return-arrow.png"/>
+					<img class="desktop" src="img/return-arrow.png"/>
+					<img class="mobile" src="img/responsive/top-arrow.png"/>
 				</div>
 			</section>
 		</div>

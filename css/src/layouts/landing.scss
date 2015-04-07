@@ -38,6 +38,12 @@ body{
  .container{
  	background-size: 100%;
  	padding: 0;
+
+ 	@include media-query(palm){
+		// background: url('../img/responsive/responsive-bg-plate.jpg') no-repeat;
+ 	 	// background-size: 100%;
+ 	 	// background-position: top;
+ 	}
  }
 
  .clear-fix{
@@ -54,9 +60,9 @@ body{
  		width: 60%; 
 
 		@include media-query(palm){
-			  bottom: 39%;
+			  top: 13%;
 			  h1{
-			  	font-size: 40px;
+			  	font-size: 62px;	
 			  }
 		}		
  	}
@@ -79,6 +85,19 @@ body{
  	 background-size: 114%;
  	 background-position: 40% 0;
 
+ 	 @include media-query(palm){
+ 	 	background-image: none !important; 
+ 	 	height: 520px !important;
+
+ 	 	.mobile-home-head{
+	  		background: url('../img/responsive/mobile-home-head.jpg') no-repeat;
+ 			background-size: 100%;
+ 	 		background-position: 40% 0;
+ 	 		height: 600px;
+  			top: 31%;
+	  	}
+ 	 }
+
  	 .bus{
  	 	background: url('../img/home/bus-home1.png') no-repeat;
  	 	background-size: 100%;
@@ -99,9 +118,19 @@ body{
 	  padding: 8px 6px 0px 8px;
 	  z-index: 30;
 
+	  @include media-query(palm){
+		  width: 48%;
+		  max-width: none;
+		  background-color: transparent;
+		  position: absolute;
+		  margin-left: 4%;
+	  }
+
 	  .box-logo{
 	  	display: none;
 	  }
+
+
  	 }
 
  	 .menu-ico{
@@ -114,6 +143,13 @@ body{
 		z-index: 250;
 		background-color: rgba(14,21,45,.8);
 		padding: 10px;
+
+		@include media-query(palm){
+			background-color: transparent;
+			width: 13.5%;
+			max-width: none;
+			position: absolute;
+		}
  	 }
 
  	 .bus-ico{
@@ -133,13 +169,25 @@ body{
 		}
  	 }
 
- 	 .bottom-rule{
+ 	 hr{
+ 	 	background-color: white;
+ 	 	color: white;
+ 	 	border-color: white;
+ 	 }
+ }
+
+ .bottom-rule{
  	 	position: absolute;
  	 	width: 100%;
  	 	bottom: 13%;
  	 	padding: 0 5%;
  	 	color: white;
  	 	font-size: 19px;
+
+ 	 	@include media-query(palm){
+ 	 		position: relative;
+ 	 		color: #0f162e;
+ 	 	}
 
  	 	div{
  	 		display: inline-block;
@@ -150,8 +198,10 @@ body{
  	 		width: 24%;
  	 		
  	 		@include media-query(palm){
-	 	 		width: 45%;
-	  			font-size: 16px;
+	 	 		width: 70%;
+	  			font-size: 33px;
+	  			font-family: gothBold, Helvetica, Arial, sans-serif;
+	  			margin-bottom: 20px;
   			}
  	 	}
 
@@ -159,19 +209,36 @@ body{
  	 		width: 75%;
  	 		top: 16px;
  	 	}
- 	 }
 
- 	 hr{
- 	 	background-color: white;
- 	 	color: white;
- 	 	border-color: white;
- 	 }
+ 	 	select, select option{
+			color: #003366;
+			background-color: #e7e7e8;
+			height: 80px;
+			font-size: 32px;
+			width: 100%;
 
- 	 .home-form{
+			span{
+				color: #666;
+				font-weight: bold;
+			}
+		}
+ }
+
+.take-you-there{
+	margin-top: 20px;
+}
+
+
+.home-form{
  	 	position: absolute;
 		bottom: 6%;
 		padding: 0 5%;
 		width: 100%;
+
+		@include media-query(palm){
+			position: relative;
+			margin-bottom: 75px;
+		}
 
 		input[type="text"] {
 			border: none;
@@ -185,6 +252,15 @@ body{
 			padding-left: 10px;
 			padding-top: 10px;
 			margin-right: 1%;
+
+			@include media-query(palm){
+				display: block;
+				width: 100% !important;
+				margin-bottom: 20px;
+				height: 80px;
+				font-size: 26px;
+				background-color: #e7e7e8;
+			}
 		}
 
 		input[type="submit"] {
@@ -198,7 +274,18 @@ body{
 			padding-top: 10px;
 			margin-right: 0;
 			letter-spacing: 0.03em;
+
+
+			@include media-query(palm){
+				font-size: 34px;
+				padding: 15px 15px;
+				width: 41%;
+				height: 70px;
+				padding-top: 20px;
+			}
 		}
+
+		
 
 		#start, #end{
 			width: 27%;
@@ -211,16 +298,19 @@ body{
 			width: 14%;
 		}
  	 }
- }
+
 
 
  .metro{	
+
+ 	@include media-query(palm){
+ 		// margin-top: 615px;
+ 	}
 
  	 .metro-nav{
  	 	width: 100%;
  	 	text-align: center;
  	 	background-color: white;
- 	 	// height: 280px;
 
  	 	.metro-arrow{
  	 		position: absolute;
@@ -267,6 +357,93 @@ body{
 				cursor: pointer;
  	 		}
  	 	}
+ 	 }
+
+ 	 .mobile-metro{
+ 	 	.metro-box{
+ 	 	  width: auto !important;
+		  position: relative;
+		  right: auto;
+		  left: auto;
+		  margin-left: 0;
+		  margin: 50px 5%;
+
+ 	 	@include media-query(palm){
+ 	 		width: 36%;
+ 	 	}
+
+ 	 	.metro-title{
+ 	 		color: #fff;
+			position: absolute;
+			margin-top: -8px;
+			vertical-align: top;
+ 	 	}
+
+ 	 	hr{
+ 	 	  width: 100%;
+		  background-color: #fff;
+		  color: #fff;
+		  border-color: #fff;
+		  display: inline-block;
+		  margin-top: 15px;
+		  float: right;
+
+		  @include media-query(palm){
+  			margin-top: 55px;
+  		}
+ 	 	}
+
+
+
+ 	 	ul, li{
+ 	 		list-style-type: none;
+ 	 		color: white;
+ 	 		margin-left: 0;
+ 	 		font-size: 1.5em;
+ 	 		line-height: 1.3em;
+ 	 		margin-bottom: 10px;
+ 	 		cursor: pointer;
+ 	 		letter-spacing: 0.03em;
+ 	 		font-family: gothMed, Helvetica, Arial, sans-serif;
+
+ 	 		@include media-query(palm){
+ 	 			line-height: 0.45em;
+ 	 			margin-bottom: 8px;
+ 	 		}
+
+ 	 		a{ 
+ 	 			color: white;
+
+ 	 			@include media-query(palm){
+ 	 				font-size: 63px;
+  					line-height: 105px;
+ 	 			}
+ 	 		}
+ 	 		a:hover{ color: #6699CC; }
+
+ 	 		.arrow{
+ 	 			dispaly: inline-block;
+ 	 			float: right;
+ 	 			display: none;
+
+ 	 			img{
+ 	 				width: 18px;
+ 	 			}
+ 	 		}
+ 	 	}
+
+ 	 	ul{
+ 	 		@include media-query(palm){
+ 	 		  top: -7px;
+			  display: block;
+			  position: relative;
+			}
+ 	 	}
+
+ 	 	li{
+ 	 		cursor: pointer;
+ 	 	}
+ 	 }
  	 }
 
  	 .metro-main{
@@ -334,6 +511,10 @@ body{
 			position: absolute;
 			margin-top: -8px;
 			vertical-align: top;
+
+			@include media-query(palm){
+				font-size: 42px;
+			}
  	 	}
 
  	 	hr{
@@ -344,6 +525,9 @@ body{
 		  display: inline-block;
 		  margin-top: 15px;
 		  float: right;
+
+		
+
  	 	}
 
 
@@ -402,6 +586,14 @@ body{
 		bottom: 22%;
 		right: 10%;
 
+		@include media-query(palm){
+			position: relative;
+			right: auto;
+			bottom: 0;
+			margin: 0 5%;
+			margin-bottom: 45px;
+		}
+
  		.ico-block{
  			display: inline-block;
  			background-color: rgba(14, 21, 45, 0.8);
@@ -414,13 +606,19 @@ body{
 
  			img{
  				width: 80%;
+
+ 				@include media-query(palm){
+ 				  width: 55%;
+ 				}
  			}
 
  			@include media-query(palm){
- 	 			padding: 10px;
-			  	width: 31%;
-			  	height: 56px;
-			  	top: 15px;
+ 	 			// padding: 10px;
+			  	width: auto; 
+				height: auto;
+				width: 31%;
+  				margin-right: 12px;
+  				height: 155px;
  	 		}
  		}
  	}
@@ -432,10 +630,10 @@ body{
 		padding: 0.5% 1% 1% 1%;
 		padding-bottom: 0;
 		margin-left: 5%;
-		  margin-bottom: 0.5%;
+		margin-bottom: 0.5%;
 
 		@include media-query(palm){
-			font-size: 40px;
+			font-size: 88px;
 		}
  	}
 
@@ -454,7 +652,7 @@ body{
 			width: 500%;
 			
 			@include media-query(palm){
-				width: 100%;
+				// width: 100%;
 			}			
  		}
 
@@ -468,7 +666,7 @@ body{
  			overflow: hidden;
 
  			@include media-query(palm){
-				width: 100%;
+				// width: 100%;
 			}	
 
  			h3{
@@ -523,7 +721,7 @@ body{
  	background-size: 120%;
 
  	@include media-query(palm){
-		background: url('../img/home/home-lower-bg-mobile.jpg') no-repeat;
+		background: none;
  		background-size: 100%;
  		height: auto !important;
 	}
@@ -547,7 +745,7 @@ body{
 		padding-bottom: 0;
 		
 		@include media-query(palm){
-				font-size:40px;
+				font-size:62px;
 		}
  	}
 
@@ -558,9 +756,76 @@ body{
 		margin-left: 5%;
 
 		@include media-query(palm){
-				width: 75%;
+				width: 95%;
 		}	
 
+ 	}
+
+ 	.mobile-how-to{
+ 		margin: 50px 5%;
+
+ 		.gohart-mobile-content{
+ 			font-size: 32px;
+  			margin-top: 50px;
+ 		}
+
+ 		select, select option{
+			color: #003366;
+			background-color: #e7e7e8;
+			height: 80px;
+			font-size: 32px;
+			width: 100%;
+
+			span{
+				color: #666;
+				font-weight: bold;
+			}
+		}
+
+		.button-box{
+ 			width: 48%;
+ 			display: inline-block;
+ 			margin-right: 20px;
+ 			vertical-align: top;
+
+ 			@include media-query(palm){
+ 				width: 100%;
+ 			}
+
+ 			.button{
+ 				background-color: #7aaed5;
+ 				width: 100%;
+ 				height: 50px;
+ 				color: white;
+ 				margin-bottom: 15px;
+ 				line-height: 30px;
+ 				text-align: left;
+ 				padding-left: 15px;
+
+ 				@include media-query(palm){
+ 					font-size: 32px;
+ 					line-height: 49px;
+ 					height: 70px;
+ 				}
+
+ 				img{
+ 					float: right;
+ 					height: 25px;
+ 					margin-right: -20px;
+
+ 					@include media-query(palm){
+ 						  float: right;
+						  height: 34px;
+						  margin-right: -20px;
+						  top: 4px;
+ 					}
+ 				}
+ 			}
+
+ 			.button:hover{
+ 				background-color: #20416f;
+ 			}
+ 		}
  	}
 
  	.how-to{
@@ -663,6 +928,16 @@ body{
  		text-align: right;
 		margin: 0 4%;
 		cursor: pointer;
+
+
+		@include media-query(palm){
+		  text-align: right;
+		  margin: 0 4%;
+		  cursor: pointer;
+		  float: right;
+		  display: block;
+		  top: -30px;
+		}
  	}
  }
 

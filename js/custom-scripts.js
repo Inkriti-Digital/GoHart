@@ -23,6 +23,8 @@ $(document).ready(function(){
             mobileSite=false;
         }
 
+        console.log('mobileSite = ' + mobileSite);
+
         newsWidth = $('.news-blocks').width();
     	var landingWidth = $('.landing').width();
     	var landingHeight = Math.floor(landingWidth*0.58214);
@@ -227,19 +229,20 @@ $(document).ready(function(){
 
 
     $(window).scroll(function() {        
+        if(mobileSite==false){
+            var eTop = $('.headline').offset().top; //get the offset top of the element
+            var hideLockup = (eTop - $(window).scrollTop());
+            // console.log(hideLockup);
 
-        var eTop = $('.headline').offset().top; //get the offset top of the element
-        var hideLockup = (eTop - $(window).scrollTop());
-        console.log(hideLockup);
-
-        if(hideLockup<=100){
-            $(".full-logo").hide();
-            $(".box-logo").show();
-            $(".logo").css('width', '5%');
-        } else if( hideLockup >= 100){
-            $(".full-logo").show();
-            $(".box-logo").hide();
-            $(".logo").css('width', '20%');
+            if(hideLockup<=100){
+                $(".full-logo").hide();
+                $(".box-logo").show();
+                $(".logo").css('width', '5%');
+            } else if( hideLockup >= 100){
+                $(".full-logo").show();
+                $(".box-logo").hide();
+                $(".logo").css('width', '20%');
+            }
         }
 
     });

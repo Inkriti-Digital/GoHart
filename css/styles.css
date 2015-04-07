@@ -1745,10 +1745,10 @@ section .headline {
 }
 @media only screen and (max-width: 768px) {
   section .headline {
-    bottom: 39%;
+    top: 13%;
   }
   section .headline h1 {
-    font-size: 40px;
+    font-size: 62px;
   }
 }
 section h1 {
@@ -1767,6 +1767,19 @@ section h1 {
   background: url("../img/home/home-top-bg1.jpg") no-repeat;
   background-size: 114%;
   background-position: 40% 0;
+}
+@media only screen and (max-width: 768px) {
+  .landing {
+    background-image: none !important;
+    height: 520px !important;
+  }
+  .landing .mobile-home-head {
+    background: url("../img/responsive/mobile-home-head.jpg") no-repeat;
+    background-size: 100%;
+    background-position: 40% 0;
+    height: 600px;
+    top: 31%;
+  }
 }
 .landing .bus {
   background: url("../img/home/bus-home1.png") no-repeat;
@@ -1787,6 +1800,15 @@ section h1 {
   padding: 8px 6px 0px 8px;
   z-index: 30;
 }
+@media only screen and (max-width: 768px) {
+  .landing .logo {
+    width: 48%;
+    max-width: none;
+    background-color: transparent;
+    position: absolute;
+    margin-left: 4%;
+  }
+}
 .landing .logo .box-logo {
   display: none;
 }
@@ -1800,6 +1822,14 @@ section h1 {
   z-index: 250;
   background-color: rgba(14, 21, 45, 0.8);
   padding: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .landing .menu-ico {
+    background-color: transparent;
+    width: 13.5%;
+    max-width: none;
+    position: absolute;
+  }
 }
 .landing .bus-ico {
   position: absolute;
@@ -1818,7 +1848,13 @@ section h1 {
     bottom: 12%;
   }
 }
-.landing .bottom-rule {
+.landing hr {
+  background-color: white;
+  color: white;
+  border-color: white;
+}
+
+.bottom-rule {
   position: absolute;
   width: 100%;
   bottom: 13%;
@@ -1826,34 +1862,59 @@ section h1 {
   color: white;
   font-size: 19px;
 }
-.landing .bottom-rule div {
+@media only screen and (max-width: 768px) {
+  .bottom-rule {
+    position: relative;
+    color: #0f162e;
+  }
+}
+.bottom-rule div {
   display: inline-block;
 }
-.landing .bottom-rule .cta {
+.bottom-rule .cta {
   width: 24%;
 }
 @media only screen and (max-width: 768px) {
-  .landing .bottom-rule .cta {
-    width: 45%;
-    font-size: 16px;
+  .bottom-rule .cta {
+    width: 70%;
+    font-size: 33px;
+    font-family: gothBold, Helvetica, Arial, sans-serif;
+    margin-bottom: 20px;
   }
 }
-.landing .bottom-rule .rule {
+.bottom-rule .rule {
   width: 75%;
   top: 16px;
 }
-.landing hr {
-  background-color: white;
-  color: white;
-  border-color: white;
+.bottom-rule select, .bottom-rule select option {
+  color: #003366;
+  background-color: #e7e7e8;
+  height: 80px;
+  font-size: 32px;
+  width: 100%;
 }
-.landing .home-form {
+.bottom-rule select span, .bottom-rule select option span {
+  color: #666;
+  font-weight: bold;
+}
+
+.take-you-there {
+  margin-top: 20px;
+}
+
+.home-form {
   position: absolute;
   bottom: 6%;
   padding: 0 5%;
   width: 100%;
 }
-.landing .home-form input[type="text"] {
+@media only screen and (max-width: 768px) {
+  .home-form {
+    position: relative;
+    margin-bottom: 75px;
+  }
+}
+.home-form input[type="text"] {
   border: none;
   text-transform: uppercase;
   color: #083b70;
@@ -1866,7 +1927,17 @@ section h1 {
   padding-top: 10px;
   margin-right: 1%;
 }
-.landing .home-form input[type="submit"] {
+@media only screen and (max-width: 768px) {
+  .home-form input[type="text"] {
+    display: block;
+    width: 100% !important;
+    margin-bottom: 20px;
+    height: 80px;
+    font-size: 26px;
+    background-color: #e7e7e8;
+  }
+}
+.home-form input[type="submit"] {
   -webkit-appearance: none;
   border: none;
   color: white;
@@ -1878,15 +1949,24 @@ section h1 {
   margin-right: 0;
   letter-spacing: 0.03em;
 }
-.landing .home-form #start, .landing .home-form #end {
+@media only screen and (max-width: 768px) {
+  .home-form input[type="submit"] {
+    font-size: 34px;
+    padding: 15px 15px;
+    width: 41%;
+    height: 70px;
+    padding-top: 20px;
+  }
+}
+.home-form #start, .home-form #end {
   width: 27%;
 }
 @media only screen and (max-width: 768px) {
-  .landing .home-form #start, .landing .home-form #end {
+  .home-form #start, .home-form #end {
     width: 24%;
   }
 }
-.landing .home-form #date, .landing .home-form #time {
+.home-form #date, .home-form #time {
   width: 14%;
 }
 
@@ -1934,6 +2014,86 @@ section h1 {
   padding: 3px 5px;
   padding-top: 5px;
   display: none;
+  cursor: pointer;
+}
+.metro .mobile-metro .metro-box {
+  width: auto !important;
+  position: relative;
+  right: auto;
+  left: auto;
+  margin-left: 0;
+  margin: 50px 5%;
+}
+@media only screen and (max-width: 768px) {
+  .metro .mobile-metro .metro-box {
+    width: 36%;
+  }
+}
+.metro .mobile-metro .metro-box .metro-title {
+  color: #fff;
+  position: absolute;
+  margin-top: -8px;
+  vertical-align: top;
+}
+.metro .mobile-metro .metro-box hr {
+  width: 100%;
+  background-color: #fff;
+  color: #fff;
+  border-color: #fff;
+  display: inline-block;
+  margin-top: 15px;
+  float: right;
+}
+@media only screen and (max-width: 768px) {
+  .metro .mobile-metro .metro-box hr {
+    margin-top: 55px;
+  }
+}
+.metro .mobile-metro .metro-box ul, .metro .mobile-metro .metro-box li {
+  list-style-type: none;
+  color: white;
+  margin-left: 0;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  margin-bottom: 10px;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+  font-family: gothMed, Helvetica, Arial, sans-serif;
+}
+@media only screen and (max-width: 768px) {
+  .metro .mobile-metro .metro-box ul, .metro .mobile-metro .metro-box li {
+    line-height: 0.45em;
+    margin-bottom: 8px;
+  }
+}
+.metro .mobile-metro .metro-box ul a, .metro .mobile-metro .metro-box li a {
+  color: white;
+}
+@media only screen and (max-width: 768px) {
+  .metro .mobile-metro .metro-box ul a, .metro .mobile-metro .metro-box li a {
+    font-size: 63px;
+    line-height: 105px;
+  }
+}
+.metro .mobile-metro .metro-box ul a:hover, .metro .mobile-metro .metro-box li a:hover {
+  color: #6699CC;
+}
+.metro .mobile-metro .metro-box ul .arrow, .metro .mobile-metro .metro-box li .arrow {
+  dispaly: inline-block;
+  float: right;
+  display: none;
+}
+.metro .mobile-metro .metro-box ul .arrow img, .metro .mobile-metro .metro-box li .arrow img {
+  width: 18px;
+}
+@media only screen and (max-width: 768px) {
+  .metro .mobile-metro .metro-box ul {
+    top: -7px;
+    display: block;
+    position: relative;
+  }
+}
+.metro .mobile-metro .metro-box li {
   cursor: pointer;
 }
 .metro .metro-main {
@@ -1998,6 +2158,11 @@ section h1 {
   margin-top: -8px;
   vertical-align: top;
 }
+@media only screen and (max-width: 768px) {
+  .metro .metro-box .metro-title {
+    font-size: 42px;
+  }
+}
 .metro .metro-box hr {
   width: 100%;
   background-color: #fff;
@@ -2058,6 +2223,15 @@ section h1 {
   bottom: 22%;
   right: 10%;
 }
+@media only screen and (max-width: 768px) {
+  .metro .metro-icons {
+    position: relative;
+    right: auto;
+    bottom: 0;
+    margin: 0 5%;
+    margin-bottom: 45px;
+  }
+}
 .metro .metro-icons .ico-block {
   display: inline-block;
   background-color: rgba(14, 21, 45, 0.8);
@@ -2072,11 +2246,17 @@ section h1 {
   width: 80%;
 }
 @media only screen and (max-width: 768px) {
+  .metro .metro-icons .ico-block img {
+    width: 55%;
+  }
+}
+@media only screen and (max-width: 768px) {
   .metro .metro-icons .ico-block {
-    padding: 10px;
+    width: auto;
+    height: auto;
     width: 31%;
-    height: 56px;
-    top: 15px;
+    margin-right: 12px;
+    height: 155px;
   }
 }
 
@@ -2089,7 +2269,7 @@ section h1 {
 }
 @media only screen and (max-width: 768px) {
   .news h1 {
-    font-size: 40px;
+    font-size: 88px;
   }
 }
 .news .news-blocks {
@@ -2107,11 +2287,6 @@ section h1 {
   overflow: hidden;
   width: 500%;
 }
-@media only screen and (max-width: 768px) {
-  .news .news-blocks .block-row {
-    width: 100%;
-  }
-}
 .news .news-blocks .block {
   width: 400px;
   height: 250px;
@@ -2119,11 +2294,6 @@ section h1 {
   margin: 5px 5px;
   display: inline-block;
   overflow: hidden;
-}
-@media only screen and (max-width: 768px) {
-  .news .news-blocks .block {
-    width: 100%;
-  }
 }
 .news .news-blocks .block h3 {
   color: white;
@@ -2172,7 +2342,7 @@ section h1 {
 }
 @media only screen and (max-width: 768px) {
   .gohart {
-    background: url("../img/home/home-lower-bg-mobile.jpg") no-repeat;
+    background: none;
     background-size: 100%;
     height: auto !important;
   }
@@ -2193,7 +2363,7 @@ section h1 {
 }
 @media only screen and (max-width: 768px) {
   .gohart h1 {
-    font-size: 40px;
+    font-size: 62px;
   }
 }
 .gohart .gohart-title {
@@ -2204,8 +2374,70 @@ section h1 {
 }
 @media only screen and (max-width: 768px) {
   .gohart .gohart-title {
-    width: 75%;
+    width: 95%;
   }
+}
+.gohart .mobile-how-to {
+  margin: 50px 5%;
+}
+.gohart .mobile-how-to .gohart-mobile-content {
+  font-size: 32px;
+  margin-top: 50px;
+}
+.gohart .mobile-how-to select, .gohart .mobile-how-to select option {
+  color: #003366;
+  background-color: #e7e7e8;
+  height: 80px;
+  font-size: 32px;
+  width: 100%;
+}
+.gohart .mobile-how-to select span, .gohart .mobile-how-to select option span {
+  color: #666;
+  font-weight: bold;
+}
+.gohart .mobile-how-to .button-box {
+  width: 48%;
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
+}
+@media only screen and (max-width: 768px) {
+  .gohart .mobile-how-to .button-box {
+    width: 100%;
+  }
+}
+.gohart .mobile-how-to .button-box .button {
+  background-color: #7aaed5;
+  width: 100%;
+  height: 50px;
+  color: white;
+  margin-bottom: 15px;
+  line-height: 30px;
+  text-align: left;
+  padding-left: 15px;
+}
+@media only screen and (max-width: 768px) {
+  .gohart .mobile-how-to .button-box .button {
+    font-size: 32px;
+    line-height: 49px;
+    height: 70px;
+  }
+}
+.gohart .mobile-how-to .button-box .button img {
+  float: right;
+  height: 25px;
+  margin-right: -20px;
+}
+@media only screen and (max-width: 768px) {
+  .gohart .mobile-how-to .button-box .button img {
+    float: right;
+    height: 34px;
+    margin-right: -20px;
+    top: 4px;
+  }
+}
+.gohart .mobile-how-to .button-box .button:hover {
+  background-color: #20416f;
 }
 .gohart .how-to {
   background-color: rgba(255, 255, 255, 0.85);
@@ -2306,6 +2538,16 @@ section h1 {
   text-align: right;
   margin: 0 4%;
   cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  .gohart .return-top {
+    text-align: right;
+    margin: 0 4%;
+    cursor: pointer;
+    float: right;
+    display: block;
+    top: -30px;
+  }
 }
 
 /**
@@ -3311,9 +3553,13 @@ ul b, li b {
  * $RESPONSIVE
  * ==========================================================================
  */
+.mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   .desktop {
-    display: none;
+    display: none !important;
   }
 
   .mobile {
