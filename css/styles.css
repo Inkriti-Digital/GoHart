@@ -2220,7 +2220,7 @@ section h1 {
 }
 .metro .metro-icons {
   position: absolute;
-  bottom: 22%;
+  bottom: 20%;
   right: 10%;
 }
 @media only screen and (max-width: 768px) {
