@@ -1329,6 +1329,22 @@ b{font-family: gothMed,Helvetica,Arial,sans-serif;}
 
 
 
+/* header background images styles - Start */
+.aboutPagesBg{background: url("../img/headerImages/About.jpg") no-repeat;background-size: 100%;}
+.aboutPagesTeamBg{background: url("../img/headerImages/Team.jpg") no-repeat;background-size: 100%;}
+.farePagesBg{background: url("../img/headerImages/Fares.jpg") no-repeat;background-size: 100%;}
+.farePagesAdultStudentBg{background: url("../img/headerImages/AdultStudentFarecards.jpg") no-repeat;background-size: 100%;}
+.customerServiceBg{background: url("../img/headerImages/CustomerService.jpg") no-repeat;background-size: 100%;}
+.mapsSchedulesBg{background: url("../img/headerImages/Maps-and-Schedules.jpg") no-repeat;background-size: 100%;}
+.mapsSchedulesOtherBg{background: url("../img/headerImages/SystemMapAlertDetours.jpg") no-repeat !important;background-size: 100%;}
+.servicesPagesBg{background: url("../img/headerImages/Services.jpg") no-repeat;background-size: 100%;}
+.servicesPagesAltTransBg{background: url("../img/headerImages/Services.jpg") no-repeat;background-size: 100%;}
+.tansparencyPagesBg{background: url("../img/headerImages/Transparency.jpg") no-repeat;background-size: 100%;}
+.tavelInfoPagesBg{background: url("../img/headerImages/TravelInfo.jpg") no-repeat;background-size: 100%;}
+/* header background images styles - End */
+
+
+
 
 
 /*  media queries  */
@@ -1829,7 +1845,7 @@ b{font-family: gothMed,Helvetica,Arial,sans-serif;}
 	    width: 100%;
 	}
 	
-	.header h1 {
+	.header .headline h1 {
 	    display: inline-block;
 	    font-size: 20px;
 	    /*width:260px;*/

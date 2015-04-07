@@ -16,7 +16,7 @@
 		<div class="container alerts-detours emergency">
 			<?php include ("views/main-nav.php"); ?>
 			
-			<section class="header">
+			<section class="header mapsSchedulesBg">
 				<div class="logo"><img src="img/hart-logo.png"/></div>
 				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
 

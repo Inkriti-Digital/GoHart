@@ -14,7 +14,7 @@
 		<div class="container services">
 			<?php include ("views/main-nav.php"); ?>
 			
-			<section class="header">
+			<section class="header aboutPagesBg">
 				<div class="logo"><img src="img/hart-logo.png"/></div>
 				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
 
