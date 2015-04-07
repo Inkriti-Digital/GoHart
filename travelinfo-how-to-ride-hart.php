@@ -104,7 +104,7 @@
 							<div class="half-column brick-column left">
 								<h2>FOLDED BIKES</h2>
 								<div>
-									Folded bikes <a href="" class="bold-blue">are permitted on all HART buses and HARTFlex vans</a>. Just a few courtesies to keep in mind:
+									Folded bikes <a href="#" class="bold-blue">are permitted on all HART buses and HARTFlex vans</a>. Just a few courtesies to keep in mind:
 								</div>
 								<ul class="no-margin">
 									<li>Big bikes go on the rack - Maximum wheel size for folding bicycles is 20 inches</li>
@@ -124,7 +124,7 @@
 									<li>If the rack is full, customers should be prepared to wait for the next bus or choose a safe location to lock up their bicycle</li>
 								</ul>
 								<div>
-									You can also take your bike with you and transfer to a PSTA bus without a special permit. Go to <a href="" class="bold-blue">www.psta.net</a> for more information.
+									You can also take your bike with you and transfer to a PSTA bus without a special permit. Go to <a href="#" class="bold-blue">www.psta.net</a> for more information.
 								</div>
 							</div>
 							<div class="clear-fix"></div>
@@ -133,7 +133,7 @@
 						
 						<div class="fullColumnWidth">
 							<div class="half-column brick-blue-link left">
-								<a href="" class="brick-link">
+								<a href="#" class="brick-link">
 									<div class="icon">
 										<img src="img/schedule-img.png" />
 									</div>
@@ -149,7 +149,7 @@
 								</a>
 							</div>
 							<div class="half-column brick-blue-link brick-blue-link-last right">
-								<a href="" class="brick-link">
+								<a href="#" class="brick-link">
 									<div class="icon">
 										<img src="img/arrow.png" />
 									</div>
@@ -203,7 +203,7 @@
 						
 						<div class="fullColumnWidth">
 							<div class="half-column brick-blue-link left">
-								<a href="" class="brick-link">
+								<a href="#" class="brick-link">
 									<div class="icon">
 										<img src="img/phone-icon.png" />
 									</div>
@@ -219,7 +219,7 @@
 								</a>
 							</div>
 							<div class="half-column brick-blue-link brick-blue-link-last right">
-								<a href="" class="brick-link">
+								<a href="#" class="brick-link">
 									<div class="icon">
 										<img src="img/travel-info/mail-icon.png" />
 									</div>
@@ -240,7 +240,7 @@
 						
 						<div class="fullColumnWidth">
 							<p>
-								Your first ride on HART during the training is free. Call our Travel Training Coordinator today at <a href="" class="bold-blue">(813) 384-6307</a> to schedule your training session. You can also email your request to <a href="mailto:sheppardm@goHART.org" class="bold-blue">sheppardm@goHART.org</a>. Please have a specific destination in mind.
+								Your first ride on HART during the training is free. Call our Travel Training Coordinator today at <a href="#" class="bold-blue">(813) 384-6307</a> to schedule your training session. You can also email your request to <a href="mailto:sheppardm@goHART.org" class="bold-blue">sheppardm@goHART.org</a>. Please have a specific destination in mind.
 							</p>
 							<p>
 								Disabled persons are also eligible, provided their disability does not require special assistance or specifically trained personnel.

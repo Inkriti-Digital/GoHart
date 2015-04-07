@@ -76,7 +76,7 @@
 						</div>
 					</div>
 
-					<div class="bottom-rule">
+					<div class="bottom-rule" id="comments-suggestions">
 						<div class="cta"><span>COMMENTS/SUGGESTIONS</span><hr/></div>
 					</div>
 
@@ -190,7 +190,7 @@
 						</div>
 					</div>
 
-					<div class="bottom-rule">
+					<div class="bottom-rule" id="e-newsletter-signup">
 						<div class="cta"><span>E-NEWSLETTER SIGN-UP</span><hr/></div>
 					</div>
 

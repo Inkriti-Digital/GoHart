@@ -63,7 +63,7 @@
 								<div class="fullColumnWidth">	
 									<p class="info-icons"><img src="img/travel-info/onebusway.png" /></p>
 									<div class="info-icons-description">
-										<a href="" class="bold-blue">OneBusAway Tampa</a>
+										<a href="#" class="bold-blue">OneBusAway Tampa</a>
 										<div>
 											Real-time arrival and departure information for HART buses
 										</div>
@@ -75,7 +75,7 @@
 								<div class="fullColumnWidth">	
 									<p class="info-icons"><img src="img/travel-info/hyperalert.png" /></p>
 									<div class="info-icons-description">
-										<a href="" class="bold-blue">HyperAlert</a>
+										<a href="#" class="bold-blue">HyperAlert</a>
 										<div>
 											Notification system that allows riders to subscribe to routes and receive service alerts via email and text message.
 										</div>
@@ -95,7 +95,7 @@
 								<div class="fullColumnWidth">
 									<p class="info-icons"><img src="img/travel-info/routeshout.png" /></p>
 									<div class="info-icons-description">
-										<a href="" class="bold-blue">RouteShout</a>
+										<a href="#" class="bold-blue">RouteShout</a>
 										<div>
 											Arrival times by text message
 										</div>
@@ -103,7 +103,7 @@
 									<div class="clear-fix"></div>
 									<p class="info-icons"><img src="img/travel-info/acehopper.png" /></p>
 									<div class="info-icons-description">
-										<a href="" class="bold-blue">Acehopper</a>
+										<a href="#" class="bold-blue">Acehopper</a>
 										<div>
 											Provides transit info, parking and points of interest
 										</div>
@@ -111,7 +111,7 @@
 									<div class="clear-fix"></div>
 									<p class="info-icons"><img src="img/travel-info/smartride.png" /></p>
 									<div class="info-icons-description">
-										<a href="" class="bold-blue">SmartRide</a>
+										<a href="#" class="bold-blue">SmartRide</a>
 										<div>
 											Real-time transit info and arrival times
 										</div>
@@ -123,7 +123,7 @@
 								<div class="fullColumnWidth">
 									<p class="info-icons"><img src="img/travel-info/transittimes.png" /></p>
 									<div class="info-icons-description">
-										<a href="" class="bold-blue">TransitTimes</a>
+										<a href="#" class="bold-blue">TransitTimes</a>
 										<div>
 											Public transit companion app
 										</div>
@@ -131,7 +131,7 @@
 									<div class="clear-fix"></div>
 									<p class="info-icons"><img src="img/travel-info/hopstop.png" /></p>
 									<div class="info-icons-description">
-										<a href="" class="bold-blue">HopStop</a>
+										<a href="#" class="bold-blue">HopStop</a>
 										<div>
 											Directions, maps, schedules, city guide
 										</div>
@@ -152,7 +152,7 @@
 								<div class="fullColumnWidth">	
 									<p class="info-icons"><img src="img/travel-info/mapnificent.png" /></p>
 									<div class="info-icons-description">
-										<a href="" class="bold-blue">Mapnificent</a>
+										<a href="#" class="bold-blue">Mapnificent</a>
 										<div>
 											Shows areas you can reach with public transport in a given time
 										</div>
@@ -164,7 +164,7 @@
 						</div>
 						
 						<div class="fullColumnWidth">	
-							Interested in developing an app HART data? Head over to our <a href="" class="bold-blue">Developers</a> page for more information!
+							Interested in developing an app HART data? Head over to our <a href="#" class="bold-blue">Developers</a> page for more information!
 						</div>
 						<div class="bottom-rule footer-rule">
 							<div class="cta center-cta">

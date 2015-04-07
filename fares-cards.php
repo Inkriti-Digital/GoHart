@@ -210,7 +210,7 @@
 									<div class="tix-type">3-DAY VISITOR/GROUP</div>
 									<div class="tix-fare">$9.50 EACH<img src="img/fares/tix-ico-white.png"/></div>
 								</div>
-								<div class="disclaimer">*Only available for bulk purchase of 200 or more passes. Call <a href="" class="bold-blue">813-254-HART</a>  for details.</div>
+								<div class="disclaimer">*Only available for bulk purchase of 200 or more passes. Call <a href="#" class="bold-blue">813-254-HART</a>  for details.</div>
 								
 							</div>
 						</div>
@@ -269,7 +269,7 @@
 							Proper HART or PSTA identification is required to receive discount fare: Seniors, 65 years and older; Youth, 5-17 years; People with Disabilities. Effective November 8, 2009, Medicare cardholders need only show their original red, white and blue Medicare card onboard to obtain the discount. 
 						</p>
 						<p>
-							Students HART discount permits can be purchased at Marion Transit Center, HART on Franklin Transit Center, University Area Transit Center, or executive offices, upon proof of eligibility. Call the HARTinfo Line at <a href="" class="bold-blue">(813) 254-4278</a>  for further details on discount permit qualifications.
+							Students HART discount permits can be purchased at Marion Transit Center, HART on Franklin Transit Center, University Area Transit Center, or executive offices, upon proof of eligibility. Call the HARTinfo Line at <a href="#" class="bold-blue">(813) 254-4278</a>  for further details on discount permit qualifications.
 						</p>
 
 						<div>

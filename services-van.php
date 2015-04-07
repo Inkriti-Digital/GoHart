@@ -66,7 +66,7 @@
 							<div>
 								<div class="half-column">
 									<div>
-										<b>To make a one-way or round-trip reservation, call <a href="" class="link-colored nowrap">813-254-4278</a>:</b>
+										<b>To make a one-way or round-trip reservation, call <a href="#" class="link-colored nowrap">813-254-4278</a>:</b>
 									</div>
 									
 									<div class="half-column reservation-timings-days">
@@ -195,7 +195,7 @@
 							
 							<div class="fullColumnWidth">
 								<div class="half-column brick-blue-link left">
-									<a href="" class="brick-link">
+									<a href="#" class="brick-link">
 										<div class="icon">
 											<img src="img/metrorapid-service/schedule-img.png" />
 										</div>
@@ -211,7 +211,7 @@
 									</a>
 								</div>
 								<div class="half-column brick-blue-link brick-blue-link-last right">
-									<a href="" class="brick-link">
+									<a href="#" class="brick-link">
 										<div class="icon">
 											<img src="img/phone-icon.png" />
 										</div>
@@ -251,9 +251,9 @@
 							
 							<div class="fullColumnWidth">
 								<p class="info-italic space-top-bottom">
-									<i>All HARTPlus services require reservations the day before service is desired. Please call <a href="" class="link-colored">813-254-HART</a> (the HARTinfo Line) or</i>
+									<i>All HARTPlus services require reservations the day before service is desired. Please call <a href="#" class="link-colored">813-254-HART</a> (the HARTinfo Line) or</i>
 									<br/>
-									<i><a href="" class="link-colored">813-626-9158</a> (TDD for the hearing impaired) during regular customer service hours to make a reservation.</i>
+									<i><a href="#" class="link-colored">813-626-9158</a> (TDD for the hearing impaired) during regular customer service hours to make a reservation.</i>
 								</p>
 							</div>
 						</div>
@@ -278,7 +278,7 @@
 										HARTPlus service is available on certain holidays, but subscription trips no longer operate during certain holidays.
 									</p>
 									<p>
-										HARTPlus and HARTFlex customers who wish to use HARTPlus and HARTFlex services on holidays must make a reservation through Customer Service <a href="" class="link-colored">813-254-4278</a>. HARTPlus and HARTFlex trips can be scheduled as early as three (3) days in advance of the holiday.
+										HARTPlus and HARTFlex customers who wish to use HARTPlus and HARTFlex services on holidays must make a reservation through Customer Service <a href="#" class="link-colored">813-254-4278</a>. HARTPlus and HARTFlex trips can be scheduled as early as three (3) days in advance of the holiday.
 									</p>
 									<p>
 										If you have any questions, please contact Customer Service.
@@ -318,7 +318,7 @@
 						
 						<div class="fullColumnWidth">
 							<div class="half-column brick-blue-link left">
-								<a href="" class="brick-link">
+								<a href="#" class="brick-link">
 									<div class="icon">
 										<img src="img/metrorapid-service/schedule-img.png" />
 									</div>
@@ -334,7 +334,7 @@
 								</a>
 							</div>
 							<div class="half-column brick-blue-link brick-blue-link-last right">
-								<a href="" class="brick-link">
+								<a href="#" class="brick-link">
 									<div class="icon">
 										<img src="img/audio-icon.png" />
 									</div>
@@ -357,7 +357,7 @@
 								<div>
 									<h2>TEMPORARY ELIGIBILITY STATUS</h2>
 									<p>
-										Individuals with disabilities visiting the Tampa area and interested in using paratransit service should contact HARTPlus Administration at <a href="" class="link-colored">(813) 384-6305</a> at least three weeks in advance of traveling to Tampa or Hillsborough County. Cash fare is $4.
+										Individuals with disabilities visiting the Tampa area and interested in using paratransit service should contact HARTPlus Administration at <a href="#" class="link-colored">(813) 384-6305</a> at least three weeks in advance of traveling to Tampa or Hillsborough County. Cash fare is $4.
 									</p>
 								</div>
 							</div>
@@ -366,7 +366,7 @@
 								<h2>ADA ACCESSIBILITY COMMITTEE</h2>
 								<div>
 									<div class="half-column">	
-										<a href="" class="link-colored">Click here</a> for information on the ADA Accessibility Committee. Next meeting is <b>August 21, 2014 at 3:00 p.m.</b>
+										<a href="#" class="link-colored">Click here</a> for information on the ADA Accessibility Committee. Next meeting is <b>August 21, 2014 at 3:00 p.m.</b>
 									</div>
 									<div class="half-column side2">	
 										HART Administration Building

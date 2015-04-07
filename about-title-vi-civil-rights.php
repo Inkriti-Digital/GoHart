@@ -44,7 +44,7 @@
 									AUTHORITY (HART)
 								</h2>
 								<p>
-									HART operates its programs and services without regard to race, color, and national origin in accordance with Title VI of the Civil Rights Act. Any person who believes she or he has been aggrieved by any unlawful discriminatory practice under Title VI may file a complaint with HART. For more information on HART’s civil rights program, contact <a href="" class="bold-blue">(813) 384-6419</a>.
+									HART operates its programs and services without regard to race, color, and national origin in accordance with Title VI of the Civil Rights Act. Any person who believes she or he has been aggrieved by any unlawful discriminatory practice under Title VI may file a complaint with HART. For more information on HART’s civil rights program, contact <a href="#" class="bold-blue">(813) 384-6419</a>.
 								</p>
 							</div>
 							<div class="half-column brick-column brick-column-last right">
@@ -58,7 +58,7 @@
 									(HART, POR SUS SIGLAS EN INGLES)
 								</h2>
 								<p>
-									HART opera sus programas y servicios sin distinción de raza, color y origen nacional, de acuerdo con el Título VI de la Ley de Derechos Civiles. Cualquier persona que se crea haber sido perjudicada por una práctica discriminatoria illegal bajo el Título VI puede presentar una queja con HART. Para más información sobre el programa de derechos civiles de HART, comuníquese con HART al <a href="" class="bold-blue">(813) 384-6419</a>.
+									HART opera sus programas y servicios sin distinción de raza, color y origen nacional, de acuerdo con el Título VI de la Ley de Derechos Civiles. Cualquier persona que se crea haber sido perjudicada por una práctica discriminatoria illegal bajo el Título VI puede presentar una queja con HART. Para más información sobre el programa de derechos civiles de HART, comuníquese con HART al <a href="#" class="bold-blue">(813) 384-6419</a>.
 								</p>
 							</div>
 							<div class="clear-fix"></div>
@@ -67,7 +67,7 @@
 								
 						<div class="fullColumnWidth">
 							<div class="half-column brick-blue-link left">
-								<a href="" class="brick-link">
+								<a href="#" class="brick-link">
 									<div class="icon">
 										<img src="img/schedule-img.png" />
 									</div>
@@ -83,7 +83,7 @@
 								</a>
 							</div>
 							<div class="half-column brick-blue-link brick-blue-link-last right">
-								<a href="" class="brick-link">
+								<a href="#" class="brick-link">
 									<div class="icon">
 										<img src="img/schedule-img.png" />
 									</div>
@@ -104,12 +104,12 @@
 						
 						<div class="fullColumnWidth">
 							<div class="half-column brick-column left">
-								<a href="" class="bold-blue">HART Proposed Title VI Policies</a> <br/>
-								<a href="" class="bold-blue">Printable Notice of Public Rights Under Title VI</a>
+								<a href="#" class="bold-blue">HART Proposed Title VI Policies</a> <br/>
+								<a href="#" class="bold-blue">Printable Notice of Public Rights Under Title VI</a>
 							</div>
 							<div class="half-column brick-column brick-column-last right">
-								<a href="" class="bold-blue">Proceso de Quejas</a> <br/>
-								<a href="" class="bold-blue">HART Propuesta de Póliza Título VI</a>
+								<a href="#" class="bold-blue">Proceso de Quejas</a> <br/>
+								<a href="#" class="bold-blue">HART Propuesta de Póliza Título VI</a>
 							</div>
 							<div class="clear-fix"></div>
 						</div>
@@ -126,7 +126,7 @@
 						<div class="fullColumnWidth brick-list">
 							<div class="half-column brick-column left">
 								<p>
-									If you believe that you have been excluded from participation in, denied the benefits of, or subjected to discrimination based on race, color or national origin under the Hillsborough Transit Authority (HART) program of transit service delivery or related services or programs, you may file an official Title VI complaint with the HART Civil Rights Officer, 1201 E. 7th Avenue, Tampa, FL 33605 or by calling 	<a href="" class="bold-blue">(813) 384-6419</a>. We encourage you to make your complaint in writing with the following information:
+									If you believe that you have been excluded from participation in, denied the benefits of, or subjected to discrimination based on race, color or national origin under the Hillsborough Transit Authority (HART) program of transit service delivery or related services or programs, you may file an official Title VI complaint with the HART Civil Rights Officer, 1201 E. 7th Avenue, Tampa, FL 33605 or by calling 	<a href="#" class="bold-blue">(813) 384-6419</a>. We encourage you to make your complaint in writing with the following information:
 								</p>
 								<ul class="no-margin">
 									<li>Your name, address and how to contact you (phone number, email address, etc.).</li>
@@ -146,7 +146,7 @@
 											Tampa, FL 33605
 										</div>
 										<div class="bottom-part">
-											<a href="" class="bold-blue">Click here</a> to file a Title VI complaint directly with the Federal Transit Administration
+											<a href="#" class="bold-blue">Click here</a> to file a Title VI complaint directly with the Federal Transit Administration
 										</div>
 									</div>
 								</div>
@@ -203,7 +203,7 @@
 											Washington, DC 20590
 										</div>
 										<div class="bottom-part">
-											<a href="" class="bold-blue">Click here</a> to visit the Federal Transit Administration Office of Civil Rights website.
+											<a href="#" class="bold-blue">Click here</a> to visit the Federal Transit Administration Office of Civil Rights website.
 										</div>
 									</div>
 								</div>

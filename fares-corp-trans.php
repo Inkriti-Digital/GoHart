@@ -52,7 +52,7 @@
 					</div>
 					<div class="content-body">
 						<div class="info">
-							<p>Federal law entitles all U.S. employers to a completely tax-deductible business expense of up to $240 per employee per month toward the cost of using public transportation. For most employees this will mean a $95 monthly Express Pass or a $65 monthly Local Pass. Funds can also be allocated to <a href="" class="bold-blue">vanpooling.</a> With the help of a HART representative, your Corporate Transit Sponsor Program can be administered by a single employee working just minutes each month. Once your program is set up, bus passes will be mailed or hand-delivered to your company's appointed representative every month, then distributed to eligible employees. HART provides route schedules, informational brochures and a customer service line to answer any questions about routes and time schedules. If you like, a HART representative can visit your company to talk to employees about the bus system and other commute alternatives.</p>
+							<p>Federal law entitles all U.S. employers to a completely tax-deductible business expense of up to $240 per employee per month toward the cost of using public transportation. For most employees this will mean a $95 monthly Express Pass or a $65 monthly Local Pass. Funds can also be allocated to <a href="#" class="bold-blue">vanpooling.</a> With the help of a HART representative, your Corporate Transit Sponsor Program can be administered by a single employee working just minutes each month. Once your program is set up, bus passes will be mailed or hand-delivered to your company's appointed representative every month, then distributed to eligible employees. HART provides route schedules, informational brochures and a customer service line to answer any questions about routes and time schedules. If you like, a HART representative can visit your company to talk to employees about the bus system and other commute alternatives.</p>
 						</div>
 						<div class="info-graphic">
 							<img src="img/service/info-graphic.jpg"/>
@@ -72,7 +72,7 @@
 							<div class="half-column">
 								<ul>
 									<li><span class="num-li">1.</span> Appoint an employee to be your Transit Program Coordinator</li>
-									<li><span class="num-li">2.</span> Have your Transit Coordinator call HART at <a href="" class="bold-blue">813-384-6595</a> to speak with a representative who will help work out all the Transit Program details</li>									
+									<li><span class="num-li">2.</span> Have your Transit Coordinator call HART at <a href="#" class="bold-blue">813-384-6595</a> to speak with a representative who will help work out all the Transit Program details</li>									
 								</ul>
 							</div>
 							<div class="half-column">

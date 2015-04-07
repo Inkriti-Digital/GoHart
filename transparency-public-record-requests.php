@@ -58,7 +58,7 @@
 						
 						<div class="fullColumnWidth">
 							<div class="half-column brick-blue-link left">
-								<a href="" class="brick-link">
+								<a href="#" class="brick-link">
 									<div class="icon">
 										<img src="img/schedule-img.png" />
 									</div>
@@ -74,7 +74,7 @@
 								</a>
 							</div>
 							<div class="half-column brick-blue-link brick-blue-link-last right">
-								<a href="" class="brick-link">
+								<a href="#" class="brick-link">
 									<div class="icon">
 										<img src="img/phone-icon.png" />
 									</div>
@@ -199,7 +199,7 @@
 									<div class="fullColumnWidth">	
 										<p class="point-no-area point-no-place"><span class="point-no">10</span></p>
 										<p class="point-description point-description-place">
-											Contact HART public records by phone at <a href="" class="link-colored nowrap">(813) 384-6419</a> or FAX at (813) 3846284.
+											Contact HART public records by phone at <a href="#" class="link-colored nowrap">(813) 384-6419</a> or FAX at (813) 3846284.
 										</p>
 										<div class="clear-fix"></div>
 									</div>

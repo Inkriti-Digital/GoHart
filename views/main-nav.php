@@ -68,9 +68,9 @@
 		</ul>
 
 		<ul class="subnav-customer">
-			<li><a href="#">Contact Information</a></li>
-			<li><a href="#">Comments/Suggestions</a></li>
-			<li><a href="#">eNewsletter Sign-U</a></li>
+			<li><a href="customer-service.php">Contact Information</a></li>
+			<li><a href="customer-service.php#comments-suggestions">Comments/Suggestions</a></li>
+			<li><a href="customer-service.php#e-newsletter-signup">eNewsletter Sign-Up</a></li>
 		</ul>
 
 		<ul class="subnav-trans">

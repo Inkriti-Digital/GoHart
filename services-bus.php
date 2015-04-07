@@ -54,7 +54,7 @@
 							<h2>SERVICE TO TAMPA INTERNATIONAL AIRPORT</h2>
 							<div>
 								<div class="half-column">
-									<p>HART <a href="" class="bold-blue">Route 30</a>  serves Tampa International Airport seven days a week, so you can fly to many national and international destinations without leaving your car at the Airport. Whether you are a resident or out-of-town guest, HART routes connect you with the Bay area’s best destinations.</p>
+									<p>HART <a href="#" class="bold-blue">Route 30</a>  serves Tampa International Airport seven days a week, so you can fly to many national and international destinations without leaving your car at the Airport. Whether you are a resident or out-of-town guest, HART routes connect you with the Bay area’s best destinations.</p>
 								</div>
 
 								<div class="half-column hours">	
@@ -79,7 +79,7 @@
 								<div class="brick">
 									<div class="brick-head">DOWNTOWN</div>
 									<p class="normal-blue">
-										Route 30 can be picked up along Kennedy Boulevard, Whiting Street (connection to <a href="" class="bold-blue">TECO Line Streetcar System</a>) and Marion Transit Center.
+										Route 30 can be picked up along Kennedy Boulevard, Whiting Street (connection to <a href="#" class="bold-blue">TECO Line Streetcar System</a>) and Marion Transit Center.
 									</p>
 								</div>
 							</div>

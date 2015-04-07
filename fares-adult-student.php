@@ -65,7 +65,7 @@
 						</div>
 						<div>
 							<h2>THE HART U-PASS PROGRAM</h2>
-							<p>Plus, USF students can hop aboard for free. <a href="" class="bold-blue">The HART U-Pass Program</a>  allows University of South Florida students to ride <a href="" class="bold-blue">HART Local, Limited Express and Flex routes</a>  for free. Faculty and staff members can ride for only a quarter. Ride to campus, connect to the Bull Runner Shuttle and get to class without worrying about where to park. </p>
+							<p>Plus, USF students can hop aboard for free. <a href="#" class="bold-blue">The HART U-Pass Program</a>  allows University of South Florida students to ride <a href="#" class="bold-blue">HART Local, Limited Express and Flex routes</a>  for free. Faculty and staff members can ride for only a quarter. Ride to campus, connect to the Bull Runner Shuttle and get to class without worrying about where to park. </p>
 						</div>
 
 						<div class="tix-box">							

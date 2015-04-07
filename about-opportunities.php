@@ -55,7 +55,7 @@
 						
 						<div class="fullColumnWidth">
 							<div class="half-column brick-blue-link left">
-								<a href="" class="brick-link">
+								<a href="#" class="brick-link">
 									<div class="icon">
 										<img src="img/arrow.png" />
 									</div>
@@ -71,7 +71,7 @@
 								</a>
 							</div>
 							<div class="half-column brick-blue-link brick-blue-link-last right">
-								<a href="" class="brick-link">
+								<a href="#" class="brick-link">
 									<div class="icon">
 										<img src="img/phone-icon.png" />
 									</div>
@@ -109,10 +109,10 @@
 						</div>
 						<div class="info-graphic infoPart2">
 							<span>PDFs for download:</span><br/>
-							<a href="" class="bold-blue">Procurement Manual</a><br/>
-							<a href="" class="bold-blue">FTA Circular 4220.1F</a><br/>
-							<a href="" class="bold-blue">FTA Best Practices Manual</a><br/>
-							<a href="" class="bold-blue">2013 Master Grant Agreement</a>
+							<a href="#" class="bold-blue">Procurement Manual</a><br/>
+							<a href="#" class="bold-blue">FTA Circular 4220.1F</a><br/>
+							<a href="#" class="bold-blue">FTA Best Practices Manual</a><br/>
+							<a href="#" class="bold-blue">2013 Master Grant Agreement</a>
 						</div>
 						<div class="fullColumnWidth">
 							<p class="visit-link">

@@ -80,7 +80,7 @@
 									</div>
 								</div>
 								<div class="brick-blue-link brick-blue-link-last">
-									<a href="" class="brick-link">
+									<a href="#" class="brick-link">
 										<div class="icon">
 											<img src="img/schedule-img.png" />
 										</div>
@@ -122,7 +122,7 @@
 									</div>
 								</div>
 								<div class="brick-blue-link brick-blue-link-last">
-									<a href="" class="brick-link">
+									<a href="#" class="brick-link">
 										<div class="icon">
 											<img src="img/schedule-img.png" />
 										</div>

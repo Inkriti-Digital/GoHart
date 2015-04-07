@@ -95,7 +95,7 @@
 							
 							<div class="fullColumnWidth">
 								<div class="half-column brick-blue-link left">
-									<a href="" class="brick-link">
+									<a href="#" class="brick-link">
 										<div class="icon resize-icon-height">
 											<img src="img/metrorapid-service/schedule-img.png" />
 										</div>
@@ -111,7 +111,7 @@
 									</a>
 								</div>
 								<div class="half-column brick-blue-link brick-blue-link-last right">
-									<a href="" class="brick-link">
+									<a href="#" class="brick-link">
 										<div class="icon resize-icon-height">
 											<img src="img/metrorapid-service/schedule-img.png" />
 										</div>
@@ -180,23 +180,23 @@
 							
 							
 							<div class="fullColumnWidth">
-								<a href="" class="pdf-downlaod five-up">							
+								<a href="#" class="pdf-downlaod five-up">							
 									<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 									<span class="download-title">PART ONE</span>		
 								</a>
-								<a href="" class="pdf-downlaod five-up">							
+								<a href="#" class="pdf-downlaod five-up">							
 									<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 									<span class="download-title">PART TWO</span>		
 								</a>
-								<a href="" class="pdf-downlaod five-up">							
+								<a href="#" class="pdf-downlaod five-up">							
 									<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 									<span class="download-title">PART THREE</span>		
 								</a>
-								<a href="" class="pdf-downlaod five-up">							
+								<a href="#" class="pdf-downlaod five-up">							
 									<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 									<span class="download-title">PART FOUR</span>		
 								</a>
-								<a href="" class="pdf-downlaod five-up">							
+								<a href="#" class="pdf-downlaod five-up">							
 									<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 									<span class="download-title">PART FIVE</span>		
 								</a>

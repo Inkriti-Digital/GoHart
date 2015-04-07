@@ -62,7 +62,7 @@
 					</div>
 					<div class="content-body">
 					<h2>HYPERALERT</h2>
-					<p><a href="" class="bold-blue">HyperAlert</a> is a rider notification system that allows members of the public to subscribe to alerts for transit routes. These alerts are sent by HART when an issue is impacting a route. Examples of typical usage include service delays due to weather or construction. HyperAlert is a completely opt-in system.</p>
+					<p><a href="#" class="bold-blue">HyperAlert</a> is a rider notification system that allows members of the public to subscribe to alerts for transit routes. These alerts are sent by HART when an issue is impacting a route. Examples of typical usage include service delays due to weather or construction. HyperAlert is a completely opt-in system.</p>
 					<div>
 						<div class="cta-buttons btn1">
 							<a href="#"><img src="img/alerts/hyperalert-btn.jpg"/></a>

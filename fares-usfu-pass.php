@@ -34,7 +34,7 @@
 					<div class="content-body">
 							
 						<div class="info">
-							<p>University of South Florida students showing a new valid USF ID can ride HART Local, Limited Express, <a href="" class="bold-blue">MetroRapid</a>  and Flex routes FREE.* And it isn't just students who are in on the deal. USF faculty and staff pay just 50¢ with their new valid USF ID card.</p>
+							<p>University of South Florida students showing a new valid USF ID can ride HART Local, Limited Express, <a href="#" class="bold-blue">MetroRapid</a>  and Flex routes FREE.* And it isn't just students who are in on the deal. USF faculty and staff pay just 50¢ with their new valid USF ID card.</p>
 
 
 							<div class="tix-box">							
@@ -49,7 +49,7 @@
 								<div class="disclaimer">*Not valid on express routes, In-Town trolleys or the TECO Line Streetcar System.</div>
 							</div>
 
-							<p>Connections between HART and USF's Bull Runner Shuttle are available at the HART University Area Transit Center. For bus route details, look under the <a href="" class="bold-blue">Maps &amp; Schedules</a>  menu above. You can also <a href="" class="bold-blue">Contact Us</a> to learn more, or grab a schedule at the Marshall Center, HART University Area Transit Center. </p>	
+							<p>Connections between HART and USF's Bull Runner Shuttle are available at the HART University Area Transit Center. For bus route details, look under the <a href="#" class="bold-blue">Maps &amp; Schedules</a>  menu above. You can also <a href="#" class="bold-blue">Contact Us</a> to learn more, or grab a schedule at the Marshall Center, HART University Area Transit Center. </p>	
 							<div class="download-pdf"><a href="#"><img src="img/download-pdf.png"/><span>Download PDF</span> of USF area bus routes</a></div>						
 						</div>
 						<div class="info-graphic">

@@ -38,10 +38,10 @@
 					<div class="content-body">
 						<div class="info">
 							<p class="margin-bottom-5">
-								A copy of the agenda may be obtained by writing to HART, 1201 East 7th Avenue, Tampa, Florida 33605; or by contacting HART Clerk of the Board at <a href="" class="bold-blue">(813) 384-6552</a>.
+								A copy of the agenda may be obtained by writing to HART, 1201 East 7th Avenue, Tampa, Florida 33605; or by contacting HART Clerk of the Board at <a href="#" class="bold-blue">(813) 384-6552</a>.
 							</p>
 							<p class="margin-bottom-5">
-								Pursuant to provisions of the American with Disabilities Act, any person requiring special accommodations to participate in this meeting is asked to contact HART Clerk of the Board at <a href="" class="bold-blue">(813) 384-6552</a> at least seven days before the meeting. If you are hearing or speech impaired, please call the TDD <a href="" class="bold-blue">(813) 626-9158</a>.
+								Pursuant to provisions of the American with Disabilities Act, any person requiring special accommodations to participate in this meeting is asked to contact HART Clerk of the Board at <a href="#" class="bold-blue">(813) 384-6552</a> at least seven days before the meeting. If you are hearing or speech impaired, please call the TDD <a href="#" class="bold-blue">(813) 626-9158</a>.
 							</p>
 							<p>
 								Section 286.0105, Florida Statutes, provides that if a person decides to appeal any decision made by a board, agency, or commission with respect to any matter considered at a meeting or hearing, he or she need a record of proceedings, and that, for such purpose, he or she may need to ensure that a verbatim record of the proceedings is made, which record include the testimony and evidence upon which the appeal is to be based.
@@ -221,36 +221,36 @@
 							<div class="half-column brick-column left">
 								<div class="brick-list-packets">
 									<ul class="no-margin">
-										<li><a href="" class="bold-blue">November 17, 2014</a> Finance, Governance and Administration Committee Meeting – Packet</li>
-										<li><a href="" class="bold-blue">November 3, 2014</a> Regular Board Meeting – Packet</li>
-										<li><a href="" class="bold-blue">October 20, 2014</a> Finance, Governance and Administration Committee Meeting – Packet</li>
-										<li><a href="" class="bold-blue">October 8, 2014</a> Ad Hoc Committee on Selection of Federal and State Legislative Consultant Services Meeting – Packet</li>
-										<li><a href="" class="bold-blue">October 2014</a> Monthly Information Report – Packet</li>
-										<li><a href="" class="bold-blue">September 22, 2014</a> Second and Final Public Hearing on Fiscal Year 2015 Mileage Rate and Annual Budget and Regular Board Meeting – Packet</li>
-										<li><a href="" class="bold-blue">September 8, 2014</a> Regular Board Meeting – Presentation – Operations Division Key Performance Indicators (KPIs)</li>
-										<li><a href="" class="bold-blue">September 8, 2014</a> Regular Board Meeting – Presentation – On-Board Survey Results</li>
-										<li><a href="" class="bold-blue">September 8, 2014</a> First Public Hearing on Tentative Fiscal Year 2015 Mileage Rate and Annual Budget – Presentation – Proposed FY2015 Operating and Capital Budget</li>
-										<li><a href="" class="bold-blue">September 8, 2014</a> First Public Hearing on Tentative Fiscal Year 2015 Mileage Rate and Annual Budget and Regular Board Meeting – Packet</li>
-										<li><a href="" class="bold-blue">August 18, 2014</a> Finance, Governance and Administration Committee Meeting – Packet</li>
+										<li><a href="#" class="bold-blue">November 17, 2014</a> Finance, Governance and Administration Committee Meeting – Packet</li>
+										<li><a href="#" class="bold-blue">November 3, 2014</a> Regular Board Meeting – Packet</li>
+										<li><a href="#" class="bold-blue">October 20, 2014</a> Finance, Governance and Administration Committee Meeting – Packet</li>
+										<li><a href="#" class="bold-blue">October 8, 2014</a> Ad Hoc Committee on Selection of Federal and State Legislative Consultant Services Meeting – Packet</li>
+										<li><a href="#" class="bold-blue">October 2014</a> Monthly Information Report – Packet</li>
+										<li><a href="#" class="bold-blue">September 22, 2014</a> Second and Final Public Hearing on Fiscal Year 2015 Mileage Rate and Annual Budget and Regular Board Meeting – Packet</li>
+										<li><a href="#" class="bold-blue">September 8, 2014</a> Regular Board Meeting – Presentation – Operations Division Key Performance Indicators (KPIs)</li>
+										<li><a href="#" class="bold-blue">September 8, 2014</a> Regular Board Meeting – Presentation – On-Board Survey Results</li>
+										<li><a href="#" class="bold-blue">September 8, 2014</a> First Public Hearing on Tentative Fiscal Year 2015 Mileage Rate and Annual Budget – Presentation – Proposed FY2015 Operating and Capital Budget</li>
+										<li><a href="#" class="bold-blue">September 8, 2014</a> First Public Hearing on Tentative Fiscal Year 2015 Mileage Rate and Annual Budget and Regular Board Meeting – Packet</li>
+										<li><a href="#" class="bold-blue">August 18, 2014</a> Finance, Governance and Administration Committee Meeting – Packet</li>
 									</ul>
 								</div>
 							</div>
 							<div class="half-column brick-column brick-column-last right">
 								<div class="brick-list-packets">
 									<ul class="no-margin">
-										<li><a href="" class="bold-blue">August 4, 2014</a> Regular Board Meeting – Presentation – South County Circulator</li>
-										<li><a href="" class="bold-blue">August 4, 2014</a> Regular Board Meeting – Presentation – Operations Division KPIs</li>
-										<li><a href="" class="bold-blue">August 4, 2014</a> Regular Board Meeting – Presentation – Update on Security at MTC and Onboard of Vehicles</li>
-										<li><a href="" class="bold-blue">August 4, 2014</a> Regular Board Meeting – Presentation – TDP Alternatives</li>
-										<li><a href="" class="bold-blue">August 4, 2014</a> Regular Board Meeting – Packet</li>
-										<li><a href="" class="bold-blue">July 21, 2014</a> Regular Board Meeting – Presentation – Certifying the Proposed Ad Valorem Tax Mileage Rate for the Fiscal Year 2015 Budget</li>
-										<li><a href="" class="bold-blue">July 31, 2014</a> Ad Hoc Committee on Overseeing Legal Services Selection Process Meeting – Packet</li>
-										<li><a href="" class="bold-blue">July 21, 2014</a> Regular Board Meeting – Presentation – Selection Process for Federal and State Legislative Consulting Services</li>
-										<li><a href="" class="bold-blue">July 21, 2014</a> Regular Board Meeting – Presentation – Downtown Transit Assets and Opportunities Study</li>
-										<li><a href="" class="bold-blue">July 21, 2014</a> Regular Board Meeting – Packet</li>
-										<li><a href="" class="bold-blue">June 16, 2014</a> Major Projects and Legislative Committee Meeting – Packet</li>
-										<li><a href="" class="bold-blue">June 9, 2014</a> Strategic Planning Workshop – Agenda</li>
-										<li><a href="" class="bold-blue">June 2, 2014</a> Regular Board Meeting – Packet</li>
+										<li><a href="#" class="bold-blue">August 4, 2014</a> Regular Board Meeting – Presentation – South County Circulator</li>
+										<li><a href="#" class="bold-blue">August 4, 2014</a> Regular Board Meeting – Presentation – Operations Division KPIs</li>
+										<li><a href="#" class="bold-blue">August 4, 2014</a> Regular Board Meeting – Presentation – Update on Security at MTC and Onboard of Vehicles</li>
+										<li><a href="#" class="bold-blue">August 4, 2014</a> Regular Board Meeting – Presentation – TDP Alternatives</li>
+										<li><a href="#" class="bold-blue">August 4, 2014</a> Regular Board Meeting – Packet</li>
+										<li><a href="#" class="bold-blue">July 21, 2014</a> Regular Board Meeting – Presentation – Certifying the Proposed Ad Valorem Tax Mileage Rate for the Fiscal Year 2015 Budget</li>
+										<li><a href="#" class="bold-blue">July 31, 2014</a> Ad Hoc Committee on Overseeing Legal Services Selection Process Meeting – Packet</li>
+										<li><a href="#" class="bold-blue">July 21, 2014</a> Regular Board Meeting – Presentation – Selection Process for Federal and State Legislative Consulting Services</li>
+										<li><a href="#" class="bold-blue">July 21, 2014</a> Regular Board Meeting – Presentation – Downtown Transit Assets and Opportunities Study</li>
+										<li><a href="#" class="bold-blue">July 21, 2014</a> Regular Board Meeting – Packet</li>
+										<li><a href="#" class="bold-blue">June 16, 2014</a> Major Projects and Legislative Committee Meeting – Packet</li>
+										<li><a href="#" class="bold-blue">June 9, 2014</a> Strategic Planning Workshop – Agenda</li>
+										<li><a href="#" class="bold-blue">June 2, 2014</a> Regular Board Meeting – Packet</li>
 									</ul>
 								</div>
 							</div>

@@ -374,7 +374,7 @@ $(document).ready(function(){
 		    
 		    
 		    
-		    /* Detours dates - height setting functionality - Start */
+		    /* ======= Detours dates - height setting functionality - Start ======= */
 				function detoursHeightSetting(){
 					var detourLength = $(".alerts-detours .detour-thumb .point-no-area .point-no").length;
 					//alert(detourLength);
@@ -391,7 +391,7 @@ $(document).ready(function(){
 					$(".alerts-detours .detour-thumb .point-no-area .point-no").css('margin-top','initial');
 					detoursHeightSetting();
 				});
-			/* Detours dates - height setting functionality - End */
+			/* ======= Detours dates - height setting functionality - End ======= */
 			
 			
 			

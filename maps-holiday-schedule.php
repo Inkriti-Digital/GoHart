@@ -33,9 +33,9 @@
 					</div>
 					<div class="info">
 						
-							<p>Below are the dates of holidays for HART bus, streetcar and paratransit operations schedules, and the general levels of service for each holiday. Saturday service level means services that normally do not operate on Saturdays, such as Commuter Express, will not operate on that holiday. For specific schedule times, please contact the HARTinfo Line at <a href="" class="bold-blue">(813) 254-HART.</a></p>
+							<p>Below are the dates of holidays for HART bus, streetcar and paratransit operations schedules, and the general levels of service for each holiday. Saturday service level means services that normally do not operate on Saturdays, such as Commuter Express, will not operate on that holiday. For specific schedule times, please contact the HARTinfo Line at <a href="#" class="bold-blue">(813) 254-HART.</a></p>
 
-							<p>HART fiscal year 2015 runs October 1, 2014 – September 30, 2015. Special Note for Paratransit Subscription Customers:  Effective September 5, 2012, subscription trips no longer operate during certain holidays. <a href="" class="bold-blue">Click here</a> for a list of the holidays.</p>
+							<p>HART fiscal year 2015 runs October 1, 2014 – September 30, 2015. Special Note for Paratransit Subscription Customers:  Effective September 5, 2012, subscription trips no longer operate during certain holidays. <a href="#" class="bold-blue">Click here</a> for a list of the holidays.</p>
 						
 					</div>
 					<div class="info-graphic">

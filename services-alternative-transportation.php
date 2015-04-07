@@ -44,7 +44,7 @@
 						<div class="fullColumnWidth">
 							<h2>PRIVATE CHARTER COMPANIES</h2>	
 							<p>
-								The Federal Transportation Administration maintains an exhaustive database of private charter service providers in our area. If you are interested in obtaining charter bus service for an event or other occasion, please <a href="" class="link-colored">click here</a> to access the FTA database.
+								The Federal Transportation Administration maintains an exhaustive database of private charter service providers in our area. If you are interested in obtaining charter bus service for an event or other occasion, please <a href="#" class="link-colored">click here</a> to access the FTA database.
 							</p>
 						</div>
 					</div>
@@ -82,7 +82,7 @@
 										To register, call TBARTA Commuter Services. You'll be enrolled in the Emergency Ride Home Program and must re-enroll annually. That's all there is to it!
 									</p>
 									<div class="brick-blue-link">
-										<a href="" class="brick-link">
+										<a href="#" class="brick-link">
 											<div class="icon">
 												<img src="img/phone-icon.png" />
 											</div>
@@ -154,7 +154,7 @@
 									<div>
 										<h2>BETTER COMMUNTES WITH VANPOOL</h2>
 										<p>
-											Discover the comfort, convenience and savings of a vanpool—the smart way to carpool. A vanpool is a group of eight employees riding together in a van on their daily commute to and from work. One member of the group drives and picks up the other group members at their residences or a common pickup area. A <span class="nowrap">back-up</span> driver is always available in case the regular driver goes on vacation or gets sick. <a href="" class="link-colored">TBARTA</a> operates this vanpool service and provides the van. Vanpooling operates on a monthly basis, so you never have to make a long-term commitment
+											Discover the comfort, convenience and savings of a vanpool—the smart way to carpool. A vanpool is a group of eight employees riding together in a van on their daily commute to and from work. One member of the group drives and picks up the other group members at their residences or a common pickup area. A <span class="nowrap">back-up</span> driver is always available in case the regular driver goes on vacation or gets sick. <a href="#" class="link-colored">TBARTA</a> operates this vanpool service and provides the van. Vanpooling operates on a monthly basis, so you never have to make a long-term commitment
 										</p>
 										<p>
 											Each passenger pays a monthly fare, which covers the cost of maintenance and insurance, and shares the gas cost. Thanks to government funding, fares are low, and you save significantly over the cost of driving alone. Plus, vanpoolers are eligible for the Emergency Ride Home program, which provides individual transportation for emergencies and unexpected overtime.
@@ -195,13 +195,13 @@
 						<div class="fullColumnWidth">
 							<h2>VANPOOL APPLICATION</h2>
 							<p>
-								For more information, contact TBARTA at <a href="" class="link-colored">800-998-RIDE</a> or <a href="" class="link-colored">www.rideproweb.com/TBARTA</a>
+								For more information, contact TBARTA at <a href="#" class="link-colored">800-998-RIDE</a> or <a href="#" class="link-colored">www.rideproweb.com/TBARTA</a>
 							</p>
 						</div>
 						
 						<div class="fullColumnWidth">
 							<div class="half-column brick-blue-link left">
-								<a href="" class="brick-link">
+								<a href="#" class="brick-link">
 									<div class="icon">
 										<img src="img/arrow.png" />
 									</div>
@@ -217,7 +217,7 @@
 								</a>
 							</div>
 							<div class="half-column brick-blue-link brick-blue-link-last right">
-								<a href="" class="brick-link">
+								<a href="#" class="brick-link">
 									<div class="icon">
 										<img src="img/schedule-img.png" />
 									</div>
