@@ -1203,13 +1203,12 @@
     display: inline-block;
     width: 70px;
 }
-.cta .callout div .cta-more, .cta .callout div .cta-page {
-    font-size: 15px;
-    font-weight: normal;
-}
-.cta .callout div .cta-page{
-    font-size: 21px;
-}
+.cta .callout{top:25px;}
+.cta .callout div .cta-more, .cta .callout div .cta-page {font-size: 15px;font-weight: normal;color: #929395;}
+.cta .callout div .cta-page{font-size: 29px;margin-top: -5px;padding:0;}
+.cta .callout div .cta-page a{/*color: #39c;*/font-weight: normal;color:#7FAFD4;}
+.cta .callout div {padding: 7px 12px;}
+
 .main-info{font-size:18px;}
 .main-info-lineheight{line-height:27px;}
 .nowrap{white-space: nowrap;}
