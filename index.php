@@ -75,11 +75,11 @@
 				<div class="bottom-rule mobile">
 					<div class="cta">CHOOSE YOUR SERVICE</div>
 					<select class="mobile">
-					  	<option value="volvo">METRORAPID</span></option>
-					   	<option value="volvo">BUS</span></option>
-					    <option value="volvo">VAN</span></option>
-					    <option value="volvo">STREETCAR SYSTEM</span></option>
-					    <option value="volvo">ALTERNATIVE TRANSPORTATION</span></option>
+					  	<option value="metrorapid">METRORAPID</span></option>
+					   	<option value="bus">BUS</span></option>
+					    <option value="van">VAN</span></option>
+					    <option value="streetcar">STREETCAR SYSTEM</span></option>
+					    <option value="alt-transpor">ALTERNATIVE TRANSPORTATION</span></option>
 					</select>
 				</div>
 			</section>
@@ -109,7 +109,7 @@
 					</div>
 					<div id="servnav-streetcar" class="metro-block">
 						<div class="hover-box">
-							<span class="metro-hover"> STREETCAR <br/> SYSTEM </span>
+							<span class="metro-hover">STREETCAR <br/> SYSTEM</span>
 						</div>
 						<img src="img/home/servnav-trolly.jpg"/>
 					</div>
@@ -233,10 +233,10 @@
 				<div class="mobile-how-to mobile">
 					<h2>CHOOSE FROM OPTIONS BELOW</h2>
 
-					<select class="mobile">
-					  	<option value="volvo">HOW TO RIDE</span></option>
-					   	<option value="volvo">APP CENTER</span></option>
-					    <option value="volvo">LINKS</span></option>
+					<select id="goHartSelect" class="mobile">
+					  	<option value="how-to-ride">HOW TO RIDE</option>
+					   	<option value="app-center">APP CENTER</option>
+					    <option value="links">LINKS</option>
 					</select>
 
 					<div class="mobile-how-to-content gohart-mobile-content">
@@ -249,6 +249,31 @@
 							<div class="button">FREQUENTLY ASKED QUESTIONS<img src="img/btn-arrow.png"/></div>
 						</div>
 					</div>
+
+
+					<div class="mobile-app-center-content gohart-mobile-content">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+
+						<div class="button-box">
+							<div class="button">OneBusAway Tampa <img src="img/btn-arrow.png"/></div>
+							<div class="button">HyperAlert <img src="img/btn-arrow.png"/></div>
+							<div class="button">Mobile-based <img src="img/btn-arrow.png"/></div>					
+							<div class="button">Computer-based<img src="img/btn-arrow.png"/></div>		
+						</div>
+					</div>
+
+					<div class="mobile-links-content gohart-mobile-content">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+
+						<div class="button-box">
+							<div class="button">Fare Information<img src="img/btn-arrow.png"/></div>
+							<div class="button">Riding HART <img src="img/btn-arrow.png"/></div>
+							<div class="button">Mobile-based <img src="img/btn-arrow.png"/></div>
+							<div class="button">Transit Terms<img src="img/btn-arrow.png"/></div>
+							<div class="button">Miscellaneous<img src="img/btn-arrow.png"/></div>			
+						</div>
+					</div>
+
 
 				</div>
 

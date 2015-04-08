@@ -246,6 +246,30 @@ $(document).ready(function(){
         }
 
     });
+
+
+
+
+
+    //select-box code
+    $('#goHartSelect').change(function() {
+        var selectedVal = $("#goHartSelect option:selected").attr('value');
+        console.log(selectedVal);
+
+        if(selectedVal=="how-to-ride"){
+           $('.mobile-how-to-content').show();
+           $('.mobile-app-center-content').hide(); 
+           $('.mobile-links-content').hide(); 
+        } else if(selectedVal=="app-center"){
+            $('.mobile-how-to-content').hide();
+           $('.mobile-app-center-content').show(); 
+           $('.mobile-links-content').hide(); 
+        } else if(selectedVal=="links"){
+            $('.mobile-how-to-content').hide();
+           $('.mobile-app-center-content').hide(); 
+           $('.mobile-links-content').show(); 
+        }
+    });
     
     
     /* =================== Vijay code Addition - Start =================== */
