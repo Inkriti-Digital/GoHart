@@ -1844,8 +1844,9 @@ section h1 {
 }
 @media only screen and (max-width: 768px) {
   .landing .bus-ico {
-    right: 60px;
-    bottom: 12%;
+    right: 100px;
+    bottom: 0;
+    font-size: 22px;
   }
 }
 .landing hr {
@@ -2279,13 +2280,18 @@ section h1 {
 }
 @media only screen and (max-width: 768px) {
   .news .news-blocks {
-    height: 529px;
+    height: 1215px;
   }
 }
 .news .news-blocks .block-row {
   position: relative;
   overflow: hidden;
   width: 500%;
+}
+@media only screen and (max-width: 768px) {
+  .news .news-blocks .block-row {
+    width: 100%;
+  }
 }
 .news .news-blocks .block {
   width: 400px;
@@ -2295,6 +2301,13 @@ section h1 {
   display: inline-block;
   overflow: hidden;
 }
+@media only screen and (max-width: 768px) {
+  .news .news-blocks .block {
+    display: block;
+    width: 100%;
+    height: 600px;
+  }
+}
 .news .news-blocks .block h3 {
   color: white;
   font-size: 20px;
@@ -2302,6 +2315,11 @@ section h1 {
   margin: 35px 35px 5px 35px;
   font-weight: normal;
   font-family: gothBold, Helvetica, Arial, sans-serif;
+}
+@media only screen and (max-width: 768px) {
+  .news .news-blocks .block h3 {
+    font-size: 44px;
+  }
 }
 .news .news-blocks .block p {
   color: white;
@@ -2312,8 +2330,24 @@ section h1 {
   overflow: hidden;
   margin: 0px 35px 35px 35px;
 }
+@media only screen and (max-width: 768px) {
+  .news .news-blocks .block p {
+    font-size: 36px;
+    line-height: 43px;
+    max-height: 550px;
+  }
+}
 .news .news-blocks .square {
   width: 300px;
+}
+@media only screen and (max-width: 768px) {
+  .news .news-blocks .square {
+    width: 100%;
+    height: 600px;
+  }
+  .news .news-blocks .square img {
+    width: 100%;
+  }
 }
 .news .news-blocks .light {
   background-color: #7aaed5;
@@ -2326,6 +2360,15 @@ section h1 {
   top: 228px;
   cursor: pointer;
 }
+@media only screen and (max-width: 768px) {
+  .news .news-blocks .prev-arrow {
+    top: 45%;
+  }
+  .news .news-blocks .prev-arrow img {
+    max-width: none;
+    width: 70px;
+  }
+}
 .news .news-blocks .next-arrow {
   float: right;
   position: absolute;
@@ -2333,6 +2376,15 @@ section h1 {
   right: 20px;
   top: 228px;
   cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  .news .news-blocks .next-arrow {
+    top: 45%;
+  }
+  .news .news-blocks .next-arrow img {
+    max-width: none;
+    width: 70px;
+  }
 }
 
 .gohart {

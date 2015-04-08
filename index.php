@@ -109,7 +109,7 @@
 					</div>
 					<div id="servnav-streetcar" class="metro-block">
 						<div class="hover-box">
-							<span class="metro-hover"> STREETCAR <BR/> SYSTEM </span>
+							<span class="metro-hover"> STREETCAR <br/> SYSTEM </span>
 						</div>
 						<img src="img/home/servnav-trolly.jpg"/>
 					</div>
