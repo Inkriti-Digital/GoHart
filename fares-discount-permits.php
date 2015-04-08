@@ -78,18 +78,14 @@
 							</div>
 							<div class="info-chunk">
 								<div class="info-row info-title">ADULT STUDENT FARE PROGRAM</div>								
-								<div class="info-row last-info-row">25% discount fare available to students of participating colleges and universities </div>
+								<div class="info-row">25% discount fare available to students of participating colleges and universities </div>
+								<div class="info-row last-info-row"><a href="fares-adult-student.php">MORE INFO</a> </div>
 							</div>
 						</div>
 						<div class="half-column">
 							<div class="info-chunk">
 								<div class="info-row info-title">YOUTH PERMIT</div>
 								<div class="info-row">Must be between the ages of 5 and 17</div>
-								<div class="info-row">State of Florida I.D. required</div>
-								<div class="info-row last-info-row">$2.50 fee, valid for five years</div>
-							</div>
-							<div class="info-chunk">
-								<div class="info-row info-title">MEDICARE CARDHOLDERS</div>
 								<div class="info-row">Original birth certificate, passport, state ID or Hillsborough County School documentation with typed birthdate</div>
 								<div class="info-row last-info-row">$2.50 fee, valid for two years or until 18th birthday</div>
 							</div>

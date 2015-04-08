@@ -1327,6 +1327,8 @@ b{font-family: gothMed,Helvetica,Arial,sans-serif;}
 .mid-section .mid-copy.alt-transport-midcopy-1 {/*margin: 25px auto;*/margin:100px auto;}
 .mid-section .mid-copy h3 {margin: 0;}
 
+.info-chunk .info-row a{color: #036;}
+
 
 
 /* header background images styles - Start */
@@ -1338,7 +1340,7 @@ b{font-family: gothMed,Helvetica,Arial,sans-serif;}
 .mapsSchedulesBg{background: url("../img/headerImages/Maps-and-Schedules.jpg") no-repeat;background-size: 100%;}
 .mapsSchedulesOtherBg{background: url("../img/headerImages/SystemMapAlertDetours.jpg") no-repeat !important;background-size: 100%;}
 .servicesPagesBg{background: url("../img/headerImages/Services.jpg") no-repeat;background-size: 100%;}
-.servicesPagesAltTransBg{background: url("../img/headerImages/Services.jpg") no-repeat;background-size: 100%;}
+.servicesPagesAltTransBg{background: url("../img/headerImages/AlternativeTransportation.jpg") no-repeat;background-size: 100%;}
 .tansparencyPagesBg{background: url("../img/headerImages/Transparency.jpg") no-repeat;background-size: 100%;}
 .tavelInfoPagesBg{background: url("../img/headerImages/TravelInfo.jpg") no-repeat;background-size: 100%;}
 /* header background images styles - End */

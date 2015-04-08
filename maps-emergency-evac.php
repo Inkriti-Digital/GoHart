@@ -33,7 +33,7 @@
 					</div>
 					<div>
 						<h2>MOVING YOU TO SAFETY</h2>
-							<p>During a hurricane evacuation, Hillsborough Area Regional Transit Authority buses run special evacuation routes for people who need transportation to shelters. These routes are provided to assist people who have no other options for getting to safety, and should be considered only as a <b>resort</b>.. HART and the Hillsborough County Office of Emergency Management urge you to make arrangements now for the safety of your family should a storm force you from your home.  HART emergency routes are designed to simply move people from low ground to higher ground. </p>					
+							<p>HART buses run special evacuation routes for people who need transportation to shelters. HART and the Hillsborough County Office of Emergency Management urge you to make arrangements now for the safety of your family should a storm force you from your home. Emergency routes are designed to simply move people from low ground to higher ground. </p>					
 					</div>
 					
 
@@ -91,11 +91,11 @@
 
 					<h2>PLAN AHEAD</h2>
 					<div class="info">
-						<p>If a major storm threatens our area, you should plan for the possibility of service interruptions. To minimize inconvenience to our customers, we will announce the need to interrupt service as early in the day as possible, and will work to restore service just as soon as it is safe to do so.</p>
+						<p>If a major storm threatens our area, we will announce the need to interrupt service as early in the day as possible, and will work to restore service just as soon as it is safe to do so.</p>
 
-						<p>Don't wait for the last minute to make arrangements or to implement your evacuation plan as you may find yourself stranded. Contact relatives, friends, faith-based groups or other organizations for assistance with shelter and evacuation.</p>
+						<p>Don't wait for the last minute to make arrangements or to implement your evacuation plan as you may find yourself stranded.</p>
 
-						<p>However, if you are in need of public transportation before a storm, here’s what you need to know to use HART evacuation bus service:</p>
+						<p>If you are in need of public transportation before a storm, here's what you need to know to use HART evacuation bus service:</p>
 					</div>
 					<div class="info-graphic">
 						<img src="img/service/info-graphic.jpg"/>
@@ -109,7 +109,7 @@
 
 					<div class="half-column">
 						<h2>IF YOU HAVE NO WAY TO EVACUATE</h2>
-						<p>For residents who find themselves without safe transportation to a shelter, Hillsborough Area Regional Transit (HART) provides free emergency evacuation bus services to one of the following open public shelters:</p>
+						<p>HART provides free emergency evacuation bus services to one of the following open public shelters:</p>
 
 						<ul>
 							<li><img src="img/locations/locaiton-ico.png"/><b>Sgt. Smith Middle School</b>, 14303 Citrus 
@@ -123,17 +123,15 @@
 							</li>
 						</ul>
 
-						<p>There are 10 evacuation bus routes, which are designated with a letter from “A” to “J.” This is a fixed-route system, with each route assigned to deliver passengers to one of the four Red Cross shelters listed above.</p>
+						<p>There are 10 evacuation bus routes, which are designated with a letters from "A" - "J". Each route assigned to deliver passengers to one of the four Red Cross shelters listed above.</p>
 					</div>
 
 					<div class="half-column">
-						<h2>WHEN EVACUATIONS WILL START</h2>
-						<p>In the event of a storm, evacuation bus route services will begin after the Hillsborough County Emergency Operations Center instructs HART to do so and public shelters have been opened. For the safety of our bus operators, evacuation buses will operate during daylight hours only and service will be suspended when the Emergency Operations Center advises HART to remove vehicles off the road.</p>
+						<h2>WHEN EVACUATIONS SERVICES START</h2>
+						<p>These services begin after the Hillsborough County Emergency Operations Center instructs HART to commence, and public shelters have been opened. For the safety of our bus operators, buses will operate during daylight hours only. Service will be suspended when the Emergency Operations Center advises HART to remove vehicles off the road.</p>
 
 						<h2>FOR THOSE WITH ANY SPECIAL NEEDS</h2>
-						<p>The Hillsborough County Emergency Operations Center manages transportation to special needs shelters. Residents who have a medical condition requiring special assistance should call Hillsborough County at 813-272-6900. </p>
-
-						<p>Explain your needs to the EOC; at that time transportation will be provided through the Hillsborough County Emergency Operations Center. In addition, HART will have a representative available at the EOC for assistance.</p>
+						<p>The Hillsborough County Emergency Operations Center manages transportation to special needs shelters. Explain your needs to the EOC. Residents who have a medical condition requiring special assistance should call Hillsborough County at 813-272-6900.</p>
 					</div>
 
 					<div class="cta-buttons btn1">
@@ -144,9 +142,9 @@
 					</div>
 					<div>
 						<h2>HOW AND WHERE TO BOARD</h2>
-						<p>Specific stops along each route are marked with blue and white “Emergency Shelter Bus Stop” signs. Any resident may board at one of these stops.  Or, residents may stand at a corner anywhere along the route and as the bus approaches, wave it down.  In addition, residents may ask the driver to stop at any time along the fixed route to evacuate to another destination than the designated Red Cross shelter. All HART buses are ADA accessible and can accommodate a maximum of two wheelchairs at any time. This emergency evacuation bus service is free.</p>
+						<p>Blue and white "Emergency Shelter Bus Stop" signs are located along specific routes, or you may stand at a corner along the route and wave down the bus. All HART buses are ADA accessible. Emergency evacuation bus service is free. </p>
 
-						<p>There will be five buses on each route circulating continuously, and there will be a unit departing the bus stop approximately every five to ten minutes.</p>
+						<p>There will be five buses on each route circulating continuously every five to ten minutes. </p>
 					</div>
 
 					<div class="brick-list">
@@ -154,10 +152,9 @@
 							<h2>WHAT TO CARRY ON BOARD</h2>
 							<ul class="sideby-list">
 								<li>One suitcase per person</li>
-								<li>Clothing for three days per person</li>
-								<li>Medications and toiletries</li>
 								<li>Medications and toiletries</li>
 								<li>Pillows and blankets</li>
+								<li>Appropriate personal electronics</li>
 								<li>Flashlight and batteries</li>
 							</ul>
 							<ul class="sideby-list">
@@ -165,13 +162,12 @@
 								<li>Cash</li>
 								<li>Valuable papers</li>
 								<li>Drinking water and some non-perishable foods</li>
-								<li>Books, games</li>
 							</ul>
 						</div>
 					
 						<div class="half-column">
 							<h2>AREAS NOT PART OF REGULAR ROUTES</h2>
-							<p>The Hillsborough County School District will operate school buses to evacuate people in areas not covered by the 10 HART evacuation routes.  For more information, residents should call the Hillsborough County Emergency Operations Center at 813-272-6900.</p>
+							<p>The Hillsborough County School District will operate buses to evacuate people in areas not covered by the 10 HART evacuation routes. For more information, residents should call the Hillsborough County EOC at 813-272-6900. </p>
 						</div>
 					</div>
 					<a href="#" class="need-to-know">

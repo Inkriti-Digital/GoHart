@@ -129,7 +129,7 @@
 							<div class="callout">
 								<div>
 									<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
-									<span class="cta-page"><a href="fares.php">FARES</a></span>
+									<span class="cta-page"><a href="fares-cards.php">FARES</a></span>
 								</div>
 							</div>
 							<hr/>

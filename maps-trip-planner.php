@@ -50,8 +50,9 @@
 						<div class="cta"><span>ONEBUSAWAY TAMPA</span><hr/></div>
 					</div>
 					<div class="info">
-						<p>Know when your bus is arriving... <b>in real-time</b>. . The OneBusAway Tampa application provides a suite of tools to deliver real-time bus tracking information to HART riders on the go.</p>
-						<p>OneBusAway Tampa is easy to navigate, and seamlessly interfaces with Web-enabled devices such as computers, tablets, and smart phones. This app uses GPS technology to send up-to-the-minute details on bus arrival and depature information.</p>
+						<p>
+							Know when your bus is arriving in real-time. It is easy to navigate, and seamlessly interfaces with Web-enabled devices such as computers, tablets, and smart phones. This app uses GPS technology to send up-to-the-minute details on bus arrival and departure information
+						</p>
 					</div>
 					<div class="info-graphic">
 						<img src="img/service/info-graphic.jpg"/>

@@ -29,21 +29,11 @@
 			<section class="page-content">
 
 				<div class="content-block">
-					<div class="bottom-rule">
+					<!--<div class="bottom-rule">
 						<div class="cta"><span>GET YOUR EMPLOYEES MOVING</span><hr/></div>
-					</div>
+					</div>-->
 					<div class="content-body">
-						<p>If you've ever driven to work in Tampa, you know the stress of fighting traffic can start your day off on the wrong foot. You also know stress can follow employees into the office, affecting their productivity and relationships with co-workers.</p>
-
-						<p>HART offers a simple solution to the daily grind: the Corporate Transit Sponsor Program. This initiative lets you encourage employees to use public transportation through nontaxable fare subsidies. Public transportation:</p>
-
-						<div class="three-up">
-							<img src="img/fares/eliminate-btn.jpg"/>
-							<img src="img/fares/saves-btn.jpg"/>
-							<img src="img/fares/contribute-btn.jpg"/>
-						</div>
-
-						<p>Use this low-cost benefit to help attract and retain good employees and position yourself as an eco-conscious organization.</p>
+						<p>This program lets you encourage employees to use public transportation through nontaxable fare subsidies.</p>
 					</div>
 				</div>
 				<div class="content-block">
@@ -52,7 +42,8 @@
 					</div>
 					<div class="content-body">
 						<div class="info">
-							<p>Federal law entitles all U.S. employers to a completely tax-deductible business expense of up to $240 per employee per month toward the cost of using public transportation. For most employees this will mean a $95 monthly Express Pass or a $65 monthly Local Pass. Funds can also be allocated to <a href="#" class="bold-blue">vanpooling.</a> With the help of a HART representative, your Corporate Transit Sponsor Program can be administered by a single employee working just minutes each month. Once your program is set up, bus passes will be mailed or hand-delivered to your company's appointed representative every month, then distributed to eligible employees. HART provides route schedules, informational brochures and a customer service line to answer any questions about routes and time schedules. If you like, a HART representative can visit your company to talk to employees about the bus system and other commute alternatives.</p>
+							<p>Federal law entitles all U.S. employers to a completely tax-deductible business expense of up to $240 per employee per month toward the cost of using public transportation. For most employees this will mean a $95 monthly Express Pass or a $65 monthly Local Pass. Funds can also be allocated to <a href="#" class="bold-blue">vanpooling</a>.</p>
+							<p>With the help of a HART representative, your Corporate Transit Sponsor Program can be administered by a single employee working just minutes each month. Once your program is set up, bus passes will be mailed or hand-delivered to your company's appointed representative every month, then distributed to eligible employees. HART provides route schedules, informational brochures and a customer service line to answer any questions about routes and time schedules. If you like, a HART representative can visit your company to talk to employees about the bus system and other commute alternatives.</p>
 						</div>
 						<div class="info-graphic">
 							<img src="img/service/info-graphic.jpg"/>
@@ -69,16 +60,11 @@
 						<div>
 							<p>It's simple to launch a Corporate Transit Sponsor Program at your company. Just follow these easy steps:</p>
 
-							<div class="half-column">
+							<div class="half-column fullColumnWidth">
 								<ul>
 									<li><span class="num-li">1.</span> Appoint an employee to be your Transit Program Coordinator</li>
-									<li><span class="num-li">2.</span> Have your Transit Coordinator call HART at <a href="#" class="bold-blue">813-384-6595</a> to speak with a representative who will help work out all the Transit Program details</li>									
-								</ul>
-							</div>
-							<div class="half-column">
-								<ul>
-									<li><span class="num-li">3.</span> Inform employees about the Transit Program and transportation pass choices</li>
-									<li><span class="num-li">4.</span> Start enjoying the benefits of public transportation, and say good-bye to stress, traffic and parking hassles!</li>									
+									<li><span class="num-li">2.</span> Have your Transit Coordinator call HART at <a href="#" class="bold-blue">813-384-6596</a> to speak with a representative who will help work out all the Transit Program details</li>
+									<li><span class="num-li">3.</span> Inform employees about the Transit Program and transportation pass choices</li>									
 								</ul>
 							</div>
 						</div>
@@ -102,32 +88,59 @@
 							
 						</div>
 						<div class="brick-list">
-							<div class="half-column">
+							<div class="half-column fullColumnWidth">
 								<ul>
-									<li>Good from the first through the last day of the month issued.</li>
-									<li>Express Pass good on all routes, every day</li>
-									<li>Local Pass good on all local routes</li>
-							</div>
-							<div class="half-column">
-								<ul>
-									<li>All HART Farecards (1-Day, 3-Day, 31-Day) will be accepted on the streetcar</li>
-									<li>Valid on all HART In-Town Trolleys</li>
+									<li>Good from the first through the last day of the month issued</li>
+									<li>Express Pass valid on all routes, every day</li>
+									<li>Local Pass valid on all Local, HARTFlex, In-Town Trolley and MetroRapid routes</li>
 							</div>
 						</div>
-
-							<div class="cta-buttons btn1">
-								<a href="#"><img src="img/fares/special-btn.jpg"/></a>
+						
+						
+						
+						<div class="fullColumnWidth">
+							<div class="half-column brick-blue-link left">
+								<a href="#" class="brick-link">
+									<div class="icon">
+										<img src="img/phone-icon.png" />
+									</div>
+									<div class="brick-blue-link-text">
+										<div class="brick-blue-link-text1">
+											SPECIAL SERVICES
+										</div>
+										<div class="brick-blue-link-text2">
+											(813) 384-6596
+										</div>
+									</div>
+									<div class="clear-fix"></div>
+								</a>
 							</div>
-							<div class="cta-buttons">
-								<a href="#"><img src="img/fares/email-btn.jpg"/></a>
+							<div class="half-column brick-blue-link brick-blue-link-last right">
+								<a href="#" class="brick-link">
+									<div class="icon">
+										<img src="img/mail-icon.png" />
+									</div>
+									<div class="brick-blue-link-text">
+										<div class="brick-blue-link-text1">
+											SEND AN EMAIL
+										</div>
+										<div class="brick-blue-link-text2">
+											WILLIAMSC@GOHART.ORG
+										</div>
+									</div>
+									<div class="clear-fix"></div>
+								</a>
 							</div>
+							<div class="clear-fix"></div>
+						</div>
 
-							<div class="bottom-rule footer-rule">
+							
+					<div class="bottom-rule footer-rule">
 						<div class="cta center-cta">
 							<div class="callout corp-trans-callout">
 								<div>
 									<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
-									<span class="cta-page"><a href="#">ADULT STUDENT FARECARDS</a></span>
+									<span class="cta-page"><a href="fares-adult-student.php">ADULT STUDENT FARECARDS</a></span>
 								</div>
 							</div>
 							<hr/>

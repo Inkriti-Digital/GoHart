@@ -33,9 +33,8 @@
 					</div>
 					<div class="info">
 						
-							<p>Below are the dates of holidays for HART bus, streetcar and paratransit operations schedules, and the general levels of service for each holiday. Saturday service level means services that normally do not operate on Saturdays, such as Commuter Express, will not operate on that holiday. For specific schedule times, please contact the HARTinfo Line at <a href="#" class="bold-blue">(813) 254-HART.</a></p>
-
-							<p>HART fiscal year 2015 runs October 1, 2014 – September 30, 2015. Special Note for Paratransit Subscription Customers:  Effective September 5, 2012, subscription trips no longer operate during certain holidays. <a href="#" class="bold-blue">Click here</a> for a list of the holidays.</p>
+							<p>Below are the dates of holidays for HART Bus, Streetcar, and Paratransit operations schedules, including general levels of service for each holiday.</p>
+							<p>A Saturday service level implies services that normally do not operate on Saturdays, such as Commuter Express, will not operate on that holiday. For specific schedule times, please contact the HARTinfo Line at <a href="#" class="bold-blue">(813) 254-HART</a>. </p>
 						
 					</div>
 					<div class="info-graphic">
@@ -47,53 +46,66 @@
 					<div class="half-column">
 						<div class="holiday-block">	
 							<div class="holiday-date">
-								<div class="holiday">11-14<br/>
-								2015</div>
+								<div class="holiday">11-11<br/>
+								2014</div>
 							</div>
 							<div class="holiday-detail">
 								<h2>VETERAN’S DAY</h2>
-								Bus Service Level:  Saturday<br/>
-								Streetcar Service Level:  Normal<br/>
-								Paratransit Service Level:  As required
+								Bus Service Level: Saturday<br/>
+								Streetcar Service Level: Normal<br/>
+								Paratransit Service Level: As required 
 							</div>
 						</div>
 
 						<div class="holiday-block">	
 							<div class="holiday-date">
-								<div class="holiday">11-14<br/>
-								2015</div>
+								<div class="holiday">11-27<br/>
+								2014</div>
 							</div>
 							<div class="holiday-detail">
 								<h2>THANKSGIVING DAY</h2>
-								Bus Service Level:   Sunday<br/>
-								Streetcar Service Level:    No Service<br/>
-								Paratransit Service Level:  As required
+								Bus Service Level: Sunday<br/>
+								Streetcar Service Level: No Service<br/>
+								Paratransit Service Level: As required
 							</div>
 						</div>
 
 						<div class="holiday-block">	
 							<div class="holiday-date">
-								<div class="holiday">11-14<br/>
-								2015</div>
+								<div class="holiday">11-28<br/>
+								2014</div>
 							</div>
 							<div class="holiday-detail">
 								<h2>DAY AFTER THANKSGIVING</h2>
-								Bus Service Level:   Saturday<br/>
-								Streetcar Service Level:    Normal<br/>
-								Paratransit Service Level:  As required
+								Bus Service Level: Saturday<br/>
+								Streetcar Service Level: Normal<br/>
+								Paratransit Service Level: As required
 							</div>
 						</div>
 
 						<div class="holiday-block">	
 							<div class="holiday-date">
-								<div class="holiday">11-14<br/>
-								2015</div>
+								<div class="holiday">12-24<br/>
+								2014</div>
 							</div>
 							<div class="holiday-detail">
 								<h2>CHRISTMAS EVE</h2>
-								Bus Service Level:   Saturday<br/>
-								Streetcar Service Level:    Wednesday<br/>
-								Paratransit Service Level:  As required
+								Bus Service Level: Saturday<br/>
+								Streetcar Service Level: Wednesday<br/>
+								Paratransit Service Level: As required
+							</div>
+						</div>
+						
+						<div class="holiday-block">	
+							<div class="holiday-date">
+								<div class="holiday">12-25<br/>
+								2014</div>
+							</div>
+							<div class="holiday-detail">
+								<h2>CHRISTMAS DAY</h2>
+								Bus Service Level: Sunday <br/>
+								Streetcar Service Level: No Service <br/>
+								Paratransit Service Level: As required
 							</div>
 						</div>
 					</div>
@@ -101,53 +113,66 @@
 					<div class="half-column">
 						<div class="holiday-block">	
 							<div class="holiday-date">
-								<div class="holiday">11-14<br/>
+								<div class="holiday">01-01<br/>
 								2015</div>
 							</div>
 							<div class="holiday-detail">
 								<h2>NEW YEAR’S DAY</h2>
-								Bus Service Level:  Saturday<br/>
-								Streetcar Service Level:  Normal<br/>
-								Paratransit Service Level:  As required
+								Bus Service Level: Sunday<br/>
+								Streetcar Service Level: Normal<br/>
+								Paratransit Service Level: As required
 							</div>
 						</div>
 
 						<div class="holiday-block">	
 							<div class="holiday-date">
-								<div class="holiday">11-14<br/>
+								<div class="holiday">01-19<br/>
 								2015</div>
 							</div>
 							<div class="holiday-detail">
 								<h2>MLK JR. DAY</h2>
-								Bus Service Level:   Sunday<br/>
-								Streetcar Service Level:    No Service<br/>
+								Bus Service Level: Saturday <br/>
+								Streetcar Service Level: Normal<br/>
 								Paratransit Service Level:  As required
 							</div>
 						</div>
 
 						<div class="holiday-block">	
 							<div class="holiday-date">
-								<div class="holiday">11-14<br/>
+								<div class="holiday">05-25<br/>
 								2015</div>
 							</div>
 							<div class="holiday-detail">
 								<h2>MEMORIAL DAY</h2>
-								Bus Service Level:   Saturday<br/>
-								Streetcar Service Level:    Normal<br/>
-								Paratransit Service Level:  As required
+								Bus Service Level: Sunday<br/>
+								Streetcar Service Level: Normal<br/>
+								Paratransit Service Level: As required
 							</div>
 						</div>
 
 						<div class="holiday-block">	
 							<div class="holiday-date">
-								<div class="holiday">11-14<br/>
+								<div class="holiday">07-04<br/>
 								2015</div>
 							</div>
 							<div class="holiday-detail">
 								<h2>INDEPENDENCE DAY</h2>
-								Bus Service Level:   Saturday<br/>
-								Streetcar Service Level:    Wednesday<br/>
-								Paratransit Service Level:  As required
+								Bus Service Level: Saturday<br/>
+								Streetcar Service Level: Normal<br/>
+								Paratransit Service Level: As required
+							</div>
+						</div>
+						
+						<div class="holiday-block">	
+							<div class="holiday-date">
+								<div class="holiday">09-07<br/>
+								2015</div>
+							</div>
+							<div class="holiday-detail">
+								<h2>LABOR DAY</h2>
+								Bus Service Level: Sunday <br/>
+								Streetcar Service Level: Normal <br/>
+								Paratransit Service Level: As required
 							</div>
 						</div>
 					</div>

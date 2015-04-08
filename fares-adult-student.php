@@ -44,9 +44,28 @@
 							<div class="half-column">
 								<div class="help-you">
 									<select>
-									  <option value="">University of Tampa</span></option>
-									   <option value="">Art Institute of Tampa</span></option>
-									    <option value="">Southwest Florida College</span></option>
+									  <option value=""><span>University of Tampa</span></option>
+									   <option value=""><span>Art Institute of Tampa</span></option>
+									    <option value=""><span>Southwest Florida College</span></option>
+									    <option value=""><span>Stanford Brown Institute</span></option>
+									    <option value=""><span>Remington College</span></option>
+									    <option value=""><span>HCC Ybor Campus</span></option>
+									    <option value=""><span>HCC Dale Mabry Campus</span></option>
+									    <option value=""><span>HCC Brandon Campus</span></option>
+									    <option value=""><span>HCC SouthShore Campus</span></option>
+									    <option value=""><span>Everest University Tampa Campus</span></option>
+									    <option value=""><span>Everest University Brandon Campus</span></option>
+									    <option value=""><span>Erwin Technical Institute </span></option>
+									    <option value=""><span>Concorde Career College </span></option>
+									    <option value=""><span>Brewster Technical Institute </span></option>
+									    <option value=""><span>International Academy of Design </span></option>
+									    <option value=""><span>Ultimate Medical Academy </span></option>
+									    <option value=""><span>Argosy University </span></option>
+									    <option value=""><span>Florida Career College </span></option>
+									    <option value=""><span>Fortis College </span></option>
+									    <option value=""><span>Keiser University </span></option>
+									    <option value=""><span>Shear Excellence International Hair Academy </span></option>
+									    <option value=""><span>Springfield College</span></option>
 									</select>
 								</div>
 							</div>
@@ -57,15 +76,14 @@
 							<span class="paid-ad-text">Paid Ad</span>
 						</div>
 						<div class="tix-box">
-							<div class="disclaimer">Effective November 11, 2012</div>
-								<div class="tix-row">
-									<div class="tix-type">31-DAY LOCAL ADULT STUDENT FARE CARD</div>
-									<div class="tix-fare">$48.75</div>
-								</div>
+							<div class="tix-row">
+								<div class="tix-type">31-DAY LOCAL ADULT STUDENT FARE CARD</div>
+								<div class="tix-fare">$48.75</div>
+							</div>
 						</div>
 						<div>
 							<h2>THE HART U-PASS PROGRAM</h2>
-							<p>Plus, USF students can hop aboard for free. <a href="#" class="bold-blue">The HART U-Pass Program</a>  allows University of South Florida students to ride <a href="#" class="bold-blue">HART Local, Limited Express and Flex routes</a>  for free. Faculty and staff members can ride for only a quarter. Ride to campus, connect to the Bull Runner Shuttle and get to class without worrying about where to park. </p>
+							<p>Plus, USF students can hop aboard for free. <a href="#" class="bold-blue">The HART U-Pass Program</a> allows University of South Florida students to ride <a href="#" class="bold-blue">HART Local, Limited Express, HARTFlex and MetroRapid routes</a>  for free. Faculty and staff members can ride for 50 cents. Ride to campus, connect to the Bull Runner Shuttle and get to class without worrying about where to park.</p> 
 						</div>
 
 						<div class="tix-box">							
