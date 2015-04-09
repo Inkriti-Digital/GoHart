@@ -1740,7 +1740,7 @@ section {
 section .headline {
   position: absolute;
   bottom: 26%;
-  left: 5%;
+  left: 6%;
   width: 60%;
 }
 @media only screen and (max-width: 768px) {
@@ -1796,6 +1796,7 @@ section h1 {
   margin: 2% 1.5%;
   width: 20%;
   max-width: 280px;
+  min-width: 52px;
   background-color: rgba(255, 255, 255, 0.85);
   padding: 8px 6px 0px 8px;
   z-index: 30;
@@ -1808,9 +1809,6 @@ section h1 {
     position: absolute;
     margin-left: 4%;
   }
-}
-.landing .logo .box-logo {
-  display: none;
 }
 .landing .menu-ico {
   position: fixed;
@@ -1836,11 +1834,18 @@ section h1 {
   right: 0px;
   bottom: 6%;
   margin: 5.5%;
+  margin-right: 8.5%;
   width: 11%;
   max-width: 179px;
   cursor: pointer;
   color: white;
   font-size: 18px;
+}
+.landing .bus-ico a {
+  color: white;
+}
+.landing .bus-ico a:hover {
+  color: #0e152d;
 }
 @media only screen and (max-width: 768px) {
   .landing .bus-ico {
@@ -1857,9 +1862,9 @@ section h1 {
 
 .bottom-rule {
   position: absolute;
-  width: 100%;
+  width: 99%;
   bottom: 13%;
-  padding: 0 5%;
+  padding: 0 6%;
   color: white;
   font-size: 19px;
 }
@@ -1873,7 +1878,7 @@ section h1 {
   display: inline-block;
 }
 .bottom-rule .cta {
-  width: 24%;
+  width: 25%;
 }
 @media only screen and (max-width: 768px) {
   .bottom-rule .cta {
@@ -1884,7 +1889,7 @@ section h1 {
   }
 }
 .bottom-rule .rule {
-  width: 75%;
+  width: 74%;
   top: 16px;
 }
 .bottom-rule select, .bottom-rule select option {
@@ -1906,7 +1911,7 @@ section h1 {
 .home-form {
   position: absolute;
   bottom: 6%;
-  padding: 0 5%;
+  padding: 0 6%;
   width: 100%;
 }
 @media only screen and (max-width: 768px) {
@@ -2024,6 +2029,7 @@ section h1 {
   left: auto;
   margin-left: 0;
   margin: 50px 5%;
+  z-index: 10;
 }
 @media only screen and (max-width: 768px) {
   .metro .mobile-metro .metro-box {
@@ -2147,6 +2153,7 @@ section h1 {
   position: absolute;
   padding: 30px;
   margin-top: 10%;
+  z-index: 10;
 }
 @media only screen and (max-width: 768px) {
   .metro .metro-box {
@@ -2265,7 +2272,7 @@ section h1 {
   font-size: 50px;
   padding: 0.5% 1% 1% 1%;
   padding-bottom: 0;
-  margin-left: 5%;
+  margin-left: 6%;
   margin-bottom: 0.5%;
 }
 @media only screen and (max-width: 768px) {
@@ -2422,7 +2429,7 @@ section h1 {
   margin-top: 80px;
   display: inline-block;
   width: 60%;
-  margin-left: 5%;
+  margin-left: 6%;
 }
 @media only screen and (max-width: 768px) {
   .gohart .gohart-title {

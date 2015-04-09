@@ -8,6 +8,7 @@
 		<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 		<meta name="viewport" content="width=640, maximum-scale=1">
 		<link rel="stylesheet" href="css/styles.min.css">
+		<link rel="stylesheet" href="css/styles2.css">
 	</head>
 	<body>
 
@@ -21,7 +22,7 @@
 				<div class="logo">
 					<a href="index.php">
 						<img class="full-logo desktop" src="img/hart-logo.png" alt="GoHart Logo"/>
-						<img class="box-logo desktop" src="img/hart-logo-box.png" alt="GoHart Logo"/>
+						<img class="box-logo desktop" style="display: none;" src="img/hart-logo-box.png" alt="GoHart Logo"/>
 						<img class="mobile" src="img/responsive/mobile-logo.png" alt="GoHart Logo"/>
 					</a>
 				</div>
@@ -43,7 +44,7 @@
 					</div>
 				</div>
 
-				<div class="bus-ico">ONEBUSAWAY</div>
+				<div class="bus-ico"><a href="#">ONEBUSAWAY</a></div>
 				<div class="bottom-rule desktop">
 					<div class="cta">LET US TAKE YOU THERE</div>
 					<div class="rule"><hr/></div>
@@ -221,13 +222,12 @@
 			<section class="gohart" data-2500="background-position: 40% 0%;" data-3000="background-position: 0% 0%;">
 				<div class="bus desktop" data-2500="left: -40%;" data-3000="left: -5%"></div>
 				<div class="gohart-title desktop">
-					<h1>WHEREVER YOU NEED</h1><br/>
-					<h1>TO GO, GO HART</h1>
+					<h1>HART TAKES</h1><br/>
+					<h1>YOU THERE</h1>
 				</div>
-				<div class="gohart-title mobile">
-					<h1>WHEREVER</h1><br/>
-					<h1>YOU NEED TO GO,</h1><br/>
-					<h1>GO HART</h1>
+				<div class="gohart-title mobile" style="display: none;">
+					<h1>HART TAKES</h1><br/>
+					<h1>YOU THERE</h1>
 				</div>
 
 				<div class="mobile-how-to mobile">
