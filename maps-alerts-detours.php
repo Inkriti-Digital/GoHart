@@ -183,7 +183,7 @@
 							<div class="callout">
 								<div>
 									<span class="cta-more">WANT TO FIND OUT MORE? VISIT</span>
-									<span class="cta-page"><a href="#">HOLIDAY SERVICE SCHEDULE</a></span>
+									<span class="cta-page"><a href="maps-holiday-schedule.php">HOLIDAY SERVICE SCHEDULE</a></span>
 								</div>
 							</div>
 							<hr/>

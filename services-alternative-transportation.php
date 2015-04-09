@@ -33,7 +33,7 @@
 					<div class="page-nav">
 						<a href="maps-schedules.php" class="nav-btn"><span>MAPS</span></a>
 						<a href="maps-schedules.php" class="nav-btn"><span>SCHEDULES</span></a>
-						<a href="fares.php" class="nav-btn"><span>FARES</span></a>
+						<a href="fares-cards.php" class="nav-btn"><span>FARES</span></a>
 					</div>
 
 

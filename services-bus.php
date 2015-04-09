@@ -31,7 +31,7 @@
 					<div class="page-nav">
 						<a href="maps-schedules.php" class="nav-btn"><span>MAPS</span></a>
 						<a href="maps-schedules.php" class="nav-btn"><span>SCHEDULES</span></a>
-						<a href="fares.php" class="nav-btn"><span>FARES</span></a>
+						<a href="fares-cards.php" class="nav-btn"><span>FARES</span></a>
 					</div>
 
 					<div class="bottom-rule">
@@ -39,11 +39,17 @@
 					</div>
 					<div class="content-body">
 						<div class="info">
-							<h2>LOCAL ROUTES</h2>
-							<p>Traveling within our community is easier than ever with HART’s local bus system and our online schedules. Select the schedule type that’s right for you, and you’re practically there.</p>
+							<p>
+								HART covers an area of approximately 1000 sq. miles (roughly the size of Rhode Island) with a fleet of almost 200 buses. In 2014, HART drove almost 11 million miles, which is equal to going to the moon and back nearly 46 times.
+							</p>
+							<p>
+								HART is currently transforming its fleet to Compressed Natural Gas (CNG), which is American-sourced, less expensive, clean and safer than diesel fueled vehicles.
+							</p>
+							<h2>LOCAL SERVICE</h2>
+							<p>Traveling within Hillsborough County is easy by taking the Local bus service.</p>
 
-							<h2>COMMUTER ROUTES</h2>
-							<p>Take the stress out of your daily commute with convenient HART commuter routes. Not only will you beat the boss to the office, you’ll help save the environment and plenty of your own green along the way by leaving your car behind.</p>
+							<h2>COMMUTER EXPRESS SERVICE</h2>
+							<p>Take the stress out of your daily commute by taking this service with limited stops. Leave your car at the safe and conveniently located Park-n-Rides and let us do the driving for you.</p>
 						</div>
 						<div class="info-graphic">
 							<img src="img/service/info-graphic.jpg"/>
@@ -54,11 +60,11 @@
 							<h2>SERVICE TO TAMPA INTERNATIONAL AIRPORT</h2>
 							<div>
 								<div class="half-column">
-									<p>HART <a href="#" class="bold-blue">Route 30</a>  serves Tampa International Airport seven days a week, so you can fly to many national and international destinations without leaving your car at the Airport. Whether you are a resident or out-of-town guest, HART routes connect you with the Bay area’s best destinations.</p>
+									<p>HART <a href="#" class="bold-blue">Route 30</a> serves Tampa International Airport seven days a week, so you can fly to many national and international destinations without leaving your car at the Airport.</p>
 								</div>
 
 								<div class="half-column hours">	
-									<p class="bold-gray">Route 30 now runs between downtown and the airport every 30 minutes on weekdays and weekends.</p>					
+									<p class="bold-gray">Route 30 runs between downtown and the airport every 30 minutes on weekdays and weekends.</p>					
 									<div class="fullColumnWidth">
 										<ul class="serv-hours no-left-margin no-padding">
 											<li>Monday - Friday</li>
@@ -68,8 +74,8 @@
 										
 										<ul class="serv-hours no-left-margin no-padding serv-hours-right">
 											<li class="align-right">4:30 a.m. - Midnight</li>
-											<li>7 a.m. - 10 p.m.</li>
-											<li>7 a.m. - 10 p.m.</li>
+											<li>7 a.m. - Midnight</li>
+											<li>7 a.m. - Midnight</li>
 										</ul>
 									</div>
 								</div>
@@ -87,7 +93,7 @@
 								<div class="brick">
 									<div class="brick-head">TAMPA INTERNATIONAL AIRPORT</div>
 									<p class="normal-blue">
-										Route 30 can be picked up at curbside by the east end of the Red Baggage Claim. Also, ask about our discounted 3-day Unlimited Ride Pass!
+										Route 30 can be picked up at curbside by the east end of the Red Baggage Claim.
 									</p>
 								</div>
 							</div>

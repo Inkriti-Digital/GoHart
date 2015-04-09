@@ -32,7 +32,7 @@
 					<div class="page-nav">
 						<a href="maps-schedules.php" class="nav-btn"><span>MAPS</span></a>
 						<a href="maps-schedules.php" class="nav-btn"><span>SCHEDULES</span></a>
-						<a href="fares.php" class="nav-btn"><span>FARES</span></a>
+						<a href="fares-cards.php" class="nav-btn"><span>FARES</span></a>
 					</div>
 					
 					<div class="bottom-rule">
@@ -41,10 +41,10 @@
 					<div class="content-body">
 						<div class="info">
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis pellentesque risus, et dapibus metus suscipit vitae. Nullam fringilla erat massa, ut luctus lorem rhoncus sit amet. Integer ac diam venenatis, interdum risus ac, malesuada lectus. Maecenas fringilla lacus ut nunc ultricies sodales. Interdum et malesuada fames ac ante ipsum primis in faucibus. Suspendisse sed nunc et quam varius faucibus non ut ligula. In efficitur, erat ac euismod tempor, justo dolor scelerisque lorem, ut dictum dui sem ut velit.
+								This service is a 2.7-mile streetcar line that runs along Downtown Tampa, through the Channel District, and Ybor City. The system features historical replica streetcars of the original Tampa Streetcar Line. Ticket Vending Machines are conveniently located at all station stops.
 							</p>
 							<p class="visit-link">
-								FOR MORE INFORMATION, VISIT TECOLINESTREETCAR.ORG
+								<a href="http://tecolinestreetcar.org/" target="_blank">FOR MORE INFORMATION, VISIT TECOLINESTREETCAR.ORG</a>
 							</p>
 						</div>
 						<div class="info-graphic">
@@ -58,7 +58,7 @@
 			
 			<section class="mid-section">
 				<div class="mid-copy van-service-midcopy-1">
-					<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis pellentesque risus, et dapibus metus suscipit vitae.</h3>
+					<h3>The streetcar system first started operation in the late 1800's to transport Tampa passengers for work and leisure.</h3>
 				</div>
 			</section>
 
