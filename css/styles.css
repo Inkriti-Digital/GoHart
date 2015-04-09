@@ -3142,8 +3142,7 @@ ul b, li b {
   display: inline-block;
   width: 18px;
   top: 5px;
-  display: none;
-  left: 30px;
+  float: right;
 }
 .main-nav .search-nav {
   font-size: 12px;

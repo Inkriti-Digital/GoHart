@@ -11,11 +11,9 @@
  	text-align: right;
  	display: none;
  	background-color: rgba(14, 21, 45, 0.75);
- 	// background-image: url(../img/fpo-mainnav.png);
  	background-size: auto 100%;
  	background-repeat: no-repeat;
  	background-position: top;
- 	// width: 45%;
  	color: white;
 
  	.close-nav{
@@ -24,7 +22,6 @@
 		  margin-left: -85px;
 		  margin-top: 20px;
 		  padding: 8px;
-		  // width: 13%;
 		  width: 70px;
 		  cursor: pointer;
 		  padding-bottom: 3px;
@@ -37,7 +34,6 @@
  	}
  	
 	.primary{
-		// background-color: #0e152d;	
 		background-color: transparent;
 		text-align: left;
 		margin-top: 20px;
@@ -65,8 +61,7 @@
 				display: inline-block;
 				width: 18px;
 				top: 5px;
-				display: none;
-				left: 30px;
+				float:right;
 			}
 		}	
 	}
