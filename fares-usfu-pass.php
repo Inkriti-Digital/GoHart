@@ -34,7 +34,7 @@
 					<div class="content-body">
 							
 						<div class="info">
-							<p>University of South Florida students showing a new valid USF ID can ride HART Local, Limited Express, <a href="#" class="bold-blue">MetroRapid</a>  and Flex routes FREE.* And it isn't just students who are in on the deal. USF faculty and staff pay just 50¢ with their new valid USF ID card.</p>
+							<p>University of South Florida students showing a new valid USF ID can ride HART Local, Limited Express, <a href="http://www.gohart.org/metrorapid/index.html" class="bold-blue">MetroRapid</a>  and Flex routes FREE.* And it isn't just students who are in on the deal. USF faculty and staff pay just 50¢ with their new valid USF ID card.</p>
 
 
 							<div class="tix-box">							
@@ -49,7 +49,7 @@
 								<div class="disclaimer">*Not valid on express routes, In-Town trolleys or the TECO Line Streetcar System.</div>
 							</div>
 
-							<p>Connections between HART and USF's Bull Runner Shuttle are available at the HART University Area Transit Center. For bus route details, look under the <a href="#" class="bold-blue">Maps &amp; Schedules</a>  menu above. You can also <a href="#" class="bold-blue">Contact Us</a> to learn more, or grab a schedule at the Marshall Center, HART University Area Transit Center. </p>	
+							<p>Connections between HART and USF's Bull Runner Shuttle are available at the HART University Area Transit Center. For bus route details, look under the <a href="http://localhost/GoHart-Git/GoHart/maps-schedules.php" class="bold-blue">Maps &amp; Schedules</a>  menu above. You can also <a href="http://www.gohart.org/about/contact/contact-us.html" class="bold-blue">Contact Us</a> to learn more, or grab a schedule at the Marshall Center, HART University Area Transit Center. </p>	
 							<div class="download-pdf"><a href="#"><img src="img/download-pdf.png"/><span>Download PDF</span> of USF area bus routes</a></div>						
 						</div>
 						<div class="info-graphic">
@@ -71,11 +71,11 @@
 							<div class="cta"><span>USF EMERGENCY RIDE HOME PROGRAM</span><hr/></div>
 						</div>
 						<div>
-							<p>Now, USF students don't have to worry about being stranded in case of an emergency. Just enroll in the USF Student Emergency Ride Home program through <b class="bold-blue">Tampa Bay Area Regional Transportation Authority (TBARTA)</b>! ! It's easy to sign up and easy to use. Here's how to get onboard:</p>
+							<p>Now, USF students don't have to worry about being stranded in case of an emergency. Just enroll in the USF Student Emergency Ride Home program through <a href="http://tampabayrideshare.org/" class="bold-blue">Tampa Bay Area Regional Transportation Authority (TBARTA)</a>! ! It's easy to sign up and easy to use. Here's how to get onboard:</p>
 							<ul>
 								<li><img src="img/locations/locaiton-ico.png"/>Just take a HART bus or the Bull Runner, carpool, bike, vanpool or walk to class at least two days a week
 								</li>
-								<li><img src="img/locations/locaiton-ico.png"/>    Sign up with Tampa Bay Area Regional Transportation Authority (TBARTA) by calling <b class="bold-blue">1-800-998-RIDE</b>, or register online at <b class="bold-blue">TampaBayRideshare.org</b> or <b class="bold-blue">USF.edu/BullRunner</b>.
+								<li><img src="img/locations/locaiton-ico.png"/>    Sign up with Tampa Bay Area Regional Transportation Authority (TBARTA) by calling <b class="bold-blue">1-800-998-RIDE</b>, or register online at <a href="http://www.tampabayrideshare.org/" class="bold-blue">TampaBayRideshare.org</a> or <a href="http://www.usf.edu/administrative-services/parking/transportation/index.aspx" class="bold-blue">USF.edu/BullRunner</a>.
 								</li>						
 							</ul>	
 						</div>

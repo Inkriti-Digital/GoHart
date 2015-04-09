@@ -159,13 +159,13 @@
 							</p>
 							
 							<p>
-								Click here for the latest on <a href="" class="bold-blue">scheduled board meetings</a>, details about <a href="" class="bold-blue">board meeting agendas</a>, and a list of <a href="" class="bold-blue">upcoming public meetings</a>.
+								Click here for the latest on <a href="http://www.gohart.org/departments/marketing/press/broadcasts-webcasts.html" class="bold-blue">scheduled board meetings</a>, details about <a href="http://www.gohart.org/departments/executive/packets/board-packets.html" class="bold-blue">board meeting agendas</a>, and a list of <a href="www.gohart.org/departments/executive/calendar/board-meeting-calendar.html" class="bold-blue">upcoming public meetings</a>.
 							</p>
 						</div>
 						
 						<div class="fullColumnWidth">
 							<div class="half-column brick-blue-link left">
-								<a href="" class="brick-link">
+								<a href="https://www.youtube.com/user/harttransit" class="brick-link">
 									<div class="icon">
 										<img src="img/video-icon.png" />
 									</div>
