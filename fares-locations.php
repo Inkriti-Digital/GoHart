@@ -31,7 +31,7 @@
 
 				<div class="content-block">
 					<div class="page-nav">
-						<a href="#" class="purchase-tix"><div class="tix-ico"><img src="img/fares/tix-ico.png"/></div><span>PURCHASE HART FARECARDS ONLINE</span></a>
+						<a href="fares-corp-trans.php" class="purchase-tix"><div class="tix-ico"><img src="img/fares/tix-ico.png"/></div><span>PURCHASE HART FARECARDS ONLINE</span></a>
 					</div>
 
 					<div class="bottom-rule">

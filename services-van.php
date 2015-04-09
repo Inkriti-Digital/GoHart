@@ -33,8 +33,12 @@
 					<div class="page-nav">
 						<a href="maps-schedules.php" class="nav-btn"><span>MAPS</span></a>
 						<a href="maps-schedules.php" class="nav-btn"><span>SCHEDULES</span></a>
-						<a href="fares.php" class="nav-btn"><span>FARES</span></a>
+						<a href="fares-cards.php" class="nav-btn"><span>FARES</span></a>
 					</div>
+					
+					<p>
+						HART van services include HARTFlex and HARTPlus (Paratransit). All vans are powered by Compressed Natural Gas (CNG), which is American-sourced, less expensive, clean and safer than diesel fueled vehicles.
+					</p>
 
 
 					<div class="bottom-rule">
@@ -42,18 +46,14 @@
 					</div>
 					<div class="content-body">
 						<div class="fullColumnWidth">
-							<h2>WHAT IS IT?</h2>	
 							<p>
-								HARTFlex is an on-demand, curbside van-based service open to all passengers. HARTFlex has the advantages of a traditional fixed bus route with the convenience of curbside pickup.
+								A door-to-door service within defined geographic zones of the county. Reservations or walk-up service is available.
 							</p>
 						</div>
 						<div class="info">
 							<h2>HOW DO I USE IT?</h2>	
 							<p>
-								Flex offers the convenience of door-to-door service by reservation, and the flexibility of walk-up service from a bus stop. From any place in your neighborhood zone to any other destination within your zone, HARTFlex will get you there!
-							</p>
-							<p>
-								For guaranteed seat availability, reservations are encouraged. No standees are allowed on the HARTFlex van. Reservations should be made from two hours to three days in advance of your trip. Alternate times will be suggested if the van is already booked.
+								For guaranteed seat availability, reservations are encouraged. No standees are allowed. Reservations should be made from two hours to three days in advance of your trip. Alternate times will be suggested if the van is already booked.
 							</p>
 						</div>
 						<div class="info-graphic">
@@ -86,7 +86,7 @@
 									<div class="clear-fix"></div>
 								
 									<p>
-										Customers who book a reservation and do not arrive for their trip or do not cancel their reservation at least two hours beforehand will be considered a no-show. Customers who receive four <span class="nowrap">no-shows</span> in any 30-day period will be suspended from HARTFlex reservations for two weeks. These customers may continue to use walk-up service where available.
+										Customers who book a reservation and do not arrive for their trip or do not cancel their reservation at least two hours beforehand will be considered a no-show. Customers who receive four no-shows in any 30-day period will be suspended from HARTFlex reservations for two weeks. These customers may continue to use walk-up service where available.
 									</p>
 								</div>
 
@@ -96,9 +96,9 @@
 										<div class="fares-points">
 											<ul class="fares-list">
 												<li>$1 per trip; same price for adults, seniors, persons with disabilities and youth</li>
-												<li>$2 for 1-Day Unlimited Ride farecard sold on the van</li>
+												<li>$2 for a 1-Day Unlimited Ride farecard sold on the van</li>
 												<li>HART 1-Day and 31-Day Unlimited Ride farecards accepted</li>
-												<li>USF students ride FREE with valid student ID</li>
+												<li>USF students ride FREE on HARTFlex with valid student ID</li>
 											</ul>
 										</div>
 									</div>
@@ -108,7 +108,7 @@
 						</div>
 						
 						<div class="fullColumnWidth">
-							Walk-up service is available by waiting at a designated HART bus stop, which are marked with a Flex decal. The driver will drop you off at any other designated HART stop along the route in the same direction. HARTFlex vans are now equipped with bike racks and folded bikes are welcome aboard HARTFlex vehicles.
+							Walk-up service is available by waiting at a designated HART bus stop, which are marked with a Flex decal. The driver will drop you off at any other designated HART stop along the route in the same direction. HARTFlex vans are now equipped with bike racks. Folded bikes are welcome aboard.
 						</div>
 					</div>					
 				</div>				
@@ -130,9 +130,9 @@
 							<div>
 								<div class="half-column">
 									<div>
-										<h2>EQUAL ACCESS FOR ALL</h2>
+										<!--<h2>EQUAL ACCESS FOR ALL</h2>-->
 										<div>
-											HARTPlus is transportation for people with disabilities. Persons are eligible for this service if they have physical, cognitive, emotional, visual or other disabilities that prevent them from using HART fixed route bus system, either permanently or under certain conditions. The service consists of van transportation, which is based on the individual’s needs and either:
+											This service is transportation for people with disabilities. Persons are eligible for this service if they have physical, cognitive, emotional, visual or other disabilities that prevent them from using fixed route bus service, either permanently or under certain conditions.
 										</div>
 										<div>
 											<div class="equal-access-points">		
@@ -147,7 +147,7 @@
 
 								<div class="half-column equal-access-data">	
 									<p>
-										The HART bus system is fully accessible to people who use wheelchairs or motorized scooters, and should be used whenever feasible. All buses have PA systems to announce stops and lighted stop-requested signs. HARTPlus services, available only where HART bus routes operate, are based solely on the applicant’s functional ability to use HART buses, not disability alone.
+										Bus service is fully accessible to people who use wheelchairs or motorized scooters. All buses have PA systems to announce stops and lighted stop-requested signs. HARTPlus services, available only where HART bus routes operate, are based solely on the applicant's functional ability to use HART buses, not disability alone.
 									</p>
 								</div>
 							</div>

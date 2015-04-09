@@ -40,49 +40,49 @@
 					<div>
 						<h2>INDIVIDUAL ROUTE MAPS</h2>
 						<div>							
-							<a class="pdf-downlaod pdf-downlaod-evac">								
+							<a target="_blank" href="http://www.gohart.org/departments/marketing/detours/hurricane_evacuation_service/documents/routes/2012/route_a.pdf" class="pdf-downlaod pdf-downlaod-evac">								
 								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 								<span class="download-title">ROUTE A</span>		
 							</a>
-							<a class="pdf-downlaod pdf-downlaod-evac">								
+							<a target="_blank" href="http://www.gohart.org/departments/marketing/detours/hurricane_evacuation_service/documents/routes/2012/route_b.pdf" class="pdf-downlaod pdf-downlaod-evac">								
 								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 								<span class="download-title">ROUTE B</span>		
 							</a>
-							<a class="pdf-downlaod pdf-downlaod-evac">								
+							<a target="_blank" href="http://www.gohart.org/departments/marketing/detours/hurricane_evacuation_service/documents/routes/2012/route_c.pdf" class="pdf-downlaod pdf-downlaod-evac">								
 								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 								<span class="download-title">ROUTE C</span>		
 							</a>
-							<a class="pdf-downlaod pdf-downlaod-evac last">								
+							<a target="_blank" href="http://www.gohart.org/departments/marketing/detours/hurricane_evacuation_service/documents/routes/2012/route_d.pdf" class="pdf-downlaod pdf-downlaod-evac last">								
 								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 								<span class="download-title">ROUTE D</span>		
 							</a>
 							
-							<a class="pdf-downlaod pdf-downlaod-evac">								
+							<a target="_blank" href="http://www.gohart.org/departments/marketing/detours/hurricane_evacuation_service/documents/routes/2012/route_e.pdf" class="pdf-downlaod pdf-downlaod-evac">								
 								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 								<span class="download-title">ROUTE E</span>		
 							</a>
-							<a class="pdf-downlaod pdf-downlaod-evac">								
+							<a target="_blank" href="http://www.gohart.org/departments/marketing/detours/hurricane_evacuation_service/documents/routes/2012/route_f.pdf" class="pdf-downlaod pdf-downlaod-evac">								
 								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 								<span class="download-title">ROUTE F</span>		
 							</a>
-							<a class="pdf-downlaod pdf-downlaod-evac">								
+							<a target="_blank" href="http://www.gohart.org/departments/marketing/detours/hurricane_evacuation_service/documents/routes/2012/route_g.pdf" class="pdf-downlaod pdf-downlaod-evac">								
 								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 								<span class="download-title">ROUTE G</span>		
 							</a>
-							<a class="pdf-downlaod pdf-downlaod-evac last">								
+							<a target="_blank" href="http://www.gohart.org/departments/marketing/detours/hurricane_evacuation_service/documents/routes/2012/route_h.pdf" class="pdf-downlaod pdf-downlaod-evac last">								
 								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 								<span class="download-title">ROUTE H</span>		
 							</a>
 							
-							<a class="pdf-downlaod pdf-downlaod-evac">								
+							<a target="_blank" href="http://www.gohart.org/departments/marketing/detours/hurricane_evacuation_service/documents/routes/2012/route_i.pdf" class="pdf-downlaod pdf-downlaod-evac">								
 								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 								<span class="download-title">ROUTE I</span>		
 							</a>
-							<a class="pdf-downlaod pdf-downlaod-evac">								
+							<a target="_blank" href="http://www.gohart.org/departments/marketing/detours/hurricane_evacuation_service/documents/routes/2012/route_j.pdf" class="pdf-downlaod pdf-downlaod-evac">								
 								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 								<span class="download-title">ROUTE J</span>		
 							</a>
-							<a class="pdf-downlaod pdf-downlaod-evac pdf-downlaod-2columns">								
+							<a target="_blank" href="http://www.gohart.org/departments/marketing/detours/hurricane_evacuation_service/documents/routes/2012/hurricane_brochure.pdf" class="pdf-downlaod pdf-downlaod-evac pdf-downlaod-2columns">								
 								<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
 								<span class="download-title">HURRICANE SYSTEM MAP</span>		
 							</a>
@@ -135,7 +135,7 @@
 					</div>
 
 					<div class="cta-buttons btn1">
-						<a href="#"><img src="img/maps-sched/evac-btn.jpg"/></a>
+						<a target="_blank" href="http://www.gohart.org/departments/marketing/detours/hurricane_evacuation_service/hurricane_map_2008.jpg"><img src="img/maps-sched/evac-btn.jpg"/></a>
 					</div>
 					<div class="cta-buttons">
 						<a href="#"><img src="img/maps-sched/assistance-btn.jpg"/></a>
@@ -170,7 +170,7 @@
 							<p>The Hillsborough County School District will operate buses to evacuate people in areas not covered by the 10 HART evacuation routes. For more information, residents should call the Hillsborough County EOC at 813-272-6900. </p>
 						</div>
 					</div>
-					<a href="#" class="need-to-know">
+					<a target="_blank" href="http://www.gohart.org/departments/marketing/detours/hurricane_evacuation_service/safety_flyer.pdf" class="need-to-know">
 						<b><i>CLICK HERE</i></b>  for a printable version of the “need to know” of HART Emergency Evacuation Service.
 					</a>
 					<div class="bottom-rule footer-rule">

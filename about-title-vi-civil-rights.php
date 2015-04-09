@@ -67,7 +67,7 @@
 								
 						<div class="fullColumnWidth">
 							<div class="half-column brick-blue-link left">
-								<a href="#" class="brick-link">
+								<a href="pdf/complaint_form.pdf" class="brick-link">
 									<div class="icon">
 										<img src="img/schedule-img.png" />
 									</div>
@@ -83,7 +83,7 @@
 								</a>
 							</div>
 							<div class="half-column brick-blue-link brick-blue-link-last right">
-								<a href="#" class="brick-link">
+								<a href="pdf/title_vi_complaint_form-s.pdf" class="brick-link">
 									<div class="icon">
 										<img src="img/schedule-img.png" />
 									</div>
@@ -104,12 +104,12 @@
 						
 						<div class="fullColumnWidth">
 							<div class="half-column brick-column left">
-								<a href="#" class="bold-blue">HART Proposed Title VI Policies</a> <br/>
-								<a href="#" class="bold-blue">Printable Notice of Public Rights Under Title VI</a>
+								<a href="pdf/proposed_title_vi_changes.pdf" class="bold-blue">HART Proposed Title VI Policies</a> <br/>
+								<a href="pdf/title_vi_statement.pdf" class="bold-blue">Printable Notice of Public Rights Under Title VI</a>
 							</div>
 							<div class="half-column brick-column brick-column-last right">
-								<a href="#" class="bold-blue">Proceso de Quejas</a> <br/>
-								<a href="#" class="bold-blue">HART Propuesta de Póliza Título VI</a>
+								<a href="pdf/title_vi_complaint_procedures_s.pdf" class="bold-blue">Proceso de Quejas</a> <br/>
+								<a href="pdf/proposed_title_vi.pdf" class="bold-blue">HART Propuesta de Póliza Título VI</a>
 							</div>
 							<div class="clear-fix"></div>
 						</div>
@@ -146,7 +146,7 @@
 											Tampa, FL 33605
 										</div>
 										<div class="bottom-part">
-											<a href="#" class="bold-blue">Click here</a> to file a Title VI complaint directly with the Federal Transit Administration
+											<a href="http://www.fta.dot.gov/civilrights/title6/civil_rights_5104.html" class="bold-blue">Click here</a> to file a Title VI complaint directly with the Federal Transit Administration
 										</div>
 									</div>
 								</div>
@@ -203,7 +203,7 @@
 											Washington, DC 20590
 										</div>
 										<div class="bottom-part">
-											<a href="#" class="bold-blue">Click here</a> to visit the Federal Transit Administration Office of Civil Rights website.
+											<a href="http://www.fta.dot.gov/civilrights/12328_5104.html" class="bold-blue">Click here</a> to visit the Federal Transit Administration Office of Civil Rights website.
 										</div>
 									</div>
 								</div>
@@ -221,12 +221,12 @@
 						<div class="fullColumnWidth brick-list">
 							<div class="half-column brick-column left">
 								<div class="page-nav fullWidth">
-									<a class="nav-btn fullWidth"><span>EQUAL EMPLOYMENT OPPORTUNITY</span></a>
+									<a href="about-hart-employment.php" class="nav-btn fullWidth"><span>EQUAL EMPLOYMENT OPPORTUNITY</span></a>
 								</div>
 							</div>
 							<div class="half-column brick-column brick-column-last right">
 								<div class="page-nav fullWidth">
-									<a class="nav-btn fullWidth"><span>DISADVANTAGED BUSINESS ENTERPRISE</span></a>
+									<a href="about-disadvantaged-and-small-business.php" class="nav-btn fullWidth"><span>DISADVANTAGED BUSINESS ENTERPRISE</span></a>
 								</div>
 							</div>
 							<div class="clear-fix"></div>

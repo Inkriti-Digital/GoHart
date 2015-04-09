@@ -236,7 +236,8 @@
 		/* equal-access-points lists - styles */
 		.page-content .half-column.equal-access-data{
 			float:right;
-			margin:42px 0 0 0;
+			/*margin:42px 0 0 0;*/
+			margin:0 0 0 0;
 		}
 		.page-content .equal-access-points ul {
 			margin-right: 0;
@@ -1195,7 +1196,7 @@
 .header .headline-single-bottom{
 	bottom: 38%;
 }
- .header h1 {
+ .header .headline h1 {
 	font-size: 65px;
 }
 
@@ -1327,6 +1328,27 @@ b{font-family: gothMed,Helvetica,Arial,sans-serif;}
 .mid-section .mid-copy h3 {margin: 0;}
 
 .info-chunk .info-row a{color: #036;}
+.serv-hours-list1{margin-left:0;margin-right: 25px;}
+.serv-hours-list2{margin-left:0;}
+
+.page-content .email-newsletter-input{width:100%;margin:0 0 10px 0;}
+.page-content select.email-newsletter-input{ background-color: #ccc;
+    border: medium none;
+    color: #083b70;
+    font-size: 16px;
+    height: 45px;
+    line-height: 45px;
+    margin-left: 0;
+    padding: 10px 5px 5px 10px;
+    text-transform: uppercase;
+}
+.page-content .comments .comment-form .submit-btn.email-newsletter-submit{margin-bottom: 95px;}
+
+/* newly overwritten bottom-rules - Styles - Start */
+.page-content .bottom-rule {padding-left: 0;padding-right: 0;}
+.bottom-rule {position: relative;}
+.header .headline {top: auto;}
+/* newly overwritten bottom-rules - Styles - End */
 
 
 
@@ -1501,8 +1523,9 @@ b{font-family: gothMed,Helvetica,Arial,sans-serif;}
 	.header .headline {
 		bottom:10%;
 	}
-	.header h1 {
-	    font-size: 48px;
+	.header .headline h1 {
+	    /*font-size: 48px;*/
+	    font-size: 35px;
 	}
 	
 	
@@ -1953,7 +1976,7 @@ b{font-family: gothMed,Helvetica,Arial,sans-serif;}
 	    position: absolute;
 	    width: 245px;
 	}
-	.header h1 {
+	.header .headline h1 {
 	    display: inline-block;
 	    /*font-size: 25px;*/
 	    font-size: 20px;

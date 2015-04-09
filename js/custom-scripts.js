@@ -360,7 +360,7 @@ $(document).ready(function(){
 			/* ===== placeholder setting functionality for IE - End ===== */
 			
 			
-			/* ===== required field setting functionality for IE - Start ===== */
+			/* ===== required field setting functionality for IE, Safari - Start ===== */
 			// fix for IE < 11
 		    if ($("<input />").prop("required") === undefined) {
 		        $(document).on("submit", function(e) {
@@ -379,6 +379,7 @@ $(document).ready(function(){
 		    }
 		    
 		    
+		    //fix for safari
 		    if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1)
 		    {
 				   var forms = document.getElementsByTagName('form');
@@ -395,7 +396,7 @@ $(document).ready(function(){
 					    }, false);
 					}
 			 }
-		    /* ===== required field setting functionality for IE - End ===== */
+		    /* ===== required field setting functionality for IE, Safari - End ===== */
 		    
 		    
 		    
@@ -417,6 +418,12 @@ $(document).ready(function(){
 					detoursHeightSetting();
 				});
 			/* ======= Detours dates - height setting functionality - End ======= */
+			
+			
+			/* ===== Math Captcha code to forms - Start ===== */
+			$('#comment-form1').ebcaptcha();
+			$('#newsletter-form1').ebcaptcha();
+			/* ===== Math Captcha code to forms - End ===== */
 			
 			
 			

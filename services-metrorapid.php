@@ -32,7 +32,7 @@
 					<div class="page-nav">
 						<a href="maps-schedules.php" class="nav-btn"><span>MAPS</span></a>
 						<a href="maps-schedules.php" class="nav-btn"><span>SCHEDULES</span></a>
-						<a href="fares.php" class="nav-btn"><span>FARES</span></a>
+						<a href="fares-cards.php" class="nav-btn"><span>FARES</span></a>
 					</div>
 
 					<div class="bottom-rule">
@@ -41,10 +41,13 @@
 					<div class="content-body">
 						<div class="info">
 							<p>
-								HART MetroRapid will help improve travel along selected service corridors with enhancements that increase the speed of transit, improve service reliability and make it easier for people to use transit. MetroRapid features include bus preferential treatments (traffic signal priority, off-vehicle ticket vending machines), enhanced passenger stations, and special low-floor buses.
+								Service connects Downtown Tampa and the University Area via Nebraska and Fletcher. Alternate trips connect the University Area to the Hidden River Regional Park-n-Ride.
 							</p>
 							<p>
-								HART MetroRapid system will feature fewer stops, high frequency and advanced technology to help travelers get to their destinations quickly and conveniently.
+								This service features 17.5 miles of limited stops, traffic signal priority (GPS technology that extends green lights and shortens red lights improving travel time by 20%), ticket vending machines at select station stops, enhanced passenger stations with bicycle racks, and low floor buses.
+							</p>
+							<p>
+								This service operates weekdays with 15-minute service from 5 AM - 8 PM.
 							</p>
 						</div>
 						<div class="info-graphic">
@@ -136,115 +139,12 @@
 			
 			<section class="mid-section">
 				<div class="mid-copy">
-					<h3>HART MetroRapid system will feature fewer stops, high
-						
-						frequency and advanced technology to help travelers get
-						
-						to their destinations quickly and conveniently.</h3>
+					<h3>The HART MetroRapid system features fewer stops, high frequency and advanced technology to help travelers get to their destinations quickly and conveniently.</h3>
 				</div>
 			</section>
 
 			<section class="page-content" style="background: none;">
 				<div class="content-block">
-					<div class="content-body">
-						<div class="fullColumnWidth">
-							<h2>FUNDING</h2>					
-							<p>
-								Hillsborough County Community Investment Tax funded the design and construction phases of the MetroRapid N-S project. HART is proud to report that a June 2012 review of the original project estimate of $31 million determined that this project is under budget by $5.7 million. This funding has been reallocated back to Hillsborough County for its infrastructure needs, if desired. CIT funding is only earmarked for capital improvement costs, and cannot be reallocated for operational costs, such as bus routes.
-							</p>
-						</div>
-						
-						<div>
-							<div class="half-column north-south-points">		
-								<ul class="north-south-points-list">
-									<li>MetroRapid North-South Fast Facts</li>
-									<li>MetroRapid North-South Station Type</li>
-									<li>MetroRapid North-South TSP Map</li>
-								</ul>
-							</div>
-
-							<div class="half-column north-south-points">				
-								<ul class="north-south-points-list">
-									<li>MetroRapid North-South Groundbreaking Ceremony video</li>
-									<li>Summary of Interagency Work Group Meeting for <span class="nowrap">North-South</span> MetroRapid</li>
-								</ul>
-							</div>
-							<div class="clear-fix"></div>
-							
-							
-							<div class="fullColumnWidth">					
-								<p>
-									Final Bid Set for MetroRapid North-South (new):
-								</p>
-							</div>
-							
-							
-							<div class="fullColumnWidth">
-								<a href="#" class="pdf-downlaod five-up">							
-									<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
-									<span class="download-title">PART ONE</span>		
-								</a>
-								<a href="#" class="pdf-downlaod five-up">							
-									<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
-									<span class="download-title">PART TWO</span>		
-								</a>
-								<a href="#" class="pdf-downlaod five-up">							
-									<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
-									<span class="download-title">PART THREE</span>		
-								</a>
-								<a href="#" class="pdf-downlaod five-up">							
-									<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
-									<span class="download-title">PART FOUR</span>		
-								</a>
-								<a href="#" class="pdf-downlaod five-up">							
-									<span class="pdf-ico"><img src="img/metrorapid-service/schedule-img.png" /></span>
-									<span class="download-title">PART FIVE</span>		
-								</a>
-							</div>
-							<div class="clear-fix"></div>
-							
-							
-							<div class="fullColumnWidth">					
-								<p>
-									Click the maps below to find out how the project affects your community by City Council, County Commission districts and zipcode.
-								</p>
-							</div>
-							
-							<div class="fullColumnWidth">
-								<div class="map-data">
-									<div class="map-heading">
-										Municipal District
-									</div>
-									<div class="map">
-										<img src="img/metrorapid-service/map1.jpg"/>
-									</div>
-								</div>
-								<div class="map-data">
-									<div class="map-heading map-heading-center">
-										Hillsborough County Commission District
-									</div>
-									<div class="map">
-										<img src="img/metrorapid-service/map2.jpg"/>
-									</div>
-								</div>
-								<div class="map-data map-data-last">
-									<div class="map-heading">
-										Zipcode
-									</div>
-									<div class="map">
-										<img src="img/metrorapid-service/map3.jpg"/>
-									</div>
-								</div>
-								<div class="clear-fix"></div>
-							</div>
-							
-							<div class="fullColumnWidth">					
-								<p>
-									HART started Preliminary Development and Environmental (PD&E) of MetroRapid East-West in Fall 2011.
-								</p>
-							</div>
-						</div>
-					</div>
 					<div class="content-body">
 						<div class="bottom-rule footer-rule">
 							<div class="cta center-cta">
