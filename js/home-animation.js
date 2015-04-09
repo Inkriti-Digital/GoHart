@@ -2,7 +2,6 @@ $(document).ready(function(){
     var myCar;
 
     var landNum = Math.floor((Math.random() * 4) + 1);
-    console.log('landNum = '+ landNum);
 
     landingHeader();
     function landingHeader(){
@@ -22,8 +21,6 @@ $(document).ready(function(){
         }
     }
 
-
-  
     $("#servnav-bus").click(function() {
         myCar = "bus";
         changeCar();
@@ -59,7 +56,6 @@ $(document).ready(function(){
         });
         
         function toggleBg(){  
-            console.log('hit toggleBG = '+myCar)
             if(myCar=="bus"){
                 $('.metro-foreground').css('background-image','url(img/home/serv-large-bus.png)');
                 $( ".metro-title" ).text( "BUS" );

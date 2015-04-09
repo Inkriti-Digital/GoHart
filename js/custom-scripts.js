@@ -23,8 +23,6 @@ $(document).ready(function(){
             mobileSite=false;
         }
 
-        console.log('mobileSite = ' + mobileSite);
-
         newsWidth = $('.news-blocks').width();
     	var landingWidth = $('.landing').width();
     	var landingHeight = Math.floor(landingWidth*0.58214);
@@ -65,7 +63,6 @@ $(document).ready(function(){
 
     //HOVER CONTROLS
      $(".metro-block").hover(function() {
-        // console.log('hit in');
          $(this).closest(".metro-block").find(".hover-box .metro-hover").fadeIn();        
          $(this).closest(".metro-block").find("img").animate({
             opacity: 0.5 }, 500, function() { /*complete*/});
@@ -92,9 +89,7 @@ $(document).ready(function(){
     //news controls
     $(".news-blocks .prev-arrow").click(function(event) {
         animateWidth+=newsWidth;
-        console.log('animate' + animateWidth);
         setTimeout(function() {
-            console.log('animate' + animateWidth);
                 $("#newsRow1").animate({
                     left: animateWidth
                 }, 2500);
@@ -108,9 +103,7 @@ $(document).ready(function(){
 
      $(".news-blocks .next-arrow").click(function(event) {
         animateWidth-=newsWidth;
-        console.log('animate' + animateWidth);
         setTimeout(function() {
-            console.log('animate' + animateWidth);
                 $("#newsRow1").animate({
                     left: animateWidth
                 }, 2250);
@@ -232,7 +225,6 @@ $(document).ready(function(){
         if(mobileSite==false){
             var eTop = $('.headline').offset().top; //get the offset top of the element
             var hideLockup = (eTop - $(window).scrollTop());
-            // console.log(hideLockup);
 
             if(hideLockup<=100){
                 $(".full-logo").hide();
@@ -252,7 +244,6 @@ $(document).ready(function(){
     //select-box code
     $('#goHartSelect').change(function() {
         var selectedVal = $("#goHartSelect option:selected").attr('value');
-        console.log(selectedVal);
 
         if(selectedVal=="how-to-ride"){
            $('.mobile-how-to-content').show();
