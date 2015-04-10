@@ -2205,7 +2205,7 @@ section h1 {
   color: white;
   margin-left: 0;
   font-size: 1.5em;
-  line-height: 1.3em;
+  line-height: 1.4em;
   margin-bottom: 10px;
   cursor: pointer;
   letter-spacing: 0.03em;
@@ -2649,6 +2649,13 @@ section h1 {
   margin: 2% 1.5%;
   width: 17%;
   max-width: 270px;
+  left: 0;
+  margin: 2% 1.5%;
+  width: 20%;
+  max-width: 280px;
+  min-width: 52px;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 8px 6px 0 8px;
 }
 .header .menu-ico {
   position: absolute;
@@ -2657,6 +2664,14 @@ section h1 {
   width: 4%;
   max-width: 62px;
   cursor: pointer;
+  right: 15px;
+  margin: 2.5%;
+  width: 60px;
+  max-width: 62px;
+  cursor: pointer;
+  z-index: 250;
+  background-color: rgba(14, 21, 45, 0.8);
+  padding: 10px;
 }
 .header .headline {
   position: absolute;
@@ -2681,6 +2696,10 @@ section h1 {
 }
 .page-content .content-block {
   margin-bottom: 50px;
+}
+.page-content .content-block .home-form {
+  position: relative;
+  margin-bottom: 20px;
 }
 .page-content .content-block .content-body {
   margin: 0 3%;

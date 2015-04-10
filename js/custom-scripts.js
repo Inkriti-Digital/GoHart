@@ -240,13 +240,13 @@ $(document).ready(function(){
             if(hideLockup<=100){
                 $(".full-logo").hide();
                 $(".box-logo").show();
-                $(".logo").css('width', '4.35%');
-                $(".logo").css('max-width', '73px');
+                $(".landing .logo").css('width', '4.35%');
+                $(".landing .logo").css('max-width', '73px');
             } else if( hideLockup >= 100){
                 $(".full-logo").show();
                 $(".box-logo").hide();
-                $(".logo").css('width', '20%');
-                $(".logo").css('max-width', '280px');
+                $(".landing .logo").css('width', '20%');
+                $(".landing .logo").css('max-width', '280px');
             }
 
             if(hideLockup<= 358){
