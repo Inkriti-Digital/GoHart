@@ -1738,6 +1738,8 @@ body {
   z-index: 25;
   right: 0;
   bottom: -28px;
+  background-color: rgba(14, 21, 45, 0.8);
+  padding: 10px;
 }
 @media only screen and (max-width: 768px) {
   .container .return-top {
@@ -1985,7 +1987,7 @@ section h1 {
   }
 }
 .home-form #start, .home-form #end {
-  width: 27%;
+  width: 26%;
 }
 @media only screen and (max-width: 768px) {
   .home-form #start, .home-form #end {
@@ -2081,7 +2083,7 @@ section h1 {
   color: white;
   margin-left: 0;
   font-size: 1.5em;
-  line-height: 1.4em;
+  line-height: 1.25em;
   margin-bottom: 10px;
   cursor: pointer;
   letter-spacing: 0.03em;
@@ -2174,6 +2176,7 @@ section h1 {
   padding: 30px;
   margin-top: 10%;
   z-index: 10;
+  min-height: 290px;
 }
 @media only screen and (max-width: 768px) {
   .metro .metro-box {
@@ -2205,7 +2208,7 @@ section h1 {
   color: white;
   margin-left: 0;
   font-size: 1.5em;
-  line-height: 1.4em;
+  line-height: 1.25em;
   margin-bottom: 10px;
   cursor: pointer;
   letter-spacing: 0.03em;
@@ -2248,7 +2251,7 @@ section h1 {
 }
 .metro .metro-icons {
   position: absolute;
-  bottom: 20%;
+  top: 69%;
   right: 10%;
 }
 @media only screen and (max-width: 768px) {
@@ -2347,6 +2350,7 @@ section h1 {
   margin: 5px 5px;
   display: inline-block;
   overflow: hidden;
+  vertical-align: top;
 }
 @media only screen and (max-width: 768px) {
   .news .news-blocks .block {
@@ -2447,7 +2451,7 @@ section h1 {
   }
 }
 .gohart .bus {
-  background: url(../img/home/bus-home3.png) no-repeat;
+  background: url(../img/home/van-lower.png) no-repeat;
   background-size: 100%;
   position: absolute;
   width: 78%;

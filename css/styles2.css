@@ -1312,8 +1312,8 @@
 .page-content .bus-shelter-requests label{display: inline;margin-right:25px;}
 b{font-family: gothMed,Helvetica,Arial,sans-serif;}
 .alerts-detours .rider-alert-top{margin-top:20px;}
-.alerts-detours .rider-alert{width:100%;padding:0;}
-.alerts-detours .rider-alert .rider-alert-left {background-color:#871A15;display: inline-block;height: 38px;line-height:38px;padding:0 5px;}
+.alerts-detours .rider-alert{width:96%;padding:0;}
+.alerts-detours .rider-alert .rider-alert-left {margin-right: 10px; background-color:#871A15;display: inline-block;height: 38px;line-height:38px;padding:0 15px;}
 .alerts-detours .rider-alert.rider-alert-right {margin-left:-6px;}
 .alerts-detours .detour-thumb{width:10%;}
 .alerts-detours .detour-thumb .point-no-area{width:100%;height:128px;}
@@ -1352,7 +1352,7 @@ b{font-family: gothMed,Helvetica,Arial,sans-serif;}
 
 /* newly overwritten bottom-rules - Styles - Start */
 .page-content .bottom-rule {padding-left: 0;padding-right: 0;}
-.bottom-rule {position: relative;}
+.page-content .bottom-rule {position: relative;}
 .header .headline {top: auto;}
 /* newly overwritten bottom-rules - Styles - End */
 
@@ -1383,7 +1383,7 @@ b{font-family: gothMed,Helvetica,Arial,sans-serif;}
 /* header background images styles - End */
 
 /* bricks hover effect - Start */
-.brick-blue-link a.brick-link:hover{opacity: 0.75;filter: alpha(opacity=75);background-color:#7AAED5;}
+.brick-blue-link a.brick-link:hover{background-color:#7FAFD4;}
 /* bricks hover effect - End */
 
 

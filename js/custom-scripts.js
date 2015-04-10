@@ -260,15 +260,15 @@ $(document).ready(function(){
         if(mobileSite==false){
             var eTop = $('.headline').offset().top; //get the offset top of the element
             var hideLockup = (eTop - $(window).scrollTop());
-            
-            if(hideLockup<0){
-                hideLockup=hideLockup*-1;
-            }
+            console.log(hideLockup);
+            // if(hideLockup<0){
+            //     hideLockup=hideLockup*-1;
+            // }
 
             console.log(hideLockup);
 
 
-            if(hideLockup<=100){
+            if(hideLockup<=85){
                 $(".full-logo").hide();
                 $(".box-logo").show();
                 $(".landing .logo").css('width', '4.35%');
@@ -280,9 +280,9 @@ $(document).ready(function(){
                 $(".landing .logo").css('max-width', '280px');
             }
 
-            if(hideLockup<= 358){
+            if(hideLockup< -300){
                 $('.return-top').show();
-            } else if(hideLockup>= 358){
+            } else if(hideLockup> -300){
                $('.return-top').hide(); 
             }
         }
