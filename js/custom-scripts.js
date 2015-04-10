@@ -217,14 +217,39 @@ $(document).ready(function(){
 	});
 
     function showSubNav(){
-        $(".main-nav .secondary").animate({ 
-            width: 225
-        }, 250, 'easeOutQuad', function() {});
-        $('.main-nav .secondary ul').hide();
-
-        setTimeout(function() {
-          $(subNav).fadeIn();
-        }, 250);
+       
+        
+        //Submenu Functionality -If internet explorer -  Start
+			var ua = window.navigator.userAgent;
+			var msie = ua.indexOf("MSIE ");
+			if (msie > 0)
+			{
+				 $(".main-nav .secondary").animate({ 
+		            width: '120px'
+		        }, 250, 'easeOutQuad', function() {});
+		        $('.main-nav .secondary ul').hide();
+		        $('.main-nav .secondary ul').css('width','200px');
+		        $('.main-nav .secondary ul').css('left','-100px');
+		        $('.primary').css('width','400px');
+		
+		        setTimeout(function() {
+		          $(subNav).fadeIn();
+		        }, 250);
+			}
+			//Submenu Functionality -If internet explorer -  End
+			//Submenu Functionality - If other browsers - Start
+			else
+			{
+				 $(".main-nav .secondary").animate({ 
+		            width: '225px'
+		        }, 250, 'easeOutQuad', function() {});
+		        $('.main-nav .secondary ul').hide();
+		
+		        setTimeout(function() {
+		          $(subNav).fadeIn();
+		        }, 250);
+			}
+			//Submenu Functionality - If other browsers - End
        
     }
 

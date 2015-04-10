@@ -9,6 +9,9 @@
 		<meta name="viewport" content="width=640, maximum-scale=1">
 		<link rel="stylesheet" href="css/styles.min.css">
 		<link rel="stylesheet" href="css/styles2.css">
+		<!--[if lte IE 10]>
+			<link rel="stylesheet" href="css/ie9.css">
+		<![endif]-->
 	</head>
 	<body>
 
@@ -51,10 +54,10 @@
 				</div>
 				<div class="home-form desktop">
 					<form action="#">
-					<input id="start" type="text" name="start" value="Start" onfocus="this.value='';">
-					<input id="end" type="text" name="end" value="End" onfocus="this.value='';">
-					<input id="date" type="text" name="date" value="Date" onfocus="this.value='';">
-					<input id="time" type="text" name="time" value="Time" onfocus="this.value='';">
+					<input id="start" type="text" name="start" placeholder="Start" onfocus="this.value='';">
+					<input id="end" type="text" name="end" placeholder="End" onfocus="this.value='';">
+					<input id="date" type="text" name="date" placeholder="Date" onfocus="this.value='';">
+					<input id="time" type="text" name="time" placeholder="Time" onfocus="this.value='';">
 					<input type="submit" value="SEARCH" >
 					</form>
 				</div>

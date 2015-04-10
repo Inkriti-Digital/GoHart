@@ -8,6 +8,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/styles.min.css">
 		<link rel="stylesheet" href="css/styles2.css">
+		<!--[if lte IE 10]>
+			<link rel="stylesheet" href="css/ie9.css">
+		<![endif]-->
 	</head>
 	<body>
 
@@ -57,6 +60,20 @@
 							<p>
 								Know when your bus is arriving in real-time. It is easy to navigate, and seamlessly interfaces with Web-enabled devices such as computers, tablets, and smart phones. This app uses GPS technology to send up-to-the-minute details on bus arrival and departure information
 							</p>
+							<div class="real-time-access">
+								<h2>Use OneBusAway Tampa to access real-time information via:</h2>
+								<div class="half-span">
+									<div><a href="#"><img src="img/locations/locaiton-ico.png"/> Android</a> (Google Play Store)</div>
+									<div><a href="#"><img src="img/locations/locaiton-ico.png"/> iPhone</a> (Apple iTunes store)</div>
+									<div><a href="#"><img src="img/locations/locaiton-ico.png"/> Text Message</a> (Apple iTunes store)</div>
+									<div><a href="#"><img src="img/locations/locaiton-ico.png"/> Windows Phone</a>  (Windows Phone 7 and 8)</div>
+								</div>
+								<div class="half-span">
+									<div><a href="#"><img src="img/locations/locaiton-ico.png"/> Web</a></div>
+									<div><a href="#"><img src="img/locations/locaiton-ico.png"/> Mobile Web</a>  (Phones with mobile browsers)</div>
+									<div><a href="#"><img src="img/locations/locaiton-ico.png"/> Windows 8 and Windows RT</a></div>
+								</div>
+							</div>
 						</div>
 						<div class="info-graphic">
 							<img src="img/service/info-graphic.jpg"/>
@@ -64,20 +81,7 @@
 							<span class="paid-ad-text">Paid Ad</span>
 						</div>
 	
-						<div class="real-time-access">
-							<h2>Use OneBusAway Tampa to access real-time information via:</h2>
-							<div class="half-span">
-								<div><a href="#"><img src="img/locations/locaiton-ico.png"/> Android</a> (Google Play Store)</div>
-								<div><a href="#"><img src="img/locations/locaiton-ico.png"/> iPhone</a> (Apple iTunes store)</div>
-								<div><a href="#"><img src="img/locations/locaiton-ico.png"/> Text Message</a> (Apple iTunes store)</div>
-								<div><a href="#"><img src="img/locations/locaiton-ico.png"/> Windows Phone</a>  (Windows Phone 7 and 8)</div>
-							</div>
-							<div class="half-span">
-								<div><a href="#"><img src="img/locations/locaiton-ico.png"/> Web</a></div>
-								<div><a href="#"><img src="img/locations/locaiton-ico.png"/> Mobile Web</a>  (Phones with mobile browsers)</div>
-								<div><a href="#"><img src="img/locations/locaiton-ico.png"/> Windows 8 and Windows RT</a></div>
-							</div>
-						</div>
+						
 	
 						<div class="fullColumnWidth">
 							<div class="half-column brick-blue-link left">

@@ -8,6 +8,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/styles.min.css">
 		<link rel="stylesheet" href="css/styles2.css">
+		<!--[if lte IE 10]>
+			<link rel="stylesheet" href="css/ie9.css">
+		<![endif]-->
 	</head>
 	<body>
 		<!-- Content -->

@@ -1392,6 +1392,10 @@ b{font-family: gothMed,Helvetica,Arial,sans-serif;}
 .maps-scheduels .schedule-nav a {text-align: center;margin-bottom:5px;}
 
 
+.main-nav .search-bar input[type="text"]{width:83%;}
+.main-nav .social-icons hr {color: #ffffff;}
+
+
 
 
 /*  media queries  */

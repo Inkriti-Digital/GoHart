@@ -1,0 +1,11 @@
+.main-nav .primary li {
+	font-family: gothMed, Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	margin-bottom: 4%;
+}
+.main-nav .search-bar input[type="text"]{line-height:12px;padding-top: 6px;}
+.main-nav .social-icons .ico {margin-right: 15px;}
+.home-form input[type="text"]{line-height:12px;padding-top: 6px;}
+.home-form input[type="submit"]{line-height:19px;padding-top: 6px;}
+.home-form-innerpage input[type="text"]{line-height:12px;padding-top: 6px;}
+.home-form-innerpage input[type="submit"]{line-height:19px;padding-top: 6px;}
