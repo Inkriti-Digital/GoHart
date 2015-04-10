@@ -209,6 +209,12 @@ $(document).ready(function(){
 		$('html, body').animate({scrollTop : 0},800);
 		return false;
 	});
+	
+	//Click event to scroll to bottom
+	$('.gotobottom').click(function(){
+		$('html, body').animate({scrollTop : $(document).height()},3000);
+		return false;
+	});
 
     function showSubNav(){
         $(".main-nav .secondary").animate({ 

@@ -27,22 +27,15 @@
 				</div>
 			</section>
 			<section class="page-content planner">
+				<div class="rider-alert-top"></div>
 				<div class="content-block content-body">
 					<div class="info">
-						<!--<div class="rider-alert">
-							RIDER ALERTS
-							<img src="img/alerts/caution-ico.png"/>
-							Donec sit amet augue sit amet lacus suscipit semper vel vitae 
-							<img src="img/alerts/yellow-arrow-ico.png"/>
-						</div>-->
-						<div class="rider-alert rider-alert-left">
-							<span style="">RIDER ALERTS
+						<div class="rider-alert">
+							<span class="rider-alert-left">RIDER ALERTS
 							<img src="img/alerts/caution-ico.png"/>
 							</span>
-						</div>
-						<div class="rider-alert rider-alert-right">
-							Donec sit amet augue sit amet lacus suscipit semper vel vitae 
-							<img src="img/alerts/yellow-arrow-ico.png"/>
+							<span>Donec sit amet augue sit amet lacus suscipit semper vel vitae 
+							<a href="javascript:void(0);" class="gotobottom"><img src="img/alerts/yellow-arrow-ico.png"/></a></span>
 						</div>
 
 						<div>
@@ -63,13 +56,41 @@
 					<div class="content-body">
 					<h2>HYPERALERT</h2>
 					<p><a href="#" class="bold-blue">HyperAlert</a> is a rider notification system that allows members of the public to subscribe to alerts for transit routes. These alerts are sent by HART when an issue is impacting a route. Examples of typical usage include service delays due to weather or construction. HyperAlert is a completely opt-in system.</p>
-					<div>
-						<div class="cta-buttons btn1">
-							<a href="#"><img src="img/alerts/hyperalert-btn.jpg"/></a>
+					
+					<div class="fullColumnWidth">
+						<div class="half-column brick-blue-link left">
+							<a href="#" class="brick-link">
+								<div class="icon">
+									<img src="img/subscribe-icon.png" />
+								</div>
+								<div class="brick-blue-link-text">
+									<div class="brick-blue-link-text1">
+										SUBSCRIBE TO
+									</div>
+									<div class="brick-blue-link-text2">
+										HYPERALERT
+									</div>
+								</div>
+								<div class="clear-fix"></div>
+							</a>
 						</div>
-						<div class="cta-buttons">
-							<a href="#"><img src="img/alerts/infoline-btn.jpg"/></a>
+						<div class="half-column brick-blue-link brick-blue-link-last right">
+							<a href="#" class="brick-link">
+								<div class="icon">
+									<img src="img/phone-icon.png" />
+								</div>
+								<div class="brick-blue-link-text">
+									<div class="brick-blue-link-text1">
+										HART INFOLINE
+									</div>
+									<div class="brick-blue-link-text2">
+										813-254-4278
+									</div>
+								</div>
+								<div class="clear-fix"></div>
+							</a>
 						</div>
+						<div class="clear-fix"></div>
 					</div>
 				</div>
 			</div>
