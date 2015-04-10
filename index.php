@@ -134,7 +134,7 @@
 						</ul>
 					</div>
 					<div class="metro-icons">
-						<div class="ico-block desktop"><img src="img/ico-roadblock.png"/></div>
+						<div class="ico-block"><img src="img/ico-roadblock.png"/></div>
 						<!-- <div class="ico-block"><img src="img/ico-chatbox.png"/></div> -->
 						<div class="ico-block"><img src="img/ico-arrow.png"/></div>
 					</div>

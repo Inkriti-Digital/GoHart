@@ -1777,7 +1777,7 @@ section h1 {
   padding: 1% 3%;
   padding-bottom: 0;
   color: white;
-  font-size: 60px;
+  font-size: 55px;
   display: inline-block;
   font-weight: normal;
   font-family: gothBold, Helvetica, Arial, sans-serif;
@@ -1970,7 +1970,7 @@ section h1 {
   background-color: #7aaed5;
   height: 45px;
   font-size: 16px;
-  padding: 5px 15px;
+  padding: 5px 20px;
   padding-top: 10px;
   margin-right: 0;
   letter-spacing: 0.03em;
@@ -2081,7 +2081,7 @@ section h1 {
   color: white;
   margin-left: 0;
   font-size: 1.5em;
-  line-height: 1.3em;
+  line-height: 1.4em;
   margin-bottom: 10px;
   cursor: pointer;
   letter-spacing: 0.03em;
@@ -2273,7 +2273,7 @@ section h1 {
 }
 @media only screen and (max-width: 768px) {
   .metro .metro-icons .ico-block img {
-    width: 55%;
+    width: 70%;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -3184,6 +3184,7 @@ ul b, li b {
 }
 .main-nav .search-bar {
   margin-top: 10px;
+  width: 102%;
 }
 .main-nav .search-bar input[type="text"] {
   border: none;
@@ -3196,7 +3197,7 @@ ul b, li b {
   padding: 5px;
   padding-left: 10px;
   padding-top: 10px;
-  margin-right: 1%;
+  margin-right: 0;
   width: 85%;
 }
 .main-nav .search-bar .search-btn {
@@ -3210,6 +3211,10 @@ ul b, li b {
 }
 .main-nav .search-bar .search-btn img {
   width: 62%;
+}
+.main-nav .social-icons hr {
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
 .main-nav .social-icons .ico {
   display: inline-block;

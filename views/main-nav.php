@@ -16,7 +16,7 @@
 
 		<div class="search-nav">
 			<a href="#">SITEMAP</a> &bull; 
-			<a href="#">GOOGLE TALK</a> &bull; 
+			<a href="#">GOOGLE TRANSLATE</a>
 			<!-- <a href="#">ONLINE CHAT</a> -->
 		</div>
 
@@ -27,6 +27,7 @@
 			</form>
 		</div>
 		<div class="social-icons">
+			<hr/>
 			<div class="ico"><a href="#"><img src="img/ico-fb.png"/></div>
 			<div class="ico"><a href="#"><img src="img/ico-twitter.png"/></div>
 			<div class="ico"><a href="#"><img src="img/ico-b.png"/></div>
