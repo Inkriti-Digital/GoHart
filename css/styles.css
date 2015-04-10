@@ -1702,24 +1702,18 @@ td {
  */
 @font-face {
   font-family: 'gothBold';
-  src: url("fonts/Gotham-Bold.eot");
-  src: local("☺"), url("fonts/Gotham-Bold.woff") format("woff"), url("fonts/Gotham-Bold.ttf") format("truetype"), url("fonts/Gotham-Bold.svg") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'gothMed';
-  src: url("fonts/Gotham-Medium.eot");
-  src: local("☺"), url("fonts/Gotham-Medium.woff") format("woff"), url("fonts/Gotham-Medium.ttf") format("truetype"), url("fonts/Gotham-Medium.svg") format("svg");
-  font-weight: normal;
-  font-style: normal;
+  src: url("webfonts/2DD74A_5_0.eot");
+  src: url("webfonts/2DD74A_5_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2DD74A_5_0.woff2") format("woff2"), url("webfonts/2DD74A_5_0.woff") format("woff"), url("webfonts/2DD74A_5_0.ttf") format("truetype");
 }
 @font-face {
   font-family: 'gothBook';
-  src: url("fonts/Gotham-Book.eot");
-  src: local("☺"), url("fonts/Gotham-Book.woff") format("woff"), url("fonts/Gotham-Book.ttf") format("truetype"), url("fonts/Gotham-Book.svg") format("svg");
-  font-weight: normal;
-  font-style: normal;
+  src: url("webfonts/2DD74A_6_0.eot");
+  src: url("webfonts/2DD74A_6_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2DD74A_6_0.woff2") format("woff2"), url("webfonts/2DD74A_6_0.woff") format("woff"), url("webfonts/2DD74A_6_0.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'gothMed';
+  src: url("webfonts/2DD74A_8_0.eot");
+  src: url("webfonts/2DD74A_8_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2DD74A_8_0.woff2") format("woff2"), url("webfonts/2DD74A_8_0.woff") format("woff"), url("webfonts/2DD74A_8_0.ttf") format("truetype");
 }
 body {
   font-family: gothBook, Helvetica, Arial, sans-serif;
