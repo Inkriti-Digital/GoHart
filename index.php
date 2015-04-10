@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<title>GoHart</title>
+		<title>GoHart Home</title>
 		<meta name="description" content="">
 		<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 		<meta name="viewport" content="width=640, maximum-scale=1">
@@ -25,14 +25,14 @@
 				<div class="logo">
 					<a href="index.php">
 						<img class="full-logo desktop" src="img/hart-logo.png" alt="GoHart Logo"/>
-						<img class="box-logo desktop" style="display: none;" src="img/hart-logo-box.png" alt="GoHart Logo"/>
-						<img class="mobile" src="img/responsive/mobile-logo.png" alt="GoHart Logo"/>
+						<img class="box-logo desktop" style="display: none;" src="img/hart-logo-box.png" alt="GoHart Graphic Logo"/>
+						<img class="mobile" src="img/responsive/mobile-logo.png" alt="GoHart Mobile Logo"/>
 					</a>
 				</div>
 
 				<div class="menu-ico">
-					<img class="desktop" src="img/menu-ico.png" alt="Main Nav"/>
-					<img class="mobile" src="img/responsive/mobilenav-ico.png" alt="Main Nav"/>
+					<img class="desktop" src="img/menu-ico.png" alt="Main Menu"/>
+					<img class="mobile" src="img/responsive/mobilenav-ico.png" alt="Main Menu"/>
 				</div>
 
 				<div id="headline" class="headline desktop">
@@ -91,37 +91,37 @@
 			<section class="metro">
 				<div class="metro-nav desktop">
 					<div class="metro-arrow">
-						<img src="img/metro-arrow.png"/>
+						<img src="img/metro-arrow.png" alt="Metro Navigation Selector"/>
 					</div>
 					<div id="servnav-bus" class="metro-block">
 						<div class="hover-box">
 							<span class="metro-hover">BUS</span>
 						</div>
-						<img src="img/home/servnav-bus.jpg"/>
+						<img src="img/home/servnav-bus.jpg" alt="Bus"/>
 					</div>
 					<div id="servnav-metro" class="metro-block">
 						<div class="hover-box">
 							<span class="metro-hover">METRORAPID</span>
 						</div>
-						<img src="img/home/servnav_metro.jpg"/>
+						<img src="img/home/servnav_metro.jpg" alt="MetroRapid"/>
 					</div>
 					<div id="servnav-van" class="metro-block">
 						<div class="hover-box">
 							<span class="metro-hover">VAN</span>
 						</div>
-						<img src="img/home/servnav-van.jpg"/>
+						<img src="img/home/servnav-van.jpg" alt="Van"/>
 					</div>
 					<div id="servnav-streetcar" class="metro-block">
 						<div class="hover-box">
 							<span class="metro-hover">STREETCAR <br/> SYSTEM</span>
 						</div>
-						<img src="img/home/servnav-trolly.jpg"/>
+						<img src="img/home/servnav-trolly.jpg" alt="Streetcar System"/>
 					</div>
 					<div id="servnav-alt" class="metro-block">
 						<div class="hover-box">
 							<span class="metro-hover">ALTERNATIVE <br/> TRANSPORTATION </span>
 						</div>
-						<img src="img/home/servnav-alt.jpg"/>
+						<img src="img/home/servnav-alt.jpg" alt="Alternate Transportation"/>
 					</div>
 					<div class="clear-fix"></div>
 				</div>
@@ -130,16 +130,16 @@
 					<div class="metro-box">
 						<span class="metro-title">BUS</span><hr/>
 						<ul>
-							<li><a href="#">MAPS <span class="arrow"><img src="img/metro-boxnav-arrow.png"/></span></a></li>
-							<li><a href="#">SCHEDULES <span class="arrow"><img src="img/metro-boxnav-arrow.png"/></span></a></li>
-							<li><a href="#">FARES <span class="arrow"><img src="img/metro-boxnav-arrow.png"/></span></a></li>
-							<li><a href="#">ABOUT <span class="arrow"><img src="img/metro-boxnav-arrow.png"/></span></a></li>
+							<li><a href="#">MAPS <span class="arrow"><img src="img/metro-boxnav-arrow.png" alt="navigation indicator"/></span></a></li>
+							<li><a href="#">SCHEDULES <span class="arrow"><img src="img/metro-boxnav-arrow.png" alt="navigation indicator"/></span></a></li>
+							<li><a href="#">FARES <span class="arrow"><img src="img/metro-boxnav-arrow.png" alt="navigation indicator"/></span></a></li>
+							<li><a href="#">ABOUT <span class="arrow"><img src="img/metro-boxnav-arrow.png" alt="navigation indicator"/></span></a></li>
 						</ul>
 					</div>
 					<div class="metro-icons">
-						<div class="ico-block"><img src="img/ico-roadblock.png"/></div>
+						<a href="#"> <span class="ico-block"><img src="img/ico-roadblock.png" alt="Alerts & Detours"/></span></a>
 						<!-- <div class="ico-block"><img src="img/ico-chatbox.png"/></div> -->
-						<div class="ico-block"><img src="img/ico-arrow.png"/></div>
+						<a href="#"><span class="ico-block"><img src="img/ico-arrow.png"/></span></a>
 					</div>
 				</div>
 
@@ -155,22 +155,22 @@
 					<div class="metro-box">
 						<span class="metro-title">BUS</span><hr/>
 						<ul>
-							<li><a href="#">MAPS <span class="arrow"><img src="img/metro-boxnav-arrow.png"/></span></a></li>
-							<li><a href="#">SCHEDULES <span class="arrow"><img src="img/metro-boxnav-arrow.png"/></span></a></li>
-							<li><a href="#">FARES <span class="arrow"><img src="img/metro-boxnav-arrow.png"/></span></a></li>
-							<li><a href="#">ABOUT <span class="arrow"><img src="img/metro-boxnav-arrow.png"/></span></a></li>
+							<li><a href="#">MAPS <span class="arrow"><img src="img/metro-boxnav-arrow.png" alt="Navigation Indicator"/></span></a></li>
+							<li><a href="#">SCHEDULES <span class="arrow"><img src="img/metro-boxnav-arrow.png" alt="Navigation Indicator"/></span></a></li>
+							<li><a href="#">FARES <span class="arrow"><img src="img/metro-boxnav-arrow.png" alt="Navigation Indicator"/></span></a></li>
+							<li><a href="#">ABOUT <span class="arrow"><img src="img/metro-boxnav-arrow.png" alt="Navigation Indicator"/></span></a></li>
 						</ul>
 					</div>
 					<div class="metro-icons">
-						<div class="ico-block">
-							<div class="metro-tooltip">ALERTS &amp; DETOURS<img src="img/tooltip-marker.png"/></div>
-							<img src="img/ico-roadblock.png"/>
-						</div>
+						<a href="#"><span class="ico-block">
+							<div class="metro-tooltip">ALERTS &amp; DETOURS<img src="img/tooltip-marker.png" alt="Tooltip Indicator"/></div>
+							<img src="img/ico-roadblock.png" alt="Tooltip Indicator"/>
+						</span></a>
 						<!-- <div class="ico-block"><img src="img/ico-chatbox.png"/></div> -->
-						<div class="ico-block">
-							<div class="metro-tooltip share-tip">SHARE<img src="img/tooltip-marker.png"/></div>
-							<img src="img/ico-arrow.png"/>
-						</div>
+						<a href="#"><span class="ico-block">
+							<div class="metro-tooltip share-tip">SHARE<img src="img/tooltip-marker.png" alt="Tooltip Indicator"/></div>
+							<img src="img/ico-arrow.png" alt="Tooltip Indicator"/>
+						</span></a>
 					</div>
 				</div>
 
@@ -182,42 +182,42 @@
 				</div>
 
 				<div class="news-blocks">
-					<div class="prev-arrow"><img src="img/news-arrow-left.png"/></div>
-					<div class="next-arrow"><img src="img/news-arrow-right.png"/></div>
+					<div class="prev-arrow"><img src="img/news-arrow-left.png" alt="News Arrow"/></div>
+					<div class="next-arrow"><img src="img/news-arrow-right.png" alt="News Arrow"/></div>
 					<div id="newsRow1" class="block-row">
 						<div class="block">
 							<h3>New Promo</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
 							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p>
 						</div>
-						<div class="block square"><img src="img/news/fpo-img1.jpg"/></div>
+						<div class="block square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>
 						<div class="block light"><h3>New Promo</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
 							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p></div>
-						<div class="block square"><img src="img/news/fpo-img2.jpg"/></div>
+						<div class="block square"><img src="img/news/fpo-img2.jpg" alt="news image"/></div>
 						<div class="block">
 							<h3>New Promo</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
 							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p>
 						</div>
-						<div class="block square"><img src="img/news/fpo-img2.jpg"/></div>
+						<div class="block square"><img src="img/news/fpo-img2.jpg" alt="news image"/></div>
 						<div class="block light"></div>
 						<div class="block"></div>
-						<div class="block square"><img src="img/news/fpo-img1.jpg"/></div>
+						<div class="block square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>
 						<div class="block"></div>				
 						<div class="block light"></div>
 						<div class="block square"></div>
 						<div class="block"></div>
 					</div>
 					<div id="newsRow2" class="block-row">	
-						<div class="block square"><img src="img/news/fpo-img4.jpg"/></div>
+						<div class="block square"><img src="img/news/fpo-img4.jpg" alt="news image"/></div>
 						<div class="block light">
 							<h3>New Promo</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
 							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p>
 						</div>
-						<div class="block square"><img src="img/news/fpo-img2.jpg"/></div>
-						<div class="block"><img src="img/news/fpo-img3-long.jpg"/></div>
+						<div class="block square"><img src="img/news/fpo-img2.jpg" alt="news image"/></div>
+						<div class="block"><img src="img/news/fpo-img3-long.jpg" alt="news image"/></div>
 						<div class="block square"></div>
 						<div class="block"></div>
 						<div class="block square light"></div>					
@@ -252,10 +252,10 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 
 						<div class="button-box">
-							<div class="button">VIDEO DEMONSTRATIONS <img src="img/btn-arrow.png"/></div>
-							<div class="button">BIKES ON BUSES <img src="img/btn-arrow.png"/></div>
-							<div class="button">TRAVEL TRAINING PROGRAM <img src="img/btn-arrow.png"/></div>
-							<div class="button">FREQUENTLY ASKED QUESTIONS<img src="img/btn-arrow.png"/></div>
+							<a href="#"><span class="button">VIDEO DEMONSTRATIONS <img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>
+							<a href="#"><span class="button">BIKES ON BUSES <img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>
+							<a href="#"><span class="button">TRAVEL TRAINING PROGRAM <img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>
+							<a href="#"><span class="button">FREQUENTLY ASKED QUESTIONS<img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>
 						</div>
 					</div>
 
@@ -264,10 +264,10 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 
 						<div class="button-box">
-							<div class="button">OneBusAway Tampa <img src="img/btn-arrow.png"/></div>
-							<div class="button">HyperAlert <img src="img/btn-arrow.png"/></div>
-							<div class="button">Mobile-based <img src="img/btn-arrow.png"/></div>					
-							<div class="button">Computer-based<img src="img/btn-arrow.png"/></div>		
+							<a href="#"><span class="button">OneBusAway Tampa <img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>
+							<a href="#"><span class="button">HyperAlert <img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>
+							<a href="#"><span class="button">Mobile-based <img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>					
+							<a href="#"><span class="button">Computer-based<img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>		
 						</div>
 					</div>
 
@@ -275,11 +275,11 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 
 						<div class="button-box">
-							<div class="button">Fare Information<img src="img/btn-arrow.png"/></div>
-							<div class="button">Riding HART <img src="img/btn-arrow.png"/></div>
-							<div class="button">Mobile-based <img src="img/btn-arrow.png"/></div>
-							<div class="button">Transit Terms<img src="img/btn-arrow.png"/></div>
-							<div class="button">Miscellaneous<img src="img/btn-arrow.png"/></div>			
+							<a href="#"><span class="button">Fare Information<img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>
+							<a href="#"><span class="button">Riding HART <img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>
+							<a href="#"><span class="button">Mobile-based <img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>
+							<a href="#"><span class="button">Transit Terms<img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>
+							<a href="#"><span class="button">Miscellaneous<img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>			
 						</div>
 					</div>
 
@@ -302,12 +302,12 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 
 						<div class="button-box">
-							<div class="button">VIDEO DEMONSTRATIONS <img src="img/btn-arrow.png"/></div>
-							<div class="button">BIKES ON BUSES <img src="img/btn-arrow.png"/></div>
-							<div class="button">TRAVEL TRAINING PROGRAM <img src="img/btn-arrow.png"/></div>
+							<a href="#"><span class="button">VIDEO DEMONSTRATIONS <img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>
+							<a href="#"><span class="button">BIKES ON BUSES <img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>
+							<a href="#"><span class="button">TRAVEL TRAINING PROGRAM <img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>
 						</div>
 						<div class="button-box end-box">
-							<div class="button">FREQUENTLY ASKED QUESTIONS<img src="img/btn-arrow.png"/></div>
+							<a href="#"><span class="button">FREQUENTLY ASKED QUESTIONS<img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>
 						</div>
 					</div>
 
@@ -316,12 +316,12 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 
 						<div class="button-box">
-							<div class="button">OneBusAway Tampa <img src="img/btn-arrow.png"/></div>
-							<div class="button">HyperAlert <img src="img/btn-arrow.png"/></div>
-							<div class="button">Mobile-based <img src="img/btn-arrow.png"/></div>
+							<a href="#"><span class="button">OneBusAway Tampa <img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>
+							<a href="#"><span class="button">HyperAlert <img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>
+							<a href="#"><span class="button">Mobile-based <img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>
 						</div>
 						<div class="button-box end-box">
-							<div class="button">Computer-based<img src="img/btn-arrow.png"/></div>							
+							<a href="#"><span class="button">Computer-based<img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>							
 						</div>
 					</div>
 
@@ -330,21 +330,21 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
 
 						<div class="button-box">
-							<div class="button">Fare Information<img src="img/btn-arrow.png"/></div>
-							<div class="button">Riding HART <img src="img/btn-arrow.png"/></div>
-							<div class="button">Mobile-based <img src="img/btn-arrow.png"/></div>
+							<a href="#"><span class="button">Fare Information<img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>
+							<a href="#"><span class="button">Riding HART <img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>
+							<a href="#"><span class="button">Mobile-based <img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>
 						</div>
 						<div class="button-box end-box">
-							<div class="button">Transit Terms<img src="img/btn-arrow.png"/></div>
-							<div class="button">Miscellaneous<img src="img/btn-arrow.png"/></div>							
+							<a href="#"><span class="button">Transit Terms<img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>
+							<a href="#"><span class="button">Miscellaneous<img src="img/btn-arrow.png" alt="link arrow graphic"/></span></a>							
 						</div>
 					</div>
 				</div>
 				
 			</section>
 			<div class="return-top">
-					<img class="desktop" src="img/return-arrow.png"/>
-					<img class="mobile" src="img/responsive/top-arrow.png"/>
+					<img class="desktop" src="img/return-arrow.png" alt="Return to Top"/>
+					<img class="mobile" src="img/responsive/top-arrow.png" alt="Return to Top"/>
 				</div>
 		</div>
 

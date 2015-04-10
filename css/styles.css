@@ -2513,6 +2513,9 @@ section h1 {
   text-align: left;
   padding-left: 15px;
 }
+.gohart .mobile-how-to .button-box .button a {
+  color: white;
+}
 @media only screen and (max-width: 768px) {
   .gohart .mobile-how-to .button-box .button {
     font-size: 32px;
@@ -2609,6 +2612,9 @@ section h1 {
   line-height: 30px;
   text-align: left;
   padding-left: 15px;
+}
+.gohart .how-to .button-box .button a {
+  color: white;
 }
 @media only screen and (max-width: 768px) {
   .gohart .how-to .button-box .button {

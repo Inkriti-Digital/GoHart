@@ -914,6 +914,8 @@ body{
  				text-align: left;
  				padding-left: 15px;
 
+ 				a{ color: white; }
+
  				@include media-query(palm){
  					font-size: 32px;
  					line-height: 49px;
@@ -1010,6 +1012,8 @@ body{
  				line-height: 30px;
  				text-align: left;
  				padding-left: 15px;
+
+ 				a{ color: white; }
 
  				@include media-query(palm){
  					font-size: 12px;
