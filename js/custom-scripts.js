@@ -74,6 +74,10 @@ $(document).ready(function(){
         }
     );
 
+    $(".ico-block").hover(function() {
+        $(".metro-tooltip", this).fadeToggle(350);
+    });
+
      $(".primary li a").hover(function(event) {
         $("img", this).fadeToggle('fast');
      });
@@ -225,6 +229,13 @@ $(document).ready(function(){
         if(mobileSite==false){
             var eTop = $('.headline').offset().top; //get the offset top of the element
             var hideLockup = (eTop - $(window).scrollTop());
+            
+            if(hideLockup<0){
+                hideLockup=hideLockup*-1;
+            }
+
+            console.log(hideLockup);
+
 
             if(hideLockup<=100){
                 $(".full-logo").hide();
@@ -236,6 +247,12 @@ $(document).ready(function(){
                 $(".box-logo").hide();
                 $(".logo").css('width', '20%');
                 $(".logo").css('max-width', '280px');
+            }
+
+            if(hideLockup<= 358){
+                $('.return-top').show();
+            } else if(hideLockup>= 358){
+               $('.return-top').hide(); 
             }
         }
 

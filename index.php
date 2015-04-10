@@ -134,8 +134,8 @@
 						</ul>
 					</div>
 					<div class="metro-icons">
-						<div class="ico-block"><img src="img/ico-roadblock.png"/></div>
-						<div class="ico-block"><img src="img/ico-chatbox.png"/></div>
+						<div class="ico-block desktop"><img src="img/ico-roadblock.png"/></div>
+						<!-- <div class="ico-block"><img src="img/ico-chatbox.png"/></div> -->
 						<div class="ico-block"><img src="img/ico-arrow.png"/></div>
 					</div>
 				</div>
@@ -159,9 +159,15 @@
 						</ul>
 					</div>
 					<div class="metro-icons">
-						<div class="ico-block"><img src="img/ico-roadblock.png"/></div>
-						<div class="ico-block"><img src="img/ico-chatbox.png"/></div>
-						<div class="ico-block"><img src="img/ico-arrow.png"/></div>
+						<div class="ico-block">
+							<div class="metro-tooltip">ALERTS &amp; DETOURS<img src="img/tooltip-marker.png"/></div>
+							<img src="img/ico-roadblock.png"/>
+						</div>
+						<!-- <div class="ico-block"><img src="img/ico-chatbox.png"/></div> -->
+						<div class="ico-block">
+							<div class="metro-tooltip share-tip">SHARE<img src="img/tooltip-marker.png"/></div>
+							<img src="img/ico-arrow.png"/>
+						</div>
 					</div>
 				</div>
 
@@ -331,11 +337,12 @@
 						</div>
 					</div>
 				</div>
-				<div class="return-top">
+				
+			</section>
+			<div class="return-top">
 					<img class="desktop" src="img/return-arrow.png"/>
 					<img class="mobile" src="img/responsive/top-arrow.png"/>
 				</div>
-			</section>
 		</div>
 
 		<!-- Load Scripts -->		

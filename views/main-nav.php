@@ -17,7 +17,7 @@
 		<div class="search-nav">
 			<a href="#">SITEMAP</a> &bull; 
 			<a href="#">GOOGLE TALK</a> &bull; 
-			<a href="#">ONLINE CHAT</a>
+			<!-- <a href="#">ONLINE CHAT</a> -->
 		</div>
 
 		<div class="search-bar">
@@ -55,8 +55,8 @@
 
 		<ul class="subnav-services">
 			<li><a href="services-bus.php">Bus</a></li>
-			<li><a href="services-van.php">Van</a></li>
 			<li><a href="services-metrorapid.php">MetroRapid</a></li>
+			<li><a href="services-van.php">Van</a></li>			
 			<li><a href="services-teco-line.php">TECO Line Streetcar System</a></li>
 			<li><a href="services-alternative-transportation.php">Alternative Transportation</a></li>
 		</ul>
@@ -89,7 +89,7 @@
 			<li><a href="about-hart-news.php">News</a></li>
 			<li><a href="about-hart-employment.php">Employment</a></li>
 			<li><a href="about-hart-business.php">Business</a></li>
-			<li><a href="about-title-vi-civil-rights.php">Title VI / Civil Right</a></li>
+			<li><a href="about-title-vi-civil-rights.php">Title VI / Civil Rights</a></li>
 			<li><a href="about-public-meetings.php">Public Meetings</a></li>
 			<li><a href="about-employee-login.php">Employee Login</a></li>
 		</ul>

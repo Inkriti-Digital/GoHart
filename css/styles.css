@@ -1729,6 +1729,26 @@ body {
   background-size: 100%;
   padding: 0;
 }
+.container .return-top {
+  text-align: right;
+  margin: 5%;
+  cursor: pointer;
+  display: none;
+  position: fixed;
+  z-index: 25;
+  right: 0;
+  bottom: -28px;
+}
+@media only screen and (max-width: 768px) {
+  .container .return-top {
+    text-align: right;
+    margin: 0 4%;
+    cursor: pointer;
+    float: right;
+    display: block;
+    top: -30px;
+  }
+}
 
 .clear-fix {
   clear: both;
@@ -2243,15 +2263,13 @@ section h1 {
 .metro .metro-icons .ico-block {
   display: inline-block;
   background-color: rgba(14, 21, 45, 0.8);
-  padding: 25px 28px 20px 28px;
-  width: 121px;
-  height: 89px;
+  padding: 10px 15px 5px 15px;
   text-align: center;
   vertical-align: top;
   cursor: pointer;
 }
 .metro .metro-icons .ico-block img {
-  width: 80%;
+  width: 92%;
 }
 @media only screen and (max-width: 768px) {
   .metro .metro-icons .ico-block img {
@@ -2266,6 +2284,28 @@ section h1 {
     margin-right: 12px;
     height: 155px;
   }
+}
+.metro .metro-icons .ico-block .metro-tooltip {
+  background-color: #7aaed5;
+  position: absolute;
+  color: white;
+  width: 155%;
+  font-size: 12px;
+  height: 16px;
+  margin-top: -30px;
+  padding-top: 2px;
+  height: 20px;
+  margin-left: -3%;
+  display: none;
+}
+.metro .metro-icons .ico-block .metro-tooltip img {
+  width: 24px;
+  position: absolute;
+  top: 18px;
+  left: 10px;
+}
+.metro .metro-icons .ico-block .share-tip {
+  width: 75%;
 }
 
 .news h1 {
@@ -2592,21 +2632,6 @@ section h1 {
 }
 .gohart .how-to .end-box {
   margin-right: 0;
-}
-.gohart .return-top {
-  text-align: right;
-  margin: 0 4%;
-  cursor: pointer;
-}
-@media only screen and (max-width: 768px) {
-  .gohart .return-top {
-    text-align: right;
-    margin: 0 4%;
-    cursor: pointer;
-    float: right;
-    display: block;
-    top: -30px;
-  }
 }
 
 /**
@@ -3139,7 +3164,7 @@ ul b, li b {
   margin-bottom: 5.5%;
 }
 .main-nav .primary li img {
-  display: inline-block;
+  display: none;
   width: 18px;
   top: 5px;
   float: right;
