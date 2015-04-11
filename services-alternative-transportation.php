@@ -20,8 +20,8 @@
 			<?php include ("views/main-nav.php"); ?>
 			
 			<section class="header servicesPagesAltTransBg">
-				<div class="logo"><img src="img/hart-logo.png"/></div>
-				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
+				<div class="logo"><img src="img/hart-logo.png" alt="GoHart Logo"/></div>
+				<div class="menu-ico"><img src="img/menu-ico.png" alt="Main Menu"/></div>
 
 				<div class="headline headline-services-van">
 					<h1>ALTERNATIVE</h1>
@@ -65,7 +65,7 @@
 							</p>
 						</div>
 						<div class="info-graphic">
-							<img src="img/service/info-graphic.jpg"/>
+							<img src="img/service/info-graphic.jpg" alt="Service"/>
 							<br/>
 							<span class="paid-ad-text">Paid Ad</span>
 						</div>
@@ -87,7 +87,7 @@
 									<div class="brick-blue-link">
 										<a href="#" class="brick-link">
 											<div class="icon">
-												<img src="img/phone-icon.png" />
+												<img src="img/phone-icon.png" alt="Phone Icon" />
 											</div>
 											<div class="brick-blue-link-text">
 												<div class="brick-blue-link-text1">
@@ -105,10 +105,10 @@
 								<div class="half-column brick-list link-colored column-49">	
 									<h2>SPONSORS</h2>
 									<div class="sponsors-images-list">
-										<img src="img/logos/chart-logo.png" alt="" width="160" />
-										<img src="img/logos/psta.png" alt="" width="125" />
-										<img src="img/logos/florida-transport-department-logo.png" alt="" width="75" />
-										<img src="img/logos/tbarta.png" alt="" width="115" />
+										<img src="img/logos/chart-logo.png" alt="Chart Logo" width="160" />
+										<img src="img/logos/psta.png" alt="PSTA" width="125" />
+										<img src="img/logos/florida-transport-department-logo.png" alt="Florida Transport Dept." width="75" />
+										<img src="img/logos/tbarta.png" alt="TBARTA" width="115" />
 									</div>
 									<div>
 										<div class="half-column">
@@ -206,7 +206,7 @@
 							<div class="half-column brick-blue-link left">
 								<a href="#" class="brick-link">
 									<div class="icon">
-										<img src="img/arrow.png" />
+										<img src="img/arrow.png" alt="nav arrow"/>
 									</div>
 									<div class="brick-blue-link-text">
 										<div class="brick-blue-link-text1">
@@ -222,7 +222,7 @@
 							<div class="half-column brick-blue-link brick-blue-link-last right">
 								<a href="#" class="brick-link">
 									<div class="icon">
-										<img src="img/schedule-img.png" />
+										<img src="img/schedule-img.png" alt="Schedule" />
 									</div>
 									<div class="brick-blue-link-text">
 										<div class="brick-blue-link-text1">

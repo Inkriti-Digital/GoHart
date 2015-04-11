@@ -20,8 +20,8 @@
 			<?php include ("views/main-nav.php"); ?>
 			
 			<section class="header servicesPagesBg">
-				<div class="logo"><img src="img/hart-logo.png"/></div>
-				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
+				<div class="logo"><img src="img/hart-logo.png" alt="GoHart Logo"/></div>
+				<div class="menu-ico"><img src="img/menu-ico.png" alt="Main Menu"/></div>
 
 				<div class="headline">
 					<h1>METRORAPID</h1>
@@ -54,7 +54,7 @@
 							</p>
 						</div>
 						<div class="info-graphic">
-							<img src="img/service/info-graphic.jpg"/>
+							<img src="img/service/info-graphic.jpg" alt="service"/>
 							<br/>
 							<span class="paid-ad-text">Paid Ad</span>
 						</div>
@@ -62,7 +62,7 @@
 						<div>
 							<div>
 								<div class="half-column">
-									<img src="img/metrorapid-service/how-will-it-work.png" width="100%" />
+									<img src="img/metrorapid-service/how-will-it-work.png" width="100%" alt="How it will work"/>
 								</div>
 
 								<div class="half-column how-it-works">	
@@ -103,7 +103,7 @@
 								<div class="half-column brick-blue-link left">
 									<a href="#" class="brick-link">
 										<div class="icon resize-icon-height">
-											<img src="img/metrorapid-service/schedule-img.png" />
+											<img src="img/metrorapid-service/schedule-img.png" alt="Schedule"/>
 										</div>
 										<div class="brick-blue-link-text">
 											<div class="brick-blue-link-text1">
@@ -119,7 +119,7 @@
 								<div class="half-column brick-blue-link brick-blue-link-last right">
 									<a href="#" class="brick-link">
 										<div class="icon resize-icon-height">
-											<img src="img/metrorapid-service/schedule-img.png" />
+											<img src="img/metrorapid-service/schedule-img.png" alt="Schedule"/>
 										</div>
 										<div class="brick-blue-link-text">
 											<div class="brick-blue-link-text1">

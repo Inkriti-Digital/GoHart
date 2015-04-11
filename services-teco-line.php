@@ -20,8 +20,8 @@
 			<?php include ("views/main-nav.php"); ?>
 			
 			<section class="header servicesPagesBg">
-				<div class="logo"><img src="img/hart-logo.png"/></div>
-				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
+				<div class="logo"><img src="img/hart-logo.png" alt="GoHart Logo"/></div>
+				<div class="menu-ico"><img src="img/menu-ico.png" alt="Main Menu"/></div>
 
 				<div class="headline headline-services-teco-line">
 					<h1>TECO LINE</h1>
@@ -51,7 +51,7 @@
 							</p>
 						</div>
 						<div class="info-graphic">
-							<img src="img/service/info-graphic.jpg"/>
+							<img src="img/service/info-graphic.jpg" alt="Service"/>
 							<br/>
 							<span class="paid-ad-text">Paid Ad</span>
 						</div>

@@ -20,8 +20,8 @@
 			<?php include ("views/main-nav.php"); ?>
 			
 			<section class="header tansparencyPagesBg">
-				<div class="logo"><img src="img/hart-logo.png"/></div>
-				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
+				<div class="logo"><img src="img/hart-logo.png" alt="GoHart Logo"/></div>
+				<div class="menu-ico"><img src="img/menu-ico.png"alt="main menu"/></div>
 
 				<div class="headline headline-single-bottom">
 					<h1>ETHICSPOINT</h1>
@@ -44,7 +44,7 @@
 							</p>
 						</div>
 						<div class="info-graphic">
-							<img src="img/service/info-graphic.jpg"/>
+							<img src="img/service/info-graphic.jpg" alt="Service"/>
 							<br/>
 							<span class="paid-ad-text">Paid Ad</span>
 						</div>

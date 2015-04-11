@@ -20,8 +20,8 @@
 			<?php include ("views/main-nav.php"); ?>
 			
 			<section class="header tavelInfoPagesBg">
-				<div class="logo"><img src="img/hart-logo.png"/></div>
-				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
+				<div class="logo"><img src="img/hart-logo.png" alt="GoHart Logo"/></div>
+				<div class="menu-ico"><img src="img/menu-ico.png" alt="Main Menu"/></div>
 
 				<div class="headline headline-appcenter">
 					<h1>HART</h1>
@@ -51,7 +51,7 @@
 							</p>
 						</div>
 						<div class="info-graphic">
-							<img src="img/service/info-graphic.jpg"/>
+							<img src="img/service/info-graphic.jpg" alt="Service Graphic"/>
 							<br/>
 							<span class="paid-ad-text">Paid Ad</span>
 						</div>
@@ -64,7 +64,7 @@
 						<div class="fullColumnWidth">
 							<div class="half-column brick-column left">
 								<div class="fullColumnWidth">	
-									<p class="info-icons"><img src="img/travel-info/onebusway.png" /></p>
+									<p class="info-icons"><img src="img/travel-info/onebusway.png" alt="One Bus Away"/></p>
 									<div class="info-icons-description">
 										<a href="#" class="bold-blue">OneBusAway Tampa</a>
 										<div>
@@ -76,7 +76,7 @@
 							</div>
 							<div class="half-column brick-column brick-column-last right">
 								<div class="fullColumnWidth">	
-									<p class="info-icons"><img src="img/travel-info/hyperalert.png" /></p>
+									<p class="info-icons"><img src="img/travel-info/hyperalert.png" alt="Hyper Alert"/></p>
 									<div class="info-icons-description">
 										<a href="#" class="bold-blue">HyperAlert</a>
 										<div>
@@ -96,7 +96,7 @@
 						<div class="fullColumnWidth">
 							<div class="half-column brick-column left">
 								<div class="fullColumnWidth">
-									<p class="info-icons"><img src="img/travel-info/routeshout.png" /></p>
+									<p class="info-icons"><img src="img/travel-info/routeshout.png" alt="RouteShout"/></p>
 									<div class="info-icons-description">
 										<a href="#" class="bold-blue">RouteShout</a>
 										<div>
@@ -104,7 +104,7 @@
 										</div>
 									</div>
 									<div class="clear-fix"></div>
-									<p class="info-icons"><img src="img/travel-info/acehopper.png" /></p>
+									<p class="info-icons"><img src="img/travel-info/acehopper.png" alt="Ace Hopper"/></p>
 									<div class="info-icons-description">
 										<a href="#" class="bold-blue">Acehopper</a>
 										<div>
@@ -112,7 +112,7 @@
 										</div>
 									</div>
 									<div class="clear-fix"></div>
-									<p class="info-icons"><img src="img/travel-info/smartride.png" /></p>
+									<p class="info-icons"><img src="img/travel-info/smartride.png" alt="Smart Ride"/></p>
 									<div class="info-icons-description">
 										<a href="#" class="bold-blue">SmartRide</a>
 										<div>
@@ -124,7 +124,7 @@
 							</div>
 							<div class="half-column brick-column brick-column-last right">
 								<div class="fullColumnWidth">
-									<p class="info-icons"><img src="img/travel-info/transittimes.png" /></p>
+									<p class="info-icons"><img src="img/travel-info/transittimes.png" alt="Transit Times"/></p>
 									<div class="info-icons-description">
 										<a href="#" class="bold-blue">TransitTimes</a>
 										<div>
@@ -132,7 +132,7 @@
 										</div>
 									</div>
 									<div class="clear-fix"></div>
-									<p class="info-icons"><img src="img/travel-info/hopstop.png" /></p>
+									<p class="info-icons"><img src="img/travel-info/hopstop.png" alt="Hop Stop"/></p>
 									<div class="info-icons-description">
 										<a href="#" class="bold-blue">HopStop</a>
 										<div>
@@ -153,7 +153,7 @@
 						<div class="fullColumnWidth">
 							<div class="half-column brick-column left">
 								<div class="fullColumnWidth">	
-									<p class="info-icons"><img src="img/travel-info/mapnificent.png" /></p>
+									<p class="info-icons"><img src="img/travel-info/mapnificent.png" alt="Mapnificent"/></p>
 									<div class="info-icons-description">
 										<a href="#" class="bold-blue">Mapnificent</a>
 										<div>
@@ -183,7 +183,7 @@
 						<div class="center footer-ad">
 								<img src="img/service/fpo-ad.jpg"/>
 								<div class="gototop">
-									<img src="img/gotop.png" />
+									<img src="img/gotop.png" alt="return to top"/>
 								</div>
 						</div>
 					</div>

@@ -20,8 +20,8 @@
 			<?php include ("views/main-nav.php"); ?>
 					
 			<section class="header corp-trans-head tavelInfoPagesBg">
-				<div class="logo"><img src="img/hart-logo.png"/></div>
-				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
+				<div class="logo"><img src="img/hart-logo.png" alt="GoHart Logo"/></div>
+				<div class="menu-ico"><img src="img/menu-ico.png" alt="Main Menu"/></div>
 
 				<div class="headline headline-single-bottom">
 					<h1>LINKS</h1>
@@ -95,9 +95,9 @@
 					</div>
 
 					<div class="center footer-ad">
-							<img src="img/service/fpo-ad.jpg"/>
+							<img src="img/service/fpo-ad.jpg" alt="advertisement"/>
 								<div class="gototop">
-									<img src="img/gotop.png" />
+									<img src="img/gotop.png" alt="return to top" />
 								</div>
 						</div>
 					</div>

@@ -20,8 +20,8 @@
 				<?php include ("views/main-nav.php"); ?>
 			
 			<section class="header servicesPagesBg">
-				<div class="logo"><img src="img/hart-logo.png"/></div>
-				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
+				<div class="logo"><img src="img/hart-logo.png" alt="GoHart Logo"/></div>
+				<div class="menu-ico"><img src="img/menu-ico.png" alt="Main Menu"/></div>
 
 				<div class="headline">
 					<h1>BUS</h1><br/>
@@ -55,7 +55,7 @@
 							<p>Take the stress out of your daily commute by taking this service with limited stops. Leave your car at the safe and conveniently located Park-n-Rides and let us do the driving for you.</p>
 						</div>
 						<div class="info-graphic">
-							<img src="img/service/info-graphic.jpg"/>
+							<img src="img/service/info-graphic.jpg" alt="Service"/>
 							<br/>
 							<span class="paid-ad-text">Paid Ad</span>
 						</div>

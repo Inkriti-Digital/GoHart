@@ -20,8 +20,8 @@
 			<?php include ("views/main-nav.php"); ?>
 			
 			<section class="header mapsSchedulesBg">
-				<div class="logo"><img src="img/hart-logo.png"/></div>
-				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
+				<div class="logo"><img src="img/hart-logo.png" alt="GoHart Logo"/></div>
+				<div class="menu-ico"><img src="img/menu-ico.png" alt="Main Menu"/></div>
 
 				<div class="headline headline-single-bottom">
 					<h1>PARK-N-RIDE</h1>
@@ -37,21 +37,21 @@
 							<p>Leave the traffic and stress behind when you park your car at one of HART’s park-and-ride lots. It’s easy! </p>	
 
 							<ul>
-							<li><img src="img/locations/locaiton-ico.png"/>    Commuter Express service is offered Monday–Friday during peak hour commute times.
+							<li><img src="img/locations/locaiton-ico.png" alt="Location Ico"/>    Commuter Express service is offered Monday–Friday during peak hour commute times.
 							</li>
-							<li><img src="img/locations/locaiton-ico.png"/>    Drive to the park-and-ride lot nearest you. (See the list below.)
+							<li><img src="img/locations/locaiton-ico.png" alt="Location Ico"/>    Drive to the park-and-ride lot nearest you. (See the list below.)
 							</li>
-							<li><img src="img/locations/locaiton-ico.png"/>    Park your car for <b>FREE</b>
+							<li><img src="img/locations/locaiton-ico.png" alt="Location Ico"/>    Park your car for <b>FREE</b>
 							</li>
-							<li><img src="img/locations/locaiton-ico.png"/>    Catch one of the HART Commuter Express routes to downtown Tampa or MacDill Air Force Base.
+							<li><img src="img/locations/locaiton-ico.png" alt="Location Ico"/>    Catch one of the HART Commuter Express routes to downtown Tampa or MacDill Air Force Base.
 							</li>
-							<li><img src="img/locations/locaiton-ico.png"/>The fare is $3.00 each way. A 31-day unlimited ride card is $95.
+							<li><img src="img/locations/locaiton-ico.png" alt="Location Ico"/>The fare is $3.00 each way. A 31-day unlimited ride card is $95.
 							</li>
 						</ul>				
 					</div>
 
 					<div class="info-graphic">
-						<img src="img/service/info-graphic.jpg"/>
+						<img src="img/service/info-graphic.jpg" alt="Service"/>
 						<br/>
 						<span class="paid-ad-text">Paid Ad</span>
 					</div>
@@ -62,10 +62,10 @@
 						<p><b>Look below for the park-and-ride lot nearest you, or call the HART InfoLine at (813) 254-4278 for details. </b> And remember that our Emergency Ride Home is available in case a sick child or unexpected overtime changes your plans.</p>
 					</div>
 					<div class="cta-buttons btn1">
-						<a href="#"><img src="img/maps-sched/infoline-btn.jpg"/></a>
+						<a href="#"><img src="img/maps-sched/infoline-btn.jpg" alt="Info Line"/></a>
 					</div>
 					<div class="cta-buttons">
-						<a href="#"><img src="img/maps-sched/ridehome-btn.jpg"/></a>
+						<a href="#"><img src="img/maps-sched/ridehome-btn.jpg" alt="Ride Home"/></a>
 					</div>
 					
 					<div>

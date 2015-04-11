@@ -20,8 +20,8 @@
 			<?php include ("views/main-nav.php"); ?>
 				
 			<section class="header corp-trans-head tansparencyPagesBg">
-				<div class="logo"><img src="img/hart-logo.png"/></div>
-				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
+				<div class="logo"><img src="img/hart-logo.png" alt="GoHart Logo"/></div>
+				<div class="menu-ico"><img src="img/menu-ico.png" alt="Main Menu"/></div>
 
 				<div class="headline">
 					<h1>FINANCIAL</h1>
@@ -125,7 +125,7 @@
 					<div class="center footer-ad">
 							<img src="img/service/fpo-ad.jpg"/>
 								<div class="gototop">
-									<img src="img/gotop.png" />
+									<img src="img/gotop.png" alt="return to top" />
 								</div>
 						</div>
 					</div>

@@ -20,8 +20,8 @@
 			<?php include ("views/main-nav.php"); ?>
 			
 			<section class="header tansparencyPagesBg">
-				<div class="logo"><img src="img/hart-logo.png"/></div>
-				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
+				<div class="logo"><img src="img/hart-logo.png" alt="GoHart Logo"/></div>
+				<div class="menu-ico"><img src="img/menu-ico.png" alt="Main Menu"/></div>
 
 				<div class="headline">
 					<h1>PUBLIC RECORD</h1>
@@ -45,7 +45,7 @@
 							</p>
 						</div>
 						<div class="info-graphic">
-							<img src="img/service/info-graphic.jpg"/>
+							<img src="img/service/info-graphic.jpg" alt="Service"/>
 							<br/>
 							<span class="paid-ad-text">Paid Ad</span>
 						</div>
@@ -63,7 +63,7 @@
 							<div class="half-column brick-blue-link left">
 								<a href="#" class="brick-link">
 									<div class="icon">
-										<img src="img/schedule-img.png" />
+										<img src="img/schedule-img.png" alt="schedule"/>
 									</div>
 									<div class="brick-blue-link-text">
 										<div class="brick-blue-link-text1">
@@ -79,7 +79,7 @@
 							<div class="half-column brick-blue-link brick-blue-link-last right">
 								<a href="#" class="brick-link">
 									<div class="icon">
-										<img src="img/phone-icon.png" />
+										<img src="img/phone-icon.png" alt="Phone Icon"/>
 									</div>
 									<div class="brick-blue-link-text">
 										<div class="brick-blue-link-text1">
@@ -227,7 +227,7 @@
 						<div class="center footer-ad">
 								<img src="img/service/fpo-ad.jpg"/>
 								<div class="gototop">
-									<img src="img/gotop.png" />
+									<img src="img/gotop.png" alt="return to top"/>
 								</div>
 						</div>
 					</div>

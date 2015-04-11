@@ -20,8 +20,8 @@
 			<?php include ("views/main-nav.php"); ?>
 			
 			<section class="header mapsSchedulesOtherBg">
-				<div class="logo"><img src="img/hart-logo.png"/></div>
-				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
+				<div class="logo"><img src="img/hart-logo.png" alt="GoHart Logo"/></div>
+				<div class="menu-ico"><img src="img/menu-ico.png" alt="Menu Icon"/></div>
 
 				<div class="headline">
 					<h1>MAPS &amp;</h1>
@@ -39,7 +39,7 @@
 					<div class="cta"><span>SYSTEM MAP</span><hr/></div>
 				</div>
 				<div class="content-body">
-					<img src="img/maps-sched/map-full.jpg"/>
+					<img src="img/maps-sched/map-full.jpg" alt="Maps & Schedules"/>
 					<div class="map-descript">
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pellentesque consequat laoreet. 
@@ -66,7 +66,7 @@
 
 					<div class="half-column">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In Lorem ipsum dolor sit amet, consectetur adipiscing elit. In Lorem ipsum dolor sit amet, consectetur adipiscing elit. In Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						<div class="download-pdf"><a href="#"><img src="img/download-pdf.png"/><span>Download PDF</span></a></div>
+						<div class="download-pdf"><a href="#"><img src="img/download-pdf.png" alt="downlaod pdf"/><span>Download PDF</span></a></div>
 						</p>
 					</div>
 

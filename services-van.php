@@ -20,8 +20,8 @@
 			<?php include ("views/main-nav.php"); ?>
 			
 			<section class="header servicesPagesBg">
-				<div class="logo"><img src="img/hart-logo.png"/></div>
-				<div class="menu-ico"><img src="img/menu-ico.png"/></div>
+				<div class="logo"><img src="img/hart-logo.png" alt="GoHart Logo"/></div>
+				<div class="menu-ico"><img src="img/menu-ico.png" alt="Main Menu"/></div>
 
 				<div class="headline headline-services-van">
 					<h1>VAN</h1>
@@ -60,7 +60,7 @@
 							</p>
 						</div>
 						<div class="info-graphic">
-							<img src="img/service/info-graphic.jpg"/>
+							<img src="img/service/info-graphic.jpg" alt="service"/>
 							<br/>
 							<span class="paid-ad-text">Paid Ad</span>
 						</div>
@@ -200,7 +200,7 @@
 								<div class="half-column brick-blue-link left">
 									<a href="#" class="brick-link">
 										<div class="icon">
-											<img src="img/metrorapid-service/schedule-img.png" />
+											<img src="img/metrorapid-service/schedule-img.png" alt="schedule" />
 										</div>
 										<div class="brick-blue-link-text">
 											<div class="brick-blue-link-text1">
@@ -216,7 +216,7 @@
 								<div class="half-column brick-blue-link brick-blue-link-last right">
 									<a href="#" class="brick-link">
 										<div class="icon">
-											<img src="img/phone-icon.png" />
+											<img src="img/phone-icon.png" alt="phone icon"/>
 										</div>
 										<div class="brick-blue-link-text">
 											<div class="brick-blue-link-text1">
@@ -247,7 +247,7 @@
 									</div>
 									<div class="tix-row blue-row">
 										<div class="tix-type">HARTPLUS 10-RIDE COUPON BOOK</div>
-										<div class="tix-fare">$40.00<img src="img/fares/tix-ico-white.png"/></div>
+										<div class="tix-fare">$40.00<img src="img/fares/tix-ico-white.png" alt="Ticket"/></div>
 									</div>
 								</div>
 							</div>
@@ -323,7 +323,7 @@
 							<div class="half-column brick-blue-link left">
 								<a href="#" class="brick-link">
 									<div class="icon">
-										<img src="img/metrorapid-service/schedule-img.png" />
+										<img src="img/metrorapid-service/schedule-img.png" alt="schedule" />
 									</div>
 									<div class="brick-blue-link-text">
 										<div class="brick-blue-link-text1">
@@ -339,7 +339,7 @@
 							<div class="half-column brick-blue-link brick-blue-link-last right">
 								<a href="#" class="brick-link">
 									<div class="icon">
-										<img src="img/audio-icon.png" />
+										<img src="img/audio-icon.png" alt="audio icon" />
 									</div>
 									<div class="brick-blue-link-text">
 										<div class="brick-blue-link-text1">
