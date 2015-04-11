@@ -307,6 +307,46 @@ $(document).ready(function(){
            $('.mobile-links-content').show(); 
         }
     });
+
+
+    //social nav hover effect
+
+    $(".fb-ico").hover(function() {
+         $(".fb-ico").attr('src', 'img/ico-fb-on.png');
+         }, function() {          
+         $(".fb-ico").attr('src', 'img/ico-fb.png');
+        }
+    );
+
+     $(".twitter-ico").hover(function() {
+         $(".twitter-ico").attr('src', 'img/ico-twitter-on.png');
+         }, function() {          
+         $(".twitter-ico").attr('src', 'img/ico-twitter.png');
+        }
+    );
+
+     $(".b-ico").hover(function() {
+         $(".b-ico").attr('src', 'img/ico-b-on.png');
+         }, function() {          
+         $(".b-ico").attr('src', 'img/ico-b.png');
+        }
+    );
+
+     $(".yt-ico").hover(function() {
+         $(".yt-ico").attr('src', 'img/ico-yt-on.png');
+         }, function() {          
+         $(".yt-ico").attr('src', 'img/ico-yt.png');
+        }
+    );
+
+     $(".f-ico").hover(function() {
+         $(".f-ico").attr('src', 'img/ico-f-on.png');
+         }, function() {          
+         $(".f-ico").attr('src', 'img/ico-f.png');
+        }
+    );
+
+
     
     
     /* =================== Vijay code Addition - Start =================== */
