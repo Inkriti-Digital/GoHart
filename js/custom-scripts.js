@@ -268,17 +268,34 @@ $(document).ready(function(){
             console.log(hideLockup);
 
 
+            //HOME LOGO
             if(hideLockup<=85){
-                $(".full-logo").hide();
-                $(".box-logo").show();
+                $(".landing .full-logo").hide();
+                $(".landing .box-logo").show();
                 $(".landing .logo").css('width', '4.35%');
                 $(".landing .logo").css('max-width', '73px');
             } else if( hideLockup >= 100){
-                $(".full-logo").show();
-                $(".box-logo").hide();
+                $(".landing .full-logo").show();
+                $(".landing .box-logo").hide();
                 $(".landing .logo").css('width', '20%');
                 $(".landing .logo").css('max-width', '280px');
             }
+
+            //INNER LOGO
+            if(hideLockup<=-175){
+                $(".header .full-logo").hide();
+                $(".header .box-logo").show();
+                $(".header .logo").css('width', '4.35%');
+                $(".header .logo").css('max-width', '73px');
+            } else if( hideLockup > -176){
+                $(".header .full-logo").show();
+                $(".header .box-logo").hide();
+                $(".header .logo").css('width', '20%');
+                $(".header .logo").css('max-width', '280px');
+            }
+
+
+
 
             if(hideLockup< -300){
                 $('.return-top').show();

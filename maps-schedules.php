@@ -295,12 +295,13 @@
 
 					<div class="center footer-ad">
 							<img src="img/service/fpo-ad.jpg"/>
-							<div class="gototop">
-								<img src="img/gotop.png" />
-							</div>
 						</div>
 					</div>
-				</div>				
+				</div>	
+				<div class="return-top">
+						<img class="desktop" src="img/return-arrow.png" alt="Return to Top"/>
+						<img class="mobile" src="img/responsive/top-arrow.png" alt="Return to Top"/>
+					</div>			
 			</section>
 			</div>
 		</div>
