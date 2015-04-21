@@ -1741,7 +1741,7 @@ body {
     margin: 0 4%;
     cursor: pointer;
     float: right;
-    display: block;
+    display: none;
     top: -30px;
   }
 }
@@ -1922,6 +1922,11 @@ section h1 {
 
 .take-you-there {
   margin-top: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .take-you-there {
+    margin-top: 45px;
+  }
 }
 
 .home-form {

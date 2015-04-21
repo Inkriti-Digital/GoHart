@@ -80,7 +80,7 @@ body{
 		  margin: 0 4%;
 		  cursor: pointer;
 		  float: right;
-		  display: block;
+		  display: none;
 		  top: -30px;
 		}
  	}
@@ -269,6 +269,10 @@ body{
 
 .take-you-there{
 	margin-top: 20px;
+
+	@include media-query(palm){
+		margin-top: 45px;
+	}
 }
 
 
