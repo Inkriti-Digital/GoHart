@@ -1702,18 +1702,18 @@ td {
  */
 @font-face {
   font-family: 'gothBold';
-  src: url("webfonts/2DD74A_5_0.eot");
-  src: url("webfonts/2DD74A_5_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2DD74A_5_0.woff2") format("woff2"), url("webfonts/2DD74A_5_0.woff") format("woff"), url("webfonts/2DD74A_5_0.ttf") format("truetype");
+  src: url("/Style%20Library/GoHart/CSS/webfonts/2DD74A_5_0.eot");
+  src: url("/Style%20Library/GoHart/CSS/webfonts/2DD74A_5_0.eot?#iefix") format("embedded-opentype"), url("/Style%20Library/GoHart/CSS/webfonts/2DD74A_5_0.woff2") format("woff2"), url("/Style%20Library/GoHart/CSS/webfonts/2DD74A_5_0.woff") format("woff"), url("/Style%20Library/GoHart/CSS/webfonts/2DD74A_5_0.ttf") format("truetype");
 }
 @font-face {
   font-family: 'gothBook';
-  src: url("webfonts/2DD74A_6_0.eot");
-  src: url("webfonts/2DD74A_6_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2DD74A_6_0.woff2") format("woff2"), url("webfonts/2DD74A_6_0.woff") format("woff"), url("webfonts/2DD74A_6_0.ttf") format("truetype");
+  src: url("/Style%20Library/GoHart/CSS/webfonts/2DD74A_6_0.eot");
+  src: url("/Style%20Library/GoHart/CSS/webfonts/2DD74A_6_0.eot?#iefix") format("embedded-opentype"), url("/Style%20Library/GoHart/CSS/webfonts/2DD74A_6_0.woff2") format("woff2"), url("/Style%20Library/GoHart/CSS/webfonts/2DD74A_6_0.woff") format("woff"), url("/Style%20Library/GoHart/CSS/webfonts/2DD74A_6_0.ttf") format("truetype");
 }
 @font-face {
   font-family: 'gothMed';
-  src: url("webfonts/2DD74A_8_0.eot");
-  src: url("webfonts/2DD74A_8_0.eot?#iefix") format("embedded-opentype"), url("webfonts/2DD74A_8_0.woff2") format("woff2"), url("webfonts/2DD74A_8_0.woff") format("woff"), url("webfonts/2DD74A_8_0.ttf") format("truetype");
+  src: url("/Style%20Library/GoHart/CSS/webfonts/2DD74A_8_0.eot");
+  src: url("/Style%20Library/GoHart/CSS/webfonts/2DD74A_8_0.eot?#iefix") format("embedded-opentype"), url("/Style%20Library/GoHart/CSS/webfonts/2DD74A_8_0.woff2") format("woff2"), url("/Style%20Library/GoHart/CSS/webfonts/2DD74A_8_0.woff") format("woff"), url("/Style%20Library/GoHart/CSS/webfonts/2DD74A_8_0.ttf") format("truetype");
 }
 body {
   font-family: gothBook, Helvetica, Arial, sans-serif;
@@ -1780,7 +1780,7 @@ section h1 {
 }
 
 .landing {
-  background: url("../img/home/home-top-bg1.jpg") no-repeat;
+  background: url("/Style%20Library/GoHart/Images/home/home-top-bg1.jpg") no-repeat;
   background-size: 114%;
   background-position: 40% 0;
 }
@@ -1790,7 +1790,7 @@ section h1 {
     height: 520px !important;
   }
   .landing .mobile-home-head {
-    background: url("../img/responsive/mobile-home-head.jpg") no-repeat;
+    background: url("/Style%20Library/GoHart/Images/responsive/mobile-home-head.jpg") no-repeat;
     background-size: 100%;
     background-position: 40% 0;
     height: 600px;
@@ -1798,7 +1798,7 @@ section h1 {
   }
 }
 .landing .bus {
-  background: url("../img/home/bus-home1.png") no-repeat;
+  background: url("/Style%20Library/GoHart/Images/home/bus-home1.png") no-repeat;
   background-size: 100%;
   position: absolute;
   width: 67%;
@@ -2120,7 +2120,7 @@ section h1 {
   cursor: pointer;
 }
 .metro .metro-main {
-  background: url("../img/home/services-bg.jpg") no-repeat;
+  background: url("/Style%20Library/GoHart/Images/home/services-bg.jpg") no-repeat;
   background-size: 110%;
   background-position: 20% 0;
 }
@@ -2128,7 +2128,7 @@ section h1 {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url("../img/home/serv-sky-bg.jpg") no-repeat;
+  background: url("/Style%20Library/GoHart/Images/home/serv-sky-bg.jpg") no-repeat;
   background-size: 110%;
   display: none;
   z-index: 20;
@@ -2137,20 +2137,20 @@ section h1 {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url("../img/home/serv-bike-foreground.png") no-repeat;
+  background: url("/Style%20Library/GoHart/Images/home/serv-bike-foreground.png") no-repeat;
   background-size: 110%;
 }
 .metro .metro-main .train-bg {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url("../img/home/streetcar-bg.jpg") no-repeat;
+  background: url("/Style%20Library/GoHart/Images/home/streetcar-bg.jpg") no-repeat;
   background-size: 110%;
   display: none;
   z-index: 5;
 }
 .metro .metro-main .metro-foreground {
-  background: url(../img/home/serv-large-bus.png) no-repeat;
+  background: url(/Style%20Library/GoHart/Images/home/serv-large-bus.png) no-repeat;
   background-size: 103%;
   background-position: right;
   position: absolute;
@@ -2434,7 +2434,7 @@ section h1 {
 
 .gohart {
   margin-top: 50px;
-  background: url("../img/home/home-lower-bg.jpg") no-repeat;
+  background: url("/Style%20Library/GoHart/Images/home/home-lower-bg.jpg") no-repeat;
   background-size: 120%;
 }
 @media only screen and (max-width: 768px) {
@@ -2445,7 +2445,7 @@ section h1 {
   }
 }
 .gohart .bus {
-  background: url(../img/home/van-lower.png) no-repeat;
+  background: url(/Style%20Library/GoHart/Images/home/van-lower.png) no-repeat;
   background-size: 100%;
   position: absolute;
   width: 78%;
@@ -2643,7 +2643,7 @@ section h1 {
  * ==========================================================================
  */
 .header {
-  background: url("../img/service/bus-header.jpg") no-repeat;
+  background: url("/Style%20Library/GoHart/Images/service/bus-header.jpg") no-repeat;
   background-size: 100%;
   height: 300px;
 }
@@ -2903,7 +2903,7 @@ section h1 {
   margin-right: 3%;
   border: 2px gray solid;
   cursor: pointer;
-  background: url("../img/service/page-nav-bg.png") repeat-x;
+  background: url("/Style%20Library/GoHart/Images/service/page-nav-bg.png") repeat-x;
 }
 .page-nav .nav-btn span {
   background-color: white;
@@ -2983,7 +2983,7 @@ section h1 {
 }
 
 .mid-section {
-  background-image: url(../img/service/service-mid-bg-fpo.jpg);
+  background-image: url(/Style%20Library/GoHart/Images/service/service-mid-bg-fpo.jpg);
   background-size: 100%;
   min-height: 600px;
   padding-top: 9%;
@@ -3052,7 +3052,7 @@ section h1 {
 }
 
 .corp-trans-head {
-  background: url("../img/fares/header-couple.jpg") no-repeat;
+  background: url("/Style%20Library/GoHart/Images/fares/header-couple.jpg") no-repeat;
   background-size: 100%;
 }
 
@@ -3417,7 +3417,7 @@ ul b, li b {
  * ==========================================================================
  */
 .maps-scheduels .header {
-  background: url(../img/maps-sched/header-map.jpg) no-repeat;
+  background: url(/Style%20Library/GoHart/Images/maps-sched/header-map.jpg) no-repeat;
   background-size: 100%;
   height: 300px;
 }
@@ -3471,7 +3471,7 @@ ul b, li b {
   height: 24px;
 }
 .maps-scheduels .schedule-grid .time-row .cell {
-  background: url(../img/diagonal-pattern.png) repeat;
+  background: url(/Style%20Library/GoHart/Images/diagonal-pattern.png) repeat;
   color: black;
   height: 28px;
   padding-top: 3px;
@@ -3483,7 +3483,7 @@ ul b, li b {
 
 .cta .callout {
   border: 1px #666 solid;
-  background: url(../img/diagonal-pattern.png) white repeat;
+  background: url(/Style%20Library/GoHart/Images/diagonal-pattern.png) white repeat;
   height: 80px;
   width: 35%;
   top: 35px;
@@ -3507,7 +3507,7 @@ ul b, li b {
 
 .map-descript {
   border: 1px #666 solid;
-  background: url(../img/diagonal-pattern.png) repeat;
+  background: url(/Style%20Library/GoHart/Images/diagonal-pattern.png) repeat;
   text-align: center;
 }
 .map-descript p {
@@ -3582,7 +3582,7 @@ ul b, li b {
   margin-bottom: 30px;
 }
 .holiday-block .holiday-date {
-  background: url(../img/diagonal-pattern.png) #003366 repeat;
+  background: url(/Style%20Library/GoHart/Images/diagonal-pattern.png) #003366 repeat;
   color: white;
   display: inline-block;
   width: 18%;

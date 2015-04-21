@@ -26,7 +26,7 @@
   margin-left: 0;
 }
 .page-content .how-it-works ul li {
-  background: url('../img/list-icon.png') no-repeat 0 5px;
+  background: url('/Style%20Library/GoHart/Images/list-icon.png') no-repeat 0 5px;
   padding: 3px 0 3px 19px;
   /* reset styles (optional): */
   list-style: none;
@@ -42,7 +42,7 @@
   margin-left: 0;
 }
 .page-content .schedule-points ul li {
-  background: url('../img/list-icon.png') no-repeat 0 5px;
+  background: url('/Style%20Library/GoHart/Images/list-icon.png') no-repeat 0 5px;
   padding: 3px 0 3px 19px;
   /* reset styles (optional): */
   list-style: none;
@@ -62,7 +62,7 @@
   margin-left: 0;
 }
 .page-content .north-south-points ul li {
-  background: url('../img/list-icon.png') no-repeat 0 5px;
+  background: url('/Style%20Library/GoHart/Images/list-icon.png') no-repeat 0 5px;
   padding: 3px 0 3px 19px;
   /* reset styles (optional): */
   list-style: none;
@@ -159,7 +159,7 @@
 		width: 100%;
 	}
 .page-content .map-heading{
-	background: url('../img/metrorapid-service/schedule-img.png') no-repeat 0 0;
+	background: url('/Style%20Library/GoHart/Images/metrorapid-service/schedule-img.png') no-repeat 0 0;
 	background-size: 30px 38px;
 	height:38px;
 	padding:7px 0 0 35px;
@@ -247,7 +247,7 @@
 		   margin-left: 0;
 		}
 		.page-content .equal-access-points ul li {
-		  background: url('../img/list-icon.png') no-repeat 0 5px;
+		  background: url('/Style%20Library/GoHart/Images/list-icon.png') no-repeat 0 5px;
 		  padding: 3px 0 3px 19px;
 		  /* reset styles (optional): */
 		  list-style: none;
@@ -340,7 +340,7 @@
 			padding:0 0 10px 0;
 		}
 		.content-body .brick .half-column ul li{
-			background: url('../img/list-icon.png') no-repeat 0 5px;
+			background: url('/Style%20Library/GoHart/Images/list-icon.png') no-repeat 0 5px;
 			padding: 3px 0 3px 19px;
 			list-style: none;
 			margin: 0;
@@ -391,7 +391,7 @@
 			padding:0 0 10px 0;
 		}
 		.content-body .brick-list .half-column ul li{
-			background: url('../img/list-icon.png') no-repeat 0 5px;
+			background: url('/Style%20Library/GoHart/Images/list-icon.png') no-repeat 0 5px;
 			padding: 0px 0 0px 19px;
 			list-style: none;
 			margin: 0;
@@ -428,7 +428,7 @@
 			padding:0 0 10px 0;
 		}
 		.content-body .brick-list .three-column ul li{
-			background: url('../img/list-icon.png') no-repeat 0 5px;
+			background: url('/Style%20Library/GoHart/Images/list-icon.png') no-repeat 0 5px;
 			padding: 0 0 0 19px;
 			list-style: none;
 			margin: 0;
@@ -470,7 +470,7 @@
 		display:inline-block;
 		float:left;
 		text-align:center;
-		background: url("../img/diagonal-pattern.png") repeat scroll 0 0 #003567;
+		background: url("/Style%20Library/GoHart/Images/diagonal-pattern.png") repeat scroll 0 0 #003567;
 	}
 	.content-body .point-no{
 		padding:5px 15px;
@@ -495,7 +495,7 @@
 		display:inline-block;
 		float:left;
 		text-align:center;
-		background: url("../img/diagonal-pattern.png") repeat scroll 0 0 #003567;
+		background: url("/Style%20Library/GoHart/Images/diagonal-pattern.png") repeat scroll 0 0 #003567;
 	}
 	.content-body .half-column .point-no{
 		padding:5px 10px;
@@ -589,7 +589,7 @@
 		float:left;
 		text-align:center;
 		padding: 0;
-		background: url("../img/diagonal-pattern.png") repeat scroll 0 0 #003567;
+		background: url("/Style%20Library/GoHart/Images/diagonal-pattern.png") repeat scroll 0 0 #003567;
 	}
 	.content-body .dates .point-no{
 		padding:8px 10px;
@@ -625,7 +625,7 @@
 		float:left;
 		text-align:center;
 		padding: 0;
-		background: url("../img/diagonal-pattern.png") repeat scroll 0 0 #003567;
+		background: url("/Style%20Library/GoHart/Images/diagonal-pattern.png") repeat scroll 0 0 #003567;
 	}
 	.content-body .dates-full-width .point-no{
 		padding:8px 10px;
@@ -650,7 +650,7 @@
 		margin:0 4% 3% 0;
 		display: inline-block;
 		position:relative;
-		background: url("../img/diagonal-pattern.png") repeat scroll 0 0 #F5F6F6;
+		background: url("/Style%20Library/GoHart/Images/diagonal-pattern.png") repeat scroll 0 0 #F5F6F6;
 	}
 	.content-body .three-column-data a{display:block;}
 	.content-body .three-column-data img{
@@ -694,7 +694,7 @@
 	}
 	
 	.content-body .team-member-detail-description{
-		background:#003567 url('../img/about/white-arrow-down.png') no-repeat 98px -1px;
+		background:#003567 url('/Style%20Library/GoHart/Images/about/white-arrow-down.png') no-repeat 98px -1px;
 		position:relative;
 		padding:25px 45px 5px 45px;
 		width:100%;
@@ -736,7 +736,7 @@
 		padding:0 0 10px 0;
 	}
 	.content-body .brick-list ul li{
-		background: url('../img/list-icon.png') no-repeat 0 5px;
+		background: url('/Style%20Library/GoHart/Images/list-icon.png') no-repeat 0 5px;
 		padding: 0 0 0 19px;
 		list-style: none;
 		margin: 0;
@@ -861,7 +861,7 @@
 	.info-chunk-with-cross-lines .info-title {
 	  color: white;
 	  /*background-color: #003567;*/
-	  background: url("../img/service/page-nav-bg.png") repeat-x scroll 0 0 #003567;
+	  background: url("/Style%20Library/GoHart/Images/service/page-nav-bg.png") repeat-x scroll 0 0 #003567;
 	  text-align: center;
 	  margin: 10px 0px 0px 0px;
 	}
@@ -890,7 +890,7 @@
 		padding:0 0 10px 0;
 	}
 	.content-body .brick-list-packets .half-column ul li{
-		background: url('../img/dl-icon.png') no-repeat 0 7px;
+		background: url('/Style%20Library/GoHart/Images/dl-icon.png') no-repeat 0 7px;
 		padding: 0 0 0 19px;
 		list-style: none;
 		margin: 0;
@@ -983,7 +983,7 @@
 	
 	
 	.page-content .employee-terms-of-use.active{
-		background: #7aaed5 url('../img/bottom-arrow.png') bottom left no-repeat;
+		background: #7aaed5 url('/Style%20Library/GoHart/Images/bottom-arrow.png') bottom left no-repeat;
 		color:#FFFFFF;
 	}
 	.page-content .employee-terms-active-img{
@@ -1242,7 +1242,7 @@
     vertical-align: top;
 }
 .mid-section {
-    background-image: url("../img/service/service-mid-bg-fpo.jpg");
+    background-image: url("/Style%20Library/GoHart/Images/service/service-mid-bg-fpo.jpg");
     /*background-repeat: no-repeat;*/
 }
 
@@ -1299,7 +1299,7 @@
   float: left;
   /*width: 76%;*/
   width: 81%;
-  background:url('../img/brick-arrow.png')no-repeat -1px center;
+  background:url('/Style%20Library/GoHart/Images/brick-arrow.png')no-repeat -1px center;
 }
 
 .infoPart1{width:85%;}
@@ -1359,7 +1359,7 @@ b{font-family: gothMed,Helvetica,Arial,sans-serif;}
 
 /* bottom rule styles - override Start */
 .cta .callout {
-    background: url("../img/diagonal-pattern-footer.png") repeat scroll 0 0 #fff;
+    background: url("/Style%20Library/GoHart/Images/diagonal-pattern-footer.png") repeat scroll 0 0 #fff;
     min-width: 20%;
     padding: 5px;
     width:auto !important;
@@ -1369,17 +1369,17 @@ b{font-family: gothMed,Helvetica,Arial,sans-serif;}
 
 
 /* header background images styles - Start */
-.aboutPagesBg{background: url("../img/headerImages/About.jpg") no-repeat;background-size: 100%;}
-.aboutPagesTeamBg{background: url("../img/headerImages/Team.jpg") no-repeat;background-size: 100%;}
-.farePagesBg{background: url("../img/headerImages/Fares.jpg") no-repeat;background-size: 100%;}
-.farePagesAdultStudentBg{background: url("../img/headerImages/AdultStudentFarecards.jpg") no-repeat;background-size: 100%;}
-.customerServiceBg{background: url("../img/headerImages/CustomerService.jpg") no-repeat;background-size: 100%;}
-.mapsSchedulesBg{background: url("../img/headerImages/Maps-and-Schedules.jpg") no-repeat;background-size: 100%;}
-.mapsSchedulesOtherBg{background: url("../img/headerImages/SystemMapAlertDetours.jpg") no-repeat !important;background-size: 100%;}
-.servicesPagesBg{background: url("../img/headerImages/Services.jpg") no-repeat;background-size: 100%;}
-.servicesPagesAltTransBg{background: url("../img/headerImages/AlternativeTransportation.jpg") no-repeat;background-size: 100%;}
-.tansparencyPagesBg{background: url("../img/headerImages/Transparency.jpg") no-repeat;background-size: 100%;}
-.tavelInfoPagesBg{background: url("../img/headerImages/TravelInfo.jpg") no-repeat;background-size: 100%;}
+.aboutPagesBg{background: url("/Style%20Library/GoHart/Images/headerImages/About.jpg") no-repeat;background-size: 100%;}
+.aboutPagesTeamBg{background: url("/Style%20Library/GoHart/Images/headerImages/Team.jpg") no-repeat;background-size: 100%;}
+.farePagesBg{background: url("/Style%20Library/GoHart/Images/headerImages/Fares.jpg") no-repeat;background-size: 100%;}
+.farePagesAdultStudentBg{background: url("/Style%20Library/GoHart/Images/headerImages/AdultStudentFarecards.jpg") no-repeat;background-size: 100%;}
+.customerServiceBg{background: url("/Style%20Library/GoHart/Images/headerImages/CustomerService.jpg") no-repeat;background-size: 100%;}
+.mapsSchedulesBg{background: url("/Style%20Library/GoHart/Images/headerImages/Maps-and-Schedules.jpg") no-repeat;background-size: 100%;}
+.mapsSchedulesOtherBg{background: url("/Style%20Library/GoHart/Images/headerImages/SystemMapAlertDetours.jpg") no-repeat !important;background-size: 100%;}
+.servicesPagesBg{background: url("/Style%20Library/GoHart/Images/headerImages/Services.jpg") no-repeat;background-size: 100%;}
+.servicesPagesAltTransBg{background: url("/Style%20Library/GoHart/Images/headerImages/AlternativeTransportation.jpg") no-repeat;background-size: 100%;}
+.tansparencyPagesBg{background: url("/Style%20Library/GoHart/Images/headerImages/Transparency.jpg") no-repeat;background-size: 100%;}
+.tavelInfoPagesBg{background: url("/Style%20Library/GoHart/Images/headerImages/TravelInfo.jpg") no-repeat;background-size: 100%;}
 /* header background images styles - End */
 
 /* bricks hover effect - Start */
