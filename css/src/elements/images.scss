@@ -10,7 +10,7 @@
  * 2. Non-fluid images if you specify `width` and/or `height` attributes.
  */
 img { 
-    max-width: 100%; /* 1 */
+    // max-width: 100%; /* 1 */
 }
 img[width],
 img[height] {

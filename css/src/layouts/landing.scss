@@ -56,6 +56,10 @@ body{
  	background-size: 100%;
  	padding: 0;
 
+ 	img{
+ 		max-width: 100%;
+ 	}
+
  	@include media-query(palm){
 		// background: url('/Style%20Library/GoHart/Images/responsive/responsive-bg-plate.jpg') no-repeat;
  	 	// background-size: 100%;
@@ -269,6 +273,10 @@ body{
 
 .take-you-there{
 	margin-top: 20px;
+
+	@include media-query(palm){
+		margin-top: 45px;
+	}
 }
 
 

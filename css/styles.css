@@ -961,11 +961,6 @@ hgroup h1, hgroup .hgroup h1, .hgroup hgroup h1, hgroup h2, hgroup .hgroup h2, .
  * 1. Default images to be fluid in width.
  * 2. Non-fluid images if you specify `width` and/or `height` attributes.
  */
-img {
-  max-width: 100%;
-  /* 1 */
-}
-
 img[width],
 img[height] {
   max-width: none;
@@ -1723,6 +1718,9 @@ body {
   background-size: 100%;
   padding: 0;
 }
+.container img {
+  max-width: 100%;
+}
 .container .return-top {
   text-align: right;
   margin: 5%;
@@ -1922,6 +1920,11 @@ section h1 {
 
 .take-you-there {
   margin-top: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .take-you-there {
+    margin-top: 45px;
+  }
 }
 
 .home-form {

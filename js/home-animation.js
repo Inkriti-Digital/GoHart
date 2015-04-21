@@ -6,17 +6,17 @@ $(document).ready(function(){
     landingHeader();
     function landingHeader(){
         if(landNum==1){
-            $('.landing').css('background-image','url(img/home/home-top-bg1.jpg)');
+            $('.landing').css('background-image','url(/Style%20Library/GoHart/Images/home/home-top-bg1.jpg)');
             $( "#headline" ).html( "<h1>TRANSPORTATION</h1><br/><h1>FOR LIFE</h1>");
         } else if(landNum==2){
-            $('.landing').css('background-image','url(img/home/home-top-bg2.jpg)');
-            $('.landing .bus').css('background-image','url(img/home/bus-home3.png)');
+            $('.landing').css('background-image','url(/Style%20Library/GoHart/Images/home/home-top-bg2.jpg)');
+            $('.landing .bus').css('background-image','url(/Style%20Library/GoHart/Images/home/bus-home3.png)');
             $( "#headline" ).html( "<h1>METRORAPID</h1><br/><h1>BUSINESS</h1>");
         } else if(landNum==3){
-            $('.landing').css('background-image','url(img/home/home-top-bg3.jpg)');
+            $('.landing').css('background-image','url(/Style%20Library/GoHart/Images/home/home-top-bg3.jpg)');
             $( "#headline" ).html( "<h1>FAMILY</h1><br/><h1>TRANSPORTATION</h1>");
         } else if(landNum==4){
-            $('.landing').css('background-image','url(img/home/home-top-bg4.jpg)');
+            $('.landing').css('background-image','url(/Style%20Library/GoHart/Images/home/home-top-bg4.jpg)');
             $( "#headline" ).html( "<h1>STUDENT</h1><br/><h1>TRANSPORTATION</h1>");
         }
     }
@@ -57,25 +57,25 @@ $(document).ready(function(){
         
         function toggleBg(){  
             if(myCar=="bus"){
-                $('.metro-foreground').css('background-image','url(img/home/serv-large-bus.png)');
+                $('.metro-foreground').css('background-image','url(/Style%20Library/GoHart/Images/home/serv-large-bus.png)');
                 $( ".metro-title" ).text( "BUS" );
                 $( ".metro-arrow" ).animate({ left: "2%"}, 500, 'easeOutQuad', function() {}); 
                 $(".alt-transport-box").fadeOut();
                 $(".train-bg").fadeOut();
             } else if(myCar=="metro"){
-                $('.metro-foreground').css('background-image','url(img/home/serv-large-metro.png)');
+                $('.metro-foreground').css('background-image','url(/Style%20Library/GoHart/Images/home/serv-large-metro.png)');
                 $( ".metro-title" ).text( "METRORAPID" );
                 $( ".metro-arrow" ).animate({ left: "22%"}, 500, 'easeOutQuad', function() {});
                 $(".alt-transport-box").fadeOut();
                 $(".train-bg").fadeOut();
             } else if(myCar=="van"){
-                $('.metro-foreground').css('background-image','url(img/home/serv-large-van.png)');
+                $('.metro-foreground').css('background-image','url(/Style%20Library/GoHart/Images/home/serv-large-van.png)');
                 $( ".metro-title" ).text( "VAN" );
                 $( ".metro-arrow" ).animate({ left: "42%"}, 500, 'easeOutQuad', function() {});
                 $(".alt-transport-box").fadeOut();
                 $(".train-bg").fadeOut();
             } else if(myCar=="trolly"){
-                $('.metro-foreground').css('background-image','url(img/home/serv-large-train.png)');
+                $('.metro-foreground').css('background-image','url(/Style%20Library/GoHart/Images/home/serv-large-train.png)');
                 $( ".metro-title" ).text( "STREETCAR SYSTEM" );
                 $( ".metro-arrow" ).animate({ left: "62%"}, 500, 'easeOutQuad', function() {});
                 $(".alt-transport-box").fadeOut();
