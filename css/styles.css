@@ -1741,7 +1741,7 @@ body {
     margin: 0 4%;
     cursor: pointer;
     float: right;
-    display: block;
+    display: none;
     top: -30px;
   }
 }
@@ -2457,6 +2457,7 @@ section h1 {
   font-size: 50px;
   padding: 1% 2%;
   padding-bottom: 0;
+  color: white;
 }
 @media only screen and (max-width: 768px) {
   .gohart h1 {

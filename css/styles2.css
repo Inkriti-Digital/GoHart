@@ -2264,3 +2264,12 @@ b{font-family: gothMed,Helvetica,Arial,sans-serif;}
 
 
 
+/*SHAREPOINT ADDITIONS & OVERIDES */
+
+.ms-rtestate-field h1, h1.ms-rteElement-H1, .ms-rtestate-field h2, h2.ms-rteElement-H2{
+	color: white !important;
+}
+
+
+
+

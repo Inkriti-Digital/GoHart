@@ -80,7 +80,7 @@ body{
 		  margin: 0 4%;
 		  cursor: pointer;
 		  float: right;
-		  display: block;
+		  display: none;
 		  top: -30px;
 		}
  	}
@@ -855,6 +855,7 @@ body{
  		font-size: 50px;
 		padding: 1% 2%;
 		padding-bottom: 0;
+		color: white;
 		
 		@include media-query(palm){
 				font-size:62px;
