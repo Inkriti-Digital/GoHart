@@ -20,7 +20,13 @@
 			<?php include ("views/main-nav.php"); ?>
 			
 			<section class="header mapsSchedulesBg">
-				<div class="logo"><img src="img/hart-logo.png" alt="GoHart Logo"/></div>
+				<div class="logo">
+					<a href="index.php">
+						<img class="full-logo desktop" src="img/hart-logo.png" alt="GoHart Logo"/>
+						<img class="box-logo desktop" style="display: none;" src="img/hart-logo-box.png" alt="GoHart Graphic Logo"/>
+						<img class="mobile" src="img/responsive/mobile-logo.png" alt="GoHart Mobile Logo"/>
+					</a>
+				</div>
 				<div class="menu-ico"><img src="img/menu-ico.png" alt="Main Menu"/></div>
 
 				<div class="headline">
@@ -137,13 +143,13 @@
 	
 						<div class="center footer-ad">
 								<img src="img/service/fpo-ad.jpg"/>
-								<div class="gototop">
-									<img src="img/gotop.png"/>
-								</div>
 							</div>
 						</div>
 					</div>
-				</div>				
+					<div class="return-top">
+						<img class="desktop" src="img/return-arrow.png" alt="Return to Top"/>
+						<img class="mobile" src="img/responsive/top-arrow.png" alt="Return to Top"/>
+					</div>	
 			</section>
 		</div>
 

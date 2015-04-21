@@ -2648,26 +2648,18 @@ section h1 {
   height: 300px;
 }
 .header .logo {
-  position: absolute;
-  left: 0px;
-  margin: 2% 1.5%;
-  width: 17%;
-  max-width: 270px;
+  position: fixed;
   left: 0;
   margin: 2% 1.5%;
   width: 20%;
   max-width: 280px;
   min-width: 52px;
   background-color: rgba(255, 255, 255, 0.85);
-  padding: 8px 6px 0 8px;
+  padding: 8px 6px 0px 8px;
+  z-index: 30;
 }
 .header .menu-ico {
-  position: absolute;
-  right: 15px;
-  margin: 2.5%;
-  width: 4%;
-  max-width: 62px;
-  cursor: pointer;
+  position: fixed;
   right: 15px;
   margin: 2.5%;
   width: 60px;
@@ -2871,6 +2863,27 @@ section h1 {
 }
 .page-content .help-you {
   margin-left: 40px;
+}
+.page-content .return-top {
+  text-align: right;
+  margin: 5%;
+  cursor: pointer;
+  position: fixed;
+  z-index: 25;
+  right: 0;
+  bottom: -28px;
+  background-color: rgba(14, 21, 45, 0.8);
+  padding: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .page-content .return-top {
+    text-align: right;
+    margin: 0 4%;
+    cursor: pointer;
+    float: right;
+    display: block;
+    top: -30px;
+  }
 }
 
 /**
