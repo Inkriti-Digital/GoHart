@@ -253,20 +253,10 @@ $(document).ready(function(){
        
     }
 
-
-
-
     $(window).scroll(function() {        
         if(mobileSite==false){
             var eTop = $('.headline').offset().top; //get the offset top of the element
             var hideLockup = (eTop - $(window).scrollTop());
-            console.log(hideLockup);
-            // if(hideLockup<0){
-            //     hideLockup=hideLockup*-1;
-            // }
-
-            console.log(hideLockup);
-
 
             //HOME LOGO
             if(hideLockup<=85){
@@ -293,9 +283,6 @@ $(document).ready(function(){
                 $(".header .logo").css('width', '20%');
                 $(".header .logo").css('max-width', '280px');
             }
-
-
-
 
             if(hideLockup< -300){
                 $('.return-top').show();
