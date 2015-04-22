@@ -8,7 +8,6 @@
 		<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 		<meta name="viewport" content="width=640, maximum-scale=1">
 		<link rel="stylesheet" href="css/styles.min.css">
-		<link rel="stylesheet" href="css/styles2.css">
 		<!--[if lte IE 10]>
 			<link rel="stylesheet" href="css/ie9.css">
 		<![endif]-->
@@ -58,7 +57,7 @@
 					<input id="end" type="text" name="end" placeholder="End" onfocus="this.value='';">
 					<input id="date" type="text" name="date" placeholder="Date" onfocus="this.value='';">
 					<input id="time" type="text" name="time" placeholder="Time" onfocus="this.value='';">
-					<input type="submit" value="SEARCH" >
+					<input type="button" value="SEARCH" >
 					</form>
 				</div>
 			</section>
