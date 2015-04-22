@@ -45,20 +45,20 @@ $(document).ready(function(){
         $('.container .header').css('height', pageHeadHeight);
 
 
-        mobileDetect();
+       // mobileDetect();
     }
 
     //======== * MOBIE ELEMENTS * ========//
-    function mobileDetect(){
-        if(mobileSite == true){
-        } else if(mobileSite == false){
-                skrollr.init({
-                    smoothScrolling: false,
-                    mobileDeceleration: 0.004,
-                    forceHeight: false
-                });
-        }
-    }
+    // function mobileDetect(){
+    //     if(mobileSite == true){
+    //     } else if(mobileSite == false){
+    //             skrollr.init({
+    //                 smoothScrolling: false,
+    //                 mobileDeceleration: 0.004,
+    //                 forceHeight: false
+    //             });
+    //     }
+    // }
 
 
     //HOVER CONTROLS
@@ -439,7 +439,7 @@ $(document).ready(function(){
 			
 			
 			/* ===== placeholder setting functionality for IE - Start ===== */
-			$('input, textarea').placeholder();
+			// $('input, textarea').placeholder();
 			/* ===== placeholder setting functionality for IE - End ===== */
 			
 			

@@ -123,7 +123,7 @@ body{
  .landing{
  	 background: url('../img/home/home-top-bg1.jpg') no-repeat;
  	 background-size: 114%;
- 	 background-position: 40% 0;
+ 	 background-position: 0 0;
 
  	 @include media-query(palm){
  	 	background-image: none !important; 
@@ -498,7 +498,7 @@ body{
  	 .metro-main{
  	 	background: url('../img/home/services-bg.jpg') no-repeat;
  	 	background-size: 110%;
- 	 	background-position: 20% 0;
+ 	 	background-position: 10% 50%;
 
  	 	.alt-transport-box{
  	 		position: absolute;
@@ -835,6 +835,7 @@ body{
  	margin-top: 50px;
  	background: url('../img/home/home-lower-bg.jpg') no-repeat;
  	background-size: 120%;
+ 	background-position: 10% 50%;
 
  	@include media-query(palm){
 		background: none;
@@ -851,7 +852,7 @@ body{
 		width: 78%;
 	    height: 55%;
 	    bottom: 1%;
- 	 	left: -40%;
+ 	 	left: -25%;
  	 }
 
 

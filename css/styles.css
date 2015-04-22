@@ -1782,7 +1782,7 @@ section h1 {
 .landing {
   background: url("../img/home/home-top-bg1.jpg") no-repeat;
   background-size: 114%;
-  background-position: 40% 0;
+  background-position: 0 0;
 }
 @media only screen and (max-width: 768px) {
   .landing {
@@ -2127,7 +2127,7 @@ section h1 {
 .metro .metro-main {
   background: url("../img/home/services-bg.jpg") no-repeat;
   background-size: 110%;
-  background-position: 20% 0;
+  background-position: 10% 50%;
 }
 .metro .metro-main .alt-transport-box {
   position: absolute;
@@ -2441,6 +2441,7 @@ section h1 {
   margin-top: 50px;
   background: url("../img/home/home-lower-bg.jpg") no-repeat;
   background-size: 120%;
+  background-position: 10% 50%;
 }
 @media only screen and (max-width: 768px) {
   .gohart {
@@ -2456,7 +2457,7 @@ section h1 {
   width: 78%;
   height: 55%;
   bottom: 1%;
-  left: -40%;
+  left: -25%;
 }
 .gohart h1 {
   font-size: 50px;

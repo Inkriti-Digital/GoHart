@@ -127,4 +127,104 @@ $(document).ready(function(){
         $(".content-links").show();
     });
 
+
+    
+
+    //CUSOTM PARALLAX ANIMATIONS
+
+    var lastScrollTop = 0;
+    $(window).scroll(function(event){
+        var st = $(this).scrollTop();
+        var myScroll = $(window);
+        var scrollTotal = myScroll.scrollTop();
+
+       if (st > lastScrollTop){
+        // downscroll code
+
+        //top bus parallax - scroll down
+        if(scrollTotal >=0 && scrollTotal <=400){
+            var b1 = $( ".landing .bus" );
+            var b1Pos = b1.position();
+            // console.log( "left: " + b1Pos.left + ", top: " + b1Pos.top );
+
+            if(b1Pos.left<=-25){
+                $('.landing .bus').css('left', '+='+'30%');
+                $('.landing').css('background-position', '-='+'10%');
+            }
+        }
+
+
+        //services section parallax - scroll down
+        if(scrollTotal >=600 && scrollTotal <=1100){
+            var b2 = $( ".metro-main .metro-foreground" );
+            var b2Pos = b2.position();
+            // console.log( "left: " + b2Pos.left + ", top: " + b2Pos.top );
+
+            if(b2Pos.left<=-25){
+                $('.metro-main .metro-foreground').css('left', '+='+'30%');
+                $('.metro-main').css('background-position', '-='+'12%');
+            }
+        }
+
+
+         //gohart section parallax - scroll down
+        if(scrollTotal >=2200 && scrollTotal <=3000){
+            var b3 = $( ".gohart .bus" );
+            var b3Pos = b3.position();
+            console.log( "left: " + b3Pos.left + ", top: " + b3Pos.top );
+
+            if(b3Pos.left<=-25){
+                $('.gohart .bus').css('left', '+='+'20%');
+                $('.gohart').css('background-position', '-='+'12%');
+            }
+        }
+
+        console.log(scrollTotal);
+
+
+       } else {
+            //top bus scroll up
+            if(scrollTotal >=0 && scrollTotal <=400){
+                var b1 = $( ".landing .bus" );
+                var b1Pos = b1.position();
+                // console.log( "left: " + b1Pos.left + ", top: " + b1Pos.top );
+
+                if(b1Pos.left>=-300){
+                    $('.landing .bus').css('left', '-='+'30%');
+                    $('.landing').css('background-position', '+='+'10%');
+                }
+            }
+
+            //services section parallax - scroll down
+            if(scrollTotal >=600 && scrollTotal <=1100){
+                var b2 = $( ".metro-main .metro-foreground" );
+                var b2Pos = b2.position();
+                console.log( "left: " + b2Pos.left + ", top: " + b2Pos.top );
+
+                if(b2Pos.left>=-200){
+                    $('.metro-main .metro-foreground').css('left', '-='+'15%');
+                    $('.metro-main').css('background-position', '+='+'12%');
+                }
+            }
+
+
+             //gohart section parallax - scroll down
+        if(scrollTotal >=2200 && scrollTotal <=3000){
+            var b3 = $( ".gohart .bus" );
+            var b3Pos = b3.position();
+            console.log( "left: " + b3Pos.left + ", top: " + b3Pos.top );
+
+            if(b3Pos.left>=-200){
+                $('.gohart .bus').css('left', '-='+'20%');
+                $('.gohart').css('background-position', '+='+'12%');
+            }
+        }
+           }
+
+           
+
+
+           lastScrollTop = st;
+    });
+
 });
