@@ -2590,7 +2590,7 @@ section h1 {
   font-weight: normal;
   font-family: gothBook, Helvetica, Arial, sans-serif;
   font-size: 3em;
-  color: #7aaed5;
+  color: #666;
 }
 @media only screen and (max-width: 768px) {
   .gohart .how-to h2 {
@@ -6640,6 +6640,46 @@ b {
 /*SHAREPOINT ADDITIONS & OVERIDES */
 .ms-rtestate-field h1, h1.ms-rteElement-H1, .ms-rtestate-field h2, h2.ms-rteElement-H2 {
   color: white;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+}
+
+a {
+  background: 0 0;
+  text-decoration: none;
+}
+
+a:active, a:hover {
+  outline: 0;
+  text-decoration: none;
+}
+
+html {
+  font: 1em/1.5 sans-serif;
+  min-height: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container img {
+  max-width: 100%;
+}
+
+.home-form #end, .home-form #start {
+  width: 25%;
+}
+
+#s4-bodyContainer {
+  padding-bottom: 0px !important;
+}
+
+.ms-webpartzone-cell {
+  margin: auto auto 0px !important;
 }
 
 /*# sourceMappingURL=styles.css.map */

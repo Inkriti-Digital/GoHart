@@ -18,3 +18,7 @@
 	position: relative;
 	z-index:50;
 }
+
+.main-nav a{display: none;}
+
+.main-nav .primary a, .main-nav .secondary a{display: block;}
