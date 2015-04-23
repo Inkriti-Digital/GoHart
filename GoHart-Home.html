@@ -156,15 +156,59 @@
 					<h1>YOU CAN USE</h1>
 				</div>
 
-				<div class="news-blocks">
-					<div class="prev-arrow"><img src="/Style%20Library/GoHart/Images/news-arrow-left.png" alt="News Arrow"/></div>
-					<div class="next-arrow"><img src="/Style%20Library/GoHart/Images/news-arrow-right.png" alt="News Arrow"/></div>
-					<div id="newsRow1" class="block-row">
-					
-					</div>
-					<div id="newsRow2" class="block-row">	
+				<div id="newsBlockRow" class="newsBlockRow news-blocks">					
+						<div class="newsBlock square"><img src="/Style%20Library/GoHart/Images/news/fpo-img1.jpg" alt="news image"/></div>
+						<div class="block ">
+							<h3>New Promo</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
+							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p>
+						</div>
+						<div class="block square"><img src="/Style%20Library/GoHart/Images/news/fpo-img1.jpg" alt="news image"/></div>
+						<div class="block light"><h3>New Promo</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
+							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p></div>
+						<div class="block square"><img src="/Style%20Library/GoHart/Images/news/fpo-img1.jpg" alt="news image"/></div>
+						<div class="block light">
+							<h3>New Promo</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
+							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p>
+						</div>
+						<div class="block square"><img src="/Style%20Library/GoHart/Images/news/fpo-img1.jpg" alt="news image"/></div>
+						<div class="block square"><img src="/Style%20Library/GoHart/Images/news/fpo-img1.jpg" alt="news image"/></div>
+						<div class="block">
+							<h3>New Promo</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
+							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p>
+						</div>
+						<div class="block square"><img src="/Style%20Library/GoHart/Images/news/fpo-img1.jpg" alt="news image"/></div>						
+				</div>
+
+				<div id="newsBlockRow2" class="newsBlockRow2 news-blocks">
+						<div class="block light"><h3>New Promo</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
+							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p></div>
+						<div class="block square"><img src="/Style%20Library/GoHart/Images/news/fpo-img1.jpg" alt="news image"/></div>
+						<div class="block light">
+							<h3>New Promo</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
+							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p>
+						</div>					
+						<div class="newsBlock square"><img src="/Style%20Library/GoHart/Images/news/fpo-img1.jpg" alt="news image"/></div>
+						<div class="block ">
+							<h3>New Promo</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
+							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p>
+						</div>
+						<div class="block square"><img src="/Style%20Library/GoHart/Images/news/fpo-img1.jpg" alt="news image"/></div>
 						
-					</div>
+						<div class="block square"><img src="/Style%20Library/GoHart/Images/news/fpo-img1.jpg" alt="news image"/></div>
+						<div class="block square"><img src="/Style%20Library/GoHart/Images/news/fpo-img1.jpg" alt="news image"/></div>
+						<div class="block">
+							<h3>New Promo</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
+							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p>
+						</div>
+						<div class="block square"><img src="/Style%20Library/GoHart/Images/news/fpo-img1.jpg" alt="news image"/></div>						
 				</div>
 			</section>
 			
@@ -286,8 +330,38 @@
 					<img class="desktop" src="/Style%20Library/GoHart/Images/return-arrow.png" alt="Return to Top"/>
 					<img class="mobile" src="/Style%20Library/GoHart/Images/responsive/top-arrow.png" alt="Return to Top"/>
 				</div>
-
+				<script src="/Style%20Library/GoHart/Js/slick.min.js"></script>
 				<script src="/Style%20Library/GoHart/Js/home-animation.js"></script>
+				
+		<script>
+			$('#newsBlockRow').slick({
+			  dots: false,
+			  infinite: true,
+			  speed: 400,
+			  slidesToShow: 1,
+			  centerMode: true,
+			  slidesToScroll: 4,
+			  variableWidth: true,
+			  swipeToSlide: true,
+			  autoplay: true,
+			  autoplaySpeed: 2500,
+			  asNavFor: '.newsBlockRow2'
+			});
+
+			$('#newsBlockRow2').slick({
+			  dots: false,
+			  infinite: true,
+			  speed: 800,
+			  slidesToShow: 1,
+			  centerMode: true,
+			  slidesToScroll: 4,
+			  variableWidth: true,
+			  swipeToSlide: true,
+			  autoplay: true,
+			  autoplaySpeed: 3000,
+			  asNavFor: '.newsBlockRow2'
+			});
+			</script>
 				
 				
 		
