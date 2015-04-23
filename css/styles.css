@@ -961,6 +961,11 @@ hgroup h1, hgroup .hgroup h1, .hgroup hgroup h1, hgroup h2, hgroup .hgroup h2, .
  * 1. Default images to be fluid in width.
  * 2. Non-fluid images if you specify `width` and/or `height` attributes.
  */
+img {
+  max-width: auto;
+  /* 1 */
+}
+
 img[width],
 img[height] {
   max-width: none;
@@ -2674,6 +2679,8 @@ section h1 {
   z-index: 250;
   background-color: rgba(14, 21, 45, 0.8);
   padding: 10px;
+  padding-bottom: 0;
+  max-height: 70px;
 }
 .header .headline {
   position: absolute;
@@ -2880,6 +2887,8 @@ section h1 {
   bottom: -28px;
   background-color: rgba(14, 21, 45, 0.8);
   padding: 10px;
+  width: 5%;
+  min-width: 70px;
 }
 @media only screen and (max-width: 768px) {
   .page-content .return-top {
@@ -3332,6 +3341,9 @@ ul b, li b {
 .map-locations .marker-details {
   width: 30%;
   display: inline-block;
+}
+.map-locations .marker-details a img {
+  margin-right: 5px;
 }
 .map-locations .marker-address {
   color: #666;
@@ -5237,7 +5249,7 @@ b {
 
 .alerts-detours .rider-alert {
   width: 96%;
-  padding: 0;
+  padding: 7px;
 }
 
 .alerts-detours .rider-alert .rider-alert-left {
@@ -6642,6 +6654,10 @@ b {
   color: white;
 }
 
+.ms-rtestate-field h2 {
+  color: #036;
+}
+
 body {
   margin: 0;
   font-size: 16px;
@@ -6660,10 +6676,6 @@ a:active, a:hover {
 html {
   font: 1em/1.5 sans-serif;
   min-height: 100%;
-}
-
-img {
-  max-width: 100%;
 }
 
 .container img {

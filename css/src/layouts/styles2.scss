@@ -1311,7 +1311,7 @@
 .page-content .bus-shelter-requests label{display: inline;margin-right:25px;}
 b{font-family: gothMed,Helvetica,Arial,sans-serif;}
 .alerts-detours .rider-alert-top{margin-top:20px;}
-.alerts-detours .rider-alert{width:96%;padding:0;}
+.alerts-detours .rider-alert{width:96%;padding:7px;}
 .alerts-detours .rider-alert .rider-alert-left {margin-right: 10px; background-color:#871A15;display: inline-block;height: 38px;line-height:38px;padding:0 15px;}
 .alerts-detours .rider-alert.rider-alert-right {margin-left:-6px;}
 .alerts-detours .detour-thumb{width:10%;}
@@ -2269,13 +2269,19 @@ b{font-family: gothMed,Helvetica,Arial,sans-serif;}
 	color: white;
 }
 
+.ms-rtestate-field h2{
+	color: #036;
+}
+
+
+
 body{margin:0;font-size: 16px;}
 
 a{background:0 0;text-decoration:none;}a:active,a:hover{outline:0;text-decoration:none;}
 
 html{font:1em/1.5 sans-serif;min-height:100%}
 
-img{max-width:100%} .container img{max-width:100%}
+.container img{max-width:100%}
 
 .home-form #end,.home-form #start{width:25%}
 

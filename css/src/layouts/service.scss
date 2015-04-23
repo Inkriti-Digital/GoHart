@@ -31,6 +31,8 @@
 		  z-index: 250;
 		  background-color: rgba(14,21,45,.8);
 		  padding: 10px;
+		  padding-bottom: 0;
+		  max-height: 70px;
  	 }
 
  	 .headline{
@@ -281,6 +283,8 @@
 		  bottom: -28px;
 		  background-color: rgba(14,21,45,.8);
   		  padding: 10px;
+  		  width: 5%;
+  		  min-width: 70px;
 
 
 		@include media-query(palm){
