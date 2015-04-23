@@ -365,7 +365,7 @@
 		<!-- Load Scripts -->		
 		<?php include ("views/scripts-load.php"); ?>
 		<script src="js/home-animation.js"></script>
-		<script src="js/slick.js"></script>
+		<script src="js/slick.min.js"></script>
 		<script>
 			$('.newsBlockRow').slick({
 			  dots: false,
