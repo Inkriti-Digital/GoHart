@@ -2287,6 +2287,10 @@ html{font:1em/1.5 sans-serif;min-height:100%}
 
 #s4-bodyContainer{padding-bottom:0px !important;}.ms-webpartzone-cell{margin: auto auto 0px !important;}
 
+#s4-workspace{ width: 100% !important; }
+
+div{max-width: 2000px !important;}
+
 
 
 
@@ -2413,14 +2417,6 @@ html{font:1em/1.5 sans-serif;min-height:100%}
 
 
 
-
-
-@charset 'UTF-8';
-/* Slider */
-.slick-loading .slick-list
-{
-    background: #fff url('./ajax-loader.gif') center center no-repeat;
-}
 
 /* Icons */
 

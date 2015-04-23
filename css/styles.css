@@ -6696,6 +6696,14 @@ html {
   margin: auto auto 0px !important;
 }
 
+#s4-workspace {
+  width: 100% !important;
+}
+
+div {
+  max-width: 2000px !important;
+}
+
 /*slick js news scroller styles */
 /* Slider */
 .slick-slider {
@@ -6793,11 +6801,6 @@ html {
   display: block;
   height: auto;
   border: 1px solid transparent;
-}
-
-/* Slider */
-.slick-loading .slick-list {
-  background: white url("./ajax-loader.gif") center center no-repeat;
 }
 
 /* Icons */
