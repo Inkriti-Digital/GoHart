@@ -2310,6 +2310,13 @@ section h1 {
   width: 75%;
 }
 
+.news {
+  width: 94%;
+  margin: auto;
+}
+.news .newsBlockRow2 button {
+  display: none !important;
+}
 .news h1 {
   font-size: 50px;
   padding: 0.5% 1% 1% 1%;
@@ -2321,11 +2328,6 @@ section h1 {
   .news h1 {
     font-size: 88px;
   }
-}
-.news .news-blocks {
-  margin: 30px 0 30px -10px;
-  width: auto;
-  overflow: hidden;
 }
 @media only screen and (max-width: 768px) {
   .news .news-blocks {
@@ -2343,10 +2345,10 @@ section h1 {
   }
 }
 .news .news-blocks .block {
-  width: 400px;
+  width: 400px !important;
   height: 250px;
   background-color: #3f4558;
-  margin: 5px 5px;
+  margin: 0px 5px;
   display: inline-block;
   overflow: hidden;
   vertical-align: top;
@@ -2388,7 +2390,7 @@ section h1 {
   }
 }
 .news .news-blocks .square {
-  width: 300px;
+  width: 300px !important;
 }
 @media only screen and (max-width: 768px) {
   .news .news-blocks .square {

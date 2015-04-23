@@ -9,6 +9,8 @@
 		<meta name="viewport" content="width=640, maximum-scale=1">
 		<link rel="stylesheet" href="css/styles.min.css">
 		<link rel="stylesheet" href="css/styles2.css">
+		<link rel="stylesheet" href="css/slick.css">
+		<link rel="stylesheet" href="css/slick-theme.css">
 		<!--[if lte IE 10]>
 			<link rel="stylesheet" href="css/ie9.css">
 		<![endif]-->
@@ -181,21 +183,9 @@
 					<h1>YOU CAN USE</h1>
 				</div>
 
-				<!-- <ul id="scroller">
-					<li><img src="img/news/fpo-img1.jpg" width="290" height="200"></li>
-					<li><img src="img/news/fpo-img1.jpg" width="290" height="200"></li>
-					<li><img src="img/news/fpo-img1.jpg" width="290" height="200"></li>
-					<li><img src="img/news/fpo-img1.jpg" width="290" height="200"></li>
-					<li><img src="img/news/fpo-img1.jpg" width="290" height="200"></li>
-					<li><img src="img/news/fpo-img1.jpg" width="290" height="200"></li>
-				</ul>   -->
-
-
-				<div class="news-blocks">
-					<div class="prev-arrow"><img src="img/news-arrow-left.png" alt="News Arrow"/></div>
-					<div class="next-arrow"><img src="img/news-arrow-right.png" alt="News Arrow"/></div>
-					<div id="newsRow1" class="block-row">
-						<div class="block">
+				<div class="newsBlockRow news-blocks">					
+						<div class="newsBlock square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>
+						<div class="block ">
 							<h3>New Promo</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
 							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p>
@@ -204,38 +194,52 @@
 						<div class="block light"><h3>New Promo</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
 							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p></div>
-						<div class="block square"><img src="img/news/fpo-img2.jpg" alt="news image"/></div>
-						<div class="block">
-							<h3>New Promo</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
-							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p>
-						</div>
-						<div class="block square"><img src="img/news/fpo-img2.jpg" alt="news image"/></div>
-						<div class="block light"></div>
-						<div class="block"></div>
 						<div class="block square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>
-						<div class="block"></div>				
-						<div class="block light"></div>
-						<div class="block square"></div>
-						<div class="block"></div>
-					</div>
-					<div id="newsRow2" class="block-row">	
-						<div class="block square"><img src="img/news/fpo-img4.jpg" alt="news image"/></div>
 						<div class="block light">
 							<h3>New Promo</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
 							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p>
 						</div>
-						<div class="block square"><img src="img/news/fpo-img2.jpg" alt="news image"/></div>
-						<div class="block"><img src="img/news/fpo-img3-long.jpg" alt="news image"/></div>
-						<div class="block square"></div>
-						<div class="block"></div>
-						<div class="block square light"></div>					
-						<div class="block square"></div>
-						<div class="block"></div>
-						<div class="block square"></div>
-					</div>
+						<div class="block square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>
+						<div class="block square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>
+						<div class="block">
+							<h3>New Promo</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
+							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p>
+						</div>
+						<div class="block square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>						
 				</div>
+
+				<div class="newsBlockRow2 news-blocks">
+						<div class="block light"><h3>New Promo</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
+							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p></div>
+						<div class="block square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>
+						<div class="block light">
+							<h3>New Promo</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
+							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p>
+						</div>					
+						<div class="newsBlock square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>
+						<div class="block ">
+							<h3>New Promo</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
+							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p>
+						</div>
+						<div class="block square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>
+						
+						<div class="block square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>
+						<div class="block square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>
+						<div class="block">
+							<h3>New Promo</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
+							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p>
+						</div>
+						<div class="block square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>						
+				</div>
+
+
+				
 			</section>
 			
 			<section class="gohart" data-2500="background-position: 40% 0%;" data-3000="background-position: 0% 0%;">
@@ -361,13 +365,36 @@
 		<!-- Load Scripts -->		
 		<?php include ("views/scripts-load.php"); ?>
 		<script src="js/home-animation.js"></script>
-		<script src="js/jquery.simplyscroll.min.js"></script>
-		<script type="text/javascript">
-		(function($) {
-			$(function() { //on DOM ready 
-		    		$("#scroller").simplyScroll();
+		<script src="js/slick.js"></script>
+		<script>
+			$('.newsBlockRow').slick({
+			  dots: false,
+			  infinite: true,
+			  speed: 400,
+			  slidesToShow: 1,
+			  centerMode: true,
+			  slidesToScroll: 4,
+			  variableWidth: true,
+			  swipeToSlide: true,
+			  autoplay: true,
+			  autoplaySpeed: 2500,
+			  asNavFor: '.newsBlockRow2'
 			});
-		 })(jQuery);
-		</script>
+
+			$('.newsBlockRow2').slick({
+			  dots: false,
+			  infinite: true,
+			  speed: 800,
+			  slidesToShow: 1,
+			  centerMode: true,
+			  slidesToScroll: 4,
+			  variableWidth: true,
+			  swipeToSlide: true,
+			  autoplay: true,
+			  autoplaySpeed: 3000,
+			  asNavFor: '.newsBlockRow2'
+			});
+			</script>
+		
 	</body>
 </html>
