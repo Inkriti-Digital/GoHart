@@ -2315,8 +2315,10 @@ section h1 {
 }
 
 .news {
-  width: 94%;
+  width: 100%;
   margin: auto;
+  height: 750px;
+  overflow: hidden;
 }
 .news .newsBlockRow2 button {
   display: none !important;
@@ -6696,12 +6698,19 @@ html {
   margin: auto auto 0px !important;
 }
 
-#s4-workspace {
+.slick-slider {
+  position: absolute !important;
+  display: block !important;
+  height: 250px !important;
   width: 100% !important;
 }
 
-div {
-  max-width: 2000px !important;
+#newsBlockRow {
+  top: 29.5%;
+}
+
+#newsBlockRow2 {
+  top: 64%;
 }
 
 /*slick js news scroller styles */
@@ -6829,6 +6838,12 @@ div {
   width: 22px;
   height: 39px;
   top: 101%;
+  background-size: 100%;
+  width: 33px;
+  position: absolute;
+  height: 56px;
+  top: 93%;
+  z-index: 25;
 }
 
 .slick-prev {
@@ -6837,6 +6852,12 @@ div {
   width: 22px;
   height: 39px;
   top: 101%;
+  background-size: 100%;
+  width: 33px;
+  position: absolute;
+  height: 56px;
+  top: 93%;
+  z-index: 25;
 }
 
 .slick-prev:hover,
@@ -6872,7 +6893,7 @@ div {
 }
 
 .slick-prev {
-  left: -2.5%;
+  left: 1%;
 }
 
 [dir='rtl'] .slick-prev {
@@ -6889,7 +6910,7 @@ div {
 }
 
 .slick-next {
-  right: -2.5%;
+  right: 1%;
 }
 
 [dir='rtl'] .slick-next {
