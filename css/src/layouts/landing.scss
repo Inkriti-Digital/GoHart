@@ -194,14 +194,7 @@ body{
  	 }
 
  	 .bus-ico{
- 	 	position: absolute;
- 	 	right: 0px;
-		bottom: 6%;
-		margin: 5.5%;
-		margin-right: 8.5%;
-		width: 11%;
-		max-width: 179px;
-		cursor: pointer;
+ 	 	cursor: pointer;
 		color: white;
 		font-size: 18px;
 
@@ -224,9 +217,6 @@ body{
  }
 
  .bottom-rule{
- 	 	position: absolute;
- 	 	width: 99%;
- 	 	bottom: 13%;
  	 	padding: 0 6%;
  	 	color: white;
  	 	font-size: 19px;
@@ -281,10 +271,10 @@ body{
 
 
 .home-form{
- 	 	position: absolute;
-		bottom: 6%;
-		padding: 0 6%;
-		width: 100%;
+ 	//  	position: absolute;
+		// bottom: 6%;
+		// padding: 0 6%;
+		// width: 100%;
 
 		@include media-query(palm){
 			position: relative;
@@ -326,6 +316,8 @@ body{
 			margin-right: 0;
 			letter-spacing: 0.03em;
 			text-transform: uppercase;
+			vertical-align: top;
+			width: 15%;
 
 
 			@include media-query(palm){
@@ -1060,8 +1052,73 @@ font-size: 36px;
  			margin-right: 0;
  		}
  	}
-
  	
+ }
+
+
+
+ .landing{
+ 	.home-form-lockup{
+		  position: absolute;
+		  width: 100%;
+		  z-index: 20;
+		  height: 90px;
+		  bottom: 4%;
+
+ 		.bus-ico{
+ 			float: right;
+ 			margin-right: 6%;
+ 			margin-top: -10px;
+ 		}
+
+ 		.bottom-rule{
+ 			.cta{ 
+ 				width: auto; 
+ 			}
+ 			.rule{ 
+ 				width: 100%;
+  				top: -14px;
+  				padding-left: 25%;
+ 			}
+ 		}
+
+ 		.home-form{
+ 			margin: auto;
+  			width: 88%;
+  			margin-top: -22px;
+
+  			#start, #end{
+  				width: 25%;
+  			}
+
+ 			#date, #time{
+ 				width: 14.25%;
+ 			}
+ 		}
+
+ 		input[type="submit"], input[type="button"] {
+ 			width: 15%;
+ 			font-size: 0.9em;
+ 			padding: 5px 1.5%;
+ 			
+ 			@media (max-width: 1290px) {
+ 				font-size: 0.75em;
+ 			}
+ 			@media (max-width: 1020px) {
+ 				font-size: 0.7em;
+ 				padding: 5px 1%;
+ 			}
+
+ 			@media (max-width: 805px) {
+ 				font-size: 0.65em;
+ 				letter-spacing: 0em;
+ 				width: 14%;
+ 				padding: 5px 1%;
+ 			}
+ 			
+ 			
+ 		}
+ 	}
  }
 
 

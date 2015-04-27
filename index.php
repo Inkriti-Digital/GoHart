@@ -46,19 +46,21 @@
 					</div>
 				</div>
 
-				<div class="bus-ico"><a href="#">ONEBUSAWAY</a></div>
-				<div class="bottom-rule desktop">
-					<div class="cta">LET US TAKE YOU THERE</div>
-					<div class="rule"><hr/></div>
-				</div>
-				<div class="home-form desktop">
-					<form action="#">
-					<input id="start" type="text" name="start" placeholder="Start" onfocus="this.value='';">
-					<input id="end" type="text" name="end" placeholder="End" onfocus="this.value='';">
-					<input id="date" type="text" name="date" placeholder="Date" onfocus="this.value='';">
-					<input id="time" type="text" name="time" placeholder="Time" onfocus="this.value='';">
-					<input type="button" value="SEARCH" >
-					</form>
+				<div class="home-form-lockup">
+					<div class="bus-ico"><a href="#">ONEBUSAWAY</a></div>
+					<div class="bottom-rule desktop">
+						<div class="cta">LET US TAKE YOU THERE</div>
+						<div class="rule"><hr/></div>
+					</div>
+					<div class="home-form desktop">
+						<form action="#">
+						<input id="start" type="text" name="start" placeholder="Start" onfocus="this.value='';">
+						<input id="end" type="text" name="end" placeholder="End" onfocus="this.value='';">
+						<input id="date" type="text" name="date" placeholder="Date" onfocus="this.value='';">
+						<input id="time" type="text" name="time" placeholder="Time" onfocus="this.value='';">
+						<input type="button" value="GET DIRECTIONS" >
+						</form>
+					</div>
 				</div>
 			</section>
 			<section class="take-you-there mobile">
