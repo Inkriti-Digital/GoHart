@@ -275,8 +275,8 @@ $(document).ready(function(){
             if(hideLockup<=-175){
                 $(".header .full-logo").hide();
                 $(".header .box-logo").show();
-                $(".header .logo").css('width', '4.35%');
-                $(".header .logo").css('max-width', '73px');
+                $(".header .logo").css('width', '5%');
+                // $(".header .logo").css('max-width', '73px');
             } else if( hideLockup > -176){
                 $(".header .full-logo").show();
                 $(".header .box-logo").hide();
