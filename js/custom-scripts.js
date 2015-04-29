@@ -74,6 +74,18 @@ $(document).ready(function(){
         }
     );
 
+
+
+     //BRICK BLUE HOVER EFFECT
+     $(".brick-blue-link").hover(function() { 
+            $(this).css('background-color', '#33648c');
+    }, function() { 
+            $(this).css('background-color', '#0f406b');
+        }
+    );
+
+
+
     $(".ico-block").hover(function() {
         $(".metro-tooltip", this).fadeToggle(350);
     });

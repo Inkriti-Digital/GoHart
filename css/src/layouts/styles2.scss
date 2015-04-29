@@ -87,7 +87,7 @@
 	float:left;
 }
 .page-content .schedule-language .schedule-and-language-text{
-	background-color:#0f406b;
+	// background-color:#0f406b;
 	width:85%;
 	padding:10px 0;
 	text-align:center;
@@ -1115,7 +1115,7 @@
 }
 .page-nav .nav-btn.fullWidth {
    	width: 100%;
-	}
+}
 	
 	
 	
@@ -1125,19 +1125,29 @@
 	text-transform: uppercase;
 	color: #083b70;
 	line-height: 45px;
-	height: 45px;
+	height: 97px;
 	font-size: 16px;
-	background-color: #ccc;
+	background-color: #e4e4e3;
 	padding: 5px;
 	padding-left: 10px;
 	padding-top: 10px;
-	margin-left: 2%;
-	/*width:50%;*/
+	margin-left: 0;
+	color: #77777a;
+	-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
 }
+
+
+
+.help-you{
+	margin-left: 0;
+}
+
 .tix-box .tix-row .tix-fare {
 	float: right;
 	border-left: 1px #666 solid;
-	padding-right: 8%;
+	padding-right: 10%;
 	width: 25%;
 	text-align:right;
 }
@@ -1381,7 +1391,7 @@ b{font-family: gothMed,Helvetica,Arial,sans-serif;}
 /* header background images styles - End */
 
 /* bricks hover effect - Start */
-.brick-blue-link a.brick-link:hover{background-color:#7FAFD4;}
+// .brick-blue-link a.brick-link:hover{background-color:#33648c;}
 /* bricks hover effect - End */
 
 
@@ -2329,6 +2339,27 @@ html{font:1em/1.5 sans-serif;min-height:100%}
 }
 
 
+a:link, a:visited, a{
+	color: #7FAFD4;
+}
+
+a:hover{
+	color: #0E3B6A;
+}
+
+.content-body a:link, a:visited, a{
+	color: #7FAFD4;
+}
+
+.content-body a:hover{
+	color: #0E3B6A;
+}
+
+
+.brick-blue-link{
+	 transition: all 0.3s ease;
+}
+
 
 
 
@@ -2686,4 +2717,212 @@ html{font:1em/1.5 sans-serif;min-height:100%}
 
 
 
+
+
+.page-content .content-block select, .page-content .content-block select option{
+	color: #77777a;
+}
+
+
+.page-content .help-you{
+	margin-left: -25px;
+}
+
+
+.state-select{
+	height: 47px;
+}
+
+.state-select select {
+	  border: none;
+	  text-transform: uppercase;
+	  line-height: 45px;
+	  height: 38px;
+	  font-size: 16px;
+	  background-color: #ccc;
+	  padding: 5px;
+	  padding-left: 10px;
+	  padding-top: 10px;
+	  width: 100%;
+	  margin: 0;
+	  margin-left: 0;
+	  padding: 0;
+	  color: #083b70 !important;
+	  -webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+}
+
+
+
+
+.phone-select{
+	display: inline-block;
+}
+
+.page-content .help-you .phone-select select {
+	  border: none;
+	  text-transform: uppercase;
+	  line-height: 45px;
+	  height: 46px;
+	  font-size: 18px;
+	  width: 60%;
+	  margin: 0;
+	  margin-left: 25px;
+	  margin-left: 25px;
+	  padding: 0;
+	  border-radius: 0;
+	  -webkit-border-radius: 0px;
+	  -moz-border-radius: 0px;
+	  border-radius: 0px;
+}
+
+.content-body .home-form #ddlRoute {
+	  border: none;
+	  text-transform: capitalize;
+	  line-height: 45px;
+	  height: 46px;
+	  font-size: 18px;
+	  width: 60%;
+	  margin: 0;
+	  margin-left: 25px;
+	  padding: 0;
+	  border-radius: 0;
+	  -webkit-border-radius: 0px;
+	  -moz-border-radius: 0px;
+	  border-radius: 0px;
+}
+
+.content-body .home-form #ddlDay {
+	  border: none;
+	  text-transform: capitalize;
+	  line-height: 45px;
+	  height: 46px;
+	  font-size: 18px;
+	  width: 60%;
+	  margin: 0;
+	  margin-left: 10px;
+	  padding: 0;
+	  border-radius: 0;
+	  -webkit-border-radius: 0px;
+	  -moz-border-radius: 0px;
+	  border-radius: 0px;
+}
+
+.content-body .home-form #ddlBound {
+	  border: none;
+	  text-transform: capitalize;
+	  line-height: 45px;
+	  height: 46px;
+	  font-size: 18px;
+	  width: 60%;
+	  margin: 0;
+	  margin-left: 10px;
+	  padding: 0;
+	  border-radius: 0;
+	  -webkit-border-radius: 0px;
+	  -moz-border-radius: 0px;
+	  border-radius: 0px;
+}
+
+.maps-scheduels .schedule-nav a{
+  text-align: center;
+  margin-bottom: 5px;
+  height: 50px;
+  padding-top: 12px;
+  width: 19.5%;
+  vertical-align: top;
+  font-size: 17px;
+}
+
+
+#divBus .home-form{
+
+}
+
+@media only screen and (max-width: 1200px){
+	.maps-scheduels .schedule-nav a{
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 1000px){
+	.maps-scheduels .schedule-nav a{
+		font-size: 13px;
+	}
+}
+
+@media only screen and (max-width: 800px){
+	.maps-scheduels .schedule-nav a{
+		font-size: 13px;
+	}
+}
+
+
+.maps-scheduels .schedule-nav a:nth-child(1), .maps-scheduels .schedule-nav a:nth-child(3) {  
+  width: 11%;
+}
+
+
+.maps-scheduels .schedule-nav a:nth-child(4) {  
+  width: 21%;
+    min-width: 190px;
+}
+
+.maps-scheduels .schedule-nav a:nth-child(5) {  
+  width: 31%;
+  min-width: 285px;
+}
+
+
+.maps-scheduels .download-pdf span{
+	top:1px;
+}
+
+
+.p-app-icon{
+	display: inline-block;
+	display: inline-block;
+	  margin: 0;
+	  width: 70px;
+	  height: 74px;
+}
+
+
+.p-app-icon-descript{
+	  display: inline-block;
+  vertical-align: top;
+  width: 58%;
+}
+
+
+
+@media only screen and (max-width: 768px){
+
+	.maps-scheduels .schedule-nav a{
+		width: 100% !important;
+		font-size: 28px !important;
+		height: 58px !important;
+		text-align: left;
+	}
+
+	.content-body .home-form #ddlBound, .content-body .home-form #ddlDay, .content-body .home-form #ddlRoute{
+			width: 100% !important;
+		  height: 60px;
+		  font-size: 28px;
+		  margin-bottom: 20px;
+		}
+
+		.content-body #divBus .home-form input[type=button], .content-body #divBus .home-form input[type=submit]{
+			  font-size: 30px;
+			  padding: 15px;
+			  width: 40%;
+			  height: 58px;
+			  padding-top: 9px;
+			  margin-left: 24px;
+		}
+
+
+
+}
 

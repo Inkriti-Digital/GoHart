@@ -4,7 +4,7 @@
 	margin-bottom: 4%;
 }
 .main-nav .search-bar input[type="text"]{line-height:12px;padding-top: 6px;}
-.main-nav .social-icons .ico {margin-right: 15px;}
+.main-nav .social-icons .ico {margin-right: 35px;}
 .home-form input[type="text"]{line-height:12px;padding-top: 6px;}
 .home-form input[type="submit"]{line-height:19px;padding-top: 6px;}
 .home-form-innerpage input[type="text"]{line-height:12px;padding-top: 6px;}
@@ -22,3 +22,16 @@
 .main-nav a{display: none;}
 
 .main-nav .primary a, .main-nav .secondary a{display: block;}
+
+.main-nav .primary{ width: 380px; }
+
+.main-nav .primary .social-icons a{ display: none; }
+
+.main-nav .primary .social-icons .ico a{ display: block; }
+
+.main-nav .primary .search-nav a{ float:left; margin-right:0px; margin-bottom: 5px; }
+
+.main-nav .search-bar input[type="text"]{
+	padding:0;
+}
+

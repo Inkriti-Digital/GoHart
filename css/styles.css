@@ -1969,10 +1969,10 @@ section h1 {
 @media only screen and (max-width: 768px) {
   .home-form input[type="submit"], .home-form input[type="button"] {
     font-size: 34px;
-    padding: 15px 15px;
-    width: 41%;
+    padding: 15px;
+    width: 52%;
     height: 70px;
-    padding-top: 20px;
+    padding-top: 13px;
   }
 }
 .home-form #start, .home-form #end {
@@ -2306,8 +2306,39 @@ section h1 {
   height: 750px;
   overflow: hidden;
 }
+@media only screen and (max-width: 768px) {
+  .news {
+    height: 1400px;
+  }
+}
 .news .newsBlockRow2 button {
   display: none !important;
+}
+@media only screen and (max-width: 768px) {
+  .news #newsBlockRow {
+    top: 268px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .news #newsBlockRow .slick-next {
+    display: block;
+    height: 110px;
+    width: 65px;
+    top: 551px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .news #newsBlockRow .slick-prev {
+    display: block;
+    height: 110px;
+    width: 65px;
+    top: 551px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .news #newsBlockRow2 {
+    top: 882px;
+  }
 }
 .news h1 {
   font-size: 50px;
@@ -2318,7 +2349,7 @@ section h1 {
 }
 @media only screen and (max-width: 768px) {
   .news h1 {
-    font-size: 88px;
+    font-size: 80px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -2348,8 +2379,12 @@ section h1 {
 @media only screen and (max-width: 768px) {
   .news .news-blocks .block {
     display: block;
-    width: 100%;
+    width: 640px !important;
     height: 600px;
+    border: thin red solid;
+  }
+  .news .news-blocks .block img {
+    width: 650px;
   }
 }
 .news .news-blocks .block h3 {
@@ -2386,7 +2421,7 @@ section h1 {
 }
 @media only screen and (max-width: 768px) {
   .news .news-blocks .square {
-    width: 100%;
+    width: 640px !important;
     height: 600px;
   }
   .news .news-blocks .square img {
@@ -2512,6 +2547,7 @@ section h1 {
   line-height: 30px;
   text-align: left;
   padding-left: 15px;
+  text-transform: uppercase;
 }
 .gohart .mobile-how-to .button-box .button a {
   color: white;
@@ -2843,12 +2879,12 @@ section h1 {
   margin: 3%;
 }
 .page-content .comments .comment-form .form-half {
-  width: 49%;
+  width: 48%;
   float: left;
   vertical-align: top;
   height: 430px;
 }
-.page-content .comments .comment-form .form-half input[type="text"], .page-content .comments .comment-form .form-half textarea {
+.page-content .comments .comment-form .form-half input[type="text"], .page-content .comments .comment-form .form-half input[type="number"], .page-content .comments .comment-form .form-half textarea {
   display: block;
   width: 100%;
   margin-bottom: 10px;
@@ -2860,7 +2896,7 @@ section h1 {
 .page-content .comments .comment-form .form-left {
   margin-right: 20px;
 }
-.page-content .comments .comment-form input[type="text"], .page-content .comments .comment-form textarea {
+.page-content .comments .comment-form input[type="text"], .page-content .comments .comment-form input[type="number"], .page-content .comments .comment-form textarea {
   border: none;
   text-transform: uppercase;
   color: #083b70;
@@ -3071,29 +3107,31 @@ section h1 {
  * ==========================================================================
  */
 .info-tix {
-  width: 95%;
+  width: 95% !important;
 }
 
 .tix-box {
   font-family: gothBook, Helvetica, Arial, sans-serif;
-  width: 75%;
+  width: 71%;
   color: #666;
   margin-bottom: 40px;
 }
 .tix-box .tix-row {
   background-color: #e6e7e8;
   color: #003366;
+  height: 45px;
 }
 .tix-box .tix-row div {
   display: inline-block;
   padding: 6px 10px;
-  padding-top: 8px;
+  padding-top: 11px;
 }
 .tix-box .tix-row .tix-fare {
   float: right;
   border-left: 1px #666 solid;
   padding-right: 12%;
   width: 25%;
+  height: 100%;
 }
 .tix-box .tix-row .tix-fare img {
   position: absolute;
@@ -3839,7 +3877,6 @@ ul b, li b {
 }
 
 .page-content .schedule-language .schedule-and-language-text {
-  background-color: #0f406b;
   width: 85%;
   padding: 10px 0;
   text-align: center;
@@ -4957,20 +4994,25 @@ a.link-normal {
   text-transform: uppercase;
   color: #083b70;
   line-height: 45px;
-  height: 45px;
+  height: 97px;
   font-size: 16px;
-  background-color: #ccc;
+  background-color: #e4e4e3;
   padding: 5px;
   padding-left: 10px;
   padding-top: 10px;
-  margin-left: 2%;
-  /*width:50%;*/
+  margin-left: 0;
+  color: #77777a;
+  border-radius: 0px;
+}
+
+.help-you {
+  margin-left: 0;
 }
 
 .tix-box .tix-row .tix-fare {
   float: right;
   border-left: 1px #666 solid;
-  padding-right: 8%;
+  padding-right: 10%;
   width: 25%;
   text-align: right;
 }
@@ -5489,10 +5531,6 @@ b {
 
 /* header background images styles - End */
 /* bricks hover effect - Start */
-.brick-blue-link a.brick-link:hover {
-  background-color: #7FAFD4;
-}
-
 /* bricks hover effect - End */
 .schedule-nav a:nth-child(1), .schedule-nav a:nth-child(2), .schedule-nav a:nth-child(3) {
   min-width: 13.3%;
@@ -6772,6 +6810,26 @@ html {
   padding-top: 10px;
 }
 
+a:link, a:visited, a {
+  color: #7FAFD4;
+}
+
+a:hover {
+  color: #0E3B6A;
+}
+
+.content-body a:link, a:visited, a {
+  color: #7FAFD4;
+}
+
+.content-body a:hover {
+  color: #0E3B6A;
+}
+
+.brick-blue-link {
+  transition: all 0.3s ease;
+}
+
 /*slick js news scroller styles */
 /* Slider */
 .slick-slider {
@@ -7064,6 +7122,179 @@ html {
 .slick-dots li.slick-active button:before {
   opacity: .75;
   color: black;
+}
+
+.page-content .content-block select, .page-content .content-block select option {
+  color: #77777a;
+}
+
+.page-content .help-you {
+  margin-left: -25px;
+}
+
+.state-select {
+  height: 47px;
+}
+
+.state-select select {
+  border: none;
+  text-transform: uppercase;
+  line-height: 45px;
+  height: 38px;
+  font-size: 16px;
+  background-color: #ccc;
+  padding: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  width: 100%;
+  margin: 0;
+  margin-left: 0;
+  padding: 0;
+  color: #083b70 !important;
+  border-radius: 0px;
+}
+
+.phone-select {
+  display: inline-block;
+}
+
+.page-content .help-you .phone-select select {
+  border: none;
+  text-transform: uppercase;
+  line-height: 45px;
+  height: 46px;
+  font-size: 18px;
+  width: 60%;
+  margin: 0;
+  margin-left: 25px;
+  margin-left: 25px;
+  padding: 0;
+  border-radius: 0;
+  border-radius: 0px;
+}
+
+.content-body .home-form #ddlRoute {
+  border: none;
+  text-transform: capitalize;
+  line-height: 45px;
+  height: 46px;
+  font-size: 18px;
+  width: 60%;
+  margin: 0;
+  margin-left: 25px;
+  padding: 0;
+  border-radius: 0;
+  border-radius: 0px;
+}
+
+.content-body .home-form #ddlDay {
+  border: none;
+  text-transform: capitalize;
+  line-height: 45px;
+  height: 46px;
+  font-size: 18px;
+  width: 60%;
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  border-radius: 0;
+  border-radius: 0px;
+}
+
+.content-body .home-form #ddlBound {
+  border: none;
+  text-transform: capitalize;
+  line-height: 45px;
+  height: 46px;
+  font-size: 18px;
+  width: 60%;
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  border-radius: 0;
+  border-radius: 0px;
+}
+
+.maps-scheduels .schedule-nav a {
+  text-align: center;
+  margin-bottom: 5px;
+  height: 50px;
+  padding-top: 12px;
+  width: 19.5%;
+  vertical-align: top;
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .maps-scheduels .schedule-nav a {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .maps-scheduels .schedule-nav a {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .maps-scheduels .schedule-nav a {
+    font-size: 13px;
+  }
+}
+.maps-scheduels .schedule-nav a:nth-child(1), .maps-scheduels .schedule-nav a:nth-child(3) {
+  width: 11%;
+}
+
+.maps-scheduels .schedule-nav a:nth-child(4) {
+  width: 21%;
+  min-width: 190px;
+}
+
+.maps-scheduels .schedule-nav a:nth-child(5) {
+  width: 31%;
+  min-width: 285px;
+}
+
+.maps-scheduels .download-pdf span {
+  top: 1px;
+}
+
+.p-app-icon {
+  display: inline-block;
+  display: inline-block;
+  margin: 0;
+  width: 70px;
+  height: 74px;
+}
+
+.p-app-icon-descript {
+  display: inline-block;
+  vertical-align: top;
+  width: 58%;
+}
+
+@media only screen and (max-width: 768px) {
+  .maps-scheduels .schedule-nav a {
+    width: 100% !important;
+    font-size: 28px !important;
+    height: 58px !important;
+    text-align: left;
+  }
+
+  .content-body .home-form #ddlBound, .content-body .home-form #ddlDay, .content-body .home-form #ddlRoute {
+    width: 100% !important;
+    height: 60px;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .content-body #divBus .home-form input[type=button], .content-body #divBus .home-form input[type=submit] {
+    font-size: 30px;
+    padding: 15px;
+    width: 40%;
+    height: 58px;
+    padding-top: 9px;
+    margin-left: 24px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -174,12 +174,12 @@
 		margin: 3%;
 
 		.form-half{
-			width: 49%;
+			width: 48%;
 			float: left;
 			vertical-align: top;
 			height: 430px;
 
-			input[type="text"], textarea{
+			input[type="text"], input[type="number"], textarea{
 				display: block;
 				width: 100%;
 				margin-bottom: 10px;
@@ -195,7 +195,7 @@
 			margin-right: 20px;
 		}
 
-		input[type="text"], textarea {
+		input[type="text"], input[type="number"], textarea {
 			border: none;
 			text-transform: uppercase;
 			color: #083b70;

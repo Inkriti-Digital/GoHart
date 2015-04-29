@@ -321,11 +321,11 @@ body{
 
 
 			@include media-query(palm){
-				font-size: 34px;
-				padding: 15px 15px;
-				width: 41%;
-				height: 70px;
-				padding-top: 20px;
+			  font-size: 34px;
+			  padding: 15px;
+			  width: 52%;
+			  height: 70px;
+			  padding-top: 13px;
 			}
 		}
 
@@ -698,13 +698,49 @@ body{
 
  .news{
  	//NEW CODE ADD TO SHARE BRANCH
- 	.newsBlockRow2{
- 	button{ display: none !important; }
+ 	width: 100%;
+	margin: auto;
+	height: 750px;
+	overflow: hidden;
+
+ 	@include media-query(palm){
+ 		height:1400px;
  	}
-width: 100%;
-margin: auto;
-height: 750px;
-overflow: hidden;
+
+ 	.newsBlockRow2{
+ 		button{ display: none !important; }
+ 		}
+	
+
+	#newsBlockRow {
+	 	@include media-query(palm){
+		  top: 268px;
+		}
+
+		.slick-next{
+			@include media-query(palm){
+				  display: block;
+				  height: 110px;
+				  width: 65px;
+				  top: 551px;
+			}	
+		}
+
+		.slick-prev{
+			@include media-query(palm){
+				  display: block;
+				  height: 110px;
+				  width: 65px;
+				  top: 551px;
+			}	
+		}
+	}
+
+	#newsBlockRow2 {
+		@include media-query(palm){
+	  		top: 882px;
+		}
+	}
 
 //
 
@@ -716,7 +752,7 @@ margin-left: 6%;
 margin-bottom: 0.5%;
 
 @include media-query(palm){
-font-size: 88px;
+font-size: 80px;
 }
  	}
 
@@ -730,50 +766,58 @@ height: 1215px;
 }
 
  	.block-row{
- 	position: relative;
-overflow: hidden;
-width: 500%;
-@include media-query(palm){
-width: 100%;
-}
+ 		position: relative;
+		overflow: hidden;
+		width: 500%;
+		@include media-query(palm){
+		width: 100%;
+		}
  	}
 
 
  	.block{
- 	width: 400px !important;
- 	height: 250px;
- 	background-color: #3f4558;
- 	margin: 0px 5px;
- 	display: inline-block;
- 	overflow: hidden;
- 	vertical-align:top;
+	 	width: 400px !important;
+	 	height: 250px;
+	 	background-color: #3f4558;
+	 	margin: 0px 5px;
+	 	display: inline-block;
+	 	overflow: hidden;
+	 	vertical-align:top;
+
+
 
  	@include media-query(palm){
- display: block;
- width: 100%;
- height: 600px;
+	 display: block;
+	 width: 640px !important;
+	 height: 600px;
+	 border: thin red solid;
+
+	 img{
+	 	width: 650px;
+	 }
+
 }
 
  	h3{
  	color: white;
  	font-size: 20px;
-margin: 5px auto;
-margin: 35px 35px 5px 35px;
-font-weight: normal;
-font-family: gothBold, Helvetica, Arial, sans-serif;
+	margin: 5px auto;
+	margin: 35px 35px 5px 35px;
+	font-weight: normal;
+	font-family: gothBold, Helvetica, Arial, sans-serif;
 
-@include media-query(palm){
- font-size: 44px;
-}
+	@include media-query(palm){
+	 font-size: 44px;
+	}
  	}
  	p{
  	color: white;
  	font-size: 16px;
-line-height: 20px;
-display: block;
-max-height: 135px;
-overflow: hidden;
-margin: 0px 35px 35px 35px;
+	line-height: 20px;
+	display: block;
+	max-height: 135px;
+	overflow: hidden;
+	margin: 0px 35px 35px 35px;
 
 
 @include media-query(palm){
@@ -788,12 +832,12 @@ font-size: 36px;
  	width: 300px !important;
 
  	@include media-query(palm){
- width: 100%;
- height: 600px;
+	 width: 640px !important;
+	 height: 600px;
 
- img{
- 	width: 100%;
- }
+	 img{
+	 	width: 100%;
+	 }
 }
  	}
 
@@ -925,6 +969,7 @@ font-size: 36px;
  				line-height: 30px;
  				text-align: left;
  				padding-left: 15px;
+ 				text-transform: uppercase;
 
  				a{ color: white; }
 

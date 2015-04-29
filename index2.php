@@ -183,7 +183,7 @@
 					<h1>YOU CAN USE</h1>
 				</div>
 
-				<div class="newsBlockRow news-blocks">					
+				<div id="#newsBlockRow" class="newsBlockRow news-blocks">					
 						<div class="newsBlock square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>
 						<div class="block ">
 							<h3>New Promo</h3>
@@ -210,7 +210,7 @@
 						<div class="block square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>						
 				</div>
 
-				<div class="newsBlockRow2 news-blocks">
+				<div id="#newsBlockRow2" style="margin-top: 258px;" class="newsBlockRow2 news-blocks">
 						<div class="block light"><h3>New Promo</h3>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
 							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p></div>
@@ -391,8 +391,8 @@
 			  variableWidth: true,
 			  swipeToSlide: true,
 			  autoplay: true,
-			  autoplaySpeed: 3000,
-			  asNavFor: '.newsBlockRow2'
+			  autoplaySpeed: 3000
+			  // asNavFor: '.newsBlockRow2'
 			});
 			</script>
 		
