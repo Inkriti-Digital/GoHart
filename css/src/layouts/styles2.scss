@@ -86,9 +86,10 @@
 	text-align:center;
 	float:left;
 }
+.page-content .schedule-language .icon img{ max-width: 35px; }
 .page-content .schedule-language .schedule-and-language-text{
 	// background-color:#0f406b;
-	width:85%;
+	width:80%;
 	padding:10px 0;
 	text-align:center;
 	float:left;
@@ -597,6 +598,15 @@
 		margin-top:11px;
 		display:inline-block;
 		font-size:20px;
+
+		  padding: 8px 0px;
+		  background-color: #003567;
+		  color: #FFF;
+		  font-weight: 400;
+		  margin-top: 8px;
+		  display: inline-block;
+		  font-size: 20px;
+		  width: 100%;
 	}
 	.content-body .point-no .date{
 		font-weight:bold;
@@ -633,6 +643,15 @@
 		margin-top:11px;
 		display:inline-block;
 		font-size:20px;
+
+		  padding: 8px 0px;
+		  background-color: #003567;
+		  color: #FFF;
+		  font-weight: 400;
+		  margin-top: 8px;
+		  display: inline-block;
+		  font-size: 20px;
+		  width: 100%;
 	}
 	.content-body .dates-full-width .point-description{
 		display:inline-block;
@@ -783,7 +802,7 @@
 	  /*margin: 3%;*/
 	}
 	.page-content .bus-shelter-requests .bus-shelter-request-form .form-half {
-	  width: 49%;
+	  width: 48%;
 	  float: left;
 	  vertical-align: top;
 	  height: 487px;
@@ -902,7 +921,7 @@
 	  /*margin: 3%;*/
 	}
 	.page-content .employee-login .employee-login-form .form-half {
-	  width: 49%;
+	  width: 48%;
 	  float: left;
 	  vertical-align: top;
 	  height: 125px;
@@ -1060,6 +1079,7 @@
 		border:1px solid #0f406b;
 		margin-right:0;
 		margin-bottom:15px;
+		max-height: 75px;
 	}
 	.page-content .brick-blue-link .icon{
 		background-color:#FFFFFF;
@@ -1067,6 +1087,7 @@
 		padding:9px 0 1px 0;
 		text-align:center;
 		float:left;
+		max-height: 70px;
 	}
 	.page-content .brick-blue-link .brick-blue-link-text{
 		background-color:#0f406b;
@@ -1125,7 +1146,7 @@
 	text-transform: uppercase;
 	color: #083b70;
 	line-height: 45px;
-	height: 97px;
+	height: 42px;
 	font-size: 16px;
 	background-color: #e4e4e3;
 	padding: 5px;
@@ -1317,10 +1338,11 @@
 .content-body h2 {color: #036;font-size: 19px;}
 .bus-shelter-requests {z-index: 777;}
 .page-content .bus-shelter-requests input[type="radio"]{margin-right:11px;}
+.page-content .bus-shelter-requests input[type="submit"]{ padding-top: 5px; }
 .page-content .bus-shelter-requests label{display: inline;margin-right:25px;}
 b{font-family: gothMed,Helvetica,Arial,sans-serif;}
 .alerts-detours .rider-alert-top{margin-top:20px;}
-.alerts-detours .rider-alert{width:96%;padding:7px;}
+.alerts-detours .rider-alert{width:96%;padding:0px;}
 .alerts-detours .rider-alert .rider-alert-left {margin-right: 10px; background-color:#871A15;display: inline-block;height: 38px;line-height:38px;padding:0 15px;}
 .alerts-detours .rider-alert.rider-alert-right {margin-left:-6px;}
 .alerts-detours .detour-thumb{width:10%;}
@@ -1417,7 +1439,7 @@ b{font-family: gothMed,Helvetica,Arial,sans-serif;}
 		width: 100%;
   }
   .page-content .schedule-language .schedule-and-language-text {
-		width: 333px;
+		width: 79%;
 	}
 	.page-content .metro-rapid-parts .metro-rapid-parts-bg {
 		width: 119px;
@@ -2111,6 +2133,10 @@ b{font-family: gothMed,Helvetica,Arial,sans-serif;}
 	    padding: 4px 3px 0;
 	    width: 35px;
 	}
+
+	.purchase-tix:hover{
+		background-color: #7FAFD4;
+	}
 	
 	.purchase-tix .tix-ico {
 	    padding: 8px 1px 0;
@@ -2268,12 +2294,6 @@ b{font-family: gothMed,Helvetica,Arial,sans-serif;}
 	.mid-section .mid-copy.alt-transport-midcopy-1 h3 {padding: 0 5px;}
 	
 }
-
-
-
-
-
-
 
 
 
@@ -2725,7 +2745,7 @@ a:hover{
 
 
 .page-content .help-you{
-	margin-left: -25px;
+	// margin-left: -25px;
 }
 
 
@@ -2753,7 +2773,9 @@ a:hover{
 		border-radius: 0px;
 }
 
-
+.location-select select{
+	height: 38px !important;
+}
 
 
 .phone-select{
@@ -2785,7 +2807,7 @@ a:hover{
 	  font-size: 18px;
 	  width: 60%;
 	  margin: 0;
-	  margin-left: 25px;
+	  margin-left: 0px;
 	  padding: 0;
 	  border-radius: 0;
 	  -webkit-border-radius: 0px;
@@ -2825,7 +2847,7 @@ a:hover{
 	  border-radius: 0px;
 }
 
-.maps-scheduels .schedule-nav a{
+.maps-scheduels .schedule-nav a, .maps-scheduels .schedule-nav a:visited{
   text-align: center;
   margin-bottom: 5px;
   height: 50px;
@@ -2833,11 +2855,12 @@ a:hover{
   width: 19.5%;
   vertical-align: top;
   font-size: 17px;
+  color: #003366;
 }
 
 
 #divBus .home-form{
-
+	margin-left: 0;
 }
 
 @media only screen and (max-width: 1200px){
@@ -2891,9 +2914,90 @@ a:hover{
 
 .p-app-icon-descript{
 	  display: inline-block;
-  vertical-align: top;
-  width: 58%;
+	  vertical-align: top;
+	  width: 58%;
 }
+
+
+.planner .home-form #end, .planner .home-form #start{
+	width: 24% !important;
+}
+
+.planner .home-form input[type=submit]:hover{
+	background-color: #20416f;
+}
+
+.home-form input[type=button]:hover, .home-form input[type=submit]:hover{
+	background-color: #20416f;
+}
+
+	.page-content .college-select{
+		position: relative;
+		left: -25px;
+	}
+
+  .page-content .college-select .select{
+  	width: 108%;
+  	height: 98px;
+  }
+
+  .page-content .visit-link{
+  	width: 95%;
+  	padding: 0;
+  }
+
+  .page-content .visit-link a, .page-content .visit-link a:hover{
+  	color: white;
+  	padding: 5px 0;
+  }
+
+  .page-content .visit-link a:hover, .page-content .visit-link:hover, .purchase-tix:hover{
+  	background-color: #4b7090;
+  	//opacity: 0.75;
+  }
+
+
+
+  .page-content .comments .comment-form .submit-btn input[type=submit]{
+  	padding-top: 5px;
+  }
+
+
+  .share-this-box{
+  	position: absolute;
+  /* border: thin red solid; */
+  width: 115px;
+  /* left: 50%; */
+  margin-left: 92%;
+  background-color: rgba(255,255,255,.9);
+  margin-top: -76px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  z-index: 50;
+  display: none;
+  border-radius: 5px 5px 5px 5px;
+-moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+-webkit-box-shadow: 5px 10px 20px 0px rgba(0,0,0,0.36);
+-moz-box-shadow: 5px 10px 20px 0px rgba(0,0,0,0.36);
+box-shadow: 5px 10px 20px 0px rgba(0,0,0,0.36);
+
+		.close-share{
+			  width: 10px;
+			  height: 10px;
+			  position: absolute;
+			  right: 8px;
+			  top: 8px;
+			  cursor:pointer;
+		}
+  }
+
+  .ico-block{
+  	cursor:pointer;
+  }
+
+
 
 
 
@@ -2921,8 +3025,22 @@ a:hover{
 			  padding-top: 9px;
 			  margin-left: 24px;
 		}
-
-
-
 }
+
+
+
+
+
+//additions - 5/27
+
+.goog-te-gadget{
+	color: transparent;
+	height: 24px;
+
+	.goog-te-combo{
+		color: #333;
+	}
+}
+
+
 

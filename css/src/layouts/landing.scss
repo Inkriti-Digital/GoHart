@@ -163,6 +163,27 @@ body{
 	  padding: 8px 6px 0px 8px;
 	  z-index: 30;
 
+	  .tooltip{
+		      background-color: #7aaed5;
+			  position: absolute;
+			  color: #fff;
+			  width: 47px;
+			  font-size: 12px;
+			  margin-top: -30px;
+			  padding-top: 2px;
+			  padding-left: 5px;
+			  height: 20px;
+			  margin-left: -8px;
+			  display: none;
+
+				  img{
+				  	  width: 24px;
+					  position: absolute;
+					  top: 18px;
+					  left: 0px;
+				  }
+ 	 		}
+
 	  @include media-query(palm){
 		  width: 48%;
 		  max-width: none;
@@ -198,7 +219,12 @@ body{
 		color: white;
 		font-size: 18px;
 
-		a{ color: white; }
+		a{ 
+			color: white;
+			color: #fff;
+   		  	display: block;
+  			z-index: 25;
+		}
 
 		a:hover{ color: rgb(14,21,45); }
 		
@@ -411,7 +437,7 @@ body{
 		  left: auto;
 		  margin-left: 0;
 		  margin: 50px 5%;
-		  z-index: 10;
+		  z-index: 50;
 
 
  	 	@include media-query(palm){
@@ -547,7 +573,7 @@ body{
  	 	position: absolute;
  	 	padding: 30px;
  	 	margin-top: 10%;
- 	 	z-index:10;
+ 	 	z-index:50;
  	 	min-height: 290px;
 
  	 	@include media-query(palm){
@@ -1160,9 +1186,12 @@ font-size: 36px;
  				letter-spacing: 0em;
  				width: 14%;
  				padding: 5px 1%;
- 			}
+ 			}			
  			
- 			
+ 		}
+
+ 		input[type="submit"]:hover, input[type="button"]:hover{
+ 			background-color: #20416f;
  		}
  	}
  }

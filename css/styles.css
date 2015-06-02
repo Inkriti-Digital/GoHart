@@ -1820,6 +1820,25 @@ section h1 {
   padding: 8px 6px 0px 8px;
   z-index: 30;
 }
+.landing .logo .tooltip {
+  background-color: #7aaed5;
+  position: absolute;
+  color: #fff;
+  width: 47px;
+  font-size: 12px;
+  margin-top: -30px;
+  padding-top: 2px;
+  padding-left: 5px;
+  height: 20px;
+  margin-left: -8px;
+  display: none;
+}
+.landing .logo .tooltip img {
+  width: 24px;
+  position: absolute;
+  top: 18px;
+  left: 0px;
+}
 @media only screen and (max-width: 768px) {
   .landing .logo {
     width: 48%;
@@ -1855,6 +1874,9 @@ section h1 {
 }
 .landing .bus-ico a {
   color: white;
+  color: #fff;
+  display: block;
+  z-index: 25;
 }
 .landing .bus-ico a:hover {
   color: #0e152d;
@@ -2040,7 +2062,7 @@ section h1 {
   left: auto;
   margin-left: 0;
   margin: 50px 5%;
-  z-index: 10;
+  z-index: 50;
 }
 @media only screen and (max-width: 768px) {
   .metro .mobile-metro .metro-box {
@@ -2164,7 +2186,7 @@ section h1 {
   position: absolute;
   padding: 30px;
   margin-top: 10%;
-  z-index: 10;
+  z-index: 50;
   min-height: 290px;
 }
 @media only screen and (max-width: 768px) {
@@ -2731,6 +2753,9 @@ section h1 {
     padding: 5px 1%;
   }
 }
+.landing .home-form-lockup input[type="submit"]:hover, .landing .home-form-lockup input[type="button"]:hover {
+  background-color: #20416f;
+}
 
 /**
  * $CUSTOMER SERVICE
@@ -2753,6 +2778,25 @@ section h1 {
 }
 .header .logo .full-logo {
   padding-left: 3px;
+}
+.header .logo .tooltip {
+  background-color: #7aaed5;
+  position: absolute;
+  color: #fff;
+  width: 47px;
+  font-size: 12px;
+  margin-top: -30px;
+  padding-top: 2px;
+  padding-left: 5px;
+  height: 20px;
+  margin-left: -8px;
+  display: none;
+}
+.header .logo .tooltip img {
+  width: 24px;
+  position: absolute;
+  top: 18px;
+  left: 0px;
 }
 .header .menu-ico {
   position: fixed;
@@ -2800,16 +2844,19 @@ section h1 {
 }
 .page-content .content-block .info {
   display: inline-block;
-  width: 75%;
+  width: 73%;
   vertical-align: top;
 }
 .page-content .content-block .info-graphic {
   display: inline-block;
-  width: 24%;
+  width: 23%;
   vertical-align: top;
+  margin-bottom: 20px;
 }
 .page-content .content-block .info-graphic img {
   width: 100%;
+  max-width: 320px;
+  min-width: 250px;
 }
 .page-content .content-block select, .page-content .content-block select option {
   color: #003366;
@@ -3080,6 +3127,7 @@ section h1 {
 .content-body .footer-rule {
   margin-top: 0;
   padding-top: 0;
+  margin-bottom: 25px;
 }
 
 .mid-section {
@@ -3121,6 +3169,9 @@ section h1 {
   color: #003366;
   height: 45px;
 }
+.tix-box .tix-row a, .tix-box .tix-row a:visited, .tix-box .tix-row a:hover, .tix-box .tix-row a:link, .tix-box .tix-row .tix-fare {
+  color: #036;
+}
 .tix-box .tix-row div {
   display: inline-block;
   padding: 6px 10px;
@@ -3143,6 +3194,9 @@ section h1 {
 }
 .tix-box .blue-row {
   background-color: #7aaed5;
+  color: white;
+}
+.tix-box .blue-row a, .tix-box .blue-row a:visited, .tix-box .blue-row a:hover, .tix-box .blue-row a:link, .tix-box .blue-row .tix-fare {
   color: white;
 }
 
@@ -3535,7 +3589,11 @@ ul b, li b {
   padding: 5px 2.5%;
   color: #003366;
   font-size: 18px;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
+  color: #003366;
+}
+.maps-scheduels .schedule-nav a:visited {
+  color: #003366 !important;
 }
 .maps-scheduels .schedule-nav a:hover {
   background-color: #6699CC;
@@ -3876,8 +3934,12 @@ ul b, li b {
   float: left;
 }
 
+.page-content .schedule-language .icon img {
+  max-width: 35px;
+}
+
 .page-content .schedule-language .schedule-and-language-text {
-  width: 85%;
+  width: 80%;
   padding: 10px 0;
   text-align: center;
   float: left;
@@ -4396,6 +4458,14 @@ a.link-normal {
   margin-top: 11px;
   display: inline-block;
   font-size: 20px;
+  padding: 8px 0px;
+  background-color: #003567;
+  color: #FFF;
+  font-weight: 400;
+  margin-top: 8px;
+  display: inline-block;
+  font-size: 20px;
+  width: 100%;
 }
 
 .content-body .point-no .date {
@@ -4436,6 +4506,14 @@ a.link-normal {
   margin-top: 11px;
   display: inline-block;
   font-size: 20px;
+  padding: 8px 0px;
+  background-color: #003567;
+  color: #FFF;
+  font-weight: 400;
+  margin-top: 8px;
+  display: inline-block;
+  font-size: 20px;
+  width: 100%;
 }
 
 .content-body .dates-full-width .point-description {
@@ -4607,7 +4685,7 @@ a.link-normal {
 }
 
 .page-content .bus-shelter-requests .bus-shelter-request-form .form-half {
-  width: 49%;
+  width: 48%;
   float: left;
   vertical-align: top;
   height: 487px;
@@ -4740,7 +4818,7 @@ a.link-normal {
 }
 
 .page-content .employee-login .employee-login-form .form-half {
-  width: 49%;
+  width: 48%;
   float: left;
   vertical-align: top;
   height: 125px;
@@ -4920,6 +4998,7 @@ a.link-normal {
   border: 1px solid #0f406b;
   margin-right: 0;
   margin-bottom: 15px;
+  max-height: 75px;
 }
 
 .page-content .brick-blue-link .icon {
@@ -4928,6 +5007,7 @@ a.link-normal {
   padding: 9px 0 1px 0;
   text-align: center;
   float: left;
+  max-height: 70px;
 }
 
 .page-content .brick-blue-link .brick-blue-link-text {
@@ -4994,7 +5074,7 @@ a.link-normal {
   text-transform: uppercase;
   color: #083b70;
   line-height: 45px;
-  height: 97px;
+  height: 42px;
   font-size: 16px;
   background-color: #e4e4e3;
   padding: 5px;
@@ -5325,6 +5405,10 @@ a.link-normal {
   margin-right: 11px;
 }
 
+.page-content .bus-shelter-requests input[type="submit"] {
+  padding-top: 5px;
+}
+
 .page-content .bus-shelter-requests label {
   display: inline;
   margin-right: 25px;
@@ -5340,7 +5424,7 @@ b {
 
 .alerts-detours .rider-alert {
   width: 96%;
-  padding: 7px;
+  padding: 0px;
 }
 
 .alerts-detours .rider-alert .rider-alert-left {
@@ -5565,7 +5649,7 @@ b {
   }
 
   .page-content .schedule-language .schedule-and-language-text {
-    width: 333px;
+    width: 79%;
   }
 
   .page-content .metro-rapid-parts .metro-rapid-parts-bg {
@@ -6499,6 +6583,10 @@ b {
     width: 35px;
   }
 
+  .purchase-tix:hover {
+    background-color: #7FAFD4;
+  }
+
   .purchase-tix .tix-ico {
     padding: 8px 1px 0;
   }
@@ -7128,10 +7216,6 @@ a:hover {
   color: #77777a;
 }
 
-.page-content .help-you {
-  margin-left: -25px;
-}
-
 .state-select {
   height: 47px;
 }
@@ -7152,6 +7236,10 @@ a:hover {
   padding: 0;
   color: #083b70 !important;
   border-radius: 0px;
+}
+
+.location-select select {
+  height: 38px !important;
 }
 
 .phone-select {
@@ -7181,7 +7269,7 @@ a:hover {
   font-size: 18px;
   width: 60%;
   margin: 0;
-  margin-left: 25px;
+  margin-left: 0px;
   padding: 0;
   border-radius: 0;
   border-radius: 0px;
@@ -7215,7 +7303,7 @@ a:hover {
   border-radius: 0px;
 }
 
-.maps-scheduels .schedule-nav a {
+.maps-scheduels .schedule-nav a, .maps-scheduels .schedule-nav a:visited {
   text-align: center;
   margin-bottom: 5px;
   height: 50px;
@@ -7223,6 +7311,11 @@ a:hover {
   width: 19.5%;
   vertical-align: top;
   font-size: 17px;
+  color: #003366;
+}
+
+#divBus .home-form {
+  margin-left: 0;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -7272,6 +7365,77 @@ a:hover {
   width: 58%;
 }
 
+.planner .home-form #end, .planner .home-form #start {
+  width: 24% !important;
+}
+
+.planner .home-form input[type=submit]:hover {
+  background-color: #20416f;
+}
+
+.home-form input[type=button]:hover, .home-form input[type=submit]:hover {
+  background-color: #20416f;
+}
+
+.page-content .college-select {
+  position: relative;
+  left: -25px;
+}
+
+.page-content .college-select .select {
+  width: 108%;
+  height: 98px;
+}
+
+.page-content .visit-link {
+  width: 95%;
+  padding: 0;
+}
+
+.page-content .visit-link a, .page-content .visit-link a:hover {
+  color: white;
+  padding: 5px 0;
+}
+
+.page-content .visit-link a:hover, .page-content .visit-link:hover, .purchase-tix:hover {
+  background-color: #4b7090;
+}
+
+.page-content .comments .comment-form .submit-btn input[type=submit] {
+  padding-top: 5px;
+}
+
+.share-this-box {
+  position: absolute;
+  /* border: thin red solid; */
+  width: 115px;
+  /* left: 50%; */
+  margin-left: 92%;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin-top: -76px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  z-index: 50;
+  display: none;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  box-shadow: 5px 10px 20px 0px rgba(0, 0, 0, 0.36);
+}
+.share-this-box .close-share {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  cursor: pointer;
+}
+
+.ico-block {
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 768px) {
   .maps-scheduels .schedule-nav a {
     width: 100% !important;
@@ -7295,6 +7459,13 @@ a:hover {
     padding-top: 9px;
     margin-left: 24px;
   }
+}
+.goog-te-gadget {
+  color: transparent;
+  height: 24px;
+}
+.goog-te-gadget .goog-te-combo {
+  color: #333;
 }
 
 /*# sourceMappingURL=styles.css.map */

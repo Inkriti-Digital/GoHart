@@ -24,6 +24,27 @@
 		.full-logo{
 			padding-left: 3px;
 		}
+
+		.tooltip{
+		      background-color: #7aaed5;
+			  position: absolute;
+			  color: #fff;
+			  width: 47px;
+			  font-size: 12px;
+			  margin-top: -30px;
+			  padding-top: 2px;
+			  padding-left: 5px;
+			  height: 20px;
+			  margin-left: -8px;
+			  display: none;
+
+				  img{
+				  	  width: 24px;
+					  position: absolute;
+					  top: 18px;
+					  left: 0px;
+				  }
+ 	 		}
  	 }
 
  	 .menu-ico{
@@ -77,15 +98,18 @@
 		
 		.info{
 			display: inline-block;
-			width: 75%;
+			width: 73%;
 			vertical-align: top;
 		}
 		.info-graphic{
 			display: inline-block;
-			width: 24%;
+			width: 23%;
 			vertical-align: top;
+			margin-bottom: 20px;
 			img{
 				width: 100%;
+				max-width: 320px;
+				min-width: 250px;
 			}
 		}
 

@@ -18,6 +18,10 @@
 		color: #003366;
 		height: 45px;
 
+		a, a:visited, a:hover, a:link, .tix-fare{
+			color: #036;
+		}
+
 		div{ 
 			display: inline-block; 
 			padding: 6px 10px;
@@ -45,6 +49,10 @@
 	.blue-row{
 		background-color: #7aaed5;
 		color: white;
+
+		a, a:visited, a:hover, a:link, .tix-fare{
+			color: white;
+		}
 	}
 }
 

@@ -5,7 +5,10 @@ $(document).ready(function(){
     var windowWidth;
     var subNav;
     var mobileSite;
+    var landingHeight;
 
+
+    $( ".logo" ).prepend( '<div class="tooltip">HOME</div>' );
 
 	resizeElements();
 	//RESIZE-ELEMENTS
@@ -25,7 +28,7 @@ $(document).ready(function(){
 
         newsWidth = $('.news-blocks').width();
     	var landingWidth = $('.landing').width();
-    	var landingHeight = Math.floor(landingWidth*0.58214);
+    	landingHeight = Math.floor(landingWidth*0.58214);
     	$('.landing').css('height', landingHeight);
 
         windowHeight = $(window).height();
@@ -75,6 +78,97 @@ $(document).ready(function(){
     );
 
 
+     //METRO NAV CLICK
+     $("#servnav-bus").click(function() {
+        myCar = "bus";
+        changeCar();
+    });
+
+    $("#servnav-metro").click(function() {
+        myCar = "metro";
+        changeCar();        
+    });
+
+    $("#servnav-van").click(function() {
+        myCar="van";
+        changeCar();
+    });
+
+    $("#servnav-streetcar").click(function() {
+        myCar="trolly";
+        changeCar();
+    });
+
+    $("#servnav-alt").click(function() {
+        myCar="alt";
+        changeCar();
+    });
+
+    function changeCar(){
+
+        $('html,body').animate({
+            scrollTop: landingHeight
+         }, 1000);
+
+        // $(".metro-foreground").fadeOut('fast');
+        $(".metro-foreground").animate({
+            opacity: 0,
+            left: "+=30"
+        }, 200, function() {
+            toggleBg();
+        });
+        
+        function toggleBg(){  
+            if(myCar=="bus"){
+                $('service-about').attr('href', '/Pages/services-bus.aspx');
+                $("img").attr("width","500");
+                $('.metro-foreground').css('background-image','url(/Style%20Library/GoHart/Images/home/serv-large-bus.png)');
+                $( ".metro-title" ).text( "BUS" );
+                $( ".metro-arrow" ).animate({ left: "2%"}, 500, 'easeOutQuad', function() {}); 
+                $(".alt-transport-box").fadeOut();
+                $(".train-bg").fadeOut();
+            } else if(myCar=="metro"){
+                $('service-about').attr('href', '/Pages/services-metro.aspx');
+                $('.metro-foreground').css('background-image','url(/Style%20Library/GoHart/Images/home/serv-large-metro.png)');
+                $( ".metro-title" ).text( "METRORAPID" );
+                $( ".metro-arrow" ).animate({ left: "22%"}, 500, 'easeOutQuad', function() {});
+                $(".alt-transport-box").fadeOut();
+                $(".train-bg").fadeOut();
+            } else if(myCar=="van"){
+                $('service-about').attr('href', '/Pages/services-van.aspx');
+                $('.metro-foreground').css('background-image','url(/Style%20Library/GoHart/Images/home/serv-large-van.png)');
+                $( ".metro-title" ).text( "VAN" );
+                $( ".metro-arrow" ).animate({ left: "42%"}, 500, 'easeOutQuad', function() {});
+                $(".alt-transport-box").fadeOut();
+                $(".train-bg").fadeOut();
+            } else if(myCar=="trolly"){
+                $('service-about').attr('href', '/Pages/services-teco-line.aspx');
+                $('.metro-foreground').css('background-image','url(/Style%20Library/GoHart/Images/home/serv-large-train.png)');
+                $( ".metro-title" ).text( "STREETCAR SYSTEM" );
+                $( ".metro-arrow" ).animate({ left: "62%"}, 500, 'easeOutQuad', function() {});
+                $(".alt-transport-box").fadeOut();
+                $(".train-bg").fadeIn();
+            } else if(myCar=="alt"){
+                $('service-about').attr('href', '/Pages/services-alter-trans.aspx');
+                $('.metro-foreground').css('background-image','none');
+                $( ".metro-title" ).text( "ALTERNATIVE TRANSPORTATION" );
+                $( ".metro-arrow" ).animate({ left: "82%"}, 500, 'easeOutQuad', function() {});
+                $(".train-bg").fadeOut();
+                $(".alt-transport-box").fadeIn();
+            }
+
+             $('.metro-foreground').css('left','-20%');
+            
+             setTimeout(function() {
+                 $( ".metro-foreground" ).animate({
+                     opacity: 1,
+                     left: "-10%"
+                 }, 500, function() {}); 
+             }, 300);      
+        }
+    }
+
+
 
      //BRICK BLUE HOVER EFFECT
      $(".brick-blue-link").hover(function() { 
@@ -90,6 +184,10 @@ $(document).ready(function(){
         $(".metro-tooltip", this).fadeToggle(350);
     });
 
+    $(".logo").hover(function() {
+        $(".tooltip", this).fadeToggle(350);
+    });
+
      $(".primary li a").hover(function(event) {
         $("img", this).fadeToggle('fast');
      });
@@ -101,6 +199,16 @@ $(document).ready(function(){
             $(".arrow", this).fadeOut(50);
         }
     );
+
+     // OPEN SHARETHIS FUNCTION
+     $(".share-block").click(function(event) {
+        $('.share-this-box').show();
+     });
+
+     //  CLOSE SHARE BTN
+     $(".close-share").click(function(event) {
+        $('.share-this-box').hide();
+     });
 
     //news controls
     $(".news-blocks .prev-arrow").click(function(event) {
@@ -361,7 +469,6 @@ $(document).ready(function(){
          $(".f-ico").attr('src', 'img/ico-f.png');
         }
     );
-
 
     
     

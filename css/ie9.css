@@ -32,6 +32,12 @@
 .main-nav .primary .search-nav a{ float:left; margin-right:0px; margin-bottom: 5px; }
 
 .main-nav .search-bar input[type="text"]{
-	padding:0;
+	padding: 0;
+	border: none;
+	height: 46px;
+	padding-left: 20px !important;
+	line-height: 24px;
 }
+
+/*#s4-workspace{ overflow: hidden; }*/
 
