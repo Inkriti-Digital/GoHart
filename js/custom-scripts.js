@@ -433,6 +433,23 @@ $(document).ready(function(){
     });
 
 
+
+    $('#goHartService').change(function() {
+        console.log('hit service');
+        var selectedVal = $("#goHartService option:selected").attr('value');
+
+        if(selectedVal=="metrorapid"){
+            $(".mobile-metro .metro-title" ).text( "METRORAPID" );
+        } else if(selectedVal=="bus"){
+            $(".mobile-metro .metro-title" ).text( "BUS" );
+        } else if(selectedVal=="streetcar"){
+            $(".mobile-metro .metro-title" ).text( "STREET CAR" );
+        } else if(selectedVal=="alt-transpor"){
+            $(".mobile-metro .metro-title" ).text( "ALTERNATIVE TRANSPORTATION" );
+        }
+    });
+
+
     //social nav hover effect
 
     $(".fb-ico").hover(function() {
