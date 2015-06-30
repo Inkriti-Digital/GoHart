@@ -42,7 +42,7 @@
 					</div>
 					<div class="content-body">
 						<div id="gmap-wrap" class="gmap-wrap">
-							<img src="img/locations/map-fpo.jpg"/>
+							<iframe width="100%" height="500" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=306%20East%20Jackson%20Street%2C%20Tampa%2C%20FL%2C%20United%20States&key=AIzaSyCxDNr_d1aWEi_KIJdDmygCVnsGzoVSGJI"></iframe>
 						</div>
 						<div class="map-locations">
 							<div class="marker-details">

@@ -34,14 +34,14 @@
 
 //PROVIDED WEBFONTS
 
-@font-face {font-family: 'gothBold';src: url('webfonts/2DD74A_5_0.eot');src: url('webfonts/2DD74A_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2DD74A_5_0.woff2') format('woff2'),url('webfonts/2DD74A_5_0.woff') format('woff'),url('webfonts/2DD74A_5_0.ttf') format('truetype');}
+@font-face {font-family: 'gothBold';src: url('/Style%20Library/GoHart/CSS/webfonts/2DD74A_5_0.eot');src: url('/Style%20Library/GoHart/CSS/webfonts/2DD74A_5_0.eot?#iefix') format('embedded-opentype'),url('/Style%20Library/GoHart/CSS/webfonts/2DD74A_5_0.woff2') format('woff2'),url('/Style%20Library/GoHart/CSS/webfonts/2DD74A_5_0.woff') format('woff'),url('/Style%20Library/GoHart/CSS/webfonts/2DD74A_5_0.ttf') format('truetype');}
 
-@font-face {font-family: 'gothBook';src: url('webfonts/2DD74A_6_0.eot');src: url('webfonts/2DD74A_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2DD74A_6_0.woff2') format('woff2'),url('webfonts/2DD74A_6_0.woff') format('woff'),url('webfonts/2DD74A_6_0.ttf') format('truetype');}
+@font-face {font-family: 'gothBook';src: url('/Style%20Library/GoHart/CSS/webfonts/2DD74A_6_0.eot');src: url('/Style%20Library/GoHart/CSS/webfonts/2DD74A_6_0.eot?#iefix') format('embedded-opentype'),url('/Style%20Library/GoHart/CSS/webfonts/2DD74A_6_0.woff2') format('woff2'),url('/Style%20Library/GoHart/CSS/webfonts/2DD74A_6_0.woff') format('woff'),url('/Style%20Library/GoHart/CSS/webfonts/2DD74A_6_0.ttf') format('truetype');}
 
-@font-face {font-family: 'gothMed';src: url('webfonts/2DD74A_8_0.eot');src: url('webfonts/2DD74A_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2DD74A_8_0.woff2') format('woff2'),url('webfonts/2DD74A_8_0.woff') format('woff'),url('webfonts/2DD74A_8_0.ttf') format('truetype');}
+@font-face {font-family: 'gothMed';src: url('/Style%20Library/GoHart/CSS/webfonts/2DD74A_8_0.eot');src: url('/Style%20Library/GoHart/CSS/webfonts/2DD74A_8_0.eot?#iefix') format('embedded-opentype'),url('/Style%20Library/GoHart/CSS/webfonts/2DD74A_8_0.woff2') format('woff2'),url('/Style%20Library/GoHart/CSS/webfonts/2DD74A_8_0.woff') format('woff'),url('/Style%20Library/GoHart/CSS/webfonts/2DD74A_8_0.ttf') format('truetype');}
 
 
-// @font-face {font-family: 'gothBook';src: url('webfonts/2DD74A_7_0.eot');src: url('webfonts/2DD74A_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2DD74A_7_0.woff2') format('woff2'),url('webfonts/2DD74A_7_0.woff') format('woff'),url('webfonts/2DD74A_7_0.ttf') format('truetype');}
+// @font-face {font-family: 'gothBook';src: url('/Style%20Library/GoHart/CSS/webfonts/2DD74A_7_0.eot');src: url('/Style%20Library/GoHart/CSS/webfonts/2DD74A_7_0.eot?#iefix') format('embedded-opentype'),url('/Style%20Library/GoHart/CSS/webfonts/2DD74A_7_0.woff2') format('woff2'),url('/Style%20Library/GoHart/CSS/webfonts/2DD74A_7_0.woff') format('woff'),url('/Style%20Library/GoHart/CSS/webfonts/2DD74A_7_0.ttf') format('truetype');}
 
 
 
@@ -56,8 +56,12 @@ body{
  	background-size: 100%;
  	padding: 0;
 
+ 	img{
+ 		max-width: 100%;
+ 	}
+
  	@include media-query(palm){
-		// background: url('../img/responsive/responsive-bg-plate.jpg') no-repeat;
+		// background: url('/Style%20Library/GoHart/Images/responsive/responsive-bg-plate.jpg') no-repeat;
  	 	// background-size: 100%;
  	 	// background-position: top;
  	}
@@ -121,7 +125,7 @@ body{
  }
 
  .landing{
- 	 background: url('../img/home/home-top-bg1.jpg') no-repeat;
+ 	 background: url('/Style%20Library/GoHart/Images/home/home-top-bg1.jpg') no-repeat;
  	 background-size: 114%;
  	 background-position: 0 0;
 
@@ -130,7 +134,7 @@ body{
  	 	height: 520px !important;
 
  	 	.mobile-home-head{
-	  		background: url('../img/responsive/mobile-home-head.jpg') no-repeat;
+	  		background: url('/Style%20Library/GoHart/Images/responsive/mobile-home-head.jpg') no-repeat;
  			background-size: 100%;
  	 		background-position: 40% 0;
  	 		height: 600px;
@@ -139,7 +143,7 @@ body{
  	 }
 
  	 .bus{
- 	 	background: url('../img/home/bus-home1.png') no-repeat;
+ 	 	background: url('/Style%20Library/GoHart/Images/home/bus-home1.png') no-repeat;
  	 	background-size: 100%;
  	 	position: absolute;
  	 	width: 67%;
@@ -158,6 +162,27 @@ body{
 	  background-color: rgba(255, 255, 255, 0.85);
 	  padding: 8px 6px 0px 8px;
 	  z-index: 30;
+
+	  .tooltip{
+		      background-color: #7aaed5;
+			  position: absolute;
+			  color: #fff;
+			  width: 47px;
+			  font-size: 12px;
+			  margin-top: -30px;
+			  padding-top: 2px;
+			  padding-left: 5px;
+			  height: 20px;
+			  margin-left: -8px;
+			  display: none;
+
+				  img{
+				  	  width: 24px;
+					  position: absolute;
+					  top: 18px;
+					  left: 0px;
+				  }
+ 	 		}
 
 	  @include media-query(palm){
 		  width: 48%;
@@ -190,18 +215,16 @@ body{
  	 }
 
  	 .bus-ico{
- 	 	position: absolute;
- 	 	right: 0px;
-		bottom: 6%;
-		margin: 5.5%;
-		margin-right: 8.5%;
-		width: 11%;
-		max-width: 179px;
-		cursor: pointer;
+ 	 	cursor: pointer;
 		color: white;
 		font-size: 18px;
 
-		a{ color: white; }
+		a{ 
+			color: white;
+			color: #fff;
+   		  	display: block;
+  			z-index: 25;
+		}
 
 		a:hover{ color: rgb(14,21,45); }
 		
@@ -220,9 +243,6 @@ body{
  }
 
  .bottom-rule{
- 	 	position: absolute;
- 	 	width: 99%;
- 	 	bottom: 13%;
  	 	padding: 0 6%;
  	 	color: white;
  	 	font-size: 19px;
@@ -277,10 +297,10 @@ body{
 
 
 .home-form{
- 	 	position: absolute;
-		bottom: 6%;
-		padding: 0 6%;
-		width: 100%;
+ 	//  	position: absolute;
+		// bottom: 6%;
+		// padding: 0 6%;
+		// width: 100%;
 
 		@include media-query(palm){
 			position: relative;
@@ -310,7 +330,7 @@ body{
 			}
 		}
 
-		input[type="submit"] {
+		input[type="submit"], input[type="button"] {
 			-webkit-appearance: none;
 			border: none;
 			color: white;
@@ -318,24 +338,27 @@ body{
    			height: 45px;
 			font-size: 16px;
 			padding: 5px 20px;
-			padding-top: 10px;
+			padding-top: 4px;
 			margin-right: 0;
 			letter-spacing: 0.03em;
+			text-transform: uppercase;
+			vertical-align: top;
+			width: 15%;
 
 
 			@include media-query(palm){
-				font-size: 34px;
-				padding: 15px 15px;
-				width: 41%;
-				height: 70px;
-				padding-top: 20px;
+			  font-size: 34px;
+			  padding: 15px;
+			  width: 52%;
+			  height: 70px;
+			  padding-top: 13px;
 			}
 		}
 
 		
 
 		#start, #end{
-			width: 26%;
+			width: 25%;
 
 			@include media-query(palm){
 				width: 24%;
@@ -414,7 +437,7 @@ body{
 		  left: auto;
 		  margin-left: 0;
 		  margin: 50px 5%;
-		  z-index: 10;
+		  z-index: 50;
 
 
  	 	@include media-query(palm){
@@ -496,7 +519,7 @@ body{
  	 }
 
  	 .metro-main{
- 	 	background: url('../img/home/services-bg.jpg') no-repeat;
+ 	 	background: url('/Style%20Library/GoHart/Images/home/services-bg.jpg') no-repeat;
  	 	background-size: 110%;
  	 	background-position: 10% 50%;
 
@@ -504,7 +527,7 @@ body{
  	 		position: absolute;
  	 		width: 100%;
  	 		height: 100%;
- 	 		background: url('../img/home/serv-sky-bg.jpg') no-repeat;
+ 	 		background: url('/Style%20Library/GoHart/Images/home/serv-sky-bg.jpg') no-repeat;
  	 		background-size: 110%;
  	 		display: none;
  	 		z-index: 20;
@@ -514,7 +537,7 @@ body{
  	 		position: absolute;
  	 		width: 100%;
  	 		height: 100%;
- 	 		background: url('../img/home/serv-bike-foreground.png') no-repeat;
+ 	 		background: url('/Style%20Library/GoHart/Images/home/serv-bike-foreground.png') no-repeat;
  	 		background-size: 110%;
  	 	}
 
@@ -522,14 +545,14 @@ body{
  	 		position: absolute;
  	 		width: 100%;
  	 		height: 100%;
- 	 		background: url('../img/home/streetcar-bg.jpg') no-repeat;
+ 	 		background: url('/Style%20Library/GoHart/Images/home/streetcar-bg.jpg') no-repeat;
  	 		background-size: 110%;
  	 		display: none;
  	 		z-index:5
  	 	}
 
  	 	.metro-foreground{
- 	 		  background: url(../img/home/serv-large-bus.png) no-repeat;
+ 	 		  background: url(/Style%20Library/GoHart/Images/home/serv-large-bus.png) no-repeat;
 			  background-size: 103%;
 			  background-position: right;
 			  position: absolute;
@@ -550,7 +573,7 @@ body{
  	 	position: absolute;
  	 	padding: 30px;
  	 	margin-top: 10%;
- 	 	z-index:10;
+ 	 	z-index:50;
  	 	min-height: 290px;
 
  	 	@include media-query(palm){
@@ -700,6 +723,7 @@ body{
  }
 
  .news{
+<<<<<<< HEAD
 
  	//NEW CODE ADD TO SHARE BRANCH
  	.newsBlockRow2{
@@ -717,32 +741,102 @@ body{
 		padding-bottom: 0;
 		margin-left: 6%;
 		margin-bottom: 0.5%;
+=======
+ 	//NEW CODE ADD TO SHARE BRANCH
+ 	width: 100%;
+	margin: auto;
+	height: 750px;
+	overflow: hidden;
 
-		@include media-query(palm){
-			font-size: 88px;
+ 	@include media-query(palm){
+ 		height:1410px;
+ 	}
+
+ 	.newsBlockRow2{
+ 		button{ display: none !important; }
+ 		}
+	
+
+	#newsBlockRow {
+	 	@include media-query(palm){
+		  top: 268px;
 		}
+>>>>>>> live-pathing
+
+		.slick-next{
+			@include media-query(palm){
+				  display: block;
+				  height: 110px;
+				  width: 65px;
+				  top: 551px;
+			}	
+		}
+
+		.slick-prev{
+			@include media-query(palm){
+				  display: block;
+				  height: 110px;
+				  width: 65px;
+				  top: 551px;
+			}	
+		}
+	}
+
+	#newsBlockRow2 {
+		@include media-query(palm){
+	  		top: 882px;
+		}
+	}
+
+//
+
+ 	h1{
+ 	font-size: 50px;
+padding: 0.5% 1% 1% 1%;
+padding-bottom: 0;
+margin-left: 6%;
+margin-bottom: 0.5%;
+
+@include media-query(palm){
+font-size: 80px;
+}
  	}
 
  	.news-blocks{
+<<<<<<< HEAD
  		// margin: 30px 0 30px -10px;
  		// width: auto;
 		// overflow: hidden;
+=======
+ 	// margin: 30px 0 30px -10px;
+ 	// width: auto;
+	// overflow: hidden;
 
+@include media-query(palm){
+	height: 1215px;
+}
+>>>>>>> live-pathing
+
+ 	.block-row{
+ 		position: relative;
+		overflow: hidden;
+		width: 500%;
 		@include media-query(palm){
-			height: 1215px;
+		width: 100%;
 		}
-
- 		.block-row{
- 			position: relative;
-			overflow: hidden;
-			width: 500%;
-			
-			@include media-query(palm){
-				 width: 100%;
-			}			
- 		}
+ 	}
 
 
+ 	.block{
+	 	width: 400px !important;
+	 	height: 250px;
+	 	background-color: #3f4558;
+	 	margin: 0px 5px;
+	 	display: inline-block;
+	 	overflow: hidden;
+	 	vertical-align:top;
+
+<<<<<<< HEAD
  		.block{
  			width: 400px !important;
  			height: 250px;
@@ -751,58 +845,72 @@ body{
  			display: inline-block;
  			overflow: hidden;
  			vertical-align:top;
-
- 			@include media-query(palm){
-			  display: block;
-			  width: 100%;
-			  height: 600px;
-			}	
-
- 			h3{
- 				color: white;
- 				font-size: 20px;
-				margin: 5px auto;
-				margin: 35px 35px 5px 35px;
-				font-weight: normal;
-				font-family: gothBold, Helvetica, Arial, sans-serif;
-
-				@include media-query(palm){
-				  font-size: 44px;
-				}
- 			}
- 			p{
- 				color: white;
- 				font-size: 16px;
-				line-height: 20px;
-				display: block;
-				max-height: 135px;
-				overflow: hidden;
-				margin: 0px 35px 35px 35px;
+=======
+>>>>>>> live-pathing
 
 
-				@include media-query(palm){
-					font-size: 36px;
-					  line-height: 43px;
-					  max-height: 550px;
-				}
- 			}
- 		}
+ 	@include media-query(palm){
+	 display: block;
+	 width: 640px !important;
+	 height: 600px;
+	 // border: thin red solid;
 
+	 img{
+	 	width: 650px;
+	 }
+
+}
+
+<<<<<<< HEAD
  		.square{
  			width: 300px !important;
+=======
+ 	h3{
+ 	color: white;
+ 	font-size: 20px;
+	margin: 5px auto;
+	margin: 35px 35px 5px 35px;
+	font-weight: normal;
+	font-family: gothBold, Helvetica, Arial, sans-serif;
+>>>>>>> live-pathing
 
- 			@include media-query(palm){
-			  width: 100%;
-			  height: 600px;
+	@include media-query(palm){
+	 font-size: 44px;
+	}
+ 	}
+ 	p{
+ 	color: white;
+ 	font-size: 16px;
+	line-height: 20px;
+	display: block;
+	max-height: 135px;
+	overflow: hidden;
+	margin: 0px 35px 35px 35px;
 
-			  img{
-			  	width: 100%;
-			  }
-			}
- 		}
+
+@include media-query(palm){
+font-size: 36px;
+ line-height: 43px;
+ max-height: 550px;
+}
+ 	}
+ 	}
+
+ 	.square{
+ 	width: 300px !important;
+
+ 	@include media-query(palm){
+	 width: 640px !important;
+	 height: 600px;
+
+	 img{
+	 	width: 100%;
+	 }
+}
+ 	}
 
  		.light{
- 			background-color: #7aaed5;
+ 			// background-color: #7aaed5;
  		}
 
  		.prev-arrow{
@@ -844,7 +952,7 @@ body{
 
  .gohart{
  	margin-top: 50px;
- 	background: url('../img/home/home-lower-bg.jpg') no-repeat;
+ 	background: url('/Style%20Library/GoHart/Images/home/home-lower-bg.jpg') no-repeat;
  	background-size: 120%;
  	background-position: 10% 50%;
 
@@ -857,11 +965,11 @@ body{
 
 
  	.bus{
- 	 	background: url(../img/home/van-lower.png) no-repeat;
+ 	 	background: url(/Style%20Library/GoHart/Images/home/van-lower.png) no-repeat;
 		background-size: 100%;
 		position: absolute;
-		width: 78%;
-	    height: 55%;
+		width: 76%;
+	    height: 56%;
 	    bottom: 1%;
  	 	left: -25%;
  	 }
@@ -871,6 +979,7 @@ body{
  		font-size: 50px;
 		padding: 1% 2%;
 		padding-bottom: 0;
+		color: white;
 		
 		@include media-query(palm){
 				font-size:62px;
@@ -929,6 +1038,7 @@ body{
  				line-height: 30px;
  				text-align: left;
  				padding-left: 15px;
+ 				text-transform: uppercase;
 
  				a{ color: white; }
 
@@ -1002,6 +1112,7 @@ body{
  			font-weight: normal;
 			font-family: gothBook, Helvetica, Arial, sans-serif;
 			font-size: 3em;
+			color: #666;
 
 			@include media-query(palm){
 				font-size: 2.2em;
@@ -1055,12 +1166,85 @@ body{
  			margin-right: 0;
  		}
  	}
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> live-pathing
  	
+ }
+
+
+
+ .landing{
+ 	.home-form-lockup{
+		  position: absolute;
+		  width: 100%;
+		  z-index: 20;
+		  height: 90px;
+		  bottom: 4%;
+
+ 		.bus-ico{
+ 			float: right;
+ 			margin-right: 6%;
+ 			margin-top: -10px;
+ 		}
+
+ 		.bottom-rule{
+ 			.cta{ 
+ 				width: auto; 
+ 			}
+ 			.rule{ 
+ 				width: 100%;
+  				top: -14px;
+  				padding-left: 25%;
+ 			}
+ 		}
+
+ 		.home-form{
+ 			margin: auto;
+  			width: 88%;
+  			margin-top: -22px;
+
+  			#start, #end{
+  				width: 25%;
+  			}
+
+ 			#date, #time{
+ 				width: 14.25%;
+ 			}
+ 		}
+
+ 		input[type="submit"], input[type="button"] {
+ 			width: 15%;
+ 			font-size: 0.9em;
+ 			padding: 5px 1.5%;
+ 			margin: 0;
+ 			
+ 			@media (max-width: 1290px) {
+ 				font-size: 0.75em;
+ 			}
+ 			@media (max-width: 1020px) {
+ 				font-size: 0.7em;
+ 				padding: 5px 1%;
+ 			}
+
+ 			@media (max-width: 805px) {
+ 				font-size: 0.65em;
+ 				letter-spacing: 0em;
+ 				width: 14%;
+ 				padding: 5px 1%;
+ 			}			
+ 			
+ 		}
+
+ 		input[type="submit"]:hover, input[type="button"]:hover{
+ 			background-color: #20416f;
+ 		}
+ 	}
  }
 
 

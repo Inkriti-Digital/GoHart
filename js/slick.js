@@ -563,7 +563,11 @@
         var _ = this,
             breakpoint, targetBreakpoint, respondToWidth;
         var sliderWidth = _.$slider.width();
+<<<<<<< HEAD
         var windowWidth = window.innerWidth || $(window).width();
+=======
+        var windowWidth = window.innerWidth || $('#s4-workspace').width();
+>>>>>>> live-pathing
         if (_.respondTo === 'window') {
             respondToWidth = windowWidth;
         } else if (_.respondTo === 'slider') {
@@ -738,6 +742,7 @@
             $(_.$slideTrack).children().off('click.slick', _.selectHandler);
         }
 
+<<<<<<< HEAD
         $(window).off('orientationchange.slick.slick-' + _.instanceUid, _.orientationChange);
 
         $(window).off('resize.slick.slick-' + _.instanceUid, _.resize);
@@ -745,6 +750,15 @@
         $('[draggable!=true]', _.$slideTrack).off('dragstart', _.preventDefault);
 
         $(window).off('load.slick.slick-' + _.instanceUid, _.setPosition);
+=======
+        $('#s4-workspace').off('orientationchange.slick.slick-' + _.instanceUid, _.orientationChange);
+
+        $('#s4-workspace').off('resize.slick.slick-' + _.instanceUid, _.resize);
+
+        $('[draggable!=true]', _.$slideTrack).off('dragstart', _.preventDefault);
+
+        $('#s4-workspace').off('load.slick.slick-' + _.instanceUid, _.setPosition);
+>>>>>>> live-pathing
         $(document).off('ready.slick.slick-' + _.instanceUid, _.setPosition);
     };
 
@@ -1165,6 +1179,7 @@
             $(_.$slideTrack).children().on('click.slick', _.selectHandler);
         }
 
+<<<<<<< HEAD
         $(window).on('orientationchange.slick.slick-' + _.instanceUid, _.orientationChange.bind(_));
 
         $(window).on('resize.slick.slick-' + _.instanceUid, _.resize.bind(_));
@@ -1172,6 +1187,15 @@
         $('[draggable!=true]', _.$slideTrack).on('dragstart', _.preventDefault);
 
         $(window).on('load.slick.slick-' + _.instanceUid, _.setPosition);
+=======
+        $('#s4-workspace').on('orientationchange.slick.slick-' + _.instanceUid, _.orientationChange.bind(_));
+
+        $('#s4-workspace').on('resize.slick.slick-' + _.instanceUid, _.resize.bind(_));
+
+        $('[draggable!=true]', _.$slideTrack).on('dragstart', _.preventDefault);
+
+        $('#s4-workspace').on('load.slick.slick-' + _.instanceUid, _.setPosition);
+>>>>>>> live-pathing
         $(document).on('ready.slick.slick-' + _.instanceUid, _.setPosition);
 
     };
@@ -1470,10 +1494,17 @@
 
         var _ = this;
 
+<<<<<<< HEAD
         if ($(window).width() !== _.windowWidth) {
             clearTimeout(_.windowDelay);
             _.windowDelay = window.setTimeout(function() {
                 _.windowWidth = $(window).width();
+=======
+        if ($('#s4-workspace').width() !== _.windowWidth) {
+            clearTimeout(_.windowDelay);
+            _.windowDelay = window.setTimeout(function() {
+                _.windowWidth = $('#s4-workspace').width();
+>>>>>>> live-pathing
                 _.checkResponsive();
                 _.setPosition();
             }, 50);

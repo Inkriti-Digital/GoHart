@@ -8,7 +8,6 @@
 		<!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 		<meta name="viewport" content="width=640, maximum-scale=1">
 		<link rel="stylesheet" href="css/styles.min.css">
-		<link rel="stylesheet" href="css/styles2.css">
 		<!--[if lte IE 10]>
 			<link rel="stylesheet" href="css/ie9.css">
 		<![endif]-->
@@ -23,6 +22,7 @@
 				<div class="bus desktop" data-0="left: -40%;" data-400="left: 0%"></div>
 
 				<div class="logo">
+
 					<a href="index.php">
 						<img class="full-logo desktop" src="img/hart-logo.png" alt="GoHart Logo"/>
 						<img class="box-logo desktop" style="display: none;" src="img/hart-logo-box.png" alt="GoHart Graphic Logo"/>
@@ -47,19 +47,21 @@
 					</div>
 				</div>
 
-				<div class="bus-ico"><a href="#">ONEBUSAWAY</a></div>
-				<div class="bottom-rule desktop">
-					<div class="cta">LET US TAKE YOU THERE</div>
-					<div class="rule"><hr/></div>
-				</div>
-				<div class="home-form desktop">
-					<form action="#">
-					<input id="start" type="text" name="start" placeholder="Start" onfocus="this.value='';">
-					<input id="end" type="text" name="end" placeholder="End" onfocus="this.value='';">
-					<input id="date" type="text" name="date" placeholder="Date" onfocus="this.value='';">
-					<input id="time" type="text" name="time" placeholder="Time" onfocus="this.value='';">
-					<input type="submit" value="SEARCH" >
-					</form>
+				<div class="home-form-lockup">
+					<div class="bus-ico"><a href="#">ONEBUSAWAY</a></div>
+					<div class="bottom-rule desktop">
+						<div class="cta">LET US TAKE YOU THERE</div>
+						<div class="rule"><hr/></div>
+					</div>
+					<div class="home-form desktop">
+						<form action="#">
+						<input id="start" type="text" name="start" placeholder="Start" onfocus="this.value='';">
+						<input id="end" type="text" name="end" placeholder="End" onfocus="this.value='';">
+						<input id="date" type="text" name="date" placeholder="Date" onfocus="this.value='';">
+						<input id="time" type="text" name="time" placeholder="Time" onfocus="this.value='';">
+						<input type="button" value="GET DIRECTIONS" >
+						</form>
+					</div>
 				</div>
 			</section>
 			<section class="take-you-there mobile">
@@ -89,7 +91,7 @@
 			</section>
 
 			<section class="metro">
-				<div class="metro-nav desktop">
+				<div id="metroNav" class="metro-nav desktop">
 					<div class="metro-arrow">
 						<img src="img/metro-arrow.png" alt="Metro Navigation Selector"/>
 					</div>
@@ -99,12 +101,12 @@
 						</div>
 						<img src="img/home/servnav-bus.jpg" alt="Bus"/>
 					</div>
-					<div id="servnav-metro" class="metro-block">
+					<a href="#metroNav"><div id="servnav-metro" class="metro-block">
 						<div class="hover-box">
 							<span class="metro-hover">METRORAPID</span>
 						</div>
 						<img src="img/home/servnav_metro.jpg" alt="MetroRapid"/>
-					</div>
+					</div></a>
 					<div id="servnav-van" class="metro-block">
 						<div class="hover-box">
 							<span class="metro-hover">VAN</span>
@@ -162,15 +164,26 @@
 						</ul>
 					</div>
 					<div class="metro-icons">
+						<div class="share-this-box">
+							<img class="close-share" src="img/close-sharethis.png"/>
+							<span class='st_sharethis' displayText='ShareThis'></span>
+							<span class='st_facebook' displayText='Facebook'></span>
+							<span class='st_twitter' displayText='Tweet'></span>
+							<span class='st_linkedin' displayText='LinkedIn'></span>
+							<span class='st_pinterest' displayText='Pinterest'></span>
+							<span class='st_email' displayText='Email'></span>
+						</div>
+
+
 						<a href="#"><span class="ico-block">
 							<div class="metro-tooltip">ALERTS &amp; DETOURS<img src="img/tooltip-marker.png" alt="Tooltip Indicator"/></div>
 							<img src="img/ico-roadblock.png" alt="Tooltip Indicator"/>
 						</span></a>
 						<!-- <div class="ico-block"><img src="img/ico-chatbox.png"/></div> -->
-						<a href="#"><span class="ico-block">
+						<span class="ico-block share-block">
 							<div class="metro-tooltip share-tip">SHARE<img src="img/tooltip-marker.png" alt="Tooltip Indicator"/></div>
 							<img src="img/ico-arrow.png" alt="Tooltip Indicator"/>
-						</span></a>
+						</span>
 					</div>
 				</div>
 
@@ -238,8 +251,8 @@
 				</div>
 			</section>
 			
-			<section class="gohart" data-2500="background-position: 40% 0%;" data-3000="background-position: 0% 0%;">
-				<div class="bus desktop" data-2500="left: -40%;" data-3000="left: -5%"></div>
+			<section class="gohart" data-2500="background-position: 40% 0%;" data-3500="background-position: 0% 0%;">
+				<div class="bus desktop" data-2500="left: -40%;" data-3500="left: -5%"></div>
 				<div class="gohart-title desktop">
 					<h1>HART TAKES</h1><br/>
 					<h1>YOU THERE</h1>
@@ -361,6 +374,7 @@
 		<!-- Load Scripts -->		
 		<?php include ("views/scripts-load.php"); ?>
 		<script src="js/home-animation.js"></script>
+<<<<<<< HEAD
 		<script src="js/jquery.simplyscroll.min.js"></script>
 		<script type="text/javascript">
 		(function($) {
@@ -369,5 +383,28 @@
 			});
 		 })(jQuery);
 		</script>
+=======
+
+		<script>
+		// $(function() {
+		//   $('a[href*=#]:not([href=#])').click(function() {
+		//     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		//       var target = $(this.hash);
+		//       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		//       if (target.length) {
+		//         $('html,body').animate({
+		//           scrollTop: target.offset().top
+		//         }, 1000);
+		//         return false;
+		//       }
+		//     }
+		//   });
+		// });
+		</script>
+
+		<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "700bfe13-c10a-46de-a3a1-a1ee5a0de69a", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+>>>>>>> live-pathing
 	</body>
 </html>

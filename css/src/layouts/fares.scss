@@ -4,24 +4,28 @@
  */
 
  .info-tix{
- 	width: 95%;
+ 	width: 95% !important;
  }
 
-.tix-box{
-	
+.tix-box{	
 	font-family: gothBook, Helvetica, Arial, sans-serif;
-	width: 75%;
+	width: 71%;
 	color: #666;
 	margin-bottom: 40px;
 
 	.tix-row{	
 		background-color: #e6e7e8;	
 		color: #003366;
+		height: 45px;
+
+		a, a:visited, a:hover, a:link, .tix-fare{
+			color: #036;
+		}
 
 		div{ 
 			display: inline-block; 
 			padding: 6px 10px;
-			padding-top:8px;
+			padding-top:11px;
 		}
 
 		.tix-fare{
@@ -29,6 +33,7 @@
 			border-left: 1px #666 solid;
 			padding-right: 12%;
 			width: 25%;
+			height: 100%;
 
 			img{
 				position: absolute;
@@ -44,6 +49,10 @@
 	.blue-row{
 		background-color: #7aaed5;
 		color: white;
+
+		a, a:visited, a:hover, a:link, .tix-fare{
+			color: white;
+		}
 	}
 }
 
@@ -55,7 +64,7 @@
 }
 
 .corp-trans-head{
-	background: url('../img/fares/header-couple.jpg') no-repeat;
+	background: url('/Style%20Library/GoHart/Images/fares/header-couple.jpg') no-repeat;
  	background-size: 100%;
 }
 
