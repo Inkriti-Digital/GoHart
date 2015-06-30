@@ -49,6 +49,7 @@ $(document).ready(function(){
         $(".content-links").show();
     });
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
     
@@ -150,6 +151,8 @@ $(document).ready(function(){
     //        lastScrollTop = st;
     // });
 
+=======
+>>>>>>> live-pathing
 =======
 >>>>>>> live-pathing
 });

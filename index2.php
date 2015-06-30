@@ -184,7 +184,11 @@
 				</div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 				<div class="newsBlockRow news-blocks">					
+=======
+				<div id="#newsBlockRow" class="newsBlockRow news-blocks">					
+>>>>>>> live-pathing
 =======
 				<div id="#newsBlockRow" class="newsBlockRow news-blocks">					
 >>>>>>> live-pathing
@@ -215,7 +219,11 @@
 				</div>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 				<div class="newsBlockRow2 news-blocks">
+=======
+				<div id="#newsBlockRow2" style="margin-top: 258px;" class="newsBlockRow2 news-blocks">
+>>>>>>> live-pathing
 =======
 				<div id="#newsBlockRow2" style="margin-top: 258px;" class="newsBlockRow2 news-blocks">
 >>>>>>> live-pathing
@@ -400,8 +408,13 @@
 			  swipeToSlide: true,
 			  autoplay: true,
 <<<<<<< HEAD
+<<<<<<< HEAD
 			  autoplaySpeed: 3000,
 			  asNavFor: '.newsBlockRow2'
+=======
+			  autoplaySpeed: 3000
+			  // asNavFor: '.newsBlockRow2'
+>>>>>>> live-pathing
 =======
 			  autoplaySpeed: 3000
 			  // asNavFor: '.newsBlockRow2'

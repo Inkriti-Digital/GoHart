@@ -375,6 +375,7 @@
 		<?php include ("views/scripts-load.php"); ?>
 		<script src="js/home-animation.js"></script>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<script src="js/jquery.simplyscroll.min.js"></script>
 		<script type="text/javascript">
 		(function($) {
@@ -384,6 +385,8 @@
 		 })(jQuery);
 		</script>
 =======
+=======
+>>>>>>> live-pathing
 
 		<script>
 		// $(function() {
@@ -405,6 +408,9 @@
 		<script type="text/javascript">var switchTo5x=true;</script>
 <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
 <script type="text/javascript">stLight.options({publisher: "700bfe13-c10a-46de-a3a1-a1ee5a0de69a", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+<<<<<<< HEAD
+>>>>>>> live-pathing
+=======
 >>>>>>> live-pathing
 	</body>
 </html>

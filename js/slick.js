@@ -564,7 +564,11 @@
             breakpoint, targetBreakpoint, respondToWidth;
         var sliderWidth = _.$slider.width();
 <<<<<<< HEAD
+<<<<<<< HEAD
         var windowWidth = window.innerWidth || $(window).width();
+=======
+        var windowWidth = window.innerWidth || $('#s4-workspace').width();
+>>>>>>> live-pathing
 =======
         var windowWidth = window.innerWidth || $('#s4-workspace').width();
 >>>>>>> live-pathing
@@ -743,6 +747,7 @@
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $(window).off('orientationchange.slick.slick-' + _.instanceUid, _.orientationChange);
 
         $(window).off('resize.slick.slick-' + _.instanceUid, _.resize);
@@ -751,6 +756,8 @@
 
         $(window).off('load.slick.slick-' + _.instanceUid, _.setPosition);
 =======
+=======
+>>>>>>> live-pathing
         $('#s4-workspace').off('orientationchange.slick.slick-' + _.instanceUid, _.orientationChange);
 
         $('#s4-workspace').off('resize.slick.slick-' + _.instanceUid, _.resize);
@@ -758,6 +765,9 @@
         $('[draggable!=true]', _.$slideTrack).off('dragstart', _.preventDefault);
 
         $('#s4-workspace').off('load.slick.slick-' + _.instanceUid, _.setPosition);
+<<<<<<< HEAD
+>>>>>>> live-pathing
+=======
 >>>>>>> live-pathing
         $(document).off('ready.slick.slick-' + _.instanceUid, _.setPosition);
     };
@@ -1180,6 +1190,7 @@
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         $(window).on('orientationchange.slick.slick-' + _.instanceUid, _.orientationChange.bind(_));
 
         $(window).on('resize.slick.slick-' + _.instanceUid, _.resize.bind(_));
@@ -1188,6 +1199,8 @@
 
         $(window).on('load.slick.slick-' + _.instanceUid, _.setPosition);
 =======
+=======
+>>>>>>> live-pathing
         $('#s4-workspace').on('orientationchange.slick.slick-' + _.instanceUid, _.orientationChange.bind(_));
 
         $('#s4-workspace').on('resize.slick.slick-' + _.instanceUid, _.resize.bind(_));
@@ -1195,6 +1208,9 @@
         $('[draggable!=true]', _.$slideTrack).on('dragstart', _.preventDefault);
 
         $('#s4-workspace').on('load.slick.slick-' + _.instanceUid, _.setPosition);
+<<<<<<< HEAD
+>>>>>>> live-pathing
+=======
 >>>>>>> live-pathing
         $(document).on('ready.slick.slick-' + _.instanceUid, _.setPosition);
 
@@ -1495,15 +1511,21 @@
         var _ = this;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         if ($(window).width() !== _.windowWidth) {
             clearTimeout(_.windowDelay);
             _.windowDelay = window.setTimeout(function() {
                 _.windowWidth = $(window).width();
 =======
+=======
+>>>>>>> live-pathing
         if ($('#s4-workspace').width() !== _.windowWidth) {
             clearTimeout(_.windowDelay);
             _.windowDelay = window.setTimeout(function() {
                 _.windowWidth = $('#s4-workspace').width();
+<<<<<<< HEAD
+>>>>>>> live-pathing
+=======
 >>>>>>> live-pathing
                 _.checkResponsive();
                 _.setPosition();

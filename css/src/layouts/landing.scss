@@ -724,6 +724,7 @@ body{
 
  .news{
 <<<<<<< HEAD
+<<<<<<< HEAD
 
  	//NEW CODE ADD TO SHARE BRANCH
  	.newsBlockRow2{
@@ -742,6 +743,8 @@ body{
 		margin-left: 6%;
 		margin-bottom: 0.5%;
 =======
+=======
+>>>>>>> live-pathing
  	//NEW CODE ADD TO SHARE BRANCH
  	width: 100%;
 	margin: auto;
@@ -761,6 +764,7 @@ body{
 	 	@include media-query(palm){
 		  top: 268px;
 		}
+<<<<<<< HEAD
 >>>>>>> live-pathing
 
 		.slick-next{
@@ -782,6 +786,28 @@ body{
 		}
 	}
 
+=======
+
+		.slick-next{
+			@include media-query(palm){
+				  display: block;
+				  height: 110px;
+				  width: 65px;
+				  top: 551px;
+			}	
+		}
+
+		.slick-prev{
+			@include media-query(palm){
+				  display: block;
+				  height: 110px;
+				  width: 65px;
+				  top: 551px;
+			}	
+		}
+	}
+
+>>>>>>> live-pathing
 	#newsBlockRow2 {
 		@include media-query(palm){
 	  		top: 882px;
@@ -804,10 +830,13 @@ font-size: 80px;
 
  	.news-blocks{
 <<<<<<< HEAD
+<<<<<<< HEAD
  		// margin: 30px 0 30px -10px;
  		// width: auto;
 		// overflow: hidden;
 =======
+=======
+>>>>>>> live-pathing
  	// margin: 30px 0 30px -10px;
  	// width: auto;
 	// overflow: hidden;
@@ -815,6 +844,9 @@ font-size: 80px;
 @include media-query(palm){
 	height: 1215px;
 }
+<<<<<<< HEAD
+>>>>>>> live-pathing
+=======
 >>>>>>> live-pathing
 
  	.block-row{
@@ -837,6 +869,7 @@ font-size: 80px;
 	 	vertical-align:top;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
  		.block{
  			width: 400px !important;
  			height: 250px;
@@ -845,6 +878,8 @@ font-size: 80px;
  			display: inline-block;
  			overflow: hidden;
  			vertical-align:top;
+=======
+>>>>>>> live-pathing
 =======
 >>>>>>> live-pathing
 
@@ -862,9 +897,12 @@ font-size: 80px;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
  		.square{
  			width: 300px !important;
 =======
+=======
+>>>>>>> live-pathing
  	h3{
  	color: white;
  	font-size: 20px;
@@ -872,6 +910,7 @@ font-size: 80px;
 	margin: 35px 35px 5px 35px;
 	font-weight: normal;
 	font-family: gothBold, Helvetica, Arial, sans-serif;
+<<<<<<< HEAD
 >>>>>>> live-pathing
 
 	@include media-query(palm){
@@ -899,6 +938,34 @@ font-size: 36px;
  	.square{
  	width: 300px !important;
 
+=======
+
+	@include media-query(palm){
+	 font-size: 44px;
+	}
+ 	}
+ 	p{
+ 	color: white;
+ 	font-size: 16px;
+	line-height: 20px;
+	display: block;
+	max-height: 135px;
+	overflow: hidden;
+	margin: 0px 35px 35px 35px;
+
+
+@include media-query(palm){
+font-size: 36px;
+ line-height: 43px;
+ max-height: 550px;
+}
+ 	}
+ 	}
+
+ 	.square{
+ 	width: 300px !important;
+
+>>>>>>> live-pathing
  	@include media-query(palm){
 	 width: 640px !important;
 	 height: 600px;
@@ -1167,11 +1234,14 @@ font-size: 36px;
  		}
  	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> live-pathing
 =======
 >>>>>>> live-pathing
  	
@@ -1249,9 +1319,12 @@ font-size: 36px;
 
 
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> live-pathing
 
 
 
