@@ -1,0 +1,9 @@
+/*PHASE 2 STYLES*/
+.aboutBG{
+	background: url("/Style%20Library/GoHart/Images/headerImages/About.jpg") no-repeat;
+}
+
+.italic-headline{
+	text-align: center;
+	font-size: 18px;
+}
