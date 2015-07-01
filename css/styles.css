@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 @charset "UTF-8";
 /**
  * $VITAMINS
@@ -1787,7 +1785,7 @@ section h1 {
 .landing {
   background: url("/Style%20Library/GoHart/Images/home/home-top-bg1.jpg") no-repeat;
   background-size: 114%;
-  background-position: 40% 0;
+  background-position: 0 0;
 }
 @media only screen and (max-width: 768px) {
   .landing {
@@ -2141,7 +2139,7 @@ section h1 {
 .metro .metro-main {
   background: url("/Style%20Library/GoHart/Images/home/services-bg.jpg") no-repeat;
   background-size: 110%;
-  background-position: 20% 0;
+  background-position: 10% 50%;
 }
 .metro .metro-main .alt-transport-box {
   position: absolute;
@@ -2325,26 +2323,38 @@ section h1 {
 }
 
 .news {
+  width: 94%;
+  margin: auto;
+}
+.news .newsBlockRow2 button {
+  display: none !important;
+}
+.news h1 {
+  font-size: 50px;
+  padding: 0.5% 1% 1% 1%;
+  padding-bottom: 0;
+  margin-left: 6%;
+  margin-bottom: 0.5%;
   width: 100%;
   margin: auto;
   height: 750px;
   overflow: hidden;
 }
 @media only screen and (max-width: 768px) {
-  .news {
+  .news h1 {
     height: 1410px;
   }
 }
-.news .newsBlockRow2 button {
+.news h1 .newsBlockRow2 button {
   display: none !important;
 }
 @media only screen and (max-width: 768px) {
-  .news #newsBlockRow {
+  .news h1 #newsBlockRow {
     top: 268px;
   }
 }
 @media only screen and (max-width: 768px) {
-  .news #newsBlockRow .slick-next {
+  .news h1 #newsBlockRow .slick-next {
     display: block;
     height: 110px;
     width: 65px;
@@ -2352,7 +2362,23 @@ section h1 {
   }
 }
 @media only screen and (max-width: 768px) {
-  .news #newsBlockRow .slick-prev {
+  .news h1 #newsBlockRow .slick-prev {
+    display: block;
+    height: 110px;
+    width: 65px;
+    top: 551px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .news h1 .slick-next {
+    display: block;
+    height: 110px;
+    width: 65px;
+    top: 551px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .news h1 .slick-prev {
     display: block;
     height: 110px;
     width: 65px;
@@ -2400,17 +2426,29 @@ section h1 {
   overflow: hidden;
   vertical-align: top;
 }
+.news .news-blocks .block .block {
+  width: 400px !important;
+  height: 250px;
+  background-color: #3f4558;
+  margin: 0px 5px;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+}
 @media only screen and (max-width: 768px) {
-  .news .news-blocks .block {
+  .news .news-blocks .block .block {
     display: block;
     width: 640px !important;
     height: 600px;
   }
-  .news .news-blocks .block img {
+  .news .news-blocks .block .block img {
     width: 650px;
   }
 }
-.news .news-blocks .block h3 {
+.news .news-blocks .block .block .square {
+  width: 300px !important;
+}
+.news .news-blocks .block .block .square h3 {
   color: white;
   font-size: 20px;
   margin: 5px auto;
@@ -2419,11 +2457,11 @@ section h1 {
   font-family: gothBold, Helvetica, Arial, sans-serif;
 }
 @media only screen and (max-width: 768px) {
-  .news .news-blocks .block h3 {
+  .news .news-blocks .block .block .square h3 {
     font-size: 44px;
   }
 }
-.news .news-blocks .block p {
+.news .news-blocks .block .block .square p {
   color: white;
   font-size: 16px;
   line-height: 20px;
@@ -2433,25 +2471,49 @@ section h1 {
   margin: 0px 35px 35px 35px;
 }
 @media only screen and (max-width: 768px) {
-  .news .news-blocks .block p {
+  .news .news-blocks .block .block .square p {
     font-size: 36px;
     line-height: 43px;
     max-height: 550px;
   }
 }
-.news .news-blocks .square {
+.news .news-blocks .block .block .square {
   width: 300px !important;
 }
 @media only screen and (max-width: 768px) {
-  .news .news-blocks .square {
+  .news .news-blocks .block .block .square {
+    font-size: 44px;
+  }
+}
+.news .news-blocks .block .block p {
+  color: white;
+  font-size: 16px;
+  line-height: 20px;
+  display: block;
+  max-height: 135px;
+  overflow: hidden;
+  margin: 0px 35px 35px 35px;
+}
+@media only screen and (max-width: 768px) {
+  .news .news-blocks .block .block p {
+    font-size: 36px;
+    line-height: 43px;
+    max-height: 550px;
+  }
+}
+.news .news-blocks .block .square {
+  width: 300px !important;
+}
+@media only screen and (max-width: 768px) {
+  .news .news-blocks .block .square {
     width: 640px !important;
     height: 600px;
   }
-  .news .news-blocks .square img {
+  .news .news-blocks .block .square img {
     width: 100%;
   }
 }
-.news .news-blocks .prev-arrow {
+.news .news-blocks .block .prev-arrow {
   float: left;
   position: absolute;
   z-index: 5;
@@ -2460,15 +2522,15 @@ section h1 {
   cursor: pointer;
 }
 @media only screen and (max-width: 768px) {
-  .news .news-blocks .prev-arrow {
+  .news .news-blocks .block .prev-arrow {
     top: 45%;
   }
-  .news .news-blocks .prev-arrow img {
+  .news .news-blocks .block .prev-arrow img {
     max-width: none;
     width: 70px;
   }
 }
-.news .news-blocks .next-arrow {
+.news .news-blocks .block .next-arrow {
   float: right;
   position: absolute;
   z-index: 5;
@@ -2477,88 +2539,88 @@ section h1 {
   cursor: pointer;
 }
 @media only screen and (max-width: 768px) {
-  .news .news-blocks .next-arrow {
+  .news .news-blocks .block .next-arrow {
     top: 45%;
   }
-  .news .news-blocks .next-arrow img {
+  .news .news-blocks .block .next-arrow img {
     max-width: none;
     width: 70px;
   }
 }
-
-.gohart {
+.news .gohart {
   margin-top: 50px;
   background: url("/Style%20Library/GoHart/Images/home/home-lower-bg.jpg") no-repeat;
   background-size: 120%;
+  background-position: 10% 50%;
 }
 @media only screen and (max-width: 768px) {
-  .gohart {
+  .news .gohart {
     background: none;
     background-size: 100%;
     height: auto !important;
   }
 }
-.gohart .bus {
+.news .gohart .bus {
   background: url(/Style%20Library/GoHart/Images/home/van-lower.png) no-repeat;
   background-size: 100%;
   position: absolute;
   width: 76%;
   height: 56%;
   bottom: 1%;
-  left: -40%;
+  left: -25%;
 }
-.gohart h1 {
+.news .gohart h1 {
   font-size: 50px;
   padding: 1% 2%;
   padding-bottom: 0;
   color: white;
 }
 @media only screen and (max-width: 768px) {
-  .gohart h1 {
+  .news .gohart h1 {
     font-size: 62px;
   }
 }
-.gohart .gohart-title {
+.news .gohart .gohart-title {
   margin-top: 80px;
   display: inline-block;
   width: 60%;
   margin-left: 6%;
 }
 @media only screen and (max-width: 768px) {
-  .gohart .gohart-title {
+  .news .gohart .gohart-title {
     width: 95%;
   }
 }
-.gohart .mobile-how-to {
+.news .gohart .mobile-how-to {
   margin: 50px 5%;
 }
-.gohart .mobile-how-to .gohart-mobile-content {
+.news .gohart .mobile-how-to .gohart-mobile-content {
   font-size: 32px;
   margin-top: 50px;
 }
-.gohart .mobile-how-to select, .gohart .mobile-how-to select option {
+.news .gohart .mobile-how-to select, .news .gohart .mobile-how-to select option {
   color: #003366;
   background-color: #e7e7e8;
   height: 80px;
   font-size: 32px;
   width: 100%;
 }
-.gohart .mobile-how-to select span, .gohart .mobile-how-to select option span {
+.news .gohart .mobile-how-to select span, .news .gohart .mobile-how-to select option span {
   color: #666;
   font-weight: bold;
 }
-.gohart .mobile-how-to .button-box {
+.news .gohart .mobile-how-to .button-box {
   width: 48%;
   display: inline-block;
   margin-right: 20px;
   vertical-align: top;
 }
 @media only screen and (max-width: 768px) {
-  .gohart .mobile-how-to .button-box {
+  .news .gohart .mobile-how-to .button-box {
     width: 100%;
   }
 }
-.gohart .mobile-how-to .button-box .button {
+.news .gohart .mobile-how-to .button-box .button {
   background-color: #7aaed5;
   width: 100%;
   height: 50px;
@@ -2569,48 +2631,48 @@ section h1 {
   padding-left: 15px;
   text-transform: uppercase;
 }
-.gohart .mobile-how-to .button-box .button a {
+.news .gohart .mobile-how-to .button-box .button a {
   color: white;
 }
 @media only screen and (max-width: 768px) {
-  .gohart .mobile-how-to .button-box .button {
+  .news .gohart .mobile-how-to .button-box .button {
     font-size: 32px;
     line-height: 49px;
     height: 70px;
   }
 }
-.gohart .mobile-how-to .button-box .button img {
+.news .gohart .mobile-how-to .button-box .button img {
   float: right;
   height: 25px;
   margin-right: -20px;
 }
 @media only screen and (max-width: 768px) {
-  .gohart .mobile-how-to .button-box .button img {
+  .news .gohart .mobile-how-to .button-box .button img {
     float: right;
     height: 34px;
     margin-right: -20px;
     top: 4px;
   }
 }
-.gohart .mobile-how-to .button-box .button:hover {
+.news .gohart .mobile-how-to .button-box .button:hover {
   background-color: #20416f;
 }
-.gohart .how-to {
+.news .gohart .how-to {
   background-color: rgba(255, 255, 255, 0.85);
   margin: 50px 5%;
   color: #666;
   padding: 65px 75px;
 }
 @media only screen and (max-width: 768px) {
-  .gohart .how-to {
+  .news .gohart .how-to {
     margin-left: 48px;
     padding: 30px;
   }
 }
-.gohart .how-to .content-app, .gohart .how-to .content-links {
+.news .gohart .how-to .content-app, .news .gohart .how-to .content-links {
   display: none;
 }
-.gohart .how-to .tab {
+.news .gohart .how-to .tab {
   background-color: #7aaed5;
   color: #fff;
   font-size: 11px;
@@ -2627,40 +2689,40 @@ section h1 {
   padding: 6px;
   cursor: pointer;
 }
-.gohart .how-to .tab2 {
+.news .gohart .how-to .tab2 {
   top: 95px;
 }
-.gohart .how-to .tab3 {
+.news .gohart .how-to .tab3 {
   top: 183px;
 }
-.gohart .how-to .active {
+.news .gohart .how-to .active {
   background-color: rgba(255, 255, 255, 0.85);
   color: #7aaed5;
 }
-.gohart .how-to h2 {
+.news .gohart .how-to h2 {
   font-weight: normal;
   font-family: gothBook, Helvetica, Arial, sans-serif;
   font-size: 3em;
   color: #666;
 }
 @media only screen and (max-width: 768px) {
-  .gohart .how-to h2 {
+  .news .gohart .how-to h2 {
     font-size: 2.2em;
     margin-bottom: 0px;
   }
 }
-.gohart .how-to .button-box {
+.news .gohart .how-to .button-box {
   width: 48%;
   display: inline-block;
   margin-right: 20px;
   vertical-align: top;
 }
 @media only screen and (max-width: 768px) {
-  .gohart .how-to .button-box {
+  .news .gohart .how-to .button-box {
     width: 46%;
   }
 }
-.gohart .how-to .button-box .button {
+.news .gohart .how-to .button-box .button {
   background-color: #7aaed5;
   width: 100%;
   height: 50px;
@@ -2670,88 +2732,87 @@ section h1 {
   text-align: left;
   padding-left: 15px;
 }
-.gohart .how-to .button-box .button a {
+.news .gohart .how-to .button-box .button a {
   color: white;
 }
 @media only screen and (max-width: 768px) {
-  .gohart .how-to .button-box .button {
+  .news .gohart .how-to .button-box .button {
     font-size: 12px;
   }
 }
-.gohart .how-to .button-box .button img {
+.news .gohart .how-to .button-box .button img {
   float: right;
   height: 25px;
   margin-right: -20px;
 }
 @media only screen and (max-width: 768px) {
-  .gohart .how-to .button-box .button img {
+  .news .gohart .how-to .button-box .button img {
     display: none;
   }
 }
-.gohart .how-to .button-box .button:hover {
+.news .gohart .how-to .button-box .button:hover {
   background-color: #20416f;
 }
-.gohart .how-to .end-box {
+.news .gohart .how-to .end-box {
   margin-right: 0;
 }
-
-.landing .home-form-lockup {
+.news .landing .home-form-lockup {
   position: absolute;
   width: 100%;
   z-index: 20;
   height: 90px;
   bottom: 4%;
 }
-.landing .home-form-lockup .bus-ico {
+.news .landing .home-form-lockup .bus-ico {
   float: right;
   margin-right: 6%;
   margin-top: -10px;
 }
-.landing .home-form-lockup .bottom-rule .cta {
+.news .landing .home-form-lockup .bottom-rule .cta {
   width: auto;
 }
-.landing .home-form-lockup .bottom-rule .rule {
+.news .landing .home-form-lockup .bottom-rule .rule {
   width: 100%;
   top: -14px;
   padding-left: 25%;
 }
-.landing .home-form-lockup .home-form {
+.news .landing .home-form-lockup .home-form {
   margin: auto;
   width: 88%;
   margin-top: -22px;
 }
-.landing .home-form-lockup .home-form #start, .landing .home-form-lockup .home-form #end {
+.news .landing .home-form-lockup .home-form #start, .news .landing .home-form-lockup .home-form #end {
   width: 25%;
 }
-.landing .home-form-lockup .home-form #date, .landing .home-form-lockup .home-form #time {
+.news .landing .home-form-lockup .home-form #date, .news .landing .home-form-lockup .home-form #time {
   width: 14.25%;
 }
-.landing .home-form-lockup input[type="submit"], .landing .home-form-lockup input[type="button"] {
+.news .landing .home-form-lockup input[type="submit"], .news .landing .home-form-lockup input[type="button"] {
   width: 15%;
   font-size: 0.9em;
   padding: 5px 1.5%;
   margin: 0;
 }
 @media (max-width: 1290px) {
-  .landing .home-form-lockup input[type="submit"], .landing .home-form-lockup input[type="button"] {
+  .news .landing .home-form-lockup input[type="submit"], .news .landing .home-form-lockup input[type="button"] {
     font-size: 0.75em;
   }
 }
 @media (max-width: 1020px) {
-  .landing .home-form-lockup input[type="submit"], .landing .home-form-lockup input[type="button"] {
+  .news .landing .home-form-lockup input[type="submit"], .news .landing .home-form-lockup input[type="button"] {
     font-size: 0.7em;
     padding: 5px 1%;
   }
 }
 @media (max-width: 805px) {
-  .landing .home-form-lockup input[type="submit"], .landing .home-form-lockup input[type="button"] {
+  .news .landing .home-form-lockup input[type="submit"], .news .landing .home-form-lockup input[type="button"] {
     font-size: 0.65em;
     letter-spacing: 0em;
     width: 14%;
     padding: 5px 1%;
   }
 }
-.landing .home-form-lockup input[type="submit"]:hover, .landing .home-form-lockup input[type="button"]:hover {
+.news .landing .home-form-lockup input[type="submit"]:hover, .news .landing .home-form-lockup input[type="button"]:hover {
   background-color: #20416f;
 }
 
@@ -3932,83 +3993,111 @@ ul b, li b {
   float: left;
 }
 
-.page-content .schedule-language .icon img {
+.page-content .schedule-language .schedule-and-language-text {
+  background-color: #0f406b;
+  width: 428px;
+  /* metro-rapid-parts - styles */
+  /* maps related styles */
+  /*  van service page styles - Start */
+  /* equal-access-points lists - styles */
+  /* how-do-i-apply-points lists - styles */
+  /* brick time and fare styles */
+  /*  van service page styles - End */
+  /*  teco line service page styles - Start */
+  /*  teco line service page styles - End */
+  /* alternative transport styles - start */
+  /* alternative transport styles - end */
+  /*  Transparency - environment styles - Start */
+  /*  Transparency - environment styles - End */
+  /*  Transparency - public record requests styles - Start */
+  /*  Transparency - public record requests styles - End */
+  /* Travelinfo - Hart App center Styles - Start */
+  /* Travelinfo - Hart App center Styles - End */
+  /* Travelinfo - How to ride Hart Styles - Start */
+  /* Travelinfo - How to ride Hart Styles - End */
+  /* About - Hart Employment - Styles - Start */
+  /* About - Hart Employment - Styles - End */
+  /* About - Hart News - Styles - Start */
+  /* About - Hart News - Styles - End */
+  /* About - Meet The Hart Team - Styles - Start */
+  /* About - Meet The Hart Team - Styles - End */
+  /* About - opportunities - Styles - Start */
+  /* About - opportunities - Styles - End */
+  /* About - Transit Development Plan - Styles - Start */
+  /* About - Transit Development Plan - Styles - End */
+  /* About - Transit Advertising - Styles - Start */
+  /* About - Transit Advertising - Styles - End */
+  /* About - Planning and Projects - Styles - Start */
+  /* About - Planning and Projects - Styles - End */
+  /* About - Public Metings - Styles - Start */
+  /* About - Public Metings - Styles - End */
+  /* About - Employee Login - Styles - Start */
+  /* About - Employee Login - Styles - End */
+  /* brick-blue-link - for icon with link - styles */
+}
+.page-content .schedule-language .schedule-and-language-text .page-content .schedule-language .icon img {
   max-width: 35px;
 }
-
-.page-content .schedule-language .schedule-and-language-text {
+.page-content .schedule-language .schedule-and-language-text .page-content .schedule-language .schedule-and-language-text {
   width: 80%;
   padding: 10px 0;
   text-align: center;
   float: left;
 }
-
-.page-content .schedule-language .schedule-text {
+.page-content .schedule-language .schedule-and-language-text .page-content .schedule-language .schedule-text {
   color: #FFFFFF;
   font-size: 14px;
   text-align: center;
 }
-
-.page-content .schedule-language .language-text {
+.page-content .schedule-language .schedule-and-language-text .page-content .schedule-language .language-text {
   color: #FFFFFF;
   font-size: 20px;
   text-align: center;
 }
-
-.half-column.schedule-language.schedule-language-last {
+.page-content .schedule-language .schedule-and-language-text .half-column.schedule-language.schedule-language-last {
   margin-right: 0;
 }
-
-/* metro-rapid-parts - styles */
-.page-content .metro-rapid-parts {
+.page-content .schedule-language .schedule-and-language-text .page-content .metro-rapid-parts {
   background-color: #0f406b;
   padding: 0;
   border: 1px solid #0f406b;
   margin-right: 15px;
   margin-bottom: 20px;
 }
-
-.page-content .metro-rapid-parts .icon {
+.page-content .schedule-language .schedule-and-language-text .page-content .metro-rapid-parts .icon {
   background-color: #FFFFFF;
   width: 40px;
   padding: 5px 0 0px 0;
   text-align: center;
   float: left;
 }
-
-.page-content .metro-rapid-parts .metro-rapid-parts-bg {
+.page-content .schedule-language .schedule-and-language-text .page-content .metro-rapid-parts .metro-rapid-parts-bg {
   background-color: #0f406b;
   width: 174px;
   padding: 10px 0;
   text-align: center;
   float: left;
 }
-
-.page-content .metro-rapid-parts .metro-rapid-parts-text {
+.page-content .schedule-language .schedule-and-language-text .page-content .metro-rapid-parts .metro-rapid-parts-text {
   color: #FFFFFF;
   font-size: 17px;
   text-align: center;
   padding: 2px 0 0 0;
 }
-
-.page-content .metro-rapid-fifth-part {
+.page-content .schedule-language .schedule-and-language-text .page-content .metro-rapid-fifth-part {
   margin-right: 0;
   float: right;
 }
-
-/* maps related styles */
-.page-content .map-data {
+.page-content .schedule-language .schedule-and-language-text .page-content .map-data {
   /*margin:0 15px 0 0;*/
   margin: 0 2% 0 0;
   width: 32%;
   float: left;
 }
-
-.page-content .map-data img {
+.page-content .schedule-language .schedule-and-language-text .page-content .map-data img {
   width: 100%;
 }
-
-.page-content .map-heading {
+.page-content .schedule-language .schedule-and-language-text .page-content .map-heading {
   background: url("/Style%20Library/GoHart/Images/metrorapid-service/schedule-img.png") no-repeat 0 0;
   background-size: 30px 38px;
   height: 38px;
@@ -4018,105 +4107,84 @@ ul b, li b {
   font-weight: bold;
   font-size: 15px;
 }
-
-.page-content .map {
+.page-content .schedule-language .schedule-and-language-text .page-content .map {
   width: 100%;
   margin: 0 0 20px 0;
 }
-
-.page-content .map-data-last {
+.page-content .schedule-language .schedule-and-language-text .page-content .map-data-last {
   margin: 0 0 0 0;
   float: right;
 }
-
-/*  van service page styles - Start */
-.header .headline-services-van {
+.page-content .schedule-language .schedule-and-language-text .header .headline-services-van {
   width: 250px;
 }
-
-.page-content .half-column.fares-data {
+.page-content .schedule-language .schedule-and-language-text .page-content .half-column.fares-data {
   float: right;
   margin-right: 0;
 }
-
-.page-content .fares-points ul {
+.page-content .schedule-language .schedule-and-language-text .page-content .fares-points ul {
   display: inline-block;
   width: auto;
   margin-left: 0;
 }
-
-.page-content .fares-points ul li {
+.page-content .schedule-language .schedule-and-language-text .page-content .fares-points ul li {
   padding: 10px 0 10px 0px;
   list-style: none;
   margin: 0 25px;
   border-bottom: 1px solid #4AACD9;
   color: #003567;
 }
-
-.page-content .fares-points ul li:last-child {
+.page-content .schedule-language .schedule-and-language-text .page-content .fares-points ul li:last-child {
   border-bottom: 0px solid #4AACD9;
 }
-
-.page-content .reservation-no {
+.page-content .schedule-language .schedule-and-language-text .page-content .reservation-no {
   color: #4AACD9;
 }
-
-.page-content .reservation-timings-days {
+.page-content .schedule-language .schedule-and-language-text .page-content .reservation-timings-days {
   float: left;
   text-align: left;
   margin: 10px 0;
 }
-
-.page-content .reservation-timings-days ul {
+.page-content .schedule-language .schedule-and-language-text .page-content .reservation-timings-days ul {
   list-style: none;
   margin: 0;
 }
-
-.page-content .reservation-timings-time {
+.page-content .schedule-language .schedule-and-language-text .page-content .reservation-timings-time {
   float: right;
   text-align: right;
   margin: 10px 0;
 }
-
-.page-content .reservation-timings-time ul {
+.page-content .schedule-language .schedule-and-language-text .page-content .reservation-timings-time ul {
   list-style: none;
   margin: 0;
 }
-
-.mid-section .mid-copy.van-service-midcopy-1 h3 {
+.page-content .schedule-language .schedule-and-language-text .mid-section .mid-copy.van-service-midcopy-1 h3 {
   padding: 10px 25px;
 }
-
-/* equal-access-points lists - styles */
-.page-content .half-column.equal-access-data {
+.page-content .schedule-language .schedule-and-language-text .page-content .half-column.equal-access-data {
   float: right;
   /*margin:42px 0 0 0;*/
   margin: 0 0 0 0;
 }
-
-.page-content .equal-access-points ul {
+.page-content .schedule-language .schedule-and-language-text .page-content .equal-access-points ul {
   margin-right: 0;
   width: 44%;
   display: inline-block;
   width: auto;
   margin-left: 0;
 }
-
-.page-content .equal-access-points ul li {
+.page-content .schedule-language .schedule-and-language-text .page-content .equal-access-points ul li {
   background: url("/Style%20Library/GoHart/Images/list-icon.png") no-repeat 0 5px;
   padding: 3px 0 3px 19px;
   /* reset styles (optional): */
   list-style: none;
   margin: 0;
 }
-
-/* how-do-i-apply-points lists - styles */
-.page-content .half-column.how-do-i-apply-data2 {
+.page-content .schedule-language .schedule-and-language-text .page-content .half-column.how-do-i-apply-data2 {
   float: right;
   margin: 48px 0 0 0;
 }
-
-.page-content .how-do-i-apply-points ol {
+.page-content .schedule-language .schedule-and-language-text .page-content .how-do-i-apply-points ol {
   margin-right: 0;
   width: 44%;
   display: inline-block;
@@ -4124,26 +4192,21 @@ ul b, li b {
   margin-left: 35px;
   margin-bottom: 0;
 }
-
-.page-content .how-do-i-apply-points ol li {
+.page-content .schedule-language .schedule-and-language-text .page-content .how-do-i-apply-points ol li {
   padding: 3px 0 3px 5px;
   /* reset styles (optional): */
   margin: 0;
   list-style-type: how-do-i-apply-points;
 }
-
-.page-content .half-column.how-do-i-apply-data2 p {
+.page-content .schedule-language .schedule-and-language-text .page-content .half-column.how-do-i-apply-data2 p {
   color: #003567;
   line-height: 20px;
 }
-
-/* brick time and fare styles */
-.content-body .time-and-fare {
+.page-content .schedule-language .schedule-and-language-text .content-body .time-and-fare {
   background-color: transparent;
   width: 70%;
 }
-
-.content-body .time-and-fare .brick-head {
+.page-content .schedule-language .schedule-and-language-text .content-body .time-and-fare .brick-head {
   background-color: #e6e7e8;
   text-align: left;
   color: #003366;
@@ -4151,16 +4214,14 @@ ul b, li b {
   padding-top: 10px;
   position: relative;
 }
-
-.content-body .time-and-fare .brick-head .coupon-image {
+.page-content .schedule-language .schedule-and-language-text .content-body .time-and-fare .brick-head .coupon-image {
   position: absolute;
   right: 5px;
   top: 5px;
   padding: 0;
   margin: 0;
 }
-
-.content-body .time-and-fare .brick-head .brick-line {
+.page-content .schedule-language .schedule-and-language-text .content-body .time-and-fare .brick-head .brick-line {
   position: absolute;
   right: 135px;
   top: 0;
@@ -4169,158 +4230,124 @@ ul b, li b {
   padding: 0;
   margin: 0;
 }
-
-.content-body .time-and-fare .brick-head span {
+.page-content .schedule-language .schedule-and-language-text .content-body .time-and-fare .brick-head span {
   float: right;
   margin-right: 20px;
   padding-right: 25px;
 }
-
-.content-body .time-and-fare .serv-hours {
+.page-content .schedule-language .schedule-and-language-text .content-body .time-and-fare .serv-hours {
   margin: 0;
   padding: 15px;
   padding-top: 0;
   width: auto;
 }
-
-.content-body .time-and-fare:nth-child(2n) .brick-head {
+.page-content .schedule-language .schedule-and-language-text .content-body .time-and-fare:nth-child(2n) .brick-head {
   background-color: #71A6CF;
   text-align: left;
   color: #FFFFFF;
   padding-left: 20px;
   padding-top: 10px;
 }
-
-.content-body .brick .half-column ul {
+.page-content .schedule-language .schedule-and-language-text .content-body .brick .half-column ul {
   margin: 0 0 0 15px;
   padding: 0 0 10px 0;
 }
-
-.content-body .brick .half-column ul li {
+.page-content .schedule-language .schedule-and-language-text .content-body .brick .half-column ul li {
   background: url("/Style%20Library/GoHart/Images/list-icon.png") no-repeat 0 5px;
   padding: 3px 0 3px 19px;
   list-style: none;
   margin: 0;
   line-height: 18px;
 }
-
-.content-body .brick .half-column ul.no-bullet-point li {
+.page-content .schedule-language .schedule-and-language-text .content-body .brick .half-column ul.no-bullet-point li {
   background: none;
   padding: 0px 0 0px 0;
   list-style: none;
   margin: 0;
   line-height: 24px;
 }
-
-.page-content .half-column.side2 {
+.page-content .schedule-language .schedule-and-language-text .page-content .half-column.side2 {
   float: right;
   margin: 0 0 0 0;
 }
-
-/*  van service page styles - End */
-/*  teco line service page styles - Start */
-.header .headline-services-teco-line {
+.page-content .schedule-language .schedule-and-language-text .header .headline-services-teco-line {
   width: 670px;
 }
-
-.page-content .visit-link {
+.page-content .schedule-language .schedule-and-language-text .page-content .visit-link {
   background-color: #0E3B6A;
   padding: 5px 0;
   color: #FFFFFF;
   text-align: center;
 }
-
-.page-content .visit-link a {
+.page-content .schedule-language .schedule-and-language-text .page-content .visit-link a {
   color: #FFFFFF;
   text-decoration: none;
   display: block;
 }
-
-/*  teco line service page styles - End */
-/* alternative transport styles - start */
-.content-body .brick-list .half-column ul {
+.page-content .schedule-language .schedule-and-language-text .content-body .brick-list .half-column ul {
   margin: 0 0 0 15px;
   padding: 0 0 10px 0;
 }
-
-.content-body .brick-list .half-column ul li {
+.page-content .schedule-language .schedule-and-language-text .content-body .brick-list .half-column ul li {
   background: url("/Style%20Library/GoHart/Images/list-icon.png") no-repeat 0 5px;
   padding: 0px 0 0px 19px;
   list-style: none;
   margin: 0;
   line-height: 25px;
 }
-
-.content-body .vanpool-data h2 {
+.page-content .schedule-language .schedule-and-language-text .content-body .vanpool-data h2 {
   font-size: 19px;
 }
-
-.content-body .vanpool-data-last h2 {
+.page-content .schedule-language .schedule-and-language-text .content-body .vanpool-data-last h2 {
   font-size: 19px;
 }
-
-.content-body .vanpool-data-last {
+.page-content .schedule-language .schedule-and-language-text .content-body .vanpool-data-last {
   float: right;
   margin: 0;
 }
-
-.mid-section .mid-copy.alt-transport-midcopy-1 {
+.page-content .schedule-language .schedule-and-language-text .mid-section .mid-copy.alt-transport-midcopy-1 {
   margin: 25px auto;
 }
-
-.mid-section .mid-copy.alt-transport-midcopy-1 h3 {
+.page-content .schedule-language .schedule-and-language-text .mid-section .mid-copy.alt-transport-midcopy-1 h3 {
   padding: 10px 25px;
 }
-
-.mid-section .mid-copy.alt-transport-midcopy-1 h3.commentby {
+.page-content .schedule-language .schedule-and-language-text .mid-section .mid-copy.alt-transport-midcopy-1 h3.commentby {
   color: #4AACD9;
   margin: 0;
   padding: 0;
   font-style: italic;
 }
-
-.content-body .brick-list .three-column ul {
+.page-content .schedule-language .schedule-and-language-text .content-body .brick-list .three-column ul {
   margin: 0 0 0 0;
   padding: 0 0 10px 0;
 }
-
-.content-body .brick-list .three-column ul li {
+.page-content .schedule-language .schedule-and-language-text .content-body .brick-list .three-column ul li {
   background: url("/Style%20Library/GoHart/Images/list-icon.png") no-repeat 0 5px;
   padding: 0 0 0 19px;
   list-style: none;
   margin: 0;
   line-height: 24px;
 }
-
-.content-body .brick-list .half-column ul.sponsors-list {
+.page-content .schedule-language .schedule-and-language-text .content-body .brick-list .half-column ul.sponsors-list {
   margin: 0;
   font-weight: bold;
 }
-
-.content-body .brick-list .three-column ul.sponsors2-list {
+.page-content .schedule-language .schedule-and-language-text .content-body .brick-list .three-column ul.sponsors2-list {
   margin: 0;
   font-weight: bold;
 }
-
-.content-body .sponsors-images-list img {
+.page-content .schedule-language .schedule-and-language-text .content-body .sponsors-images-list img {
   vertical-align: middle;
   padding: 0 10px 0 0;
 }
-
-.page-content .column-49 {
+.page-content .schedule-language .schedule-and-language-text .page-content .column-49 {
   width: 49% !important;
 }
-
-/* alternative transport styles - end */
-/*  Transparency - environment styles - Start */
-.content-body .half-column.environment-dept-contact {
+.page-content .schedule-language .schedule-and-language-text .content-body .half-column.environment-dept-contact {
   margin: 0;
   width: 53%;
 }
-
-/*  Transparency - environment styles - End */
-/*  Transparency - public record requests styles - Start */
-.content-body .point-no-area {
+.page-content .schedule-language .schedule-and-language-text .content-body .point-no-area {
   width: 6%;
   height: 60px;
   margin: 7px 10px 0 0;
@@ -4329,8 +4356,7 @@ ul b, li b {
   text-align: center;
   background: url("/Style%20Library/GoHart/Images/diagonal-pattern.png") repeat scroll 0 0 #003567;
 }
-
-.content-body .point-no {
+.page-content .schedule-language .schedule-and-language-text .content-body .point-no {
   padding: 5px 15px;
   background-color: #003567;
   color: #FFFFFF;
@@ -4339,14 +4365,12 @@ ul b, li b {
   display: inline-block;
   font-size: 20px;
 }
-
-.content-body .point-description {
+.page-content .schedule-language .schedule-and-language-text .content-body .point-description {
   display: inline-block;
   width: 93%;
   float: left;
 }
-
-.content-body .half-column .point-no-area {
+.page-content .schedule-language .schedule-and-language-text .content-body .half-column .point-no-area {
   width: 12%;
   height: 60px;
   margin: 7px 10px 0 0;
@@ -4355,8 +4379,7 @@ ul b, li b {
   text-align: center;
   background: url("/Style%20Library/GoHart/Images/diagonal-pattern.png") repeat scroll 0 0 #003567;
 }
-
-.content-body .half-column .point-no {
+.page-content .schedule-language .schedule-and-language-text .content-body .half-column .point-no {
   padding: 5px 10px;
   background-color: #003567;
   color: #FFFFFF;
@@ -4365,79 +4388,58 @@ ul b, li b {
   display: inline-block;
   font-size: 20px;
 }
-
-.content-body .half-column .point-description {
+.page-content .schedule-language .schedule-and-language-text .content-body .half-column .point-description {
   display: inline-block;
   width: 85%;
   float: left;
 }
-
-.content-body .point-no-place {
+.page-content .schedule-language .schedule-and-language-text .content-body .point-no-place {
   width: 6%;
 }
-
-/*  Transparency - public record requests styles - End */
-/* Travelinfo - Hart App center Styles - Start */
-.header .headline-appcenter {
+.page-content .schedule-language .schedule-and-language-text .header .headline-appcenter {
   width: 390px;
 }
-
-.info-icons {
+.page-content .schedule-language .schedule-and-language-text .info-icons {
   width: 9%;
   float: left;
   margin: 5px 10px 0 0;
 }
-
-.info-icons-description {
+.page-content .schedule-language .schedule-and-language-text .info-icons-description {
   width: 86%;
   float: left;
   margin: 0 0 30px 0;
 }
-
-/* Travelinfo - Hart App center Styles - End */
-/* Travelinfo - How to ride Hart Styles - Start */
-.content-body .half-column ul.no-margin {
+.page-content .schedule-language .schedule-and-language-text .content-body .half-column ul.no-margin {
   margin: 0;
 }
-
-.content-body .half-column ul.no-left-margin {
+.page-content .schedule-language .schedule-and-language-text .content-body .half-column ul.no-left-margin {
   margin-left: 0;
 }
-
-.content-body .half-column ul.no-padding {
+.page-content .schedule-language .schedule-and-language-text .content-body .half-column ul.no-padding {
   padding: 0;
 }
-
-a.link-normal {
+.page-content .schedule-language .schedule-and-language-text a.link-normal {
   color: #FFFFFF;
   text-decoration: none;
 }
-
-.videoWrapper {
+.page-content .schedule-language .schedule-and-language-text .videoWrapper {
   position: relative;
   padding-bottom: 56.25%;
   /* 16:9 */
   padding-top: 25px;
   height: 0;
 }
-
-.videoWrapper iframe {
+.page-content .schedule-language .schedule-and-language-text .videoWrapper iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
-
-/* Travelinfo - How to ride Hart Styles - End */
-/* About - Hart Employment - Styles - Start */
-.mapContactDisplay {
+.page-content .schedule-language .schedule-and-language-text .mapContactDisplay {
   width: 100%;
 }
-
-/* About - Hart Employment - Styles - End */
-/* About - Hart News - Styles - Start */
-.content-body .dates .point-no-area {
+.page-content .schedule-language .schedule-and-language-text .content-body .dates .point-no-area {
   width: 10%;
   height: 92px;
   margin: 14px 10px 0 0;
@@ -4447,8 +4449,7 @@ a.link-normal {
   padding: 0;
   background: url("/Style%20Library/GoHart/Images/diagonal-pattern.png") repeat scroll 0 0 #003567;
 }
-
-.content-body .dates .point-no {
+.page-content .schedule-language .schedule-and-language-text .content-body .dates .point-no {
   padding: 8px 10px;
   background-color: #003567;
   color: #FFFFFF;
@@ -4465,27 +4466,23 @@ a.link-normal {
   font-size: 20px;
   width: 100%;
 }
-
-.content-body .point-no .date {
+.page-content .schedule-language .schedule-and-language-text .content-body .point-no .date {
   font-weight: bold;
   padding: 0;
   margin: 0;
   display: block;
 }
-
-.content-body .point-no .year {
+.page-content .schedule-language .schedule-and-language-text .content-body .point-no .year {
   padding: 0;
   margin: -6px 0 0 0;
   display: block;
 }
-
-.content-body .dates .point-description {
+.page-content .schedule-language .schedule-and-language-text .content-body .dates .point-description {
   display: inline-block;
   width: 85%;
   float: left;
 }
-
-.content-body .dates-full-width .point-no-area {
+.page-content .schedule-language .schedule-and-language-text .content-body .dates-full-width .point-no-area {
   width: 7.5%;
   height: 92px;
   margin: 14px 10px 0 0;
@@ -4495,8 +4492,7 @@ a.link-normal {
   padding: 0;
   background: url("/Style%20Library/GoHart/Images/diagonal-pattern.png") repeat scroll 0 0 #003567;
 }
-
-.content-body .dates-full-width .point-no {
+.page-content .schedule-language .schedule-and-language-text .content-body .dates-full-width .point-no {
   padding: 8px 10px;
   background-color: #003567;
   color: #FFFFFF;
@@ -4513,41 +4509,32 @@ a.link-normal {
   font-size: 20px;
   width: 100%;
 }
-
-.content-body .dates-full-width .point-description {
+.page-content .schedule-language .schedule-and-language-text .content-body .dates-full-width .point-description {
   display: inline-block;
   width: 90.5%;
   float: left;
 }
-
-/* About - Hart News - Styles - End */
-/* About - Meet The Hart Team - Styles - Start */
-.content-body .three-column-data {
+.page-content .schedule-language .schedule-and-language-text .content-body .three-column-data {
   width: 21%;
   margin: 0 4% 3% 0;
   display: inline-block;
   position: relative;
   background: url("/Style%20Library/GoHart/Images/diagonal-pattern.png") repeat scroll 0 0 #f5f6f6;
 }
-
-.content-body .three-column-data a {
+.page-content .schedule-language .schedule-and-language-text .content-body .three-column-data a {
   display: block;
 }
-
-.content-body .three-column-data img {
+.page-content .schedule-language .schedule-and-language-text .content-body .three-column-data img {
   text-align: center;
 }
-
-.content-body .three-column-data:nth-child(4n) {
+.page-content .schedule-language .schedule-and-language-text .content-body .three-column-data:nth-child(4n) {
   margin: 0 0 0 0;
 }
-
-.content-body .team-members {
+.page-content .schedule-language .schedule-and-language-text .content-body .team-members {
   cursor: pointer;
   position: relaive;
 }
-
-.content-body .team-members .team-members-data {
+.page-content .schedule-language .schedule-and-language-text .content-body .team-members .team-members-data {
   background-color: #2F5981;
   width: 100%;
   height: 100%;
@@ -4558,159 +4545,126 @@ a.link-normal {
   filter: alpha(opacity=90);
   display: none;
 }
-
-.content-body .team-members .team-member-name {
+.page-content .schedule-language .schedule-and-language-text .content-body .team-members .team-member-name {
   color: #FFFFFF;
   font-size: 16px;
   margin: 88px 0 0 15px;
 }
-
-.content-body .team-members .team-member-place {
+.page-content .schedule-language .schedule-and-language-text .content-body .team-members .team-member-place {
   color: #FFFFFF;
   font-size: 14px;
   margin: 0 0 0 15px;
 }
-
-.content-body .team-members .team-member-position {
+.page-content .schedule-language .schedule-and-language-text .content-body .team-members .team-member-position {
   color: #FFFFFF;
   font-size: 14px;
   margin: 0 0 0 15px;
 }
-
-.content-body .team-members:hover .team-members-data {
+.page-content .schedule-language .schedule-and-language-text .content-body .team-members:hover .team-members-data {
   display: block;
 }
-
-.content-body .team-member-detail-description {
+.page-content .schedule-language .schedule-and-language-text .content-body .team-member-detail-description {
   background: #003567 url("/Style%20Library/GoHart/Images/about/white-arrow-down.png") no-repeat 98px -1px;
   position: relative;
   padding: 25px 45px 5px 45px;
   width: 100%;
   display: none;
 }
-
-.content-body .team-member-detail-description .team-member-name-detail-description {
+.page-content .schedule-language .schedule-and-language-text .content-body .team-member-detail-description .team-member-name-detail-description {
   font-size: 16px;
   font-weight: bold;
   color: #FFFFFF;
 }
-
-.content-body .team-member-detail-description .team-member-designation-detail-description {
+.page-content .schedule-language .schedule-and-language-text .content-body .team-member-detail-description .team-member-designation-detail-description {
   font-size: 14px;
   color: #FFFFFF;
   padding: 0 0 5px 0;
   margin: 0 0 10px 0;
   border-bottom: 1px solid #FFFFFF;
 }
-
-.content-body .team-member-detail-description p {
+.page-content .schedule-language .schedule-and-language-text .content-body .team-member-detail-description p {
   font-size: 14px;
   padding: 0 0 0 0;
   margin: 0 0 25px 0;
   color: #FFFFFF;
   line-height: 24px;
 }
-
-.content-body .team-member-detail-description-close {
+.page-content .schedule-language .schedule-and-language-text .content-body .team-member-detail-description-close {
   position: absolute;
   right: 15px;
   top: 15px;
   cursor: pointer;
 }
-
-.content-body .team-member-image {
+.page-content .schedule-language .schedule-and-language-text .content-body .team-member-image {
   margin: 0 0 -7px;
 }
-
-/* About - Meet The Hart Team - Styles - End */
-/* About - opportunities - Styles - Start */
-.content-body .brick-list ul {
+.page-content .schedule-language .schedule-and-language-text .content-body .brick-list ul {
   margin: 0 0 0 15px;
   padding: 0 0 10px 0;
 }
-
-.content-body .brick-list ul li {
+.page-content .schedule-language .schedule-and-language-text .content-body .brick-list ul li {
   background: url("/Style%20Library/GoHart/Images/list-icon.png") no-repeat 0 5px;
   padding: 0 0 0 19px;
   list-style: none;
   margin: 0;
   line-height: 25px;
 }
-
-.content-body .brick-list ul.no-margin {
+.page-content .schedule-language .schedule-and-language-text .content-body .brick-list ul.no-margin {
   margin: 0;
 }
-
-.content-body .three-column-info-chunks {
+.page-content .schedule-language .schedule-and-language-text .content-body .three-column-info-chunks {
   width: 29%;
   margin: 0 5% 0 0;
   display: inline-block;
   vertical-align: top;
 }
-
-.content-body .three-column-info-chunks:nth-child(3n) {
+.page-content .schedule-language .schedule-and-language-text .content-body .three-column-info-chunks:nth-child(3n) {
   margin: 0 0 0 0;
 }
-
-.content-body .three-column-info-chunks .top-part {
+.page-content .schedule-language .schedule-and-language-text .content-body .three-column-info-chunks .top-part {
   margin: 0 0 0 0;
 }
-
-.content-body .three-column-info-chunks .bottom-part {
+.page-content .schedule-language .schedule-and-language-text .content-body .three-column-info-chunks .bottom-part {
   margin: 10px 0 10px 0;
 }
-
-/* About - opportunities - Styles - End */
-/* About - Transit Development Plan - Styles - Start */
-.header .headline.transit-development-plan-headline {
+.page-content .schedule-language .schedule-and-language-text .header .headline.transit-development-plan-headline {
   /* width: 610px;*/
 }
-
-/* About - Transit Development Plan - Styles - End */
-/* About - Transit Advertising - Styles - Start */
-.content-body .info-chunk .bottom-part {
+.page-content .schedule-language .schedule-and-language-text .content-body .info-chunk .bottom-part {
   margin: 10px 0 10px 0;
 }
-
-/* About - Transit Advertising - Styles - End */
-/* About - Planning and Projects - Styles - Start */
-.content-block.dec-bottom-margin {
+.page-content .schedule-language .schedule-and-language-text .content-block.dec-bottom-margin {
   margin: 0 0 5px 0;
 }
-
-.page-content .bus-shelter-requests .bus-shelter-request-form {
+.page-content .schedule-language .schedule-and-language-text .page-content .bus-shelter-requests .bus-shelter-request-form {
   /*margin: 3%;*/
 }
-
-.page-content .bus-shelter-requests .bus-shelter-request-form .form-half {
+.page-content .schedule-language .schedule-and-language-text .page-content .bus-shelter-requests .bus-shelter-request-form .form-half {
+  width: 49%;
+  width: 48%;
   width: 48%;
   float: left;
   vertical-align: top;
   height: 487px;
 }
-
-.page-content .bus-shelter-requests .bus-shelter-request-form .form-half input[type="text"], .page-content .bus-shelter-requests .bus-shelter-request-form .form-half textarea {
+.page-content .schedule-language .schedule-and-language-text .page-content .bus-shelter-requests .bus-shelter-request-form .form-half input[type="text"], .page-content .schedule-language .schedule-and-language-text .page-content .bus-shelter-requests .bus-shelter-request-form .form-half textarea {
   display: block;
   width: 100%;
   margin-bottom: 10px;
 }
-
-.page-content .bus-shelter-requests .bus-shelter-request-form .bus-shelter-request-form-radiobut {
+.page-content .schedule-language .schedule-and-language-text .page-content .bus-shelter-requests .bus-shelter-request-form .bus-shelter-request-form-radiobut {
   margin: 0 0 7px 0;
   color: #083b70;
 }
-
-.page-content .bus-shelter-requests .bus-shelter-request-form .form-half textarea {
+.page-content .schedule-language .schedule-and-language-text .page-content .bus-shelter-requests .bus-shelter-request-form .form-half textarea {
   /*height: 100%;*/
   height: 43%;
   resize: none;
 }
-
-.page-content .bus-shelter-requests .bus-shelter-request-form .form-left {
+.page-content .schedule-language .schedule-and-language-text .page-content .bus-shelter-requests .bus-shelter-request-form .form-left {
   margin-right: 20px;
 }
-
-.page-content .bus-shelter-requests .bus-shelter-request-form input[type="text"], .page-content .bus-shelter-requests .bus-shelter-request-form textarea {
+.page-content .schedule-language .schedule-and-language-text .page-content .bus-shelter-requests .bus-shelter-request-form input[type="text"], .page-content .schedule-language .schedule-and-language-text .page-content .bus-shelter-requests .bus-shelter-request-form textarea {
   border: none;
   text-transform: uppercase;
   color: #083b70;
@@ -4723,12 +4677,10 @@ a.link-normal {
   padding-top: 10px;
   margin-right: 1%;
 }
-
-.page-content .bus-shelter-requests .bus-shelter-request-form .submit-btn {
+.page-content .schedule-language .schedule-and-language-text .page-content .bus-shelter-requests .bus-shelter-request-form .submit-btn {
   margin-top: 10px;
 }
-
-.page-content .bus-shelter-requests .bus-shelter-request-form .submit-btn input[type="submit"] {
+.page-content .schedule-language .schedule-and-language-text .page-content .bus-shelter-requests .bus-shelter-request-form .submit-btn input[type="submit"] {
   -webkit-appearance: none;
   border: none;
   color: white;
@@ -4742,39 +4694,31 @@ a.link-normal {
   position: absolute;
   right: 0px;
 }
-
-.page-content .bus-shelter-requests .bus-shelter-request-form #start, .page-content .bus-shelter-requests .bus-shelter-request-form #end {
+.page-content .schedule-language .schedule-and-language-text .page-content .bus-shelter-requests .bus-shelter-request-form #start, .page-content .schedule-language .schedule-and-language-text .page-content .bus-shelter-requests .bus-shelter-request-form #end {
   width: 27%;
 }
-
-.page-content .bus-shelter-requests .bus-shelter-request-form #date, .page-content .bus-shelter-requests .bus-shelter-request-form #time {
+.page-content .schedule-language .schedule-and-language-text .page-content .bus-shelter-requests .bus-shelter-request-form #date, .page-content .schedule-language .schedule-and-language-text .page-content .bus-shelter-requests .bus-shelter-request-form #time {
   width: 15%;
 }
-
-/* About - Planning and Projects - Styles - End */
-/* About - Public Metings - Styles - Start */
-.info-chunk-with-cross-lines {
+.page-content .schedule-language .schedule-and-language-text .info-chunk-with-cross-lines {
   background-color: #FFFFFF;
   margin-bottom: 20px;
 }
-
-.info-chunk-with-cross-lines .info-row {
+.page-content .schedule-language .schedule-and-language-text .info-chunk-with-cross-lines .info-row {
   padding: 9px 15px;
   border-bottom: 1px #003567 solid;
   border-left: 1px #003567 solid;
   border-right: 1px #003567 solid;
   color: #003366;
 }
-
-.info-chunk-with-cross-lines .info-title {
+.page-content .schedule-language .schedule-and-language-text .info-chunk-with-cross-lines .info-title {
   color: white;
   /*background-color: #003567;*/
   background: url("/Style%20Library/GoHart/Images/service/page-nav-bg.png") repeat-x scroll 0 0 #003567;
   text-align: center;
   margin: 10px 0px 0px 0px;
 }
-
-.info-chunk-with-cross-lines .info-title .info-title-text {
+.page-content .schedule-language .schedule-and-language-text .info-chunk-with-cross-lines .info-title .info-title-text {
   text-align: center;
   /*padding:5px 10px;*/
   padding: 0 10px;
@@ -4782,68 +4726,56 @@ a.link-normal {
   display: inline-block;
   background-color: #003567;
 }
-
-.info-chunk-with-cross-lines .last-info-row {
+.page-content .schedule-language .schedule-and-language-text .info-chunk-with-cross-lines .last-info-row {
   padding-bottom: 10px;
 }
-
-.info-chunk-with-cross-lines .info-row-head {
+.page-content .schedule-language .schedule-and-language-text .info-chunk-with-cross-lines .info-row-head {
   margin: 0 0 10px 0;
   color: #003567;
 }
-
-.info-chunk-with-cross-lines .info-row-desc {
+.page-content .schedule-language .schedule-and-language-text .info-chunk-with-cross-lines .info-row-desc {
   color: #666;
 }
-
-.content-body .brick-list-packets .half-column ul {
+.page-content .schedule-language .schedule-and-language-text .content-body .brick-list-packets .half-column ul {
   margin: 0 0 0 15px;
   padding: 0 0 10px 0;
 }
-
-.content-body .brick-list-packets .half-column ul li {
+.page-content .schedule-language .schedule-and-language-text .content-body .brick-list-packets .half-column ul li {
   background: url("/Style%20Library/GoHart/Images/dl-icon.png") no-repeat 0 7px;
   padding: 0 0 0 19px;
   list-style: none;
   margin: 0;
   line-height: 26px;
 }
-
-/* About - Public Metings - Styles - End */
-/* About - Employee Login - Styles - Start */
-.page-content .employee-login .employee-login-form {
+.page-content .schedule-language .schedule-and-language-text .page-content .employee-login .employee-login-form {
   /*margin: 3%;*/
 }
-
-.page-content .employee-login .employee-login-form .form-half {
+.page-content .schedule-language .schedule-and-language-text .page-content .employee-login .employee-login-form .form-half {
+  width: 49%;
+  width: 48%;
   width: 48%;
   float: left;
   vertical-align: top;
   height: 125px;
 }
-
-.page-content .employee-login .employee-login-form .form-half input[type="text"], .page-content .employee-login .employee-login-form .form-half input[type="password"], .page-content .employee-login .employee-login-form .form-half textarea {
+.page-content .schedule-language .schedule-and-language-text .page-content .employee-login .employee-login-form .form-half input[type="text"], .page-content .schedule-language .schedule-and-language-text .page-content .employee-login .employee-login-form .form-half input[type="password"], .page-content .schedule-language .schedule-and-language-text .page-content .employee-login .employee-login-form .form-half textarea {
   display: block;
   width: 100%;
   margin-bottom: 10px;
 }
-
-.page-content .employee-login .employee-login-form .employee-login-form-radiobut {
+.page-content .schedule-language .schedule-and-language-text .page-content .employee-login .employee-login-form .employee-login-form-radiobut {
   margin: 0 0 7px 0;
   color: #083b70;
 }
-
-.page-content .employee-login .employee-login-form .form-half textarea {
+.page-content .schedule-language .schedule-and-language-text .page-content .employee-login .employee-login-form .form-half textarea {
   /*height: 100%;*/
   height: 43%;
   resize: none;
 }
-
-.page-content .employee-login .employee-login-form .form-left {
+.page-content .schedule-language .schedule-and-language-text .page-content .employee-login .employee-login-form .form-left {
   margin-right: 20px;
 }
-
-.page-content .employee-login .employee-login-form input[type="text"], .page-content .employee-login .employee-login-form input[type="password"], .page-content .employee-login .employee-login-form textarea {
+.page-content .schedule-language .schedule-and-language-text .page-content .employee-login .employee-login-form input[type="text"], .page-content .schedule-language .schedule-and-language-text .page-content .employee-login .employee-login-form input[type="password"], .page-content .schedule-language .schedule-and-language-text .page-content .employee-login .employee-login-form textarea {
   border: none;
   text-transform: uppercase;
   color: #083b70;
@@ -4856,12 +4788,10 @@ a.link-normal {
   padding-top: 10px;
   margin-right: 1%;
 }
-
-.page-content .employee-login .employee-login-form .submit-btn {
+.page-content .schedule-language .schedule-and-language-text .page-content .employee-login .employee-login-form .submit-btn {
   margin-top: 10px;
 }
-
-.page-content .employee-login .employee-login-form .submit-btn input[type="submit"] {
+.page-content .schedule-language .schedule-and-language-text .page-content .employee-login .employee-login-form .submit-btn input[type="submit"] {
   -webkit-appearance: none;
   border: none;
   color: white;
@@ -4876,22 +4806,18 @@ a.link-normal {
   right: 0px;
   bottom: 25px;
 }
-
-.page-content .employee-login .employee-login-form #start, .page-content .employee-login .employee-login-form #end {
+.page-content .schedule-language .schedule-and-language-text .page-content .employee-login .employee-login-form #start, .page-content .schedule-language .schedule-and-language-text .page-content .employee-login .employee-login-form #end {
   width: 27%;
 }
-
-.page-content .employee-login .employee-login-form #date, .page-content .employee-login .employee-login-form #time {
+.page-content .schedule-language .schedule-and-language-text .page-content .employee-login .employee-login-form #date, .page-content .schedule-language .schedule-and-language-text .page-content .employee-login .employee-login-form #time {
   width: 15%;
 }
-
-.page-content .row-middle {
+.page-content .schedule-language .schedule-and-language-text .page-content .row-middle {
   margin-left: auto !important;
   margin-right: auto !important;
   display: block !important;
 }
-
-.page-content .employee-terms-of-use {
+.page-content .schedule-language .schedule-and-language-text .page-content .employee-terms-of-use {
   padding: 10px;
   background-color: #EBECEC;
   color: #25527C;
@@ -4900,106 +4826,85 @@ a.link-normal {
   margin: 25px 0;
   cursor: pointer;
 }
-
-.page-content .employee-terms-of-use-desc {
+.page-content .schedule-language .schedule-and-language-text .page-content .employee-terms-of-use-desc {
   display: none;
 }
-
-.page-content .employee-terms-of-use.active {
+.page-content .schedule-language .schedule-and-language-text .page-content .employee-terms-of-use.active {
   background: #7aaed5 url("/Style%20Library/GoHart/Images/bottom-arrow.png") bottom left no-repeat;
   color: #FFFFFF;
 }
-
-.page-content .employee-terms-active-img {
+.page-content .schedule-language .schedule-and-language-text .page-content .employee-terms-active-img {
   display: none;
   text-align: center;
   margin-top: -27px;
 }
-
-/* About - Employee Login - Styles - End */
-.content-body .three-column {
+.page-content .schedule-language .schedule-and-language-text .content-body .three-column {
   display: inline-block;
   vertical-align: top;
   width: 30%;
   margin-right: 3%;
 }
-
-.content-body .three-column:last-child {
+.page-content .schedule-language .schedule-and-language-text .content-body .three-column:last-child {
   margin-right: 0;
 }
-
-.page-content .link-colored {
+.page-content .schedule-language .schedule-and-language-text .page-content .link-colored {
   color: #4AACD9;
   font-weight: bold;
 }
-
-.page-content a.link-colored {
+.page-content .schedule-language .schedule-and-language-text .page-content a.link-colored {
   color: #4AACD9;
 }
-
-.page-content a.bold-blue {
+.page-content .schedule-language .schedule-and-language-text .page-content a.bold-blue {
   color: #7aaed5;
   font-family: gothBold,Helvetica,arial,sans-serif;
   font-weight: 400;
 }
-
-.content-body .half-column {
+.page-content .schedule-language .schedule-and-language-text .content-body .half-column {
   margin-right: 3%;
   width: 46%;
 }
-
-.north-south-points.half-column {
+.page-content .schedule-language .schedule-and-language-text .north-south-points.half-column {
   margin-right: 0%;
   width: 47%;
 }
-
-.page-content .bottom-rule .cta {
+.page-content .schedule-language .schedule-and-language-text .page-content .bottom-rule .cta {
   width: 100%;
 }
-
-.page-content .bottom-rule {
+.page-content .schedule-language .schedule-and-language-text .page-content .bottom-rule {
   padding-top: 10px;
 }
-
-.page-nav {
+.page-content .schedule-language .schedule-and-language-text .page-nav {
   margin: 20px 0;
 }
-
-.mid-section .mid-copy {
+.page-content .schedule-language .schedule-and-language-text .mid-section .mid-copy {
   /*width: 75%;*/
   width: 80%;
 }
-
-.content-body .info-italic {
+.page-content .schedule-language .schedule-and-language-text .content-body .info-italic {
   font-size: 13px;
 }
-
-.content-body .info-italic2 {
+.page-content .schedule-language .schedule-and-language-text .content-body .info-italic2 {
   font-size: 13px;
   font-style: italic;
 }
-
-.content-body .space-top-bottom {
+.page-content .schedule-language .schedule-and-language-text .content-body .space-top-bottom {
   margin: 10px 0;
 }
-
-.content-body .brick .brick-head-para {
+.page-content .schedule-language .schedule-and-language-text .content-body .brick .brick-head-para {
   color: #003567;
   margin-bottom: 5px;
   padding-bottom: 0;
 }
-
-/* brick-blue-link - for icon with link - styles */
-.page-content .brick-blue-link {
+.page-content .schedule-language .schedule-and-language-text .page-content .brick-blue-link {
   background-color: #0f406b;
   padding: 0;
   border: 1px solid #0f406b;
   margin-right: 0;
   margin-bottom: 15px;
   max-height: 75px;
+  max-height: 75px;
 }
-
-.page-content .brick-blue-link .icon {
+.page-content .schedule-language .schedule-and-language-text .page-content .brick-blue-link .icon {
   background-color: #FFFFFF;
   width: 70px;
   padding: 9px 0 1px 0;
@@ -5007,62 +4912,50 @@ a.link-normal {
   float: left;
   max-height: 70px;
 }
-
-.page-content .brick-blue-link .brick-blue-link-text {
+.page-content .schedule-language .schedule-and-language-text .page-content .brick-blue-link .brick-blue-link-text {
   background-color: #0f406b;
   width: 428px;
   padding: 4px 0;
   text-align: center;
   float: left;
 }
-
-.page-content .brick-blue-link .brick-blue-link-text1 {
+.page-content .schedule-language .schedule-and-language-text .page-content .brick-blue-link .brick-blue-link-text1 {
   color: #FFFFFF;
   font-size: 14px;
   text-align: center;
 }
-
-.page-content .brick-blue-link .brick-blue-link-text2 {
+.page-content .schedule-language .schedule-and-language-text .page-content .brick-blue-link .brick-blue-link-text2 {
   color: #FFFFFF;
   font-size: 24px;
   text-align: center;
 }
-
-.half-column.brick-blue-link.brick-blue-link-last {
+.page-content .schedule-language .schedule-and-language-text .half-column.brick-blue-link.brick-blue-link-last {
   margin-right: 0;
 }
-
-.content-body .brick .brick-head {
+.page-content .schedule-language .schedule-and-language-text .content-body .brick .brick-head {
   padding-top: 12px;
 }
-
-.half-column.brick-column {
+.page-content .schedule-language .schedule-and-language-text .half-column.brick-column {
   padding: 0;
   margin-right: 0;
   margin-bottom: 15px;
 }
-
-.half-column.brick-column.brick-column-last {
+.page-content .schedule-language .schedule-and-language-text .half-column.brick-column.brick-column-last {
   margin-right: 0;
 }
-
-.left {
+.page-content .schedule-language .schedule-and-language-text .left {
   float: left;
 }
-
-.right {
+.page-content .schedule-language .schedule-and-language-text .right {
   float: right;
 }
-
-.align-right {
+.page-content .schedule-language .schedule-and-language-text .align-right {
   text-align: right;
 }
-
-.page-nav.fullWidth {
+.page-content .schedule-language .schedule-and-language-text .page-nav.fullWidth {
   margin: 10px 0;
 }
-
-.page-nav .nav-btn.fullWidth {
+.page-content .schedule-language .schedule-and-language-text .page-nav .nav-btn.fullWidth {
   width: 100%;
 }
 
@@ -5072,6 +4965,20 @@ a.link-normal {
   text-transform: uppercase;
   color: #083b70;
   line-height: 45px;
+  height: 45px;
+  font-size: 16px;
+  background-color: #ccc;
+  padding: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-left: 2%;
+  /*width:50%;*/
+}
+
+.tix-box .tix-row .tix-fare {
+  float: right;
+  border-left: 1px #666 solid;
+  padding-right: 8%;
   height: 42px;
   font-size: 16px;
   background-color: #e4e4e3;
@@ -5170,6 +5077,7 @@ a.link-normal {
 .header .headline {
   bottom: 20%;
   /* width: 635px; */
+  width: 775px;
   width: 90%;
 }
 
@@ -5403,6 +5311,24 @@ a.link-normal {
   margin-right: 11px;
 }
 
+.page-content .bus-shelter-requests label {
+  display: inline;
+  margin-right: 25px;
+}
+
+b {
+  font-family: gothMed,Helvetica,Arial,sans-serif;
+}
+
+.alerts-detours .rider-alert-top {
+  margin-top: 20px;
+}
+
+.alerts-detours .rider-alert {
+  width: 96%;
+  padding: 7px;
+}
+
 .page-content .bus-shelter-requests input[type="submit"] {
   padding-top: 5px;
 }
@@ -5613,7 +5539,10 @@ b {
 
 /* header background images styles - End */
 /* bricks hover effect - Start */
-/* bricks hover effect - End */
+.brick-blue-link a.brick-link:hover {
+  background-color: #7FAFD4;
+}
+
 .schedule-nav a:nth-child(1), .schedule-nav a:nth-child(2), .schedule-nav a:nth-child(3) {
   min-width: 13.3%;
 }
@@ -5647,6 +5576,7 @@ b {
   }
 
   .page-content .schedule-language .schedule-and-language-text {
+    width: 333px;
     width: 79%;
   }
 
@@ -7520,4 +7450,3 @@ div#gmap-wrap img {
 }
 
 /*# sourceMappingURL=styles.css.map */
->>>>>>> live-pathing
