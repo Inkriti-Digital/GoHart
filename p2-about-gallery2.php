@@ -8,6 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/styles.min.css">
 		<link rel="stylesheet" href="css/styles2.css">
+		<link rel="stylesheet" href="css/phase2.css">
 		<!--[if lte IE 10]>
 			<link rel="stylesheet" href="css/ie9.css">
 		<![endif]-->
@@ -21,15 +22,7 @@
 		<!-- Content -->
 
 		<div class="container services">
-			<?php include ("views/main-nav.php"); ?>
-
-			<section class="page-content">
-				<div class="content-block">
-					<div class="gallery-large">
-						
-					</div>
-				</div>
-			</section>
+			<?php include ("views/main-nav.php"); ?>		
 			
 			<section class="header aboutPagesBg">
 				<div class="logo">
@@ -49,65 +42,37 @@
 
 			</section>
 
-			<section class="news">
-				<div class="news-title">
-					<h1>NEWS</h1><br/>
-					<h1>YOU CAN USE</h1>
-				</div>
 
+			<section class="page-content">
+				<div class="content-block">
+					<div class="gallery-large">
+						<img src="img/about/gallery/cS-1.jpg"/>
+					</div>
+				</div>
+			</section>
+
+			<section class="news about-gallery">
+				
 				<div id="#newsBlockRow" class="newsBlockRow news-blocks">					
-						<div class="newsBlock square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>
-						<div class="block ">
-							<h3>New Promo</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
-							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p>
-						</div>
-						<div class="block square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>
-						<div class="block light"><h3>New Promo</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
-							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p></div>
-						<div class="block square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>
-						<div class="block light">
-							<h3>New Promo</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
-							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p>
-						</div>
-						<div class="block square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>
-						<div class="block square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>
-						<div class="block">
-							<h3>New Promo</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
-							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p>
-						</div>
-						<div class="block square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>						
+						<div class="block"><img src="img/about/gallery/thumb/cS-3.jpg"/></div>						
+						<div class="block"><img src="img/about/gallery/thumb/cS-1.jpg"/></div>
+						<div class="block"><img src="img/about/gallery/thumb/cS-2.jpg"/></div>
+						<div class="block"><img src="img/about/gallery/thumb/cS-3.jpg"/></div>
+						<div class="block"><img src="img/about/gallery/thumb/cS-4.jpg"/></div>
+						<div class="block"><img src="img/about/gallery/thumb/cS-5.jpg"/></div>
+						<div class="block"><img src="img/about/gallery/thumb/cS-6.jpg"/></div>
+						<div class="block"><img src="img/about/gallery/thumb/cS-7.jpg"/></div>					
 				</div>
 
 				<div id="#newsBlockRow2" style="margin-top: 258px;" class="newsBlockRow2 news-blocks">
-						<div class="block light"><h3>New Promo</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
-							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p></div>
-						<div class="block square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>
-						<div class="block light">
-							<h3>New Promo</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
-							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p>
-						</div>					
-						<div class="newsBlock square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>
-						<div class="block ">
-							<h3>New Promo</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
-							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p>
-						</div>
-						<div class="block square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>
-						
-						<div class="block square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>
-						<div class="block square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>
-						<div class="block">
-							<h3>New Promo</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero. Curabitur pretium consequat luctus
-							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p>
-						</div>
-						<div class="block square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>						
+						<div class="block"><img src="img/about/gallery/thumb/cS-8.jpg"/></div>
+						<div class="block"><img src="img/about/gallery/thumb/cS-9.jpg"/></div>
+						<div class="block"><img src="img/about/gallery/thumb/cS-10.jpg"/></div>
+						<div class="block"><img src="img/about/gallery/thumb/cS-11.jpg"/></div>
+						<div class="block"><img src="img/about/gallery/thumb/cS-12.jpg"/></div>
+						<div class="block"><img src="img/about/gallery/thumb/cS-13.jpg"/></div>
+						<div class="block"><img src="img/about/gallery/thumb/cS-14.jpg"/></div>
+						<div class="block"><img src="img/about/gallery/thumb/cS-15.jpg"/></div>						
 				</div>				
 			</section>
 			<section class="page-content">

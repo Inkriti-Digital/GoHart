@@ -100,6 +100,13 @@
 
 
 
-=======
+/*gallery styles*/
+
+.gallery-large{
+	margin: auto;
+  	width: 85%;
 }
->>>>>>> origin/live-pathing
+
+.gallery-large img{
+	width: 100%;
+}
