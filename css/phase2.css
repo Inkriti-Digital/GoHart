@@ -1,0 +1,101 @@
+/*PHASE 2 STYLES*/
+.aboutBG{
+	background: url("/Style%20Library/GoHart/Images/headerImages/About.jpg") no-repeat;
+}
+
+.italic-headline{
+	text-align: center;
+	font-size: 18px;
+}
+
+.page-content .planning-project-form .comment-form .form-half textarea{
+	height: 49%;
+}
+
+.page-content .planning-project-form .comment-form .form-half{
+	height: auto;
+}
+
+.page-content .planning-project-form .comment-form .submit-btn input[type=submit]{
+  margin-top: -40px;
+}
+
+#ebcaptchainput{
+	max-width: 200px;
+}
+
+.projectplan-nav{
+	text-align: center;
+}
+
+.projectplan-nav a{
+		width: auto !important;
+		padding-top: 14px !important;
+	}
+.projectplan-nav a:hover{
+		color: white !important;
+	}
+
+.download-project-pdf{
+	font-family: gothBold;
+	margin-left: 15%;
+}
+
+.download-project-pdf img{
+	margin-right: 5px;
+}
+
+.project-chart{
+	width: 70%;
+	text-align: center;
+	margin: 5px auto;
+}
+
+
+.pub-meeting-info b{
+	color: #7FAFD4;
+}
+
+
+
+
+.calandar-box{
+	border: 1px gray solid;
+	width: 27%;
+	margin: 20px;
+	display: inline-block;
+}
+
+.calander-title{
+	background: url("/Style%20Library/GoHart/Images/diagonal-pattern.png") repeat scroll 0 0 #003567;
+	color: white;
+	text-align: center;
+	padding: 6px;
+}
+
+.calander-title span{
+	background-color: #003567;
+	padding: 3px;
+}
+
+.calander-info{
+	padding: 15px 8px;
+	font-size: 13px;
+}
+
+.calander-info h3{
+	  font-size: 16px;
+	  color: #003567;
+}
+
+.pdf-doc-list img{
+	margin-left: -17px;
+  	margin-right: 5px;
+}
+
+.pdf-doc-list li{
+	margin-bottom: 6px;
+}
+
+
+

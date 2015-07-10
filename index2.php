@@ -236,10 +236,7 @@
 							elit. Nam eget blandit tortor. Aliquam leo mi, condimentum suscipit euismod ac, lacinia ultrices libero....</p>
 						</div>
 						<div class="block square"><img src="img/news/fpo-img1.jpg" alt="news image"/></div>						
-				</div>
-
-
-				
+				</div>				
 			</section>
 			
 			<section class="gohart" data-2500="background-position: 40% 0%;" data-3000="background-position: 0% 0%;">
