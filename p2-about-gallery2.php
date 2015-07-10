@@ -22,6 +22,14 @@
 
 		<div class="container services">
 			<?php include ("views/main-nav.php"); ?>
+
+			<section class="page-content">
+				<div class="content-block">
+					<div class="gallery-large">
+						
+					</div>
+				</div>
+			</section>
 			
 			<section class="header aboutPagesBg">
 				<div class="logo">
