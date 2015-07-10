@@ -730,7 +730,7 @@ body{
 	overflow: hidden;
 
  	@include media-query(palm){
- 		height:1400px;
+ 		height:1410px;
  	}
 
  	.newsBlockRow2{
@@ -785,10 +785,10 @@ font-size: 80px;
  	.news-blocks{
  	// margin: 30px 0 30px -10px;
  	// width: auto;
-// overflow: hidden;
+	// overflow: hidden;
 
 @include media-query(palm){
-height: 1215px;
+	height: 1215px;
 }
 
  	.block-row{
@@ -816,7 +816,7 @@ height: 1215px;
 	 display: block;
 	 width: 640px !important;
 	 height: 600px;
-	 border: thin red solid;
+	 // border: thin red solid;
 
 	 img{
 	 	width: 650px;
@@ -868,7 +868,7 @@ font-size: 36px;
  	}
 
  		.light{
- 			background-color: #7aaed5;
+ 			// background-color: #7aaed5;
  		}
 
  		.prev-arrow{
