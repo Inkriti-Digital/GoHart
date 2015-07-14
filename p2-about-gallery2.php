@@ -12,9 +12,6 @@
 		<!--[if lte IE 10]>
 			<link rel="stylesheet" href="css/ie9.css">
 		<![endif]-->
-
-		<!-- gallery styles defaults-->
-		<!--link rel="stylesheet"  href="css/lightslider.css"/-->
 		
 	</head>
 	<body>
@@ -46,7 +43,11 @@
 			<section class="page-content">
 				<div class="content-block">
 					<div class="gallery-large">
-						<img src="img/about/gallery/cS-1.jpg"/>
+						<!-- <div class="gal-prev"><a href="#"><img src="/Style%20Library/GoHart/Images/news-arrow-left.png"/></a></div> -->
+						<!-- <div class="gal-next"><a href="#"><img src="/Style%20Library/GoHart/Images/news-arrow-right.png"/></a></div> -->
+						
+						<img id="gal-image" src="img/about/gallery/cS-1.jpg"/>						
+
 					</div>
 				</div>
 			</section>
@@ -54,25 +55,73 @@
 			<section class="news about-gallery">
 				
 				<div id="#newsBlockRow" class="newsBlockRow news-blocks">					
-						<div class="block"><img src="img/about/gallery/thumb/cS-3.jpg"/></div>						
-						<div class="block"><img src="img/about/gallery/thumb/cS-1.jpg"/></div>
-						<div class="block"><img src="img/about/gallery/thumb/cS-2.jpg"/></div>
-						<div class="block"><img src="img/about/gallery/thumb/cS-3.jpg"/></div>
-						<div class="block"><img src="img/about/gallery/thumb/cS-4.jpg"/></div>
-						<div class="block"><img src="img/about/gallery/thumb/cS-5.jpg"/></div>
-						<div class="block"><img src="img/about/gallery/thumb/cS-6.jpg"/></div>
-						<div class="block"><img src="img/about/gallery/thumb/cS-7.jpg"/></div>					
+						<div class="block">
+							<div class="gal-title">BUS CONFERENCE 2015</div>
+							<img src="img/about/gallery/cS-3.jpg"/>
+						</div>						
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-1.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-2.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-3.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-4.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-5.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-6.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-7.jpg"/>
+						</div>					
 				</div>
 
 				<div id="#newsBlockRow2" style="margin-top: 258px;" class="newsBlockRow2 news-blocks">
-						<div class="block"><img src="img/about/gallery/thumb/cS-8.jpg"/></div>
-						<div class="block"><img src="img/about/gallery/thumb/cS-9.jpg"/></div>
-						<div class="block"><img src="img/about/gallery/thumb/cS-10.jpg"/></div>
-						<div class="block"><img src="img/about/gallery/thumb/cS-11.jpg"/></div>
-						<div class="block"><img src="img/about/gallery/thumb/cS-12.jpg"/></div>
-						<div class="block"><img src="img/about/gallery/thumb/cS-13.jpg"/></div>
-						<div class="block"><img src="img/about/gallery/thumb/cS-14.jpg"/></div>
-						<div class="block"><img src="img/about/gallery/thumb/cS-15.jpg"/></div>						
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-8.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-9.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-10.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-11.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-12.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-13.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-14.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-15.jpg"/>
+						</div>						
 				</div>				
 			</section>
 			<section class="page-content">
@@ -150,38 +199,14 @@
 		<!-- Load Scripts -->
 		<?php include ("views/scripts-load.php"); ?>
 
-		<!--image gallery js plugin & init-->
-		<!--script src="js/lightslider.js"></script-->
-
-		<!--script>
-	    	$(document).ready(function() {
-				$("#content-slider").lightSlider({
-	                loop:true,
-	                keyPress:true
-	            });
-	            $('#image-gallery').lightSlider({
-	                gallery:true,
-	                item:1,
-	                thumbItem:3,
-	                slideMargin: 0,
-	                speed:500,
-	                auto:false,
-	                loop:true,
-	                verticalHeight:500,
-        			vThumbWidth:280,
-	                onSliderLoad: function() {
-	                    $('#image-gallery').removeClass('cS-hidden');
-	                }  
-	            });
-			});
-    	</script-->
+		
 
     	<script src="js/slick.min.js"></script>
 		<script>
 			$('.newsBlockRow').slick({
 			  dots: false,
 			  infinite: true,
-			  speed: 400,
+			  speed: 600,
 			  slidesToShow: 1,
 			  centerMode: true,
 			  slidesToScroll: 4,
@@ -195,16 +220,31 @@
 			$('.newsBlockRow2').slick({
 			  dots: false,
 			  infinite: true,
-			  speed: 800,
+			  speed: 600,
 			  slidesToShow: 1,
 			  centerMode: true,
 			  slidesToScroll: 4,
 			  variableWidth: true,
 			  swipeToSlide: true,
 			  autoplay: false,
-			  autoplaySpeed: 3000
+			  autoplaySpeed: 2500
 			  // asNavFor: '.newsBlockRow2'
 			});
+			</script>
+
+			<script>
+				$('.about-gallery .news-blocks .block img').click(function() {
+					var myImg = $(this).attr('src');
+					// console.log(myImg);
+
+					changeGallery(myImg);
+				});
+
+				function changeGallery(imgValue){
+
+					$('#gal-image').attr('src', imgValue);
+					console.log(imgValue);
+				}
 			</script>
 
 	</body>
