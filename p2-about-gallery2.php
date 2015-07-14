@@ -24,9 +24,9 @@
 			<section class="header aboutPagesBg">
 				<div class="logo">
 					<a href="/Pages/gohart-home.aspx">
-						<img class="full-logo desktop" src="/Style%20Library/GoHart/Images/hart-logo.png" alt="GoHart Logo"/>
-						<img class="box-logo desktop" style="display: none;" src="/Style%20Library/GoHart/Images/hart-logo-box.png" alt="GoHart Graphic Logo"/>
-						<img class="mobile" src="/Style%20Library/GoHart/Images/responsive/mobile-logo.png" alt="GoHart Mobile Logo"/>
+						<img class="full-logo desktop" src="Style%20Library/GoHart/Images/hart-logo.png" alt="GoHart Logo"/>
+						<img class="box-logo desktop" style="display: none;" src="Style%20Library/GoHart/Images/hart-logo-box.png" alt="GoHart Graphic Logo"/>
+						<img class="mobile" src="Style%20Library/GoHart/Images/responsive/mobile-logo.png" alt="GoHart Mobile Logo"/>
 					</a>
 				</div>
 				<div class="menu-ico"><img src="img/menu-ico.png" alt="Main Menu"/></div>
@@ -43,8 +43,8 @@
 			<section class="page-content">
 				<div class="content-block">
 					<div class="gallery-large">
-						<!-- <div class="gal-prev"><a href="#"><img src="/Style%20Library/GoHart/Images/news-arrow-left.png"/></a></div> -->
-						<!-- <div class="gal-next"><a href="#"><img src="/Style%20Library/GoHart/Images/news-arrow-right.png"/></a></div> -->
+						<!-- <div class="gal-prev"><a href="#"><img src="Style%20Library/GoHart/Images/news-arrow-left.png"/></a></div> -->
+						<!-- <div class="gal-next"><a href="#"><img src="Style%20Library/GoHart/Images/news-arrow-right.png"/></a></div> -->
 						
 						<img id="gal-image" src="img/about/gallery/cS-1.jpg"/>						
 

@@ -8,74 +8,25 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="css/styles.min.css">
 		<link rel="stylesheet" href="css/styles2.css">
+		<link rel="stylesheet" href="css/phase2.css">
 		<!--[if lte IE 10]>
 			<link rel="stylesheet" href="css/ie9.css">
 		<![endif]-->
-
-		<!-- gallery styles defaults-->
-		<link rel="stylesheet"  href="css/lightslider.css"/>
-		<style>
-    	ul{
-			list-style: none outside none;
-		    padding-left: 0;
-            margin: 0;
-		}
-        .demo .item{
-            margin-bottom: 60px;
-        }
-		.content-slider li{
-		    background-color: #ed3020;
-		    text-align: center;
-		    color: #FFF;
-		}
-		.content-slider h3 {
-		    margin: 0;
-		    padding: 70px 0;
-		}
-		.about-gallery{
-			width: 100%;
-			text-align: center;
-			margin: auto;
-		}
-
-		.about-gallery .item{
-			width: 90%;
-			margin: auto;
-		}
-
-		.lSGallery li{
-			/*width: 300px !important;*/
-		}
-
-		.lSAction a{
-			  margin-top: -38%;
-			  height: 72px;
-			  width: 41px;
-		}
-
-		.lSAction .lSPrev{
-			background: url('img/news-arrow-left.png');
-		}
-		.lSAction .lSNext{
-			background: url('img/news-arrow-right.png');
-		}
-
-
-    </style>
+		
 	</head>
 	<body>
 
 		<!-- Content -->
 
 		<div class="container services">
-			<?php include ("views/main-nav.php"); ?>
+			<?php include ("views/main-nav.php"); ?>		
 			
 			<section class="header aboutPagesBg">
 				<div class="logo">
 					<a href="/Pages/gohart-home.aspx">
-						<img class="full-logo desktop" src="/Style%20Library/GoHart/Images/hart-logo.png" alt="GoHart Logo"/>
-						<img class="box-logo desktop" style="display: none;" src="/Style%20Library/GoHart/Images/hart-logo-box.png" alt="GoHart Graphic Logo"/>
-						<img class="mobile" src="/Style%20Library/GoHart/Images/responsive/mobile-logo.png" alt="GoHart Mobile Logo"/>
+						<img class="full-logo desktop" src="Style%20Library/GoHart/Images/hart-logo.png" alt="GoHart Logo"/>
+						<img class="box-logo desktop" style="display: none;" src="Style%20Library/GoHart/Images/hart-logo-box.png" alt="GoHart Graphic Logo"/>
+						<img class="mobile" src="Style%20Library/GoHart/Images/responsive/mobile-logo.png" alt="GoHart Mobile Logo"/>
 					</a>
 				</div>
 				<div class="menu-ico"><img src="img/menu-ico.png" alt="Main Menu"/></div>
@@ -87,83 +38,96 @@
 				</div>
 
 			</section>
+
+
 			<section class="page-content">
 				<div class="content-block">
-					<div class="about-gallery">
-			        <div class="item">            
-			            <div class="clearfix" style="max-width:100%;">
-			                <ul id="image-gallery" class="gallery list-unstyled cS-hidden">
-			                    <li data-thumb="img/tmp-slider/thumb/cS-1.jpg"> 
-			                        <img src="img/tmp-slider/cS-1.jpg" />
-			                         </li>
-			                    <li data-thumb="img/tmp-slider/thumb/cS-2.jpg"> 
-			                        <img src="img/tmp-slider/cS-2.jpg" />
-			                         </li>
-			                    <li data-thumb="img/tmp-slider/thumb/cS-3.jpg"> 
-			                        <img src="img/tmp-slider/cS-3.jpg" />
-			                         </li>
-			                    <li data-thumb="img/tmp-slider/thumb/cS-4.jpg"> 
-			                        <img src="img/tmp-slider/cS-4.jpg" />
-			                         </li>
-			                    <li data-thumb="img/tmp-slider/thumb/cS-5.jpg"> 
-			                        <img src="img/tmp-slider/cS-5.jpg" />
-			                         </li>
-			                    <li data-thumb="img/tmp-slider/thumb/cS-6.jpg"> 
-			                        <img src="img/tmp-slider/cS-6.jpg" />
-			                         </li>
-			                    <li data-thumb="img/tmp-slider/thumb/cS-7.jpg"> 
-			                        <img src="img/tmp-slider/cS-7.jpg" />
-			                         </li>
-			                    <li data-thumb="img/tmp-slider/thumb/cS-8.jpg"> 
-			                        <img src="img/tmp-slider/cS-8.jpg" />
-			                         </li>
-			                    <li data-thumb="img/tmp-slider/thumb/cS-9.jpg"> 
-			                        <img src="img/tmp-slider/cS-9.jpg" />
-			                         </li>
-			                    <li data-thumb="img/tmp-slider/thumb/cS-10.jpg"> 
-			                        <img src="img/tmp-slider/cS-10.jpg" />
-			                         </li>
-			                    <li data-thumb="img/tmp-slider/thumb/cS-11.jpg"> 
-			                        <img src="img/tmp-slider/cS-11.jpg" />
-			                         </li>
-			                    <li data-thumb="img/tmp-slider/thumb/cS-12.jpg"> 
-			                        <img src="img/tmp-slider/cS-12.jpg" />
-			                         </li>
-			                    <li data-thumb="img/tmp-slider/thumb/cS-13.jpg"> 
-			                        <img src="img/tmp-slider/cS-13.jpg" />
-			                         </li>
-			                    <li data-thumb="img/tmp-slider/thumb/cS-14.jpg"> 
-			                        <img src="img/tmp-slider/cS-14.jpg" />
-			                         </li>
-			                    <li data-thumb="img/tmp-slider/thumb/cS-15.jpg"> 
-			                        <img src="img/tmp-slider/cS-15.jpg" />
-			                         </li>
-				                </ul>
-				            </div>
-				        </div>
-				        <!--div class="item">
-				            <ul id="content-slider" class="content-slider">
-				                <li>
-				                    <h3>1</h3>
-				                </li>
-				                <li>
-				                    <h3>2</h3>
-				                </li>
-				                <li>
-				                    <h3>3</h3>
-				                </li>
-				                <li>
-				                    <h3>4</h3>
-				                </li>
-				                <li>
-				                    <h3>5</h3>
-				                </li>
-				                <li>
-				                    <h3>6</h3>
-				                </li>
-				            </ul>
-				        </div-->
-				    </div>
+					<div class="gallery-large">
+						<!-- <div class="gal-prev"><a href="#"><img src="Style%20Library/GoHart/Images/news-arrow-left.png"/></a></div> -->
+						<!-- <div class="gal-next"><a href="#"><img src="Style%20Library/GoHart/Images/news-arrow-right.png"/></a></div> -->
+						
+						<img id="gal-image" src="img/about/gallery/cS-1.jpg"/>						
+
+					</div>
+				</div>
+			</section>
+
+			<section class="news about-gallery">
+				
+				<div id="#newsBlockRow" class="newsBlockRow news-blocks">					
+						<div class="block">
+							<div class="gal-title">BUS CONFERENCE 2015</div>
+							<img src="img/about/gallery/cS-3.jpg"/>
+						</div>						
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-1.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-2.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-3.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-4.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-5.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-6.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-7.jpg"/>
+						</div>					
+				</div>
+
+				<div id="#newsBlockRow2" style="margin-top: 258px;" class="newsBlockRow2 news-blocks">
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-8.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-9.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-10.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-11.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-12.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-13.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-14.jpg"/>
+						</div>
+						<div class="block">
+							<div class="gal-title">GALLERY TITLE FPO</div>
+							<img src="img/about/gallery/cS-15.jpg"/>
+						</div>						
+				</div>				
+			</section>
+			<section class="page-content">
+				<div class="content-block">
+					
+				 
 					
 					<div class="bottom-rule">
 						<div class="cta"><span>DRIVEN TO SERVE</span><hr/></div>
@@ -235,31 +199,53 @@
 		<!-- Load Scripts -->
 		<?php include ("views/scripts-load.php"); ?>
 
-		<!--image gallery js plugin & init-->
-		<script src="js/lightslider.js"></script>
+		
 
+    	<script src="js/slick.min.js"></script>
 		<script>
-	    	$(document).ready(function() {
-				$("#content-slider").lightSlider({
-	                loop:true,
-	                keyPress:true
-	            });
-	            $('#image-gallery').lightSlider({
-	                gallery:true,
-	                item:1,
-	                thumbItem:3,
-	                slideMargin: 0,
-	                speed:500,
-	                auto:false,
-	                loop:true,
-	                verticalHeight:500,
-        			vThumbWidth:280,
-	                onSliderLoad: function() {
-	                    $('#image-gallery').removeClass('cS-hidden');
-	                }  
-	            });
+			$('.newsBlockRow').slick({
+			  dots: false,
+			  infinite: true,
+			  speed: 600,
+			  slidesToShow: 1,
+			  centerMode: true,
+			  slidesToScroll: 4,
+			  variableWidth: true,
+			  swipeToSlide: true,
+			  autoplay: false,
+			  autoplaySpeed: 2500,
+			  asNavFor: '.newsBlockRow2'
 			});
-    	</script>
+
+			$('.newsBlockRow2').slick({
+			  dots: false,
+			  infinite: true,
+			  speed: 600,
+			  slidesToShow: 1,
+			  centerMode: true,
+			  slidesToScroll: 4,
+			  variableWidth: true,
+			  swipeToSlide: true,
+			  autoplay: false,
+			  autoplaySpeed: 2500
+			  // asNavFor: '.newsBlockRow2'
+			});
+			</script>
+
+			<script>
+				$('.about-gallery .news-blocks .block img').click(function() {
+					var myImg = $(this).attr('src');
+					// console.log(myImg);
+
+					changeGallery(myImg);
+				});
+
+				function changeGallery(imgValue){
+
+					$('#gal-image').attr('src', imgValue);
+					console.log(imgValue);
+				}
+			</script>
 
 	</body>
 </html>
