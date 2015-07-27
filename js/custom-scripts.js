@@ -107,7 +107,7 @@ $(document).ready(function(){
     function changeCar(){
 
         $('html,body').animate({
-            scrollTop: landingHeight
+            // scrollTop: landingHeight
          }, 1000);
 
         // $(".metro-foreground").fadeOut('fast');

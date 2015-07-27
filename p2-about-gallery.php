@@ -13,7 +13,7 @@
 			<link rel="stylesheet" href="css/ie9.css">
 		<![endif]-->
 
-		
+
 		
 	</head>
 	<body>
@@ -265,7 +265,8 @@
 						console.log(imgValue);
 					}
 
-					$('.gal-next').click(function() {
+					$('.gal-next').click(function(e) {
+						e.preventDefault();
 						galImage=galImage+1;
 						if(galImage>=galTotal){ galImage = 0 }
 
@@ -273,7 +274,8 @@
 						changeGallery(nextImage);
 					});
 
-					$('.gal-prev').click(function() {
+					$('.gal-prev').click(function(e) {
+						e.preventDefault();
 						galImage=galImage-1;
 						if(galImage<=0){ galImage = galTotal-1 }					
 						
