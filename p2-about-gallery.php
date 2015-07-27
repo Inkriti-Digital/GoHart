@@ -12,6 +12,8 @@
 		<!--[if lte IE 10]>
 			<link rel="stylesheet" href="css/ie9.css">
 		<![endif]-->
+
+		
 		
 	</head>
 	<body>
@@ -267,21 +269,15 @@
 						galImage=galImage+1;
 						if(galImage>=galTotal){ galImage = 0 }
 
-						console.log("gal image = "+galImage);
 						var nextImage = galArray[galImage];
-						console.log(' next image = '+nextImage );
-
 						changeGallery(nextImage);
 					});
 
 					$('.gal-prev').click(function() {
 						galImage=galImage-1;
-						if(galImage<=0){ galImage = galTotal-1 }
+						if(galImage<=0){ galImage = galTotal-1 }					
 						
-						console.log("gal image = "+galImage);
 						var prevImage = galArray[galImage];
-						console.log(' prev image = '+prevImage );
-
 						changeGallery(prevImage);
 					});
 					

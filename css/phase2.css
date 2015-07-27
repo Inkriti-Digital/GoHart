@@ -116,6 +116,8 @@
 	z-index: 100;
 	top: 38%;
 	margin-left: -58px;
+	width: 7%;
+	max-width: 40px;
 }
 .gallery-large .gal-next{
 	position: absolute;
@@ -123,6 +125,8 @@
 	margin-right: -58px;
   	right: 0px;
 	top: 38%;
+	width: 7%;
+	max-width: 40px;
 }
 
 .about-gallery .gal-title{
@@ -146,6 +150,14 @@
 	cursor: pointer;
 }
 
+
+@media only screen and (max-width: 768px){
+	.about-gallery .news-blocks .block{
+		display: block;
+		width: 315px !important;
+		height: auto;
+	}
+}
 
 
 
