@@ -79,7 +79,7 @@ $(document).ready(function(){
 
 
      //METRO NAV CLICK
-     $("#servnav-bus").click(function() {
+    $("#servnav-bus").click(function() {
         myCar = "bus";
         changeCar();
     });

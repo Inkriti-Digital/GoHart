@@ -36,17 +36,16 @@
 					<br/>
 					<h1>HART</h1>
 				</div>
-
 			</section>
 
 
 			<section class="page-content">
 				<div class="content-block">
 					<div class="gallery-large">
-						<!-- <div class="gal-prev"><a href="#"><img src="Style%20Library/GoHart/Images/news-arrow-left.png"/></a></div> -->
-						<!-- <div class="gal-next"><a href="#"><img src="Style%20Library/GoHart/Images/news-arrow-right.png"/></a></div> -->
+						<div class="gal-prev"><a href="#"><img src="Style%20Library/GoHart/Images/news-arrow-left.png"/></a></div>
+						<div class="gal-next"><a href="#"><img src="Style%20Library/GoHart/Images/news-arrow-right.png"/></a></div>
 						
-						<img id="gal-image" src="img/about/gallery/cS-1.jpg"/>						
+						<img id="gal-image" src="img/about/gallery/cS-01.jpg"/>						
 
 					</div>
 				</div>
@@ -57,46 +56,46 @@
 				<div id="#newsBlockRow" class="newsBlockRow news-blocks">					
 						<div class="block">
 							<div class="gal-title">BUS CONFERENCE 2015</div>
-							<img src="img/about/gallery/cS-3.jpg"/>
+							<img src="img/about/gallery/cS-03.jpg"/>
 						</div>						
 						<div class="block">
 							<div class="gal-title">GALLERY TITLE FPO</div>
-							<img src="img/about/gallery/cS-1.jpg"/>
+							<img src="img/about/gallery/cS-01.jpg"/>
 						</div>
 						<div class="block">
 							<div class="gal-title">GALLERY TITLE FPO</div>
-							<img src="img/about/gallery/cS-2.jpg"/>
+							<img src="img/about/gallery/cS-02.jpg"/>
 						</div>
 						<div class="block">
 							<div class="gal-title">GALLERY TITLE FPO</div>
-							<img src="img/about/gallery/cS-3.jpg"/>
+							<img src="img/about/gallery/cS-03.jpg"/>
 						</div>
 						<div class="block">
 							<div class="gal-title">GALLERY TITLE FPO</div>
-							<img src="img/about/gallery/cS-4.jpg"/>
+							<img src="img/about/gallery/cS-04.jpg"/>
 						</div>
 						<div class="block">
 							<div class="gal-title">GALLERY TITLE FPO</div>
-							<img src="img/about/gallery/cS-5.jpg"/>
+							<img src="img/about/gallery/cS-05.jpg"/>
 						</div>
 						<div class="block">
 							<div class="gal-title">GALLERY TITLE FPO</div>
-							<img src="img/about/gallery/cS-6.jpg"/>
+							<img src="img/about/gallery/cS-06.jpg"/>
 						</div>
 						<div class="block">
 							<div class="gal-title">GALLERY TITLE FPO</div>
-							<img src="img/about/gallery/cS-7.jpg"/>
+							<img src="img/about/gallery/cS-07.jpg"/>
 						</div>					
 				</div>
 
 				<div id="#newsBlockRow2" style="margin-top: 258px;" class="newsBlockRow2 news-blocks">
 						<div class="block">
 							<div class="gal-title">GALLERY TITLE FPO</div>
-							<img src="img/about/gallery/cS-8.jpg"/>
+							<img src="img/about/gallery/cS-08.jpg"/>
 						</div>
 						<div class="block">
 							<div class="gal-title">GALLERY TITLE FPO</div>
-							<img src="img/about/gallery/cS-9.jpg"/>
+							<img src="img/about/gallery/cS-09.jpg"/>
 						</div>
 						<div class="block">
 							<div class="gal-title">GALLERY TITLE FPO</div>
@@ -199,9 +198,19 @@
 		<!-- Load Scripts -->
 		<?php include ("views/scripts-load.php"); ?>
 
+
+		<!--PHP GALLERY - GET LIST OF ALL JPEGS WITHIN DIRECTORY-->
+		<?php		
+			$imgspath = 'img/about/gallery/';
+			$galleryList = glob($imgspath.'*.jpg');
+			$galLength = count($galleryList);
+		?>
+
 		
 
     	<script src="js/slick.min.js"></script>
+
+    	<!--GALLERY THUMBNAILS SETUP-->
 		<script>
 			$('.newsBlockRow').slick({
 			  dots: false,
@@ -228,24 +237,58 @@
 			  swipeToSlide: true,
 			  autoplay: false,
 			  autoplaySpeed: 2500
-			  // asNavFor: '.newsBlockRow2'
 			});
 			</script>
 
+
+			<!--THUMBNAIL CLICK FUNCTIONALITY-->
 			<script>
-				$('.about-gallery .news-blocks .block img').click(function() {
-					var myImg = $(this).attr('src');
-					// console.log(myImg);
+				$(document).ready(function(){
 
-					changeGallery(myImg);
+					// GALLERY - SET ARRAY OF JPEGS-->
+					var galImage = 0;
+					var galTotal = <?php echo json_encode($galLength); ?>;
+					var galArray = <?php echo json_encode($galleryList); ?>;
+					console.log(galTotal);
+
+					console.log(galArray);
+
+					$('.about-gallery .news-blocks .block img').click(function() {
+						var myImg = $(this).attr('src');
+						changeGallery(myImg);
+					});
+
+					function changeGallery(imgValue){
+						$('#gal-image').attr('src', imgValue);
+						console.log(imgValue);
+					}
+
+					$('.gal-next').click(function() {
+						galImage=galImage+1;
+						if(galImage>=galTotal){ galImage = 0 }
+
+						console.log("gal image = "+galImage);
+						var nextImage = galArray[galImage];
+						console.log(' next image = '+nextImage );
+
+						changeGallery(nextImage);
+					});
+
+					$('.gal-prev').click(function() {
+						galImage=galImage-1;
+						if(galImage<=0){ galImage = galTotal-1 }
+						
+						console.log("gal image = "+galImage);
+						var prevImage = galArray[galImage];
+						console.log(' prev image = '+prevImage );
+
+						changeGallery(prevImage);
+					});
+					
 				});
-
-				function changeGallery(imgValue){
-
-					$('#gal-image').attr('src', imgValue);
-					console.log(imgValue);
-				}
 			</script>
+
+
 
 	</body>
 </html>
